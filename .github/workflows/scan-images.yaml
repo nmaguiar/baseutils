@@ -56,27 +56,6 @@ jobs:
         dist: 'nightly'
 
     - uses: openaf/ojob-action@v7
-      name: Check build
-      with:
-        ojob: 'ojob.io/sec/genSecBadge'
-        args: 'image=nmaguiar/baseutils:build file=.github/sec-build.svg reportFile=.github/sec-build.yaml'
-        dist: 'nightly'
-
-    - uses: openaf/ojob-action@v7
-      name: Generate sec-build.md
-      with:
-        ojob: 'ojob.io/util/toMDTree'
-        args: 'inputFile=.github/sec-build.yaml file=.github/sec-build.md'
-        dist: 'nightly'
-
-    - uses: openaf/ojob-action@v7
-      name: Check build deb
-      with:
-        ojob: 'ojob.io/sec/genSecBadge'
-        args: 'image=nmaguiar/baseutils:deb file=.github/sec-deb.svg reportFile=.github/sec-deb.yaml'
-        dist: 'nightly'
-
-    - uses: openaf/ojob-action@v7
       name: Generate sec-deb.md
       with:
         ojob: 'ojob.io/util/toMDTree'

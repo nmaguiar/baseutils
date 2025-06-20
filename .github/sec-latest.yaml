@@ -1,0 +1,6 @@
+- Target: nmaguiar/baseutils:latest (alpine 3.23.0_alpha20250612)
+  Class: os-pkgs
+  Type: alpine
+- Target: Java
+  Class: lang-pkgs
+  Type: jar

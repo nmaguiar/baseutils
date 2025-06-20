@@ -5,7 +5,7 @@ RUN sed -i 's/v[0-9]*\.[0-9]*/edge/g' /etc/apk/repositories\
  && apk update\
  && apk upgrade --available\
  && apk --no-cache add tar gzip bash tmux vim bash-completion mc mandoc man-pages util-linux-doc procps\
- && /openaf/opack oJob-common\
+ && /openaf/opack install oJob-common\
  && mkdir /openaf/ojobs\
  && curl -s https://ojob.io/oaf/colorFormats.yaml > /openaf/ojobs/colorFormats.yaml\
  && cd /openaf/ojobs\

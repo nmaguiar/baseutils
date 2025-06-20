@@ -1,0 +1,62 @@
+FROM openaf/oaf:deb as main
+
+USER root
+RUN apt update\
+ && apt upgrade -y\
+ && apt dist-upgrade -y\
+ && apt autoremove -y\
+ && DEBIAN_FRONTEND="noninteractive" apt-get install -y -qq locales less man-db manpages tar wget gzip bash tmux vim curl bash-completion mc\
+ && locale-gen en_US.UTF-8\
+ && /openaf/opack install oJob-common\
+ && mkdir /openaf/ojobs\
+ && curl -s https://ojob.io/oaf/colorFormats.yaml > /openaf/ojobs/colorFormats.yaml\
+ && cd /openaf/ojobs\
+ && /openaf/oaf --sb /openaf/ojobs/colorFormats.yaml\
+ && chown -R openaf:0 /openaf\
+ && chown openaf:0 /openaf/.opack.db\
+ && chmod -R u+rwx,g+rwx,o+rx,o-w /openaf/*\
+ && chmod a+rwx /openaf\
+ && sudo chmod g+w /openaf/.opack.db
+
+# Setup welcome message and vars
+# ------------------------------
+RUN mkdir /etc/bash\
+ && echo "echo ''" >> /etc/bash/start.sh\
+ && echo "alias oafptab='oafp in=lines linesvisual=true linesjoin=true out=ctable'" >> /etc/bash/start.sh\
+ && echo "alias oaf-light-theme='colorFormats.yaml op=set theme=thin-light-bold'" >> /etc/bash/start.sh\
+ && echo "alias oaf-dark-theme='colorFormats.yaml op=set theme=thin-intense-bold'" >> /etc/bash/start.sh\
+ && echo "alias help='source /etc/bash/start.sh'" >> /etc/bash/start.sh\
+ && echo "export PATH=$PATH:/openaf:/openaf/ojobs" >> /etc/bash/start.sh\
+ && echo ". /etc/bash/start.sh" >> /etc/bash.bashrc
+    
+# Add bash completion
+# -------------------
+
+RUN /openaf/oaf --bashcompletion all > /openaf/.openaf_completion.sh\
+ && chmod a+x /openaf/.openaf_*.sh\
+ && chown openaf:0 /openaf/.openaf_*.sh\
+ && echo ". /openaf/.openaf_completion.sh" >> /etc/bash/start.sh
+
+# Documentation
+# -------------
+COPY USAGE.md /USAGE.md
+COPY EXAMPLES.md /EXAMPLES.md
+RUN gzip /USAGE.md\
+ && gzip /EXAMPLES.md\
+ && echo "#!/bin/sh" > /usr/bin/usage-help\
+ && echo "#!/bin/sh" > /usr/bin/examples-help\
+ && echo "zcat /USAGE.md.gz | oafp in=md mdtemplate=true | less -r" >> /usr/bin/usage-help\
+ && echo "zcat /EXAMPLES.md.gz | oafp in=md mdtemplate=true | less -r" >> /usr/bin/examples-help\
+ && chmod a+x /usr/bin/usage-help\
+ && chmod a+x /usr/bin/examples-help
+
+# -------------------
+FROM scratch as final
+
+COPY --from=main / /
+
+ENV OAF_HOME=/openaf
+ENV PATH=$PATH:$OAF_HOME:$OAF_HOME/ojobs
+USER openaf
+
+CMD ["/usr/bin/usage-help"]

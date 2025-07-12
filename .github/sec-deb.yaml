@@ -1,18 +1,18 @@
-- Target: nmaguiar/baseutils:deb (ubuntu 24.10)
+- Target: nmaguiar/baseutils:deb (ubuntu 25.04)
   Class: os-pkgs
   Type: ubuntu
   Vulnerabilities:
   - VulnerabilityID: CVE-2016-2781
-    PkgID: coreutils@9.4-3.1ubuntu1
+    PkgID: coreutils@9.5-1ubuntu1.25.04.1
     PkgName: coreutils
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/coreutils@9.4-3.1ubuntu1?arch=amd64&distro=ubuntu-24.10
-      UID: e677453c3b8788d1
-    InstalledVersion: 9.4-3.1ubuntu1
+      PURL: pkg:deb/ubuntu/coreutils@9.5-1ubuntu1.25.04.1?arch=amd64&distro=ubuntu-25.04
+      UID: 2dee316f186d187a
+    InstalledVersion: 9.5-1ubuntu1.25.04.1
     Status: affected
     Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-2781
     DataSource:
@@ -53,57 +53,17 @@
     - https://www.cve.org/CVERecord?id=CVE-2016-2781
     PublishedDate: '2017-02-07T15:59:00.333Z'
     LastModifiedDate: '2025-06-09T16:15:25.013Z'
-  - VulnerabilityID: CVE-2025-0167
-    PkgID: curl@8.9.1-2ubuntu2.2
-    PkgName: curl
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/curl@8.9.1-2ubuntu2.2?arch=amd64&distro=ubuntu-24.10
-      UID: 5f1206fd0c3e73e2
-    InstalledVersion: 8.9.1-2ubuntu2.2
-    Status: affected
-    Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0167
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: When asked to use a `.netrc` file for credentials **and** to follow HT ...
-    Description: |-
-      When asked to use a `.netrc` file for credentials **and** to follow HTTP
-      redirects, curl could leak the password used for the first host to the
-      followed-to host under certain circumstances.
-
-      This flaw only manifests itself if the netrc file has a `default` entry that
-      omits both login and password. A rare circumstance.
-    Severity: LOW
-    VendorSeverity:
-      azure: 1
-      cbl-mariner: 1
-      photon: 1
-      ubuntu: 1
-    References:
-    - https://curl.se/docs/CVE-2025-0167.html
-    - https://curl.se/docs/CVE-2025-0167.json
-    - https://hackerone.com/reports/2917232
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-0167
-    - https://security.netapp.com/advisory/ntap-20250306-0008/
-    - https://www.cve.org/CVERecord?id=CVE-2025-0167
-    PublishedDate: '2025-02-05T10:15:22.71Z'
-    LastModifiedDate: '2025-03-07T01:15:12.11Z'
   - VulnerabilityID: CVE-2022-3219
-    PkgID: gpgv@2.4.4-2ubuntu18.2
+    PkgID: gpgv@2.4.4-2ubuntu23.1
     PkgName: gpgv
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/gpgv@2.4.4-2ubuntu18.2?arch=amd64&distro=ubuntu-24.10
-      UID: f2ade4498ce5ade2
-    InstalledVersion: 2.4.4-2ubuntu18.2
+      PURL: pkg:deb/ubuntu/gpgv@2.4.4-2ubuntu23.1?arch=amd64&distro=ubuntu-25.04
+      UID: 75a884d82fc5dd0
+    InstalledVersion: 2.4.4-2ubuntu23.1
     Status: affected
     Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -138,16 +98,16 @@
     PublishedDate: '2023-02-23T20:15:12.393Z'
     LastModifiedDate: '2025-03-12T21:15:38.207Z'
   - VulnerabilityID: CVE-2025-5702
-    PkgID: libc-bin@2.40-1ubuntu3.1
+    PkgID: libc-bin@2.41-6ubuntu1
     PkgName: libc-bin
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libc-bin@2.40-1ubuntu3.1?arch=amd64&distro=ubuntu-24.10
-      UID: b557bb6c7f40f6ec
-    InstalledVersion: 2.40-1ubuntu3.1
+      PURL: pkg:deb/ubuntu/libc-bin@2.41-6ubuntu1?arch=amd64&distro=ubuntu-25.04
+      UID: e2ea38724e36afbf
+    InstalledVersion: 2.41-6ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5702
     DataSource:
@@ -182,16 +142,16 @@
     PublishedDate: '2025-06-05T19:15:31.073Z'
     LastModifiedDate: '2025-06-05T21:15:22.873Z'
   - VulnerabilityID: CVE-2025-5745
-    PkgID: libc-bin@2.40-1ubuntu3.1
+    PkgID: libc-bin@2.41-6ubuntu1
     PkgName: libc-bin
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libc-bin@2.40-1ubuntu3.1?arch=amd64&distro=ubuntu-24.10
-      UID: b557bb6c7f40f6ec
-    InstalledVersion: 2.40-1ubuntu3.1
+      PURL: pkg:deb/ubuntu/libc-bin@2.41-6ubuntu1?arch=amd64&distro=ubuntu-25.04
+      UID: e2ea38724e36afbf
+    InstalledVersion: 2.41-6ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5745
     DataSource:
@@ -219,16 +179,16 @@
     PublishedDate: '2025-06-05T20:15:27.377Z'
     LastModifiedDate: '2025-06-06T14:07:28.33Z'
   - VulnerabilityID: CVE-2016-20013
-    PkgID: libc-bin@2.40-1ubuntu3.1
+    PkgID: libc-bin@2.41-6ubuntu1
     PkgName: libc-bin
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libc-bin@2.40-1ubuntu3.1?arch=amd64&distro=ubuntu-24.10
-      UID: b557bb6c7f40f6ec
-    InstalledVersion: 2.40-1ubuntu3.1
+      PURL: pkg:deb/ubuntu/libc-bin@2.41-6ubuntu1?arch=amd64&distro=ubuntu-25.04
+      UID: e2ea38724e36afbf
+    InstalledVersion: 2.41-6ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
     DataSource:
@@ -256,16 +216,16 @@
     PublishedDate: '2022-02-19T05:15:09.413Z'
     LastModifiedDate: '2024-11-21T02:47:33.427Z'
   - VulnerabilityID: CVE-2025-5702
-    PkgID: libc6@2.40-1ubuntu3.1
+    PkgID: libc6@2.41-6ubuntu1
     PkgName: libc6
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libc6@2.40-1ubuntu3.1?arch=amd64&distro=ubuntu-24.10
-      UID: 14831d31dc9fa5be
-    InstalledVersion: 2.40-1ubuntu3.1
+      PURL: pkg:deb/ubuntu/libc6@2.41-6ubuntu1?arch=amd64&distro=ubuntu-25.04
+      UID: 9179a4c8d310984e
+    InstalledVersion: 2.41-6ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5702
     DataSource:
@@ -300,16 +260,16 @@
     PublishedDate: '2025-06-05T19:15:31.073Z'
     LastModifiedDate: '2025-06-05T21:15:22.873Z'
   - VulnerabilityID: CVE-2025-5745
-    PkgID: libc6@2.40-1ubuntu3.1
+    PkgID: libc6@2.41-6ubuntu1
     PkgName: libc6
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libc6@2.40-1ubuntu3.1?arch=amd64&distro=ubuntu-24.10
-      UID: 14831d31dc9fa5be
-    InstalledVersion: 2.40-1ubuntu3.1
+      PURL: pkg:deb/ubuntu/libc6@2.41-6ubuntu1?arch=amd64&distro=ubuntu-25.04
+      UID: 9179a4c8d310984e
+    InstalledVersion: 2.41-6ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5745
     DataSource:
@@ -337,16 +297,16 @@
     PublishedDate: '2025-06-05T20:15:27.377Z'
     LastModifiedDate: '2025-06-06T14:07:28.33Z'
   - VulnerabilityID: CVE-2016-20013
-    PkgID: libc6@2.40-1ubuntu3.1
+    PkgID: libc6@2.41-6ubuntu1
     PkgName: libc6
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libc6@2.40-1ubuntu3.1?arch=amd64&distro=ubuntu-24.10
-      UID: 14831d31dc9fa5be
-    InstalledVersion: 2.40-1ubuntu3.1
+      PURL: pkg:deb/ubuntu/libc6@2.41-6ubuntu1?arch=amd64&distro=ubuntu-25.04
+      UID: 9179a4c8d310984e
+    InstalledVersion: 2.41-6ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
     DataSource:
@@ -373,57 +333,17 @@
     - https://www.cve.org/CVERecord?id=CVE-2016-20013
     PublishedDate: '2022-02-19T05:15:09.413Z'
     LastModifiedDate: '2024-11-21T02:47:33.427Z'
-  - VulnerabilityID: CVE-2025-0167
-    PkgID: libcurl4t64@8.9.1-2ubuntu2.2
-    PkgName: libcurl4t64
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libcurl4t64@8.9.1-2ubuntu2.2?arch=amd64&distro=ubuntu-24.10
-      UID: 5a117097637ff974
-    InstalledVersion: 8.9.1-2ubuntu2.2
-    Status: affected
-    Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0167
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: When asked to use a `.netrc` file for credentials **and** to follow HT ...
-    Description: |-
-      When asked to use a `.netrc` file for credentials **and** to follow HTTP
-      redirects, curl could leak the password used for the first host to the
-      followed-to host under certain circumstances.
-
-      This flaw only manifests itself if the netrc file has a `default` entry that
-      omits both login and password. A rare circumstance.
-    Severity: LOW
-    VendorSeverity:
-      azure: 1
-      cbl-mariner: 1
-      photon: 1
-      ubuntu: 1
-    References:
-    - https://curl.se/docs/CVE-2025-0167.html
-    - https://curl.se/docs/CVE-2025-0167.json
-    - https://hackerone.com/reports/2917232
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-0167
-    - https://security.netapp.com/advisory/ntap-20250306-0008/
-    - https://www.cve.org/CVERecord?id=CVE-2025-0167
-    PublishedDate: '2025-02-05T10:15:22.71Z'
-    LastModifiedDate: '2025-03-07T01:15:12.11Z'
   - VulnerabilityID: CVE-2024-2236
     PkgID: libgcrypt20@1.11.0-6ubuntu1
     PkgName: libgcrypt20
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libgcrypt20@1.11.0-6ubuntu1?arch=amd64&distro=ubuntu-24.10
-      UID: ab291a9b8f84f4e3
+      PURL: pkg:deb/ubuntu/libgcrypt20@1.11.0-6ubuntu1?arch=amd64&distro=ubuntu-25.04
+      UID: 20eec5b0fe47f2c7
     InstalledVersion: 1.11.0-6ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2236
     DataSource:
@@ -465,16 +385,16 @@
     PublishedDate: '2024-03-06T22:15:57.977Z'
     LastModifiedDate: '2025-04-02T17:15:37.79Z'
   - VulnerabilityID: CVE-2025-6052
-    PkgID: libglib2.0-0t64@2.82.1-0ubuntu1.1
+    PkgID: libglib2.0-0t64@2.84.1-1ubuntu0.1
     PkgName: libglib2.0-0t64
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libglib2.0-0t64@2.82.1-0ubuntu1.1?arch=amd64&distro=ubuntu-24.10
-      UID: c9a71f99287a492c
-    InstalledVersion: 2.82.1-0ubuntu1.1
+      PURL: pkg:deb/ubuntu/libglib2.0-0t64@2.84.1-1ubuntu0.1?arch=amd64&distro=ubuntu-25.04
+      UID: ebfe22b8c7bae02e
+    InstalledVersion: 2.84.1-1ubuntu0.1
     Status: affected
     Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6052
     DataSource:
@@ -503,16 +423,16 @@
     PublishedDate: '2025-06-13T16:15:28.23Z'
     LastModifiedDate: '2025-06-16T12:32:18.84Z'
   - VulnerabilityID: CVE-2025-6052
-    PkgID: libglib2.0-data@2.82.1-0ubuntu1.1
+    PkgID: libglib2.0-data@2.84.1-1ubuntu0.1
     PkgName: libglib2.0-data
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libglib2.0-data@2.82.1-0ubuntu1.1?arch=all&distro=ubuntu-24.10
-      UID: 2616a3fa33481235
-    InstalledVersion: 2.82.1-0ubuntu1.1
+      PURL: pkg:deb/ubuntu/libglib2.0-data@2.84.1-1ubuntu0.1?arch=all&distro=ubuntu-25.04
+      UID: 9c294be0443b06d
+    InstalledVersion: 2.84.1-1ubuntu0.1
     Status: affected
     Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6052
     DataSource:
@@ -540,674 +460,745 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6052
     PublishedDate: '2025-06-13T16:15:28.23Z'
     LastModifiedDate: '2025-06-16T12:32:18.84Z'
-  - VulnerabilityID: CVE-2025-5222
-    PkgID: libicu74@74.2-1ubuntu4
-    PkgName: libicu74
+  - VulnerabilityID: CVE-2025-32988
+    PkgID: libgnutls30t64@3.8.9-2ubuntu3
+    PkgName: libgnutls30t64
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libicu74@74.2-1ubuntu4?arch=amd64&distro=ubuntu-24.10
-      UID: 38cff1ce12a3eb78
-    InstalledVersion: 74.2-1ubuntu4
+      PURL: pkg:deb/ubuntu/libgnutls30t64@3.8.9-2ubuntu3?arch=amd64&distro=ubuntu-25.04
+      UID: 1c77387b7eb0e80f
+    InstalledVersion: 3.8.9-2ubuntu3
     Status: affected
     Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
     SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5222
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-32988
     DataSource:
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'icu: Stack buffer overflow in the SRBRoot::addTag function'
-    Description: A stack buffer overflow was found in Internationl components for unicode (ICU ). While running the genrb binary, the 'subtag' struct overflowed at the SRBRoot::addTag function. This issue may lead to memory corruption and local arbitrary code execution.
-    Severity: LOW
-    CweIDs:
-    - CWE-120
-    VendorSeverity:
-      amazon: 3
-      redhat: 2
-      ubuntu: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-5222
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2368600
-    - https://lists.debian.org/debian-lts-announce/2025/06/msg00015.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-5222
-    - https://www.cve.org/CVERecord?id=CVE-2025-5222
-    PublishedDate: '2025-05-27T21:15:23.03Z'
-    LastModifiedDate: '2025-06-15T23:15:18.303Z'
-  - VulnerabilityID: CVE-2024-10041
-    PkgID: libpam-modules@1.5.3-7ubuntu2.3
-    PkgName: libpam-modules
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpam-modules@1.5.3-7ubuntu2.3?arch=amd64&distro=ubuntu-24.10
-      UID: be0ac5ee6be55237
-    InstalledVersion: 1.5.3-7ubuntu2.3
-    Status: affected
-    Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'pam: libpam: Libpam vulnerable to read hashed password'
-    Description: A vulnerability was found in PAM. The secret information is stored in memory, where the attacker can trigger the victim program to execute by sending characters to its standard input (stdin). As this occurs, the attacker can train the branch predictor to execute an ROP chain speculatively. This flaw could result in leaked passwords, such as those found in /etc/shadow while performing authentications.
+    Title: 'gnutls: Vulnerability in GnuTLS otherName SAN export'
+    Description: |-
+      A flaw was found in GnuTLS. A double-free vulnerability exists in GnuTLS due to incorrect ownership handling in the export logic of Subject Alternative Name (SAN) entries containing an otherName. If the type-id OID is invalid or malformed, GnuTLS will call asn1_delete_structure() on an ASN.1 node it does not own, leading to a double-free condition when the parent function or caller later attempts to free the same structure.
+
+      This vulnerability can be triggered using only public GnuTLS APIs and may result in denial of service or memory corruption, depending on allocator behavior.
     Severity: MEDIUM
     CweIDs:
-    - CWE-922
+    - CWE-415
     VendorSeverity:
-      alma: 2
-      azure: 2
-      cbl-mariner: 2
-      oracle-oval: 2
-      redhat: 2
-      rocky: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 4.7
-    References:
-    - https://access.redhat.com/errata/RHSA-2024:10379
-    - https://access.redhat.com/errata/RHSA-2024:11250
-    - https://access.redhat.com/errata/RHSA-2024:9941
-    - https://access.redhat.com/security/cve/CVE-2024-10041
-    - https://bugzilla.redhat.com/2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
-    - https://errata.rockylinux.org/RLSA-2024:10379
-    - https://linux.oracle.com/cve/CVE-2024-10041.html
-    - https://linux.oracle.com/errata/ELSA-2024-11250.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-10041
-    - https://www.cve.org/CVERecord?id=CVE-2024-10041
-    PublishedDate: '2024-10-23T14:15:03.97Z'
-    LastModifiedDate: '2024-12-18T10:15:05.85Z'
-  - VulnerabilityID: CVE-2024-10963
-    PkgID: libpam-modules@1.5.3-7ubuntu2.3
-    PkgName: libpam-modules
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpam-modules@1.5.3-7ubuntu2.3?arch=amd64&distro=ubuntu-24.10
-      UID: be0ac5ee6be55237
-    InstalledVersion: 1.5.3-7ubuntu2.3
-    Status: affected
-    Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'pam: Improper Hostname Interpretation in pam_access Leads to Access Control Bypass'
-    Description: A flaw was found in pam_access, where certain rules in its configuration file are mistakenly treated as hostnames. This vulnerability allows attackers to trick the system by pretending to be a trusted hostname, gaining unauthorized access. This issue poses a risk for systems that rely on this feature to control who can access certain services or terminals.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-287
-    VendorSeverity:
-      alma: 3
-      azure: 3
-      oracle-oval: 3
-      redhat: 3
-      rocky: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
-        V3Score: 7.4
-    References:
-    - https://access.redhat.com/errata/RHSA-2024:10232
-    - https://access.redhat.com/errata/RHSA-2024:10244
-    - https://access.redhat.com/errata/RHSA-2024:10379
-    - https://access.redhat.com/errata/RHSA-2024:10518
-    - https://access.redhat.com/errata/RHSA-2024:10528
-    - https://access.redhat.com/errata/RHSA-2024:10852
-    - https://access.redhat.com/security/cve/CVE-2024-10963
-    - https://bugzilla.redhat.com/2324291
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
-    - https://errata.rockylinux.org/RLSA-2024:10379
-    - https://linux.oracle.com/cve/CVE-2024-10963.html
-    - https://linux.oracle.com/errata/ELSA-2024-10379.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-10963
-    - https://www.cve.org/CVERecord?id=CVE-2024-10963
-    PublishedDate: '2024-11-07T16:15:17.15Z'
-    LastModifiedDate: '2025-02-06T06:15:29.24Z'
-  - VulnerabilityID: CVE-2024-10041
-    PkgID: libpam-modules-bin@1.5.3-7ubuntu2.3
-    PkgName: libpam-modules-bin
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-7ubuntu2.3?arch=amd64&distro=ubuntu-24.10
-      UID: fedfc61bcda7f510
-    InstalledVersion: 1.5.3-7ubuntu2.3
-    Status: affected
-    Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'pam: libpam: Libpam vulnerable to read hashed password'
-    Description: A vulnerability was found in PAM. The secret information is stored in memory, where the attacker can trigger the victim program to execute by sending characters to its standard input (stdin). As this occurs, the attacker can train the branch predictor to execute an ROP chain speculatively. This flaw could result in leaked passwords, such as those found in /etc/shadow while performing authentications.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-922
-    VendorSeverity:
-      alma: 2
-      azure: 2
-      cbl-mariner: 2
-      oracle-oval: 2
-      redhat: 2
-      rocky: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 4.7
-    References:
-    - https://access.redhat.com/errata/RHSA-2024:10379
-    - https://access.redhat.com/errata/RHSA-2024:11250
-    - https://access.redhat.com/errata/RHSA-2024:9941
-    - https://access.redhat.com/security/cve/CVE-2024-10041
-    - https://bugzilla.redhat.com/2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
-    - https://errata.rockylinux.org/RLSA-2024:10379
-    - https://linux.oracle.com/cve/CVE-2024-10041.html
-    - https://linux.oracle.com/errata/ELSA-2024-11250.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-10041
-    - https://www.cve.org/CVERecord?id=CVE-2024-10041
-    PublishedDate: '2024-10-23T14:15:03.97Z'
-    LastModifiedDate: '2024-12-18T10:15:05.85Z'
-  - VulnerabilityID: CVE-2024-10963
-    PkgID: libpam-modules-bin@1.5.3-7ubuntu2.3
-    PkgName: libpam-modules-bin
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-7ubuntu2.3?arch=amd64&distro=ubuntu-24.10
-      UID: fedfc61bcda7f510
-    InstalledVersion: 1.5.3-7ubuntu2.3
-    Status: affected
-    Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'pam: Improper Hostname Interpretation in pam_access Leads to Access Control Bypass'
-    Description: A flaw was found in pam_access, where certain rules in its configuration file are mistakenly treated as hostnames. This vulnerability allows attackers to trick the system by pretending to be a trusted hostname, gaining unauthorized access. This issue poses a risk for systems that rely on this feature to control who can access certain services or terminals.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-287
-    VendorSeverity:
-      alma: 3
-      azure: 3
-      oracle-oval: 3
-      redhat: 3
-      rocky: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
-        V3Score: 7.4
-    References:
-    - https://access.redhat.com/errata/RHSA-2024:10232
-    - https://access.redhat.com/errata/RHSA-2024:10244
-    - https://access.redhat.com/errata/RHSA-2024:10379
-    - https://access.redhat.com/errata/RHSA-2024:10518
-    - https://access.redhat.com/errata/RHSA-2024:10528
-    - https://access.redhat.com/errata/RHSA-2024:10852
-    - https://access.redhat.com/security/cve/CVE-2024-10963
-    - https://bugzilla.redhat.com/2324291
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
-    - https://errata.rockylinux.org/RLSA-2024:10379
-    - https://linux.oracle.com/cve/CVE-2024-10963.html
-    - https://linux.oracle.com/errata/ELSA-2024-10379.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-10963
-    - https://www.cve.org/CVERecord?id=CVE-2024-10963
-    PublishedDate: '2024-11-07T16:15:17.15Z'
-    LastModifiedDate: '2025-02-06T06:15:29.24Z'
-  - VulnerabilityID: CVE-2024-10041
-    PkgID: libpam-runtime@1.5.3-7ubuntu2.3
-    PkgName: libpam-runtime
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-7ubuntu2.3?arch=all&distro=ubuntu-24.10
-      UID: 17e8fab7456a59fd
-    InstalledVersion: 1.5.3-7ubuntu2.3
-    Status: affected
-    Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'pam: libpam: Libpam vulnerable to read hashed password'
-    Description: A vulnerability was found in PAM. The secret information is stored in memory, where the attacker can trigger the victim program to execute by sending characters to its standard input (stdin). As this occurs, the attacker can train the branch predictor to execute an ROP chain speculatively. This flaw could result in leaked passwords, such as those found in /etc/shadow while performing authentications.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-922
-    VendorSeverity:
-      alma: 2
-      azure: 2
-      cbl-mariner: 2
-      oracle-oval: 2
-      redhat: 2
-      rocky: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 4.7
-    References:
-    - https://access.redhat.com/errata/RHSA-2024:10379
-    - https://access.redhat.com/errata/RHSA-2024:11250
-    - https://access.redhat.com/errata/RHSA-2024:9941
-    - https://access.redhat.com/security/cve/CVE-2024-10041
-    - https://bugzilla.redhat.com/2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
-    - https://errata.rockylinux.org/RLSA-2024:10379
-    - https://linux.oracle.com/cve/CVE-2024-10041.html
-    - https://linux.oracle.com/errata/ELSA-2024-11250.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-10041
-    - https://www.cve.org/CVERecord?id=CVE-2024-10041
-    PublishedDate: '2024-10-23T14:15:03.97Z'
-    LastModifiedDate: '2024-12-18T10:15:05.85Z'
-  - VulnerabilityID: CVE-2024-10963
-    PkgID: libpam-runtime@1.5.3-7ubuntu2.3
-    PkgName: libpam-runtime
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-7ubuntu2.3?arch=all&distro=ubuntu-24.10
-      UID: 17e8fab7456a59fd
-    InstalledVersion: 1.5.3-7ubuntu2.3
-    Status: affected
-    Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'pam: Improper Hostname Interpretation in pam_access Leads to Access Control Bypass'
-    Description: A flaw was found in pam_access, where certain rules in its configuration file are mistakenly treated as hostnames. This vulnerability allows attackers to trick the system by pretending to be a trusted hostname, gaining unauthorized access. This issue poses a risk for systems that rely on this feature to control who can access certain services or terminals.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-287
-    VendorSeverity:
-      alma: 3
-      azure: 3
-      oracle-oval: 3
-      redhat: 3
-      rocky: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
-        V3Score: 7.4
-    References:
-    - https://access.redhat.com/errata/RHSA-2024:10232
-    - https://access.redhat.com/errata/RHSA-2024:10244
-    - https://access.redhat.com/errata/RHSA-2024:10379
-    - https://access.redhat.com/errata/RHSA-2024:10518
-    - https://access.redhat.com/errata/RHSA-2024:10528
-    - https://access.redhat.com/errata/RHSA-2024:10852
-    - https://access.redhat.com/security/cve/CVE-2024-10963
-    - https://bugzilla.redhat.com/2324291
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
-    - https://errata.rockylinux.org/RLSA-2024:10379
-    - https://linux.oracle.com/cve/CVE-2024-10963.html
-    - https://linux.oracle.com/errata/ELSA-2024-10379.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-10963
-    - https://www.cve.org/CVERecord?id=CVE-2024-10963
-    PublishedDate: '2024-11-07T16:15:17.15Z'
-    LastModifiedDate: '2025-02-06T06:15:29.24Z'
-  - VulnerabilityID: CVE-2024-10041
-    PkgID: libpam0g@1.5.3-7ubuntu2.3
-    PkgName: libpam0g
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu2.3?arch=amd64&distro=ubuntu-24.10
-      UID: 4aff0ea413cbf73a
-    InstalledVersion: 1.5.3-7ubuntu2.3
-    Status: affected
-    Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'pam: libpam: Libpam vulnerable to read hashed password'
-    Description: A vulnerability was found in PAM. The secret information is stored in memory, where the attacker can trigger the victim program to execute by sending characters to its standard input (stdin). As this occurs, the attacker can train the branch predictor to execute an ROP chain speculatively. This flaw could result in leaked passwords, such as those found in /etc/shadow while performing authentications.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-922
-    VendorSeverity:
-      alma: 2
-      azure: 2
-      cbl-mariner: 2
-      oracle-oval: 2
-      redhat: 2
-      rocky: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 4.7
-    References:
-    - https://access.redhat.com/errata/RHSA-2024:10379
-    - https://access.redhat.com/errata/RHSA-2024:11250
-    - https://access.redhat.com/errata/RHSA-2024:9941
-    - https://access.redhat.com/security/cve/CVE-2024-10041
-    - https://bugzilla.redhat.com/2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
-    - https://errata.rockylinux.org/RLSA-2024:10379
-    - https://linux.oracle.com/cve/CVE-2024-10041.html
-    - https://linux.oracle.com/errata/ELSA-2024-11250.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-10041
-    - https://www.cve.org/CVERecord?id=CVE-2024-10041
-    PublishedDate: '2024-10-23T14:15:03.97Z'
-    LastModifiedDate: '2024-12-18T10:15:05.85Z'
-  - VulnerabilityID: CVE-2024-10963
-    PkgID: libpam0g@1.5.3-7ubuntu2.3
-    PkgName: libpam0g
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu2.3?arch=amd64&distro=ubuntu-24.10
-      UID: 4aff0ea413cbf73a
-    InstalledVersion: 1.5.3-7ubuntu2.3
-    Status: affected
-    Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'pam: Improper Hostname Interpretation in pam_access Leads to Access Control Bypass'
-    Description: A flaw was found in pam_access, where certain rules in its configuration file are mistakenly treated as hostnames. This vulnerability allows attackers to trick the system by pretending to be a trusted hostname, gaining unauthorized access. This issue poses a risk for systems that rely on this feature to control who can access certain services or terminals.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-287
-    VendorSeverity:
-      alma: 3
-      azure: 3
-      oracle-oval: 3
-      redhat: 3
-      rocky: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
-        V3Score: 7.4
-    References:
-    - https://access.redhat.com/errata/RHSA-2024:10232
-    - https://access.redhat.com/errata/RHSA-2024:10244
-    - https://access.redhat.com/errata/RHSA-2024:10379
-    - https://access.redhat.com/errata/RHSA-2024:10518
-    - https://access.redhat.com/errata/RHSA-2024:10528
-    - https://access.redhat.com/errata/RHSA-2024:10852
-    - https://access.redhat.com/security/cve/CVE-2024-10963
-    - https://bugzilla.redhat.com/2324291
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
-    - https://errata.rockylinux.org/RLSA-2024:10379
-    - https://linux.oracle.com/cve/CVE-2024-10963.html
-    - https://linux.oracle.com/errata/ELSA-2024-10379.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-10963
-    - https://www.cve.org/CVERecord?id=CVE-2024-10963
-    PublishedDate: '2024-11-07T16:15:17.15Z'
-    LastModifiedDate: '2025-02-06T06:15:29.24Z'
-  - VulnerabilityID: CVE-2025-6069
-    PkgID: libpython3.12-minimal@3.12.7-1ubuntu2.2
-    PkgName: libpython3.12-minimal
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpython3.12-minimal@3.12.7-1ubuntu2.2?arch=amd64&distro=ubuntu-24.10
-      UID: b6e58b9f5e4aca6b
-    InstalledVersion: 3.12.7-1ubuntu2.2
-    Status: affected
-    Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'cpython: Python HTMLParser quadratic complexity'
-    Description: The html.parser.HTMLParser class had worse-case quadratic complexity when processing certain crafted malformed inputs potentially leading to amplified denial-of-service.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-1333
-    VendorSeverity:
-      amazon: 2
-      bitnami: 2
       redhat: 2
       ubuntu: 2
     CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 4.3
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 4.3
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H
+        V3Score: 6.5
     References:
-    - https://access.redhat.com/security/cve/CVE-2025-6069
-    - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
-    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
-    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41 (main)
-    - https://github.com/python/cpython/commit/8d1b3dfa09135affbbf27fb8babcf3c11415df49
-    - https://github.com/python/cpython/commit/ab0893fd5c579d9cea30841680e6d35fc478afb5
-    - https://github.com/python/cpython/commit/d851f8e258c7328814943e923a7df81bca15df4b
-    - https://github.com/python/cpython/commit/f3c6f882cddc8dc30320d2e73edf019e201394fc
-    - https://github.com/python/cpython/commit/fdc9d214c01cb4588f540cfa03726bbf2a33fc15
-    - https://github.com/python/cpython/issues/135462
-    - https://github.com/python/cpython/pull/135464
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
-    - https://www.cve.org/CVERecord?id=CVE-2025-6069
-    PublishedDate: '2025-06-17T14:15:33.677Z'
-    LastModifiedDate: '2025-07-07T18:15:29.15Z'
-  - VulnerabilityID: CVE-2025-6069
-    PkgID: libpython3.12-stdlib@3.12.7-1ubuntu2.2
-    PkgName: libpython3.12-stdlib
+    - https://access.redhat.com/security/cve/CVE-2025-32988
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359622
+    - https://lists.gnupg.org/pipermail/gnutls-help/2025-July/004883.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-32988
+    - https://www.cve.org/CVERecord?id=CVE-2025-32988
+    PublishedDate: '2025-07-10T08:15:24.223Z'
+    LastModifiedDate: '2025-07-10T13:17:30.017Z'
+  - VulnerabilityID: CVE-2025-32989
+    PkgID: libgnutls30t64@3.8.9-2ubuntu3
+    PkgName: libgnutls30t64
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpython3.12-stdlib@3.12.7-1ubuntu2.2?arch=amd64&distro=ubuntu-24.10
-      UID: fec8294f1ab37559
-    InstalledVersion: 3.12.7-1ubuntu2.2
+      PURL: pkg:deb/ubuntu/libgnutls30t64@3.8.9-2ubuntu3?arch=amd64&distro=ubuntu-25.04
+      UID: 1c77387b7eb0e80f
+    InstalledVersion: 3.8.9-2ubuntu3
     Status: affected
     Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
     SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-32989
     DataSource:
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'cpython: Python HTMLParser quadratic complexity'
-    Description: The html.parser.HTMLParser class had worse-case quadratic complexity when processing certain crafted malformed inputs potentially leading to amplified denial-of-service.
+    Title: 'gnutls: Vulnerability in GnuTLS SCT extension parsing'
+    Description: A heap-buffer-overread vulnerability was found in GnuTLS in how it handles the Certificate Transparency (CT) Signed Certificate Timestamp (SCT) extension during X.509 certificate parsing. This flaw allows a malicious user to create a certificate containing a malformed SCT extension (OID 1.3.6.1.4.1.11129.2.4.2) that contains sensitive data. This issue leads to the exposure of confidential information when GnuTLS verifies certificates from certain websites when the certificate (SCT) is not checked correctly.
     Severity: MEDIUM
-    CweIDs:
-    - CWE-1333
-    VendorSeverity:
-      amazon: 2
-      bitnami: 2
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 4.3
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 4.3
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-6069
-    - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
-    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
-    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41 (main)
-    - https://github.com/python/cpython/commit/8d1b3dfa09135affbbf27fb8babcf3c11415df49
-    - https://github.com/python/cpython/commit/ab0893fd5c579d9cea30841680e6d35fc478afb5
-    - https://github.com/python/cpython/commit/d851f8e258c7328814943e923a7df81bca15df4b
-    - https://github.com/python/cpython/commit/f3c6f882cddc8dc30320d2e73edf019e201394fc
-    - https://github.com/python/cpython/commit/fdc9d214c01cb4588f540cfa03726bbf2a33fc15
-    - https://github.com/python/cpython/issues/135462
-    - https://github.com/python/cpython/pull/135464
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
-    - https://www.cve.org/CVERecord?id=CVE-2025-6069
-    PublishedDate: '2025-06-17T14:15:33.677Z'
-    LastModifiedDate: '2025-07-07T18:15:29.15Z'
-  - VulnerabilityID: CVE-2025-6069
-    PkgID: libpython3.12t64@3.12.7-1ubuntu2.2
-    PkgName: libpython3.12t64
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpython3.12t64@3.12.7-1ubuntu2.2?arch=amd64&distro=ubuntu-24.10
-      UID: 73581ffbd8dfb47c
-    InstalledVersion: 3.12.7-1ubuntu2.2
-    Status: affected
-    Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'cpython: Python HTMLParser quadratic complexity'
-    Description: The html.parser.HTMLParser class had worse-case quadratic complexity when processing certain crafted malformed inputs potentially leading to amplified denial-of-service.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-1333
-    VendorSeverity:
-      amazon: 2
-      bitnami: 2
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 4.3
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 4.3
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-6069
-    - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
-    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
-    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41 (main)
-    - https://github.com/python/cpython/commit/8d1b3dfa09135affbbf27fb8babcf3c11415df49
-    - https://github.com/python/cpython/commit/ab0893fd5c579d9cea30841680e6d35fc478afb5
-    - https://github.com/python/cpython/commit/d851f8e258c7328814943e923a7df81bca15df4b
-    - https://github.com/python/cpython/commit/f3c6f882cddc8dc30320d2e73edf019e201394fc
-    - https://github.com/python/cpython/commit/fdc9d214c01cb4588f540cfa03726bbf2a33fc15
-    - https://github.com/python/cpython/issues/135462
-    - https://github.com/python/cpython/pull/135464
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
-    - https://www.cve.org/CVERecord?id=CVE-2025-6069
-    PublishedDate: '2025-06-17T14:15:33.677Z'
-    LastModifiedDate: '2025-07-07T18:15:29.15Z'
-  - VulnerabilityID: CVE-2024-41996
-    PkgID: libssl3t64@3.3.1-2ubuntu2.1
-    PkgName: libssl3t64
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libssl3t64@3.3.1-2ubuntu2.1?arch=amd64&distro=ubuntu-24.10
-      UID: 681533a911174050
-    InstalledVersion: 3.3.1-2ubuntu2.1
-    Status: affected
-    Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-41996
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'openssl: remote attackers (from the client side) to trigger unnecessarily expensive server-side DHE modular-exponentiation calculations'
-    Description: Validating the order of the public keys in the Diffie-Hellman Key Agreement Protocol, when an approved safe prime is used, allows remote attackers (from the client side) to trigger unnecessarily expensive server-side DHE modular-exponentiation calculations. The client may cause asymmetric resource consumption. The basic attack scenario is that the client must claim that it can only communicate with DHE, and the server must be configured to allow DHE and validate the order of the public key.
-    Severity: LOW
     CweIDs:
     - CWE-295
     VendorSeverity:
-      amazon: 2
-      redhat: 1
-      ubuntu: 1
+      redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.9
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
     References:
-    - https://access.redhat.com/security/cve/CVE-2024-41996
-    - https://dheatattack.gitlab.io/details/
-    - https://dheatattack.gitlab.io/faq/
-    - https://gist.github.com/c0r0n3r/abccc14d4d96c0442f3a77fa5ca255d1
-    - https://github.com/openssl/openssl/issues/17374
-    - https://github.com/openssl/openssl/pull/25088
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-41996
-    - https://openssl-library.org/post/2022-10-21-tls-groups-configuration/
-    - https://www.cve.org/CVERecord?id=CVE-2024-41996
-    PublishedDate: '2024-08-26T06:15:04.603Z'
-    LastModifiedDate: '2024-08-26T16:35:11.247Z'
-  - VulnerabilityID: CVE-2025-5702
-    PkgID: locales@2.40-1ubuntu3.1
-    PkgName: locales
+    - https://access.redhat.com/security/cve/CVE-2025-32989
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359621
+    - https://lists.gnupg.org/pipermail/gnutls-help/2025-July/004883.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-32989
+    - https://www.cve.org/CVERecord?id=CVE-2025-32989
+    PublishedDate: '2025-07-10T08:15:24.43Z'
+    LastModifiedDate: '2025-07-10T13:17:30.017Z'
+  - VulnerabilityID: CVE-2025-32990
+    PkgID: libgnutls30t64@3.8.9-2ubuntu3
+    PkgName: libgnutls30t64
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/locales@2.40-1ubuntu3.1?arch=all&distro=ubuntu-24.10
-      UID: 47695ad235e18c3b
-    InstalledVersion: 2.40-1ubuntu3.1
+      PURL: pkg:deb/ubuntu/libgnutls30t64@3.8.9-2ubuntu3?arch=amd64&distro=ubuntu-25.04
+      UID: 1c77387b7eb0e80f
+    InstalledVersion: 3.8.9-2ubuntu3
     Status: affected
     Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-32990
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'gnutls: Vulnerability in GnuTLS certtool template parsing'
+    Description: A heap-buffer-overflow (off-by-one) flaw was found in the GnuTLS software in the template parsing logic within the certtool utility. When it reads certain settings from a template file, it allows an attacker to cause an out-of-bounds (OOB) NULL pointer write, resulting in memory corruption and a denial-of-service (DoS) that could potentially crash the system.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-32990
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359620
+    - https://lists.gnupg.org/pipermail/gnutls-help/2025-July/004883.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-32990
+    - https://www.cve.org/CVERecord?id=CVE-2025-32990
+    PublishedDate: '2025-07-10T10:15:33.06Z'
+    LastModifiedDate: '2025-07-10T13:17:30.017Z'
+  - VulnerabilityID: CVE-2025-6395
+    PkgID: libgnutls30t64@3.8.9-2ubuntu3
+    PkgName: libgnutls30t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libgnutls30t64@3.8.9-2ubuntu3?arch=amd64&distro=ubuntu-25.04
+      UID: 1c77387b7eb0e80f
+    InstalledVersion: 3.8.9-2ubuntu3
+    Status: affected
+    Layer:
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6395
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'gnutls: NULL pointer dereference in _gnutls_figure_common_ciphersuite()'
+    Description: A NULL pointer dereference flaw was found in the GnuTLS software in _gnutls_figure_common_ciphersuite(). When it reads certain settings from a template file, it can allow an attacker to cause an out-of-bounds (OOB) NULL pointer write, resulting in memory corruption and a denial of service (DoS) that could crash the system.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-6395
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2376755
+    - https://lists.gnupg.org/pipermail/gnutls-help/2025-July/004883.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6395
+    - https://www.cve.org/CVERecord?id=CVE-2025-6395
+    PublishedDate: '2025-07-10T16:15:25.11Z'
+    LastModifiedDate: '2025-07-10T16:15:25.11Z'
+  - VulnerabilityID: CVE-2024-10041
+    PkgID: libpam-modules@1.5.3-7ubuntu4.3
+    PkgName: libpam-modules
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam-modules@1.5.3-7ubuntu4.3?arch=amd64&distro=ubuntu-25.04
+      UID: 8a0887ccb0ee46e2
+    InstalledVersion: 1.5.3-7ubuntu4.3
+    Status: affected
+    Layer:
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'pam: libpam: Libpam vulnerable to read hashed password'
+    Description: A vulnerability was found in PAM. The secret information is stored in memory, where the attacker can trigger the victim program to execute by sending characters to its standard input (stdin). As this occurs, the attacker can train the branch predictor to execute an ROP chain speculatively. This flaw could result in leaked passwords, such as those found in /etc/shadow while performing authentications.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-922
+    VendorSeverity:
+      alma: 2
+      azure: 2
+      cbl-mariner: 2
+      oracle-oval: 2
+      redhat: 2
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:10379
+    - https://access.redhat.com/errata/RHSA-2024:11250
+    - https://access.redhat.com/errata/RHSA-2024:9941
+    - https://access.redhat.com/security/cve/CVE-2024-10041
+    - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
+    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.rockylinux.org/RLSA-2024:10379
+    - https://linux.oracle.com/cve/CVE-2024-10041.html
+    - https://linux.oracle.com/errata/ELSA-2024-11250.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-10041
+    - https://www.cve.org/CVERecord?id=CVE-2024-10041
+    PublishedDate: '2024-10-23T14:15:03.97Z'
+    LastModifiedDate: '2024-12-18T10:15:05.85Z'
+  - VulnerabilityID: CVE-2024-10963
+    PkgID: libpam-modules@1.5.3-7ubuntu4.3
+    PkgName: libpam-modules
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam-modules@1.5.3-7ubuntu4.3?arch=amd64&distro=ubuntu-25.04
+      UID: 8a0887ccb0ee46e2
+    InstalledVersion: 1.5.3-7ubuntu4.3
+    Status: affected
+    Layer:
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'pam: Improper Hostname Interpretation in pam_access Leads to Access Control Bypass'
+    Description: A flaw was found in pam_access, where certain rules in its configuration file are mistakenly treated as hostnames. This vulnerability allows attackers to trick the system by pretending to be a trusted hostname, gaining unauthorized access. This issue poses a risk for systems that rely on this feature to control who can access certain services or terminals.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-287
+    VendorSeverity:
+      alma: 3
+      azure: 3
+      oracle-oval: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:10232
+    - https://access.redhat.com/errata/RHSA-2024:10244
+    - https://access.redhat.com/errata/RHSA-2024:10379
+    - https://access.redhat.com/errata/RHSA-2024:10518
+    - https://access.redhat.com/errata/RHSA-2024:10528
+    - https://access.redhat.com/errata/RHSA-2024:10852
+    - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2324291
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
+    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.rockylinux.org/RLSA-2024:10379
+    - https://linux.oracle.com/cve/CVE-2024-10963.html
+    - https://linux.oracle.com/errata/ELSA-2024-10379.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-10963
+    - https://www.cve.org/CVERecord?id=CVE-2024-10963
+    PublishedDate: '2024-11-07T16:15:17.15Z'
+    LastModifiedDate: '2025-02-06T06:15:29.24Z'
+  - VulnerabilityID: CVE-2024-10041
+    PkgID: libpam-modules-bin@1.5.3-7ubuntu4.3
+    PkgName: libpam-modules-bin
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-7ubuntu4.3?arch=amd64&distro=ubuntu-25.04
+      UID: 4e81f2e81e844680
+    InstalledVersion: 1.5.3-7ubuntu4.3
+    Status: affected
+    Layer:
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'pam: libpam: Libpam vulnerable to read hashed password'
+    Description: A vulnerability was found in PAM. The secret information is stored in memory, where the attacker can trigger the victim program to execute by sending characters to its standard input (stdin). As this occurs, the attacker can train the branch predictor to execute an ROP chain speculatively. This flaw could result in leaked passwords, such as those found in /etc/shadow while performing authentications.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-922
+    VendorSeverity:
+      alma: 2
+      azure: 2
+      cbl-mariner: 2
+      oracle-oval: 2
+      redhat: 2
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:10379
+    - https://access.redhat.com/errata/RHSA-2024:11250
+    - https://access.redhat.com/errata/RHSA-2024:9941
+    - https://access.redhat.com/security/cve/CVE-2024-10041
+    - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
+    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.rockylinux.org/RLSA-2024:10379
+    - https://linux.oracle.com/cve/CVE-2024-10041.html
+    - https://linux.oracle.com/errata/ELSA-2024-11250.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-10041
+    - https://www.cve.org/CVERecord?id=CVE-2024-10041
+    PublishedDate: '2024-10-23T14:15:03.97Z'
+    LastModifiedDate: '2024-12-18T10:15:05.85Z'
+  - VulnerabilityID: CVE-2024-10963
+    PkgID: libpam-modules-bin@1.5.3-7ubuntu4.3
+    PkgName: libpam-modules-bin
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-7ubuntu4.3?arch=amd64&distro=ubuntu-25.04
+      UID: 4e81f2e81e844680
+    InstalledVersion: 1.5.3-7ubuntu4.3
+    Status: affected
+    Layer:
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'pam: Improper Hostname Interpretation in pam_access Leads to Access Control Bypass'
+    Description: A flaw was found in pam_access, where certain rules in its configuration file are mistakenly treated as hostnames. This vulnerability allows attackers to trick the system by pretending to be a trusted hostname, gaining unauthorized access. This issue poses a risk for systems that rely on this feature to control who can access certain services or terminals.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-287
+    VendorSeverity:
+      alma: 3
+      azure: 3
+      oracle-oval: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:10232
+    - https://access.redhat.com/errata/RHSA-2024:10244
+    - https://access.redhat.com/errata/RHSA-2024:10379
+    - https://access.redhat.com/errata/RHSA-2024:10518
+    - https://access.redhat.com/errata/RHSA-2024:10528
+    - https://access.redhat.com/errata/RHSA-2024:10852
+    - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2324291
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
+    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.rockylinux.org/RLSA-2024:10379
+    - https://linux.oracle.com/cve/CVE-2024-10963.html
+    - https://linux.oracle.com/errata/ELSA-2024-10379.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-10963
+    - https://www.cve.org/CVERecord?id=CVE-2024-10963
+    PublishedDate: '2024-11-07T16:15:17.15Z'
+    LastModifiedDate: '2025-02-06T06:15:29.24Z'
+  - VulnerabilityID: CVE-2024-10041
+    PkgID: libpam-runtime@1.5.3-7ubuntu4.3
+    PkgName: libpam-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-7ubuntu4.3?arch=all&distro=ubuntu-25.04
+      UID: 11da3ddf37287ea
+    InstalledVersion: 1.5.3-7ubuntu4.3
+    Status: affected
+    Layer:
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'pam: libpam: Libpam vulnerable to read hashed password'
+    Description: A vulnerability was found in PAM. The secret information is stored in memory, where the attacker can trigger the victim program to execute by sending characters to its standard input (stdin). As this occurs, the attacker can train the branch predictor to execute an ROP chain speculatively. This flaw could result in leaked passwords, such as those found in /etc/shadow while performing authentications.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-922
+    VendorSeverity:
+      alma: 2
+      azure: 2
+      cbl-mariner: 2
+      oracle-oval: 2
+      redhat: 2
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:10379
+    - https://access.redhat.com/errata/RHSA-2024:11250
+    - https://access.redhat.com/errata/RHSA-2024:9941
+    - https://access.redhat.com/security/cve/CVE-2024-10041
+    - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
+    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.rockylinux.org/RLSA-2024:10379
+    - https://linux.oracle.com/cve/CVE-2024-10041.html
+    - https://linux.oracle.com/errata/ELSA-2024-11250.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-10041
+    - https://www.cve.org/CVERecord?id=CVE-2024-10041
+    PublishedDate: '2024-10-23T14:15:03.97Z'
+    LastModifiedDate: '2024-12-18T10:15:05.85Z'
+  - VulnerabilityID: CVE-2024-10963
+    PkgID: libpam-runtime@1.5.3-7ubuntu4.3
+    PkgName: libpam-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-7ubuntu4.3?arch=all&distro=ubuntu-25.04
+      UID: 11da3ddf37287ea
+    InstalledVersion: 1.5.3-7ubuntu4.3
+    Status: affected
+    Layer:
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'pam: Improper Hostname Interpretation in pam_access Leads to Access Control Bypass'
+    Description: A flaw was found in pam_access, where certain rules in its configuration file are mistakenly treated as hostnames. This vulnerability allows attackers to trick the system by pretending to be a trusted hostname, gaining unauthorized access. This issue poses a risk for systems that rely on this feature to control who can access certain services or terminals.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-287
+    VendorSeverity:
+      alma: 3
+      azure: 3
+      oracle-oval: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:10232
+    - https://access.redhat.com/errata/RHSA-2024:10244
+    - https://access.redhat.com/errata/RHSA-2024:10379
+    - https://access.redhat.com/errata/RHSA-2024:10518
+    - https://access.redhat.com/errata/RHSA-2024:10528
+    - https://access.redhat.com/errata/RHSA-2024:10852
+    - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2324291
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
+    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.rockylinux.org/RLSA-2024:10379
+    - https://linux.oracle.com/cve/CVE-2024-10963.html
+    - https://linux.oracle.com/errata/ELSA-2024-10379.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-10963
+    - https://www.cve.org/CVERecord?id=CVE-2024-10963
+    PublishedDate: '2024-11-07T16:15:17.15Z'
+    LastModifiedDate: '2025-02-06T06:15:29.24Z'
+  - VulnerabilityID: CVE-2024-10041
+    PkgID: libpam0g@1.5.3-7ubuntu4.3
+    PkgName: libpam0g
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu4.3?arch=amd64&distro=ubuntu-25.04
+      UID: 32acabc88aaa95b
+    InstalledVersion: 1.5.3-7ubuntu4.3
+    Status: affected
+    Layer:
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'pam: libpam: Libpam vulnerable to read hashed password'
+    Description: A vulnerability was found in PAM. The secret information is stored in memory, where the attacker can trigger the victim program to execute by sending characters to its standard input (stdin). As this occurs, the attacker can train the branch predictor to execute an ROP chain speculatively. This flaw could result in leaked passwords, such as those found in /etc/shadow while performing authentications.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-922
+    VendorSeverity:
+      alma: 2
+      azure: 2
+      cbl-mariner: 2
+      oracle-oval: 2
+      redhat: 2
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:10379
+    - https://access.redhat.com/errata/RHSA-2024:11250
+    - https://access.redhat.com/errata/RHSA-2024:9941
+    - https://access.redhat.com/security/cve/CVE-2024-10041
+    - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
+    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.rockylinux.org/RLSA-2024:10379
+    - https://linux.oracle.com/cve/CVE-2024-10041.html
+    - https://linux.oracle.com/errata/ELSA-2024-11250.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-10041
+    - https://www.cve.org/CVERecord?id=CVE-2024-10041
+    PublishedDate: '2024-10-23T14:15:03.97Z'
+    LastModifiedDate: '2024-12-18T10:15:05.85Z'
+  - VulnerabilityID: CVE-2024-10963
+    PkgID: libpam0g@1.5.3-7ubuntu4.3
+    PkgName: libpam0g
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu4.3?arch=amd64&distro=ubuntu-25.04
+      UID: 32acabc88aaa95b
+    InstalledVersion: 1.5.3-7ubuntu4.3
+    Status: affected
+    Layer:
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'pam: Improper Hostname Interpretation in pam_access Leads to Access Control Bypass'
+    Description: A flaw was found in pam_access, where certain rules in its configuration file are mistakenly treated as hostnames. This vulnerability allows attackers to trick the system by pretending to be a trusted hostname, gaining unauthorized access. This issue poses a risk for systems that rely on this feature to control who can access certain services or terminals.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-287
+    VendorSeverity:
+      alma: 3
+      azure: 3
+      oracle-oval: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:10232
+    - https://access.redhat.com/errata/RHSA-2024:10244
+    - https://access.redhat.com/errata/RHSA-2024:10379
+    - https://access.redhat.com/errata/RHSA-2024:10518
+    - https://access.redhat.com/errata/RHSA-2024:10528
+    - https://access.redhat.com/errata/RHSA-2024:10852
+    - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2324291
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
+    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.rockylinux.org/RLSA-2024:10379
+    - https://linux.oracle.com/cve/CVE-2024-10963.html
+    - https://linux.oracle.com/errata/ELSA-2024-10379.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-10963
+    - https://www.cve.org/CVERecord?id=CVE-2024-10963
+    PublishedDate: '2024-11-07T16:15:17.15Z'
+    LastModifiedDate: '2025-02-06T06:15:29.24Z'
+  - VulnerabilityID: CVE-2025-6069
+    PkgID: libpython3.13@3.13.3-1ubuntu0.2
+    PkgName: libpython3.13
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.13@3.13.3-1ubuntu0.2?arch=amd64&distro=ubuntu-25.04
+      UID: eb028e934f820583
+    InstalledVersion: 3.13.3-1ubuntu0.2
+    Status: affected
+    Layer:
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: Python HTMLParser quadratic complexity'
+    Description: The html.parser.HTMLParser class had worse-case quadratic complexity when processing certain crafted malformed inputs potentially leading to amplified denial-of-service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1333
+    VendorSeverity:
+      amazon: 2
+      bitnami: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-6069
+    - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
+    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
+    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41 (main)
+    - https://github.com/python/cpython/commit/8d1b3dfa09135affbbf27fb8babcf3c11415df49
+    - https://github.com/python/cpython/commit/ab0893fd5c579d9cea30841680e6d35fc478afb5
+    - https://github.com/python/cpython/commit/d851f8e258c7328814943e923a7df81bca15df4b
+    - https://github.com/python/cpython/commit/f3c6f882cddc8dc30320d2e73edf019e201394fc
+    - https://github.com/python/cpython/commit/fdc9d214c01cb4588f540cfa03726bbf2a33fc15
+    - https://github.com/python/cpython/issues/135462
+    - https://github.com/python/cpython/pull/135464
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
+    - https://www.cve.org/CVERecord?id=CVE-2025-6069
+    PublishedDate: '2025-06-17T14:15:33.677Z'
+    LastModifiedDate: '2025-07-07T18:15:29.15Z'
+  - VulnerabilityID: CVE-2025-6069
+    PkgID: libpython3.13-minimal@3.13.3-1ubuntu0.2
+    PkgName: libpython3.13-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.13-minimal@3.13.3-1ubuntu0.2?arch=amd64&distro=ubuntu-25.04
+      UID: b9b4686566aa26d0
+    InstalledVersion: 3.13.3-1ubuntu0.2
+    Status: affected
+    Layer:
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: Python HTMLParser quadratic complexity'
+    Description: The html.parser.HTMLParser class had worse-case quadratic complexity when processing certain crafted malformed inputs potentially leading to amplified denial-of-service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1333
+    VendorSeverity:
+      amazon: 2
+      bitnami: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-6069
+    - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
+    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
+    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41 (main)
+    - https://github.com/python/cpython/commit/8d1b3dfa09135affbbf27fb8babcf3c11415df49
+    - https://github.com/python/cpython/commit/ab0893fd5c579d9cea30841680e6d35fc478afb5
+    - https://github.com/python/cpython/commit/d851f8e258c7328814943e923a7df81bca15df4b
+    - https://github.com/python/cpython/commit/f3c6f882cddc8dc30320d2e73edf019e201394fc
+    - https://github.com/python/cpython/commit/fdc9d214c01cb4588f540cfa03726bbf2a33fc15
+    - https://github.com/python/cpython/issues/135462
+    - https://github.com/python/cpython/pull/135464
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
+    - https://www.cve.org/CVERecord?id=CVE-2025-6069
+    PublishedDate: '2025-06-17T14:15:33.677Z'
+    LastModifiedDate: '2025-07-07T18:15:29.15Z'
+  - VulnerabilityID: CVE-2025-6069
+    PkgID: libpython3.13-stdlib@3.13.3-1ubuntu0.2
+    PkgName: libpython3.13-stdlib
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.13-stdlib@3.13.3-1ubuntu0.2?arch=amd64&distro=ubuntu-25.04
+      UID: cdc6a6d67881a910
+    InstalledVersion: 3.13.3-1ubuntu0.2
+    Status: affected
+    Layer:
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: Python HTMLParser quadratic complexity'
+    Description: The html.parser.HTMLParser class had worse-case quadratic complexity when processing certain crafted malformed inputs potentially leading to amplified denial-of-service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1333
+    VendorSeverity:
+      amazon: 2
+      bitnami: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-6069
+    - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
+    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
+    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41 (main)
+    - https://github.com/python/cpython/commit/8d1b3dfa09135affbbf27fb8babcf3c11415df49
+    - https://github.com/python/cpython/commit/ab0893fd5c579d9cea30841680e6d35fc478afb5
+    - https://github.com/python/cpython/commit/d851f8e258c7328814943e923a7df81bca15df4b
+    - https://github.com/python/cpython/commit/f3c6f882cddc8dc30320d2e73edf019e201394fc
+    - https://github.com/python/cpython/commit/fdc9d214c01cb4588f540cfa03726bbf2a33fc15
+    - https://github.com/python/cpython/issues/135462
+    - https://github.com/python/cpython/pull/135464
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
+    - https://www.cve.org/CVERecord?id=CVE-2025-6069
+    PublishedDate: '2025-06-17T14:15:33.677Z'
+    LastModifiedDate: '2025-07-07T18:15:29.15Z'
+  - VulnerabilityID: CVE-2025-5702
+    PkgID: locales@2.41-6ubuntu1
+    PkgName: locales
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/locales@2.41-6ubuntu1?arch=all&distro=ubuntu-25.04
+      UID: 56aa74de3d7c82fa
+    InstalledVersion: 2.41-6ubuntu1
+    Status: affected
+    Layer:
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5702
     DataSource:
@@ -1242,16 +1233,16 @@
     PublishedDate: '2025-06-05T19:15:31.073Z'
     LastModifiedDate: '2025-06-05T21:15:22.873Z'
   - VulnerabilityID: CVE-2025-5745
-    PkgID: locales@2.40-1ubuntu3.1
+    PkgID: locales@2.41-6ubuntu1
     PkgName: locales
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/locales@2.40-1ubuntu3.1?arch=all&distro=ubuntu-24.10
-      UID: 47695ad235e18c3b
-    InstalledVersion: 2.40-1ubuntu3.1
+      PURL: pkg:deb/ubuntu/locales@2.41-6ubuntu1?arch=all&distro=ubuntu-25.04
+      UID: 56aa74de3d7c82fa
+    InstalledVersion: 2.41-6ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5745
     DataSource:
@@ -1279,16 +1270,16 @@
     PublishedDate: '2025-06-05T20:15:27.377Z'
     LastModifiedDate: '2025-06-06T14:07:28.33Z'
   - VulnerabilityID: CVE-2016-20013
-    PkgID: locales@2.40-1ubuntu3.1
+    PkgID: locales@2.41-6ubuntu1
     PkgName: locales
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/locales@2.40-1ubuntu3.1?arch=all&distro=ubuntu-24.10
-      UID: 47695ad235e18c3b
-    InstalledVersion: 2.40-1ubuntu3.1
+      PURL: pkg:deb/ubuntu/locales@2.41-6ubuntu1?arch=all&distro=ubuntu-25.04
+      UID: 56aa74de3d7c82fa
+    InstalledVersion: 2.41-6ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
     DataSource:
@@ -1316,16 +1307,16 @@
     PublishedDate: '2022-02-19T05:15:09.413Z'
     LastModifiedDate: '2024-11-21T02:47:33.427Z'
   - VulnerabilityID: CVE-2024-56433
-    PkgID: login@1:4.15.3-3ubuntu2
-    PkgName: login
+    PkgID: login.defs@1:4.16.0-7ubuntu1
+    PkgName: login.defs
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/login@4.15.3-3ubuntu2?arch=amd64&distro=ubuntu-24.10&epoch=1
-      UID: 7d9fe8cbf6d698f
-    InstalledVersion: 1:4.15.3-3ubuntu2
+      PURL: pkg:deb/ubuntu/login.defs@4.16.0-7ubuntu1?arch=all&distro=ubuntu-25.04&epoch=1
+      UID: 3c8b88c42ea22e9c
+    InstalledVersion: 1:4.16.0-7ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
     DataSource:
@@ -1354,59 +1345,17 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-56433
     PublishedDate: '2024-12-26T09:15:07.267Z'
     LastModifiedDate: '2024-12-26T09:15:07.267Z'
-  - VulnerabilityID: CVE-2024-41996
-    PkgID: openssl@3.3.1-2ubuntu2.1
-    PkgName: openssl
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/openssl@3.3.1-2ubuntu2.1?arch=amd64&distro=ubuntu-24.10
-      UID: 33f1b9400c663827
-    InstalledVersion: 3.3.1-2ubuntu2.1
-    Status: affected
-    Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-41996
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'openssl: remote attackers (from the client side) to trigger unnecessarily expensive server-side DHE modular-exponentiation calculations'
-    Description: Validating the order of the public keys in the Diffie-Hellman Key Agreement Protocol, when an approved safe prime is used, allows remote attackers (from the client side) to trigger unnecessarily expensive server-side DHE modular-exponentiation calculations. The client may cause asymmetric resource consumption. The basic attack scenario is that the client must claim that it can only communicate with DHE, and the server must be configured to allow DHE and validate the order of the public key.
-    Severity: LOW
-    CweIDs:
-    - CWE-295
-    VendorSeverity:
-      amazon: 2
-      redhat: 1
-      ubuntu: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.9
-    References:
-    - https://access.redhat.com/security/cve/CVE-2024-41996
-    - https://dheatattack.gitlab.io/details/
-    - https://dheatattack.gitlab.io/faq/
-    - https://gist.github.com/c0r0n3r/abccc14d4d96c0442f3a77fa5ca255d1
-    - https://github.com/openssl/openssl/issues/17374
-    - https://github.com/openssl/openssl/pull/25088
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-41996
-    - https://openssl-library.org/post/2022-10-21-tls-groups-configuration/
-    - https://www.cve.org/CVERecord?id=CVE-2024-41996
-    PublishedDate: '2024-08-26T06:15:04.603Z'
-    LastModifiedDate: '2024-08-26T16:35:11.247Z'
   - VulnerabilityID: CVE-2024-56433
-    PkgID: passwd@1:4.15.3-3ubuntu2
+    PkgID: passwd@1:4.16.0-7ubuntu1
     PkgName: passwd
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/passwd@4.15.3-3ubuntu2?arch=amd64&distro=ubuntu-24.10&epoch=1
-      UID: 243c4f2dd33e8274
-    InstalledVersion: 1:4.15.3-3ubuntu2
+      PURL: pkg:deb/ubuntu/passwd@4.16.0-7ubuntu1?arch=amd64&distro=ubuntu-25.04&epoch=1
+      UID: 3f9ea2708f334a48
+    InstalledVersion: 1:4.16.0-7ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
     DataSource:
@@ -1436,16 +1385,16 @@
     PublishedDate: '2024-12-26T09:15:07.267Z'
     LastModifiedDate: '2024-12-26T09:15:07.267Z'
   - VulnerabilityID: CVE-2021-31879
-    PkgID: wget@1.24.5-1ubuntu2
+    PkgID: wget@1.24.5-2ubuntu1
     PkgName: wget
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/wget@1.24.5-1ubuntu2?arch=amd64&distro=ubuntu-24.10
-      UID: 5c403cf6b6cce8c7
-    InstalledVersion: 1.24.5-1ubuntu2
+      PURL: pkg:deb/ubuntu/wget@1.24.5-2ubuntu1?arch=amd64&distro=ubuntu-25.04
+      UID: 6678c2919e8635f8
+    InstalledVersion: 1.24.5-2ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:0b863007dcb956f9aa05836b12fde397866d460ceca1aba2fbe65c47629d8654
-      DiffID: sha256:c4b6fe5ece2d1575aed292e68766ae30f4e8630599b9100ff4c1668bd068d00d
+      Digest: sha256:369307957e02ea057f21eb389969738838539ec02ef60fbc890c6ebe85e68b40
+      DiffID: sha256:f41b42c87b8787932eb3be29585affa983feed1eb602e08ef2deab242ffde444
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-31879
     DataSource:

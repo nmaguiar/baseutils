@@ -1585,7 +1585,7 @@
 │                       │      │                  ╰ [5]: https://www.gnu.org/software/tar/manual/html_node/Inte
 │                       │      │                         grity.html#Integrity 
 │                       │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
-│                       │      ╰ LastModifiedDate: 2025-07-15T13:14:49.98Z 
+│                       │      ╰ LastModifiedDate: 2025-07-17T13:09:39.997Z 
 │                       ╰ [32] ╭ VulnerabilityID : CVE-2021-31879 
 │                              ├ PkgID           : wget@1.24.5-2ubuntu1 
 │                              ├ PkgName         : wget 

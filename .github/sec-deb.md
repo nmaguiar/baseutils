@@ -948,7 +948,51 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
 │                       │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
 │                       │      ╰ LastModifiedDate: 2025-07-07T18:15:29.15Z 
-│                       ├ [18] ╭ VulnerabilityID : CVE-2016-20013 
+│                       ├ [18] ╭ VulnerabilityID : CVE-2025-6965 
+│                       │      ├ PkgID           : libsqlite3-0@3.46.1-3ubuntu0.1 
+│                       │      ├ PkgName         : libsqlite3-0 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsqlite3-0@3.46.1-3ubuntu0.1?arch=am
+│                       │      │                  │       d64&distro=ubuntu-25.04 
+│                       │      │                  ╰ UID : 4dcc16f608b621dc 
+│                       │      ├ InstalledVersion: 3.46.1-3ubuntu0.1 
+│                       │      ├ FixedVersion    : 3.46.1-3ubuntu0.2 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:4f18ecef995aa970ac15a763d8adab9326ded6c2607a
+│                       │      │                  │         198f9f7a7426dfb0ae5d 
+│                       │      │                  ╰ DiffID: sha256:4b6abda765feb178027734a0af08dcf2c7497f840ccc
+│                       │      │                            54db41d50759b08a52ec 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-6965 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : sqlite: Integer Truncation in SQLite 
+│                       │      ├ Description     : There exists a vulnerability in SQLite versions before
+│                       │      │                   3.50.2 where the number of aggregate terms could exceed the
+│                       │      │                   number of columns available. This could lead to a memory
+│                       │      │                   corruption issue. We recommend upgrading to version 3.50.2
+│                       │      │                   or above. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-197 
+│                       │      ├ VendorSeverity   ╭ bitnami: 3 
+│                       │      │                  ├ nvd    : 4 
+│                       │      │                  ├ redhat : 3 
+│                       │      │                  ╰ ubuntu : 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 9.8 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:H
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 7.7 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-6965 
+│                       │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-6965 
+│                       │      │                  ├ [2]: https://ubuntu.com/security/notices/USN-7676-1 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2025-6965 
+│                       │      │                  ╰ [4]: https://www.sqlite.org/src/info/5508b56fd24016c13981ec
+│                       │      │                         280ecdd833007c9d8dd595edb295b984c2b487b5c8 
+│                       │      ├ PublishedDate   : 2025-07-15T14:15:31.08Z 
+│                       │      ╰ LastModifiedDate: 2025-07-22T17:06:21.51Z 
+│                       ├ [19] ╭ VulnerabilityID : CVE-2016-20013 
 │                       │      ├ PkgID           : locales@2.41-6ubuntu1.1 
 │                       │      ├ PkgName         : locales 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/locales@2.41-6ubuntu1.1?arch=all&distr
@@ -984,7 +1028,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2016-20013 
 │                       │      ├ PublishedDate   : 2022-02-19T05:15:09.413Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T02:47:33.427Z 
-│                       ├ [19] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [20] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : login.defs@1:4.16.0-7ubuntu1 
 │                       │      ├ PkgName         : login.defs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login.defs@4.16.0-7ubuntu1?arch=all&di
@@ -1032,7 +1076,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [20] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [21] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : passwd@1:4.16.0-7ubuntu1 
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.16.0-7ubuntu1?arch=amd64&dist
@@ -1080,7 +1124,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [21] ╭ VulnerabilityID : CVE-2025-45582 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2025-45582 
 │                       │      ├ PkgID           : tar@1.35+dfsg-3.1 
 │                       │      ├ PkgName         : tar 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3.1?arch=amd64&distro=
@@ -1136,7 +1180,7 @@
 │                       │      │                         grity.html#Integrity 
 │                       │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                       │      ╰ LastModifiedDate: 2025-07-17T13:09:39.997Z 
-│                       ╰ [22] ╭ VulnerabilityID : CVE-2021-31879 
+│                       ╰ [23] ╭ VulnerabilityID : CVE-2021-31879 
 │                              ├ PkgID           : wget@1.24.5-2ubuntu1 
 │                              ├ PkgName         : wget 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.24.5-2ubuntu1?arch=amd64&distro

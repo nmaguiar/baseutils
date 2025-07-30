@@ -768,7 +768,84 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                       │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                       │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
-│                       ├ [15] ╭ VulnerabilityID : CVE-2025-6069 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2025-40909 
+│                       │      ├ PkgID           : libperl5.40@5.40.1-2ubuntu0.1 
+│                       │      ├ PkgName         : libperl5.40 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libperl5.40@5.40.1-2ubuntu0.1?arch=amd
+│                       │      │                  │       64&distro=ubuntu-25.04 
+│                       │      │                  ╰ UID : 5a3dfa88091f0f84 
+│                       │      ├ InstalledVersion: 5.40.1-2ubuntu0.1 
+│                       │      ├ FixedVersion    : 5.40.1-2ubuntu0.2 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:4f18ecef995aa970ac15a763d8adab9326ded6c2607a
+│                       │      │                  │         198f9f7a7426dfb0ae5d 
+│                       │      │                  ╰ DiffID: sha256:4b6abda765feb178027734a0af08dcf2c7497f840ccc
+│                       │      │                            54db41d50759b08a52ec 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-40909 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : perl: Perl threads have a working directory race condition
+│                       │      │                   where file operations may target unintended paths 
+│                       │      ├ Description     : Perl threads have a working directory race condition where
+│                       │      │                   file operations may target unintended paths.
+│                       │      │                   
+│                       │      │                   If a directory handle is open at thread creation, the
+│                       │      │                   process-wide current working directory is temporarily
+│                       │      │                   changed in order to clone that handle for the new thread,
+│                       │      │                   which is visible from any third (or more) thread already
+│                       │      │                   running. 
+│                       │      │                   This may lead to unintended operations such as loading code
+│                       │      │                   or accessing files from unexpected locations, which a local
+│                       │      │                   attacker may be able to exploit.
+│                       │      │                   The bug was introduced in commit
+│                       │      │                   11a11ecf4bea72b17d250cfb43c897be1341861e and released in
+│                       │      │                   Perl version 5.13.6 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-362 
+│                       │      │                  ╰ [1]: CWE-426 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.9 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/05/23/1 
+│                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/05/30/4 
+│                       │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2025/06/02/2 
+│                       │      │                  ├ [3] : http://www.openwall.com/lists/oss-security/2025/06/02/5 
+│                       │      │                  ├ [4] : http://www.openwall.com/lists/oss-security/2025/06/02/6 
+│                       │      │                  ├ [5] : http://www.openwall.com/lists/oss-security/2025/06/02/7 
+│                       │      │                  ├ [6] : http://www.openwall.com/lists/oss-security/2025/06/03/1 
+│                       │      │                  ├ [7] : https://access.redhat.com/errata/RHSA-2025:11805 
+│                       │      │                  ├ [8] : https://access.redhat.com/security/cve/CVE-2025-40909 
+│                       │      │                  ├ [9] : https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=109
+│                       │      │                  │       8226 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2369407 
+│                       │      │                  ├ [11]: https://errata.almalinux.org/8/ALSA-2025-11805.html 
+│                       │      │                  ├ [12]: https://github.com/Perl/perl5/commit/11a11ecf4bea72b1
+│                       │      │                  │       7d250cfb43c897be1341861e 
+│                       │      │                  ├ [13]: https://github.com/Perl/perl5/commit/918bfff86ca8d6d4
+│                       │      │                  │       e4ec5b30994451e0bd74aba9.patch 
+│                       │      │                  ├ [14]: https://github.com/Perl/perl5/issues/10387 
+│                       │      │                  ├ [15]: https://github.com/Perl/perl5/issues/23010 
+│                       │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2025-40909.html 
+│                       │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2025-11805.html 
+│                       │      │                  ├ [18]: https://lists.security.metacpan.org/cve-announce/msg/
+│                       │      │                  │       30017499/ 
+│                       │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2025-40909 
+│                       │      │                  ├ [20]: https://perldoc.perl.org/5.14.0/perl5136delta#Directo
+│                       │      │                  │       ry-handles-not-copied-to-threads 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7678-1 
+│                       │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2025-40909 
+│                       │      │                  ╰ [23]: https://www.openwall.com/lists/oss-security/2025/05/2
+│                       │      │                          2/2 
+│                       │      ├ PublishedDate   : 2025-05-30T13:15:22.35Z 
+│                       │      ╰ LastModifiedDate: 2025-06-03T04:15:40.47Z 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2025-6069 
 │                       │      ├ PkgID           : libpython3.13@3.13.3-1ubuntu0.2 
 │                       │      ├ PkgName         : libpython3.13 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.13@3.13.3-1ubuntu0.2?arch=a
@@ -828,7 +905,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
 │                       │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
 │                       │      ╰ LastModifiedDate: 2025-07-07T18:15:29.15Z 
-│                       ├ [16] ╭ VulnerabilityID : CVE-2025-6069 
+│                       ├ [17] ╭ VulnerabilityID : CVE-2025-6069 
 │                       │      ├ PkgID           : libpython3.13-minimal@3.13.3-1ubuntu0.2 
 │                       │      ├ PkgName         : libpython3.13-minimal 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.13-minimal@3.13.3-1ubuntu0.
@@ -888,7 +965,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
 │                       │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
 │                       │      ╰ LastModifiedDate: 2025-07-07T18:15:29.15Z 
-│                       ├ [17] ╭ VulnerabilityID : CVE-2025-6069 
+│                       ├ [18] ╭ VulnerabilityID : CVE-2025-6069 
 │                       │      ├ PkgID           : libpython3.13-stdlib@3.13.3-1ubuntu0.2 
 │                       │      ├ PkgName         : libpython3.13-stdlib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.13-stdlib@3.13.3-1ubuntu0.2
@@ -948,7 +1025,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
 │                       │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
 │                       │      ╰ LastModifiedDate: 2025-07-07T18:15:29.15Z 
-│                       ├ [18] ╭ VulnerabilityID : CVE-2025-6965 
+│                       ├ [19] ╭ VulnerabilityID : CVE-2025-6965 
 │                       │      ├ PkgID           : libsqlite3-0@3.46.1-3ubuntu0.1 
 │                       │      ├ PkgName         : libsqlite3-0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsqlite3-0@3.46.1-3ubuntu0.1?arch=am
@@ -974,25 +1051,32 @@
 │                       │      │                   or above. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-197 
-│                       │      ├ VendorSeverity   ╭ bitnami: 3 
-│                       │      │                  ├ nvd    : 4 
-│                       │      │                  ├ redhat : 3 
-│                       │      │                  ╰ ubuntu : 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ bitnami    : 3 
+│                       │      │                  ├ nvd        : 4 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H
 │                       │      │                  │        │           /A:H 
 │                       │      │                  │        ╰ V3Score : 9.8 
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:H
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 7.7 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-6965 
-│                       │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-6965 
-│                       │      │                  ├ [2]: https://ubuntu.com/security/notices/USN-7676-1 
-│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2025-6965 
-│                       │      │                  ╰ [4]: https://www.sqlite.org/src/info/5508b56fd24016c13981ec
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:11803 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-6965 
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2380149 
+│                       │      │                  ├ [3]: https://errata.almalinux.org/8/ALSA-2025-11803.html 
+│                       │      │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-6965.html 
+│                       │      │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-12010.html 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-6965 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7676-1 
+│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-6965 
+│                       │      │                  ╰ [9]: https://www.sqlite.org/src/info/5508b56fd24016c13981ec
 │                       │      │                         280ecdd833007c9d8dd595edb295b984c2b487b5c8 
 │                       │      ├ PublishedDate   : 2025-07-15T14:15:31.08Z 
 │                       │      ╰ LastModifiedDate: 2025-07-22T17:06:21.51Z 
-│                       ├ [19] ╭ VulnerabilityID : CVE-2016-20013 
+│                       ├ [20] ╭ VulnerabilityID : CVE-2016-20013 
 │                       │      ├ PkgID           : locales@2.41-6ubuntu1.1 
 │                       │      ├ PkgName         : locales 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/locales@2.41-6ubuntu1.1?arch=all&distr
@@ -1028,7 +1112,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2016-20013 
 │                       │      ├ PublishedDate   : 2022-02-19T05:15:09.413Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T02:47:33.427Z 
-│                       ├ [20] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [21] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : login.defs@1:4.16.0-7ubuntu1 
 │                       │      ├ PkgName         : login.defs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login.defs@4.16.0-7ubuntu1?arch=all&di
@@ -1061,7 +1145,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-1188 
 │                       │      ├ VendorSeverity   ╭ azure : 1 
-│                       │      │                  ├ redhat: 2 
+│                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
@@ -1076,7 +1160,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [21] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : passwd@1:4.16.0-7ubuntu1 
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.16.0-7ubuntu1?arch=amd64&dist
@@ -1109,7 +1193,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-1188 
 │                       │      ├ VendorSeverity   ╭ azure : 1 
-│                       │      │                  ├ redhat: 2 
+│                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
@@ -1124,7 +1208,238 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [22] ╭ VulnerabilityID : CVE-2025-45582 
+│                       ├ [23] ╭ VulnerabilityID : CVE-2025-40909 
+│                       │      ├ PkgID           : perl@5.40.1-2ubuntu0.1 
+│                       │      ├ PkgName         : perl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/perl@5.40.1-2ubuntu0.1?arch=amd64&dist
+│                       │      │                  │       ro=ubuntu-25.04 
+│                       │      │                  ╰ UID : e627389242c8e5f0 
+│                       │      ├ InstalledVersion: 5.40.1-2ubuntu0.1 
+│                       │      ├ FixedVersion    : 5.40.1-2ubuntu0.2 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:4f18ecef995aa970ac15a763d8adab9326ded6c2607a
+│                       │      │                  │         198f9f7a7426dfb0ae5d 
+│                       │      │                  ╰ DiffID: sha256:4b6abda765feb178027734a0af08dcf2c7497f840ccc
+│                       │      │                            54db41d50759b08a52ec 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-40909 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : perl: Perl threads have a working directory race condition
+│                       │      │                   where file operations may target unintended paths 
+│                       │      ├ Description     : Perl threads have a working directory race condition where
+│                       │      │                   file operations may target unintended paths.
+│                       │      │                   
+│                       │      │                   If a directory handle is open at thread creation, the
+│                       │      │                   process-wide current working directory is temporarily
+│                       │      │                   changed in order to clone that handle for the new thread,
+│                       │      │                   which is visible from any third (or more) thread already
+│                       │      │                   running. 
+│                       │      │                   This may lead to unintended operations such as loading code
+│                       │      │                   or accessing files from unexpected locations, which a local
+│                       │      │                   attacker may be able to exploit.
+│                       │      │                   The bug was introduced in commit
+│                       │      │                   11a11ecf4bea72b17d250cfb43c897be1341861e and released in
+│                       │      │                   Perl version 5.13.6 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-362 
+│                       │      │                  ╰ [1]: CWE-426 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.9 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/05/23/1 
+│                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/05/30/4 
+│                       │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2025/06/02/2 
+│                       │      │                  ├ [3] : http://www.openwall.com/lists/oss-security/2025/06/02/5 
+│                       │      │                  ├ [4] : http://www.openwall.com/lists/oss-security/2025/06/02/6 
+│                       │      │                  ├ [5] : http://www.openwall.com/lists/oss-security/2025/06/02/7 
+│                       │      │                  ├ [6] : http://www.openwall.com/lists/oss-security/2025/06/03/1 
+│                       │      │                  ├ [7] : https://access.redhat.com/errata/RHSA-2025:11805 
+│                       │      │                  ├ [8] : https://access.redhat.com/security/cve/CVE-2025-40909 
+│                       │      │                  ├ [9] : https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=109
+│                       │      │                  │       8226 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2369407 
+│                       │      │                  ├ [11]: https://errata.almalinux.org/8/ALSA-2025-11805.html 
+│                       │      │                  ├ [12]: https://github.com/Perl/perl5/commit/11a11ecf4bea72b1
+│                       │      │                  │       7d250cfb43c897be1341861e 
+│                       │      │                  ├ [13]: https://github.com/Perl/perl5/commit/918bfff86ca8d6d4
+│                       │      │                  │       e4ec5b30994451e0bd74aba9.patch 
+│                       │      │                  ├ [14]: https://github.com/Perl/perl5/issues/10387 
+│                       │      │                  ├ [15]: https://github.com/Perl/perl5/issues/23010 
+│                       │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2025-40909.html 
+│                       │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2025-11805.html 
+│                       │      │                  ├ [18]: https://lists.security.metacpan.org/cve-announce/msg/
+│                       │      │                  │       30017499/ 
+│                       │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2025-40909 
+│                       │      │                  ├ [20]: https://perldoc.perl.org/5.14.0/perl5136delta#Directo
+│                       │      │                  │       ry-handles-not-copied-to-threads 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7678-1 
+│                       │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2025-40909 
+│                       │      │                  ╰ [23]: https://www.openwall.com/lists/oss-security/2025/05/2
+│                       │      │                          2/2 
+│                       │      ├ PublishedDate   : 2025-05-30T13:15:22.35Z 
+│                       │      ╰ LastModifiedDate: 2025-06-03T04:15:40.47Z 
+│                       ├ [24] ╭ VulnerabilityID : CVE-2025-40909 
+│                       │      ├ PkgID           : perl-base@5.40.1-2ubuntu0.1 
+│                       │      ├ PkgName         : perl-base 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/perl-base@5.40.1-2ubuntu0.1?arch=amd64
+│                       │      │                  │       &distro=ubuntu-25.04 
+│                       │      │                  ╰ UID : 47c2b4fb696ffc5b 
+│                       │      ├ InstalledVersion: 5.40.1-2ubuntu0.1 
+│                       │      ├ FixedVersion    : 5.40.1-2ubuntu0.2 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:4f18ecef995aa970ac15a763d8adab9326ded6c2607a
+│                       │      │                  │         198f9f7a7426dfb0ae5d 
+│                       │      │                  ╰ DiffID: sha256:4b6abda765feb178027734a0af08dcf2c7497f840ccc
+│                       │      │                            54db41d50759b08a52ec 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-40909 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : perl: Perl threads have a working directory race condition
+│                       │      │                   where file operations may target unintended paths 
+│                       │      ├ Description     : Perl threads have a working directory race condition where
+│                       │      │                   file operations may target unintended paths.
+│                       │      │                   
+│                       │      │                   If a directory handle is open at thread creation, the
+│                       │      │                   process-wide current working directory is temporarily
+│                       │      │                   changed in order to clone that handle for the new thread,
+│                       │      │                   which is visible from any third (or more) thread already
+│                       │      │                   running. 
+│                       │      │                   This may lead to unintended operations such as loading code
+│                       │      │                   or accessing files from unexpected locations, which a local
+│                       │      │                   attacker may be able to exploit.
+│                       │      │                   The bug was introduced in commit
+│                       │      │                   11a11ecf4bea72b17d250cfb43c897be1341861e and released in
+│                       │      │                   Perl version 5.13.6 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-362 
+│                       │      │                  ╰ [1]: CWE-426 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.9 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/05/23/1 
+│                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/05/30/4 
+│                       │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2025/06/02/2 
+│                       │      │                  ├ [3] : http://www.openwall.com/lists/oss-security/2025/06/02/5 
+│                       │      │                  ├ [4] : http://www.openwall.com/lists/oss-security/2025/06/02/6 
+│                       │      │                  ├ [5] : http://www.openwall.com/lists/oss-security/2025/06/02/7 
+│                       │      │                  ├ [6] : http://www.openwall.com/lists/oss-security/2025/06/03/1 
+│                       │      │                  ├ [7] : https://access.redhat.com/errata/RHSA-2025:11805 
+│                       │      │                  ├ [8] : https://access.redhat.com/security/cve/CVE-2025-40909 
+│                       │      │                  ├ [9] : https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=109
+│                       │      │                  │       8226 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2369407 
+│                       │      │                  ├ [11]: https://errata.almalinux.org/8/ALSA-2025-11805.html 
+│                       │      │                  ├ [12]: https://github.com/Perl/perl5/commit/11a11ecf4bea72b1
+│                       │      │                  │       7d250cfb43c897be1341861e 
+│                       │      │                  ├ [13]: https://github.com/Perl/perl5/commit/918bfff86ca8d6d4
+│                       │      │                  │       e4ec5b30994451e0bd74aba9.patch 
+│                       │      │                  ├ [14]: https://github.com/Perl/perl5/issues/10387 
+│                       │      │                  ├ [15]: https://github.com/Perl/perl5/issues/23010 
+│                       │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2025-40909.html 
+│                       │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2025-11805.html 
+│                       │      │                  ├ [18]: https://lists.security.metacpan.org/cve-announce/msg/
+│                       │      │                  │       30017499/ 
+│                       │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2025-40909 
+│                       │      │                  ├ [20]: https://perldoc.perl.org/5.14.0/perl5136delta#Directo
+│                       │      │                  │       ry-handles-not-copied-to-threads 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7678-1 
+│                       │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2025-40909 
+│                       │      │                  ╰ [23]: https://www.openwall.com/lists/oss-security/2025/05/2
+│                       │      │                          2/2 
+│                       │      ├ PublishedDate   : 2025-05-30T13:15:22.35Z 
+│                       │      ╰ LastModifiedDate: 2025-06-03T04:15:40.47Z 
+│                       ├ [25] ╭ VulnerabilityID : CVE-2025-40909 
+│                       │      ├ PkgID           : perl-modules-5.40@5.40.1-2ubuntu0.1 
+│                       │      ├ PkgName         : perl-modules-5.40 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/perl-modules-5.40@5.40.1-2ubuntu0.1?ar
+│                       │      │                  │       ch=all&distro=ubuntu-25.04 
+│                       │      │                  ╰ UID : 7e89dc61f8d08c9f 
+│                       │      ├ InstalledVersion: 5.40.1-2ubuntu0.1 
+│                       │      ├ FixedVersion    : 5.40.1-2ubuntu0.2 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:4f18ecef995aa970ac15a763d8adab9326ded6c2607a
+│                       │      │                  │         198f9f7a7426dfb0ae5d 
+│                       │      │                  ╰ DiffID: sha256:4b6abda765feb178027734a0af08dcf2c7497f840ccc
+│                       │      │                            54db41d50759b08a52ec 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-40909 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : perl: Perl threads have a working directory race condition
+│                       │      │                   where file operations may target unintended paths 
+│                       │      ├ Description     : Perl threads have a working directory race condition where
+│                       │      │                   file operations may target unintended paths.
+│                       │      │                   
+│                       │      │                   If a directory handle is open at thread creation, the
+│                       │      │                   process-wide current working directory is temporarily
+│                       │      │                   changed in order to clone that handle for the new thread,
+│                       │      │                   which is visible from any third (or more) thread already
+│                       │      │                   running. 
+│                       │      │                   This may lead to unintended operations such as loading code
+│                       │      │                   or accessing files from unexpected locations, which a local
+│                       │      │                   attacker may be able to exploit.
+│                       │      │                   The bug was introduced in commit
+│                       │      │                   11a11ecf4bea72b17d250cfb43c897be1341861e and released in
+│                       │      │                   Perl version 5.13.6 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-362 
+│                       │      │                  ╰ [1]: CWE-426 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.9 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/05/23/1 
+│                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/05/30/4 
+│                       │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2025/06/02/2 
+│                       │      │                  ├ [3] : http://www.openwall.com/lists/oss-security/2025/06/02/5 
+│                       │      │                  ├ [4] : http://www.openwall.com/lists/oss-security/2025/06/02/6 
+│                       │      │                  ├ [5] : http://www.openwall.com/lists/oss-security/2025/06/02/7 
+│                       │      │                  ├ [6] : http://www.openwall.com/lists/oss-security/2025/06/03/1 
+│                       │      │                  ├ [7] : https://access.redhat.com/errata/RHSA-2025:11805 
+│                       │      │                  ├ [8] : https://access.redhat.com/security/cve/CVE-2025-40909 
+│                       │      │                  ├ [9] : https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=109
+│                       │      │                  │       8226 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2369407 
+│                       │      │                  ├ [11]: https://errata.almalinux.org/8/ALSA-2025-11805.html 
+│                       │      │                  ├ [12]: https://github.com/Perl/perl5/commit/11a11ecf4bea72b1
+│                       │      │                  │       7d250cfb43c897be1341861e 
+│                       │      │                  ├ [13]: https://github.com/Perl/perl5/commit/918bfff86ca8d6d4
+│                       │      │                  │       e4ec5b30994451e0bd74aba9.patch 
+│                       │      │                  ├ [14]: https://github.com/Perl/perl5/issues/10387 
+│                       │      │                  ├ [15]: https://github.com/Perl/perl5/issues/23010 
+│                       │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2025-40909.html 
+│                       │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2025-11805.html 
+│                       │      │                  ├ [18]: https://lists.security.metacpan.org/cve-announce/msg/
+│                       │      │                  │       30017499/ 
+│                       │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2025-40909 
+│                       │      │                  ├ [20]: https://perldoc.perl.org/5.14.0/perl5136delta#Directo
+│                       │      │                  │       ry-handles-not-copied-to-threads 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7678-1 
+│                       │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2025-40909 
+│                       │      │                  ╰ [23]: https://www.openwall.com/lists/oss-security/2025/05/2
+│                       │      │                          2/2 
+│                       │      ├ PublishedDate   : 2025-05-30T13:15:22.35Z 
+│                       │      ╰ LastModifiedDate: 2025-06-03T04:15:40.47Z 
+│                       ├ [26] ╭ VulnerabilityID : CVE-2025-45582 
 │                       │      ├ PkgID           : tar@1.35+dfsg-3.1 
 │                       │      ├ PkgName         : tar 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3.1?arch=amd64&distro=
@@ -1180,7 +1495,7 @@
 │                       │      │                         grity.html#Integrity 
 │                       │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                       │      ╰ LastModifiedDate: 2025-07-17T13:09:39.997Z 
-│                       ╰ [23] ╭ VulnerabilityID : CVE-2021-31879 
+│                       ╰ [27] ╭ VulnerabilityID : CVE-2021-31879 
 │                              ├ PkgID           : wget@1.24.5-2ubuntu1 
 │                              ├ PkgName         : wget 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.24.5-2ubuntu1?arch=amd64&distro

@@ -7,7 +7,7 @@
 │                       │      ├ PkgName         : coreutils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/coreutils@9.5-1ubuntu1.25.04.1?arch=am
 │                       │      │                  │       d64&distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 2dee316f186d187a 
+│                       │      │                  ╰ UID : 4420166f792adb9f 
 │                       │      ├ InstalledVersion: 9.5-1ubuntu1.25.04.1 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:4f18ecef995aa970ac15a763d8adab9326ded6c2607a
@@ -104,7 +104,7 @@
 │                       │      ├ PkgName         : libc-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc-bin@2.41-6ubuntu1.1?arch=amd64&di
 │                       │      │                  │       stro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 2e3397a2ed854c46 
+│                       │      │                  ╰ UID : 798a8ba2010c8ddb 
 │                       │      ├ InstalledVersion: 2.41-6ubuntu1.1 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:4f18ecef995aa970ac15a763d8adab9326ded6c2607a
@@ -140,7 +140,7 @@
 │                       │      ├ PkgName         : libc6 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc6@2.41-6ubuntu1.1?arch=amd64&distr
 │                       │      │                  │       o=ubuntu-25.04 
-│                       │      │                  ╰ UID : b21898bd1df05fa3 
+│                       │      │                  ╰ UID : de34a93826490997 
 │                       │      ├ InstalledVersion: 2.41-6ubuntu1.1 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:4f18ecef995aa970ac15a763d8adab9326ded6c2607a
@@ -176,7 +176,7 @@
 │                       │      ├ PkgName         : libgcrypt20 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcrypt20@1.11.0-6ubuntu1?arch=amd64
 │                       │      │                  │       &distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 5904b0b508923af9 
+│                       │      │                  ╰ UID : 97b71536671f4622 
 │                       │      ├ InstalledVersion: 1.11.0-6ubuntu1 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:4f18ecef995aa970ac15a763d8adab9326ded6c2607a
@@ -229,7 +229,7 @@
 │                       │      ├ PkgName         : libglib2.0-0t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libglib2.0-0t64@2.84.1-1ubuntu0.1?arch
 │                       │      │                  │       =amd64&distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 327539f61c12edc4 
+│                       │      │                  ╰ UID : e5947c59276a911d 
 │                       │      ├ InstalledVersion: 2.84.1-1ubuntu0.1 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:4f18ecef995aa970ac15a763d8adab9326ded6c2607a
@@ -313,7 +313,7 @@
 │                       │      ├ PkgName         : libpam-modules 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules@1.5.3-7ubuntu4.3?arch=a
 │                       │      │                  │       md64&distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 8a0887ccb0ee46e2 
+│                       │      │                  ╰ UID : 1f70a9af7a8bc1e3 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:4f18ecef995aa970ac15a763d8adab9326ded6c2607a
@@ -369,7 +369,7 @@
 │                       │      ├ PkgName         : libpam-modules 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules@1.5.3-7ubuntu4.3?arch=a
 │                       │      │                  │       md64&distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 8a0887ccb0ee46e2 
+│                       │      │                  ╰ UID : 1f70a9af7a8bc1e3 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:4f18ecef995aa970ac15a763d8adab9326ded6c2607a
@@ -428,7 +428,7 @@
 │                       │      ├ PkgName         : libpam-modules-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-7ubuntu4.3?ar
 │                       │      │                  │       ch=amd64&distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : d8ba224caf087ede 
+│                       │      │                  ╰ UID : 914231a75f77278f 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:4f18ecef995aa970ac15a763d8adab9326ded6c2607a
@@ -484,7 +484,7 @@
 │                       │      ├ PkgName         : libpam-modules-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-7ubuntu4.3?ar
 │                       │      │                  │       ch=amd64&distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : d8ba224caf087ede 
+│                       │      │                  ╰ UID : 914231a75f77278f 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:4f18ecef995aa970ac15a763d8adab9326ded6c2607a
@@ -543,7 +543,7 @@
 │                       │      ├ PkgName         : libpam-runtime 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-7ubuntu4.3?arch=a
 │                       │      │                  │       ll&distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 11da3ddf37287ea 
+│                       │      │                  ╰ UID : 1420d5870a0f1057 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:4f18ecef995aa970ac15a763d8adab9326ded6c2607a
@@ -599,7 +599,7 @@
 │                       │      ├ PkgName         : libpam-runtime 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-7ubuntu4.3?arch=a
 │                       │      │                  │       ll&distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 11da3ddf37287ea 
+│                       │      │                  ╰ UID : 1420d5870a0f1057 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:4f18ecef995aa970ac15a763d8adab9326ded6c2607a
@@ -658,7 +658,7 @@
 │                       │      ├ PkgName         : libpam0g 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu4.3?arch=amd64&d
 │                       │      │                  │       istro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 81d18cf0b55a9957 
+│                       │      │                  ╰ UID : 78dc01c1ea68c9c2 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:4f18ecef995aa970ac15a763d8adab9326ded6c2607a
@@ -714,7 +714,7 @@
 │                       │      ├ PkgName         : libpam0g 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu4.3?arch=amd64&d
 │                       │      │                  │       istro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 81d18cf0b55a9957 
+│                       │      │                  ╰ UID : 78dc01c1ea68c9c2 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:4f18ecef995aa970ac15a763d8adab9326ded6c2607a
@@ -773,7 +773,7 @@
 │                       │      ├ PkgName         : libperl5.40 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libperl5.40@5.40.1-2ubuntu0.1?arch=amd
 │                       │      │                  │       64&distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 5a3dfa88091f0f84 
+│                       │      │                  ╰ UID : 3b25b26fcc48aa94 
 │                       │      ├ InstalledVersion: 5.40.1-2ubuntu0.1 
 │                       │      ├ FixedVersion    : 5.40.1-2ubuntu0.2 
 │                       │      ├ Status          : fixed 
@@ -807,6 +807,7 @@
 │                       │      │                  ╰ [1]: CWE-426 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -833,7 +834,7 @@
 │                       │      │                  ├ [14]: https://github.com/Perl/perl5/issues/10387 
 │                       │      │                  ├ [15]: https://github.com/Perl/perl5/issues/23010 
 │                       │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2025-40909.html 
-│                       │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2025-11805.html 
+│                       │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2025-12056.html 
 │                       │      │                  ├ [18]: https://lists.security.metacpan.org/cve-announce/msg/
 │                       │      │                  │       30017499/ 
 │                       │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2025-40909 
@@ -850,7 +851,7 @@
 │                       │      ├ PkgName         : libpython3.13 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.13@3.13.3-1ubuntu0.2?arch=a
 │                       │      │                  │       md64&distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : b6465d99e9c96247 
+│                       │      │                  ╰ UID : 24409b48286c98a8 
 │                       │      ├ InstalledVersion: 3.13.3-1ubuntu0.2 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:4f18ecef995aa970ac15a763d8adab9326ded6c2607a
@@ -910,7 +911,7 @@
 │                       │      ├ PkgName         : libpython3.13-minimal 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.13-minimal@3.13.3-1ubuntu0.
 │                       │      │                  │       2?arch=amd64&distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 56647c96deaac313 
+│                       │      │                  ╰ UID : 9c7a65168b2ca24c 
 │                       │      ├ InstalledVersion: 3.13.3-1ubuntu0.2 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:4f18ecef995aa970ac15a763d8adab9326ded6c2607a
@@ -970,7 +971,7 @@
 │                       │      ├ PkgName         : libpython3.13-stdlib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.13-stdlib@3.13.3-1ubuntu0.2
 │                       │      │                  │       ?arch=amd64&distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : d2d28e75d5f6d84b 
+│                       │      │                  ╰ UID : a2b2fc42284aeaaf 
 │                       │      ├ InstalledVersion: 3.13.3-1ubuntu0.2 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:4f18ecef995aa970ac15a763d8adab9326ded6c2607a
@@ -1030,7 +1031,7 @@
 │                       │      ├ PkgName         : libsqlite3-0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsqlite3-0@3.46.1-3ubuntu0.1?arch=am
 │                       │      │                  │       d64&distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 4dcc16f608b621dc 
+│                       │      │                  ╰ UID : 8df742065dc11207 
 │                       │      ├ InstalledVersion: 3.46.1-3ubuntu0.1 
 │                       │      ├ FixedVersion    : 3.46.1-3ubuntu0.2 
 │                       │      ├ Status          : fixed 
@@ -1063,17 +1064,18 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:H
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 7.7 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:11803 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-6965 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2380149 
-│                       │      │                  ├ [3]: https://errata.almalinux.org/8/ALSA-2025-11803.html 
-│                       │      │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-6965.html 
-│                       │      │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-12010.html 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-6965 
-│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7676-1 
-│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-6965 
-│                       │      │                  ╰ [9]: https://www.sqlite.org/src/info/5508b56fd24016c13981ec
-│                       │      │                         280ecdd833007c9d8dd595edb295b984c2b487b5c8 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:11933 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-6965 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2380149 
+│                       │      │                  ├ [3] : https://errata.almalinux.org/10/ALSA-2025-11933.html 
+│                       │      │                  ├ [4] : https://linux.oracle.com/cve/CVE-2025-6965.html 
+│                       │      │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2025-12010.html 
+│                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-6965 
+│                       │      │                  ├ [7] : https://ubuntu.com/security/notices/USN-7676-1 
+│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7679-1 
+│                       │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2025-6965 
+│                       │      │                  ╰ [10]: https://www.sqlite.org/src/info/5508b56fd24016c13981e
+│                       │      │                          c280ecdd833007c9d8dd595edb295b984c2b487b5c8 
 │                       │      ├ PublishedDate   : 2025-07-15T14:15:31.08Z 
 │                       │      ╰ LastModifiedDate: 2025-07-22T17:06:21.51Z 
 │                       ├ [20] ╭ VulnerabilityID : CVE-2016-20013 
@@ -1081,7 +1083,7 @@
 │                       │      ├ PkgName         : locales 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/locales@2.41-6ubuntu1.1?arch=all&distr
 │                       │      │                  │       o=ubuntu-25.04 
-│                       │      │                  ╰ UID : b16e8335275bc96b 
+│                       │      │                  ╰ UID : 259a33310ff79685 
 │                       │      ├ InstalledVersion: 2.41-6ubuntu1.1 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:4f18ecef995aa970ac15a763d8adab9326ded6c2607a
@@ -1117,7 +1119,7 @@
 │                       │      ├ PkgName         : login.defs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login.defs@4.16.0-7ubuntu1?arch=all&di
 │                       │      │                  │       stro=ubuntu-25.04&epoch=1 
-│                       │      │                  ╰ UID : 3c8b88c42ea22e9c 
+│                       │      │                  ╰ UID : 4016d70dedce9ad0 
 │                       │      ├ InstalledVersion: 1:4.16.0-7ubuntu1 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:4f18ecef995aa970ac15a763d8adab9326ded6c2607a
@@ -1165,7 +1167,7 @@
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.16.0-7ubuntu1?arch=amd64&dist
 │                       │      │                  │       ro=ubuntu-25.04&epoch=1 
-│                       │      │                  ╰ UID : 9c1b1d7dcc1c866 
+│                       │      │                  ╰ UID : f3a0273134c1de96 
 │                       │      ├ InstalledVersion: 1:4.16.0-7ubuntu1 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:4f18ecef995aa970ac15a763d8adab9326ded6c2607a
@@ -1213,7 +1215,7 @@
 │                       │      ├ PkgName         : perl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/perl@5.40.1-2ubuntu0.1?arch=amd64&dist
 │                       │      │                  │       ro=ubuntu-25.04 
-│                       │      │                  ╰ UID : e627389242c8e5f0 
+│                       │      │                  ╰ UID : 3028748aa830fc8f 
 │                       │      ├ InstalledVersion: 5.40.1-2ubuntu0.1 
 │                       │      ├ FixedVersion    : 5.40.1-2ubuntu0.2 
 │                       │      ├ Status          : fixed 
@@ -1247,6 +1249,7 @@
 │                       │      │                  ╰ [1]: CWE-426 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -1273,7 +1276,7 @@
 │                       │      │                  ├ [14]: https://github.com/Perl/perl5/issues/10387 
 │                       │      │                  ├ [15]: https://github.com/Perl/perl5/issues/23010 
 │                       │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2025-40909.html 
-│                       │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2025-11805.html 
+│                       │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2025-12056.html 
 │                       │      │                  ├ [18]: https://lists.security.metacpan.org/cve-announce/msg/
 │                       │      │                  │       30017499/ 
 │                       │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2025-40909 
@@ -1290,7 +1293,7 @@
 │                       │      ├ PkgName         : perl-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/perl-base@5.40.1-2ubuntu0.1?arch=amd64
 │                       │      │                  │       &distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 47c2b4fb696ffc5b 
+│                       │      │                  ╰ UID : d890fbc6969495a8 
 │                       │      ├ InstalledVersion: 5.40.1-2ubuntu0.1 
 │                       │      ├ FixedVersion    : 5.40.1-2ubuntu0.2 
 │                       │      ├ Status          : fixed 
@@ -1324,6 +1327,7 @@
 │                       │      │                  ╰ [1]: CWE-426 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -1350,7 +1354,7 @@
 │                       │      │                  ├ [14]: https://github.com/Perl/perl5/issues/10387 
 │                       │      │                  ├ [15]: https://github.com/Perl/perl5/issues/23010 
 │                       │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2025-40909.html 
-│                       │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2025-11805.html 
+│                       │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2025-12056.html 
 │                       │      │                  ├ [18]: https://lists.security.metacpan.org/cve-announce/msg/
 │                       │      │                  │       30017499/ 
 │                       │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2025-40909 
@@ -1367,7 +1371,7 @@
 │                       │      ├ PkgName         : perl-modules-5.40 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/perl-modules-5.40@5.40.1-2ubuntu0.1?ar
 │                       │      │                  │       ch=all&distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 7e89dc61f8d08c9f 
+│                       │      │                  ╰ UID : 9f28f1f57be0dc18 
 │                       │      ├ InstalledVersion: 5.40.1-2ubuntu0.1 
 │                       │      ├ FixedVersion    : 5.40.1-2ubuntu0.2 
 │                       │      ├ Status          : fixed 
@@ -1401,6 +1405,7 @@
 │                       │      │                  ╰ [1]: CWE-426 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -1427,7 +1432,7 @@
 │                       │      │                  ├ [14]: https://github.com/Perl/perl5/issues/10387 
 │                       │      │                  ├ [15]: https://github.com/Perl/perl5/issues/23010 
 │                       │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2025-40909.html 
-│                       │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2025-11805.html 
+│                       │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2025-12056.html 
 │                       │      │                  ├ [18]: https://lists.security.metacpan.org/cve-announce/msg/
 │                       │      │                  │       30017499/ 
 │                       │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2025-40909 
@@ -1444,7 +1449,7 @@
 │                       │      ├ PkgName         : tar 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3.1?arch=amd64&distro=
 │                       │      │                  │       ubuntu-25.04 
-│                       │      │                  ╰ UID : a4187a8c3d48826a 
+│                       │      │                  ╰ UID : a03ee9a61d584e89 
 │                       │      ├ InstalledVersion: 1.35+dfsg-3.1 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:4f18ecef995aa970ac15a763d8adab9326ded6c2607a
@@ -1500,7 +1505,7 @@
 │                              ├ PkgName         : wget 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.24.5-2ubuntu1?arch=amd64&distro
 │                              │                  │       =ubuntu-25.04 
-│                              │                  ╰ UID : 5d689b1797feb84d 
+│                              │                  ╰ UID : eaa03d90709264fd 
 │                              ├ InstalledVersion: 1.24.5-2ubuntu1 
 │                              ├ Status          : affected 
 │                              ├ Layer            ╭ Digest: sha256:4f18ecef995aa970ac15a763d8adab9326ded6c2607a

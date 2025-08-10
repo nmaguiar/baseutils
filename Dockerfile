@@ -14,7 +14,8 @@ RUN sed -i 's/v[0-9]*\.[0-9]*/edge/g' /etc/apk/repositories\
  && chown openaf:0 /openaf/.opack.db\
  && chmod -R u+rwx,g+rwx,o+rx,o-w /openaf/*\
  && chmod a+rwx /openaf\
- && sudo chmod g+w /openaf/.opack.db
+ && sudo chmod g+w /openaf/.opack.db\
+ && rm -rf /var/cache/apk/*
 
 # Setup welcome message and vars
 # ------------------------------

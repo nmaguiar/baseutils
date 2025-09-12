@@ -929,7 +929,87 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-58050 
 │                       │      ├ PublishedDate   : 2025-08-27T19:15:37.56Z 
 │                       │      ╰ LastModifiedDate: 2025-09-09T15:27:39.573Z 
-│                       ├ [18] ╭ VulnerabilityID : CVE-2025-8058 
+│                       ├ [18] ╭ VulnerabilityID : CVE-2025-7709 
+│                       │      ├ PkgID           : libsqlite3-0@3.46.1-3ubuntu0.2 
+│                       │      ├ PkgName         : libsqlite3-0 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsqlite3-0@3.46.1-3ubuntu0.2?arch=am
+│                       │      │                  │       d64&distro=ubuntu-25.04 
+│                       │      │                  ╰ UID : 16dbddfd8297297e 
+│                       │      ├ InstalledVersion: 3.46.1-3ubuntu0.2 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:ab25e5de4cc8935d7f2fc24a2c98b0e870e6bb09289d
+│                       │      │                  │         f2bad6c067e411b50b9e 
+│                       │      │                  ╰ DiffID: sha256:67867a60c78490aba8ca483eaadcd8e8de7c218a01eb
+│                       │      │                            b44815f3f578cf403405 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-7709 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : An integer overflow exists in the  FTS5
+│                       │      │                   https://sqlite.org/fts5.html e ... 
+│                       │      ├ Description     : An integer overflow exists in the  FTS5
+│                       │      │                   https://sqlite.org/fts5.html  extension. It occurs when the
+│                       │      │                   size of an array of tombstone pointers is calculated and
+│                       │      │                   truncated into a 32-bit integer. A pointer to partially
+│                       │      │                   controlled data can then be written out of bounds. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-190 
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References       ╭ [0]: https://github.com/google/security-research/security/a
+│                       │      │                  │      dvisories/GHSA-v2c8-vqqp-hv3g 
+│                       │      │                  ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2025-7709 
+│                       │      ├ PublishedDate   : 2025-09-08T15:15:38.18Z 
+│                       │      ╰ LastModifiedDate: 2025-09-08T16:25:38.81Z 
+│                       ├ [19] ╭ VulnerabilityID : CVE-2025-9714 
+│                       │      ├ PkgID           : libxml2@2.12.7+dfsg+really2.9.14-0.4ubuntu0.2 
+│                       │      ├ PkgName         : libxml2 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxml2@2.12.7%2Bdfsg%2Breally2.9.14-0
+│                       │      │                  │       .4ubuntu0.2?arch=amd64&distro=ubuntu-25.04 
+│                       │      │                  ╰ UID : 43e8879fce25c954 
+│                       │      ├ InstalledVersion: 2.12.7+dfsg+really2.9.14-0.4ubuntu0.2 
+│                       │      ├ FixedVersion    : 2.12.7+dfsg+really2.9.14-0.4ubuntu0.3 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:ab25e5de4cc8935d7f2fc24a2c98b0e870e6bb09289d
+│                       │      │                  │         f2bad6c067e411b50b9e 
+│                       │      │                  ╰ DiffID: sha256:67867a60c78490aba8ca483eaadcd8e8de7c218a01eb
+│                       │      │                            b44815f3f578cf403405 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-9714 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : libxslt: libxml2: Inifinite recursion at exsltDynMapFunction
+│                       │      │                    function in libexslt/dynamic.c 
+│                       │      ├ Description     : Uncontrolled recursion in XPath evaluation in libxml2 up to
+│                       │      │                   and including version 2.9.14 allows a local attacker to
+│                       │      │                   cause a stack overflow via crafted expressions. XPath
+│                       │      │                   processing functions `xmlXPathRunEval`,
+│                       │      │                   `xmlXPathCtxtCompile`, and `xmlXPathEvalExpr` were resetting
+│                       │      │                    recursion depth to zero before making potentially recursive
+│                       │      │                    calls. When such functions were called recursively this
+│                       │      │                   could allow for uncontrolled recursion and lead to a stack
+│                       │      │                   overflow. These functions now preserve recursion depth
+│                       │      │                   across recursive calls, allowing recursion depth to be
+│                       │      │                   controlled. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-674 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.2 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-9714 
+│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2392605 
+│                       │      │                  ├ [2]: https://gitlab.gnome.org/GNOME/libxml2/-/commit/677a42
+│                       │      │                  │      645ef22b5a50741bad5facf9d8a8bc6d21 
+│                       │      │                  ├ [3]: https://gitlab.gnome.org/GNOME/libxslt/-/issues/148 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-9714 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7743-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-9714 
+│                       │      ├ PublishedDate   : 2025-09-10T19:15:42.707Z 
+│                       │      ╰ LastModifiedDate: 2025-09-11T17:14:10.147Z 
+│                       ├ [20] ╭ VulnerabilityID : CVE-2025-8058 
 │                       │      ├ PkgID           : locales@2.41-6ubuntu1.1 
 │                       │      ├ PkgName         : locales 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/locales@2.41-6ubuntu1.1?arch=all&distr
@@ -989,7 +1069,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-8058 
 │                       │      ├ PublishedDate   : 2025-07-23T20:15:27.747Z 
 │                       │      ╰ LastModifiedDate: 2025-07-25T15:29:44.523Z 
-│                       ├ [19] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [21] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : login.defs@1:4.16.0-7ubuntu1 
 │                       │      ├ PkgName         : login.defs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login.defs@4.16.0-7ubuntu1?arch=all&di
@@ -1037,7 +1117,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [20] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : passwd@1:4.16.0-7ubuntu1 
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.16.0-7ubuntu1?arch=amd64&dist
@@ -1085,7 +1165,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [21] ╭ VulnerabilityID : CVE-2025-45582 
+│                       ├ [23] ╭ VulnerabilityID : CVE-2025-45582 
 │                       │      ├ PkgID           : tar@1.35+dfsg-3.1 
 │                       │      ├ PkgName         : tar 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3.1?arch=amd64&distro=
@@ -1151,7 +1231,7 @@
 │                       │      │                         rity-rules-of-thumb.html 
 │                       │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                       │      ╰ LastModifiedDate: 2025-08-18T04:15:36.743Z 
-│                       ╰ [22] ╭ VulnerabilityID : CVE-2021-31879 
+│                       ╰ [24] ╭ VulnerabilityID : CVE-2021-31879 
 │                              ├ PkgID           : wget@1.24.5-2ubuntu1 
 │                              ├ PkgName         : wget 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.24.5-2ubuntu1?arch=amd64&distro

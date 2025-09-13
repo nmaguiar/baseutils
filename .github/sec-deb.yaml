@@ -3,16 +3,16 @@
   Type: ubuntu
   Vulnerabilities:
   - VulnerabilityID: CVE-2016-2781
-    PkgID: coreutils@9.5-1ubuntu1.25.04.1
+    PkgID: coreutils@9.5-1ubuntu1.25.04.2
     PkgName: coreutils
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/coreutils@9.5-1ubuntu1.25.04.1?arch=amd64&distro=ubuntu-25.04
-      UID: 4420166f792adb9f
-    InstalledVersion: 9.5-1ubuntu1.25.04.1
+      PURL: pkg:deb/ubuntu/coreutils@9.5-1ubuntu1.25.04.2?arch=amd64&distro=ubuntu-25.04
+      UID: fb90d22e49e1fb47
+    InstalledVersion: 9.5-1ubuntu1.25.04.2
     Status: affected
     Layer:
-      Digest: sha256:ab25e5de4cc8935d7f2fc24a2c98b0e870e6bb09289df2bad6c067e411b50b9e
-      DiffID: sha256:67867a60c78490aba8ca483eaadcd8e8de7c218a01ebb44815f3f578cf403405
+      Digest: sha256:d2cb5aec6259e4cfad2b357ad8b96c1ab4bb67a0ef9b1fded118ba7513767a89
+      DiffID: sha256:faaab809ae40b34d90caeff15e0d7a9d6d7ef3aef8bbba81d23aa539cc2aeffa
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-2781
     DataSource:
@@ -53,6 +53,44 @@
     - https://www.cve.org/CVERecord?id=CVE-2016-2781
     PublishedDate: '2017-02-07T15:59:00.333Z'
     LastModifiedDate: '2025-06-09T16:15:25.013Z'
+  - VulnerabilityID: CVE-2025-10148
+    PkgID: curl@8.12.1-3ubuntu1
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.12.1-3ubuntu1?arch=amd64&distro=ubuntu-25.04
+      UID: 10b1fa91959ee993
+    InstalledVersion: 8.12.1-3ubuntu1
+    Status: affected
+    Layer:
+      Digest: sha256:d2cb5aec6259e4cfad2b357ad8b96c1ab4bb67a0ef9b1fded118ba7513767a89
+      DiffID: sha256:faaab809ae40b34d90caeff15e0d7a9d6d7ef3aef8bbba81d23aa539cc2aeffa
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-10148
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: curl's websocket code did not update the 32 bit mask pattern for each  ...
+    Description: |-
+      curl's websocket code did not update the 32 bit mask pattern for each new
+       outgoing frame as the specification says. Instead it used a fixed mask that
+      persisted and was used throughout the entire connection.
+
+      A predictable mask pattern allows for a malicious server to induce traffic
+      between the two communicating parties that could be interpreted by an involved
+      proxy (configured or transparent) as genuine, real, HTTP traffic with content
+      and thereby poison its cache. That cached poisoned content could then be
+      served to all users of that proxy.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/docs/CVE-2025-10148.html
+    - https://curl.se/docs/CVE-2025-10148.json
+    - https://hackerone.com/reports/3330839
+    - https://www.cve.org/CVERecord?id=CVE-2025-10148
+    PublishedDate: '2025-09-12T06:15:40.02Z'
+    LastModifiedDate: '2025-09-12T06:15:40.02Z'
   - VulnerabilityID: CVE-2025-9086
     PkgID: curl@8.12.1-3ubuntu1
     PkgName: curl
@@ -62,22 +100,42 @@
     InstalledVersion: 8.12.1-3ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:ab25e5de4cc8935d7f2fc24a2c98b0e870e6bb09289df2bad6c067e411b50b9e
-      DiffID: sha256:67867a60c78490aba8ca483eaadcd8e8de7c218a01ebb44815f3f578cf403405
+      Digest: sha256:d2cb5aec6259e4cfad2b357ad8b96c1ab4bb67a0ef9b1fded118ba7513767a89
+      DiffID: sha256:faaab809ae40b34d90caeff15e0d7a9d6d7ef3aef8bbba81d23aa539cc2aeffa
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9086
     DataSource:
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: '[Out of bounds read for cookie path]'
-    Description: Out-of-bounds read when dealing with cookies
+    Title: 1. A cookie is set using the `secure` keyword for `https://target` 2.  ...
+    Description: |-
+      1. A cookie is set using the `secure` keyword for `https://target`
+      2. curl is redirected to or otherwise made to speak with `http://target` (same
+         hostname, but using clear text HTTP) using the same cookie set
+      3. The same cookie name is set - but with just a slash as path (`path='/'`).
+         Since this site is not secure, the cookie *should* just be ignored.
+      4. A bug in the path comparison logic makes curl read outside a heap buffer
+         boundary
+
+      The bug either causes a crash or it potentially makes the comparison come to
+      the wrong conclusion and lets the clear-text site override the contents of the
+      secure cookie, contrary to expectations and depending on the memory contents
+      immediately following the single-byte allocation that holds the path.
+
+      The presumed and correct behavior would be to plainly ignore the second set of
+      the cookie since it was already set as secure on a secure host so overriding
+      it on an insecure host should not be okay.
     Severity: LOW
     VendorSeverity:
       ubuntu: 1
     References:
     - https://curl.se/docs/CVE-2025-9086.html
+    - https://curl.se/docs/CVE-2025-9086.json
+    - https://hackerone.com/reports/3294999
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
+    PublishedDate: '2025-09-12T06:15:44.1Z'
+    LastModifiedDate: '2025-09-12T06:15:44.1Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpgv@2.4.4-2ubuntu23.1
     PkgName: gpgv
@@ -87,8 +145,8 @@
     InstalledVersion: 2.4.4-2ubuntu23.1
     Status: affected
     Layer:
-      Digest: sha256:ab25e5de4cc8935d7f2fc24a2c98b0e870e6bb09289df2bad6c067e411b50b9e
-      DiffID: sha256:67867a60c78490aba8ca483eaadcd8e8de7c218a01ebb44815f3f578cf403405
+      Digest: sha256:d2cb5aec6259e4cfad2b357ad8b96c1ab4bb67a0ef9b1fded118ba7513767a89
+      DiffID: sha256:faaab809ae40b34d90caeff15e0d7a9d6d7ef3aef8bbba81d23aa539cc2aeffa
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -131,8 +189,8 @@
     InstalledVersion: 2.41-6ubuntu1.1
     Status: affected
     Layer:
-      Digest: sha256:ab25e5de4cc8935d7f2fc24a2c98b0e870e6bb09289df2bad6c067e411b50b9e
-      DiffID: sha256:67867a60c78490aba8ca483eaadcd8e8de7c218a01ebb44815f3f578cf403405
+      Digest: sha256:d2cb5aec6259e4cfad2b357ad8b96c1ab4bb67a0ef9b1fded118ba7513767a89
+      DiffID: sha256:faaab809ae40b34d90caeff15e0d7a9d6d7ef3aef8bbba81d23aa539cc2aeffa
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8058
     DataSource:
@@ -187,8 +245,8 @@
     InstalledVersion: 2.41-6ubuntu1.1
     Status: affected
     Layer:
-      Digest: sha256:ab25e5de4cc8935d7f2fc24a2c98b0e870e6bb09289df2bad6c067e411b50b9e
-      DiffID: sha256:67867a60c78490aba8ca483eaadcd8e8de7c218a01ebb44815f3f578cf403405
+      Digest: sha256:d2cb5aec6259e4cfad2b357ad8b96c1ab4bb67a0ef9b1fded118ba7513767a89
+      DiffID: sha256:faaab809ae40b34d90caeff15e0d7a9d6d7ef3aef8bbba81d23aa539cc2aeffa
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8058
     DataSource:
@@ -234,6 +292,44 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-8058
     PublishedDate: '2025-07-23T20:15:27.747Z'
     LastModifiedDate: '2025-07-25T15:29:44.523Z'
+  - VulnerabilityID: CVE-2025-10148
+    PkgID: libcurl4t64@8.12.1-3ubuntu1
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.12.1-3ubuntu1?arch=amd64&distro=ubuntu-25.04
+      UID: c4a83a72d7a57798
+    InstalledVersion: 8.12.1-3ubuntu1
+    Status: affected
+    Layer:
+      Digest: sha256:d2cb5aec6259e4cfad2b357ad8b96c1ab4bb67a0ef9b1fded118ba7513767a89
+      DiffID: sha256:faaab809ae40b34d90caeff15e0d7a9d6d7ef3aef8bbba81d23aa539cc2aeffa
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-10148
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: curl's websocket code did not update the 32 bit mask pattern for each  ...
+    Description: |-
+      curl's websocket code did not update the 32 bit mask pattern for each new
+       outgoing frame as the specification says. Instead it used a fixed mask that
+      persisted and was used throughout the entire connection.
+
+      A predictable mask pattern allows for a malicious server to induce traffic
+      between the two communicating parties that could be interpreted by an involved
+      proxy (configured or transparent) as genuine, real, HTTP traffic with content
+      and thereby poison its cache. That cached poisoned content could then be
+      served to all users of that proxy.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/docs/CVE-2025-10148.html
+    - https://curl.se/docs/CVE-2025-10148.json
+    - https://hackerone.com/reports/3330839
+    - https://www.cve.org/CVERecord?id=CVE-2025-10148
+    PublishedDate: '2025-09-12T06:15:40.02Z'
+    LastModifiedDate: '2025-09-12T06:15:40.02Z'
   - VulnerabilityID: CVE-2025-9086
     PkgID: libcurl4t64@8.12.1-3ubuntu1
     PkgName: libcurl4t64
@@ -243,22 +339,42 @@
     InstalledVersion: 8.12.1-3ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:ab25e5de4cc8935d7f2fc24a2c98b0e870e6bb09289df2bad6c067e411b50b9e
-      DiffID: sha256:67867a60c78490aba8ca483eaadcd8e8de7c218a01ebb44815f3f578cf403405
+      Digest: sha256:d2cb5aec6259e4cfad2b357ad8b96c1ab4bb67a0ef9b1fded118ba7513767a89
+      DiffID: sha256:faaab809ae40b34d90caeff15e0d7a9d6d7ef3aef8bbba81d23aa539cc2aeffa
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9086
     DataSource:
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: '[Out of bounds read for cookie path]'
-    Description: Out-of-bounds read when dealing with cookies
+    Title: 1. A cookie is set using the `secure` keyword for `https://target` 2.  ...
+    Description: |-
+      1. A cookie is set using the `secure` keyword for `https://target`
+      2. curl is redirected to or otherwise made to speak with `http://target` (same
+         hostname, but using clear text HTTP) using the same cookie set
+      3. The same cookie name is set - but with just a slash as path (`path='/'`).
+         Since this site is not secure, the cookie *should* just be ignored.
+      4. A bug in the path comparison logic makes curl read outside a heap buffer
+         boundary
+
+      The bug either causes a crash or it potentially makes the comparison come to
+      the wrong conclusion and lets the clear-text site override the contents of the
+      secure cookie, contrary to expectations and depending on the memory contents
+      immediately following the single-byte allocation that holds the path.
+
+      The presumed and correct behavior would be to plainly ignore the second set of
+      the cookie since it was already set as secure on a secure host so overriding
+      it on an insecure host should not be okay.
     Severity: LOW
     VendorSeverity:
       ubuntu: 1
     References:
     - https://curl.se/docs/CVE-2025-9086.html
+    - https://curl.se/docs/CVE-2025-9086.json
+    - https://hackerone.com/reports/3294999
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
+    PublishedDate: '2025-09-12T06:15:44.1Z'
+    LastModifiedDate: '2025-09-12T06:15:44.1Z'
   - VulnerabilityID: CVE-2024-2236
     PkgID: libgcrypt20@1.11.0-6ubuntu1
     PkgName: libgcrypt20
@@ -268,8 +384,8 @@
     InstalledVersion: 1.11.0-6ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:ab25e5de4cc8935d7f2fc24a2c98b0e870e6bb09289df2bad6c067e411b50b9e
-      DiffID: sha256:67867a60c78490aba8ca483eaadcd8e8de7c218a01ebb44815f3f578cf403405
+      Digest: sha256:d2cb5aec6259e4cfad2b357ad8b96c1ab4bb67a0ef9b1fded118ba7513767a89
+      DiffID: sha256:faaab809ae40b34d90caeff15e0d7a9d6d7ef3aef8bbba81d23aa539cc2aeffa
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2236
     DataSource:
@@ -319,8 +435,8 @@
     InstalledVersion: 2.84.1-1ubuntu0.1
     Status: affected
     Layer:
-      Digest: sha256:ab25e5de4cc8935d7f2fc24a2c98b0e870e6bb09289df2bad6c067e411b50b9e
-      DiffID: sha256:67867a60c78490aba8ca483eaadcd8e8de7c218a01ebb44815f3f578cf403405
+      Digest: sha256:d2cb5aec6259e4cfad2b357ad8b96c1ab4bb67a0ef9b1fded118ba7513767a89
+      DiffID: sha256:faaab809ae40b34d90caeff15e0d7a9d6d7ef3aef8bbba81d23aa539cc2aeffa
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6052
     DataSource:
@@ -362,8 +478,8 @@
     InstalledVersion: 2.84.1-1ubuntu0.1
     Status: affected
     Layer:
-      Digest: sha256:ab25e5de4cc8935d7f2fc24a2c98b0e870e6bb09289df2bad6c067e411b50b9e
-      DiffID: sha256:67867a60c78490aba8ca483eaadcd8e8de7c218a01ebb44815f3f578cf403405
+      Digest: sha256:d2cb5aec6259e4cfad2b357ad8b96c1ab4bb67a0ef9b1fded118ba7513767a89
+      DiffID: sha256:faaab809ae40b34d90caeff15e0d7a9d6d7ef3aef8bbba81d23aa539cc2aeffa
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6052
     DataSource:
@@ -405,8 +521,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:ab25e5de4cc8935d7f2fc24a2c98b0e870e6bb09289df2bad6c067e411b50b9e
-      DiffID: sha256:67867a60c78490aba8ca483eaadcd8e8de7c218a01ebb44815f3f578cf403405
+      Digest: sha256:d2cb5aec6259e4cfad2b357ad8b96c1ab4bb67a0ef9b1fded118ba7513767a89
+      DiffID: sha256:faaab809ae40b34d90caeff15e0d7a9d6d7ef3aef8bbba81d23aa539cc2aeffa
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -458,8 +574,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:ab25e5de4cc8935d7f2fc24a2c98b0e870e6bb09289df2bad6c067e411b50b9e
-      DiffID: sha256:67867a60c78490aba8ca483eaadcd8e8de7c218a01ebb44815f3f578cf403405
+      Digest: sha256:d2cb5aec6259e4cfad2b357ad8b96c1ab4bb67a0ef9b1fded118ba7513767a89
+      DiffID: sha256:faaab809ae40b34d90caeff15e0d7a9d6d7ef3aef8bbba81d23aa539cc2aeffa
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -512,8 +628,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:ab25e5de4cc8935d7f2fc24a2c98b0e870e6bb09289df2bad6c067e411b50b9e
-      DiffID: sha256:67867a60c78490aba8ca483eaadcd8e8de7c218a01ebb44815f3f578cf403405
+      Digest: sha256:d2cb5aec6259e4cfad2b357ad8b96c1ab4bb67a0ef9b1fded118ba7513767a89
+      DiffID: sha256:faaab809ae40b34d90caeff15e0d7a9d6d7ef3aef8bbba81d23aa539cc2aeffa
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -565,8 +681,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:ab25e5de4cc8935d7f2fc24a2c98b0e870e6bb09289df2bad6c067e411b50b9e
-      DiffID: sha256:67867a60c78490aba8ca483eaadcd8e8de7c218a01ebb44815f3f578cf403405
+      Digest: sha256:d2cb5aec6259e4cfad2b357ad8b96c1ab4bb67a0ef9b1fded118ba7513767a89
+      DiffID: sha256:faaab809ae40b34d90caeff15e0d7a9d6d7ef3aef8bbba81d23aa539cc2aeffa
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -619,8 +735,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:ab25e5de4cc8935d7f2fc24a2c98b0e870e6bb09289df2bad6c067e411b50b9e
-      DiffID: sha256:67867a60c78490aba8ca483eaadcd8e8de7c218a01ebb44815f3f578cf403405
+      Digest: sha256:d2cb5aec6259e4cfad2b357ad8b96c1ab4bb67a0ef9b1fded118ba7513767a89
+      DiffID: sha256:faaab809ae40b34d90caeff15e0d7a9d6d7ef3aef8bbba81d23aa539cc2aeffa
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -672,8 +788,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:ab25e5de4cc8935d7f2fc24a2c98b0e870e6bb09289df2bad6c067e411b50b9e
-      DiffID: sha256:67867a60c78490aba8ca483eaadcd8e8de7c218a01ebb44815f3f578cf403405
+      Digest: sha256:d2cb5aec6259e4cfad2b357ad8b96c1ab4bb67a0ef9b1fded118ba7513767a89
+      DiffID: sha256:faaab809ae40b34d90caeff15e0d7a9d6d7ef3aef8bbba81d23aa539cc2aeffa
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -726,8 +842,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:ab25e5de4cc8935d7f2fc24a2c98b0e870e6bb09289df2bad6c067e411b50b9e
-      DiffID: sha256:67867a60c78490aba8ca483eaadcd8e8de7c218a01ebb44815f3f578cf403405
+      Digest: sha256:d2cb5aec6259e4cfad2b357ad8b96c1ab4bb67a0ef9b1fded118ba7513767a89
+      DiffID: sha256:faaab809ae40b34d90caeff15e0d7a9d6d7ef3aef8bbba81d23aa539cc2aeffa
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -779,8 +895,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:ab25e5de4cc8935d7f2fc24a2c98b0e870e6bb09289df2bad6c067e411b50b9e
-      DiffID: sha256:67867a60c78490aba8ca483eaadcd8e8de7c218a01ebb44815f3f578cf403405
+      Digest: sha256:d2cb5aec6259e4cfad2b357ad8b96c1ab4bb67a0ef9b1fded118ba7513767a89
+      DiffID: sha256:faaab809ae40b34d90caeff15e0d7a9d6d7ef3aef8bbba81d23aa539cc2aeffa
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -833,8 +949,8 @@
     InstalledVersion: 10.45-1
     Status: affected
     Layer:
-      Digest: sha256:ab25e5de4cc8935d7f2fc24a2c98b0e870e6bb09289df2bad6c067e411b50b9e
-      DiffID: sha256:67867a60c78490aba8ca483eaadcd8e8de7c218a01ebb44815f3f578cf403405
+      Digest: sha256:d2cb5aec6259e4cfad2b357ad8b96c1ab4bb67a0ef9b1fded118ba7513767a89
+      DiffID: sha256:faaab809ae40b34d90caeff15e0d7a9d6d7ef3aef8bbba81d23aa539cc2aeffa
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-58050
     DataSource:
@@ -877,8 +993,8 @@
     InstalledVersion: 3.46.1-3ubuntu0.2
     Status: affected
     Layer:
-      Digest: sha256:ab25e5de4cc8935d7f2fc24a2c98b0e870e6bb09289df2bad6c067e411b50b9e
-      DiffID: sha256:67867a60c78490aba8ca483eaadcd8e8de7c218a01ebb44815f3f578cf403405
+      Digest: sha256:d2cb5aec6259e4cfad2b357ad8b96c1ab4bb67a0ef9b1fded118ba7513767a89
+      DiffID: sha256:faaab809ae40b34d90caeff15e0d7a9d6d7ef3aef8bbba81d23aa539cc2aeffa
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-7709
     DataSource:
@@ -897,46 +1013,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-7709
     PublishedDate: '2025-09-08T15:15:38.18Z'
     LastModifiedDate: '2025-09-08T16:25:38.81Z'
-  - VulnerabilityID: CVE-2025-9714
-    PkgID: libxml2@2.12.7+dfsg+really2.9.14-0.4ubuntu0.2
-    PkgName: libxml2
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libxml2@2.12.7%2Bdfsg%2Breally2.9.14-0.4ubuntu0.2?arch=amd64&distro=ubuntu-25.04
-      UID: 43e8879fce25c954
-    InstalledVersion: 2.12.7+dfsg+really2.9.14-0.4ubuntu0.2
-    FixedVersion: 2.12.7+dfsg+really2.9.14-0.4ubuntu0.3
-    Status: fixed
-    Layer:
-      Digest: sha256:ab25e5de4cc8935d7f2fc24a2c98b0e870e6bb09289df2bad6c067e411b50b9e
-      DiffID: sha256:67867a60c78490aba8ca483eaadcd8e8de7c218a01ebb44815f3f578cf403405
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9714
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'libxslt: libxml2: Inifinite recursion at exsltDynMapFunction function in libexslt/dynamic.c'
-    Description: "Uncontrolled recursion in\_XPath evaluation\_in libxml2 up to and including version 2.9.14 allows a local attacker to cause a stack overflow via crafted expressions. XPath processing functions `xmlXPathRunEval`, `xmlXPathCtxtCompile`, and `xmlXPathEvalExpr` were resetting recursion depth to zero before making potentially recursive calls. When such functions were called recursively this could allow for uncontrolled recursion and lead to a stack overflow. These functions now preserve recursion depth across recursive calls, allowing recursion depth to be controlled."
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-674
-    VendorSeverity:
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 6.2
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-9714
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2392605
-    - https://gitlab.gnome.org/GNOME/libxml2/-/commit/677a42645ef22b5a50741bad5facf9d8a8bc6d21
-    - https://gitlab.gnome.org/GNOME/libxslt/-/issues/148
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-9714
-    - https://ubuntu.com/security/notices/USN-7743-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-9714
-    PublishedDate: '2025-09-10T19:15:42.707Z'
-    LastModifiedDate: '2025-09-11T17:14:10.147Z'
   - VulnerabilityID: CVE-2025-8058
     PkgID: locales@2.41-6ubuntu1.1
     PkgName: locales
@@ -946,8 +1022,8 @@
     InstalledVersion: 2.41-6ubuntu1.1
     Status: affected
     Layer:
-      Digest: sha256:ab25e5de4cc8935d7f2fc24a2c98b0e870e6bb09289df2bad6c067e411b50b9e
-      DiffID: sha256:67867a60c78490aba8ca483eaadcd8e8de7c218a01ebb44815f3f578cf403405
+      Digest: sha256:d2cb5aec6259e4cfad2b357ad8b96c1ab4bb67a0ef9b1fded118ba7513767a89
+      DiffID: sha256:faaab809ae40b34d90caeff15e0d7a9d6d7ef3aef8bbba81d23aa539cc2aeffa
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8058
     DataSource:
@@ -1002,8 +1078,8 @@
     InstalledVersion: 1:4.16.0-7ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:ab25e5de4cc8935d7f2fc24a2c98b0e870e6bb09289df2bad6c067e411b50b9e
-      DiffID: sha256:67867a60c78490aba8ca483eaadcd8e8de7c218a01ebb44815f3f578cf403405
+      Digest: sha256:d2cb5aec6259e4cfad2b357ad8b96c1ab4bb67a0ef9b1fded118ba7513767a89
+      DiffID: sha256:faaab809ae40b34d90caeff15e0d7a9d6d7ef3aef8bbba81d23aa539cc2aeffa
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
     DataSource:
@@ -1041,8 +1117,8 @@
     InstalledVersion: 1:4.16.0-7ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:ab25e5de4cc8935d7f2fc24a2c98b0e870e6bb09289df2bad6c067e411b50b9e
-      DiffID: sha256:67867a60c78490aba8ca483eaadcd8e8de7c218a01ebb44815f3f578cf403405
+      Digest: sha256:d2cb5aec6259e4cfad2b357ad8b96c1ab4bb67a0ef9b1fded118ba7513767a89
+      DiffID: sha256:faaab809ae40b34d90caeff15e0d7a9d6d7ef3aef8bbba81d23aa539cc2aeffa
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
     DataSource:
@@ -1080,8 +1156,8 @@
     InstalledVersion: 1.35+dfsg-3.1
     Status: affected
     Layer:
-      Digest: sha256:ab25e5de4cc8935d7f2fc24a2c98b0e870e6bb09289df2bad6c067e411b50b9e
-      DiffID: sha256:67867a60c78490aba8ca483eaadcd8e8de7c218a01ebb44815f3f578cf403405
+      Digest: sha256:d2cb5aec6259e4cfad2b357ad8b96c1ab4bb67a0ef9b1fded118ba7513767a89
+      DiffID: sha256:faaab809ae40b34d90caeff15e0d7a9d6d7ef3aef8bbba81d23aa539cc2aeffa
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-45582
     DataSource:
@@ -1121,8 +1197,8 @@
     InstalledVersion: 1.24.5-2ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:ab25e5de4cc8935d7f2fc24a2c98b0e870e6bb09289df2bad6c067e411b50b9e
-      DiffID: sha256:67867a60c78490aba8ca483eaadcd8e8de7c218a01ebb44815f3f578cf403405
+      Digest: sha256:d2cb5aec6259e4cfad2b357ad8b96c1ab4bb67a0ef9b1fded118ba7513767a89
+      DiffID: sha256:faaab809ae40b34d90caeff15e0d7a9d6d7ef3aef8bbba81d23aa539cc2aeffa
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-31879
     DataSource:

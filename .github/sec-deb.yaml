@@ -16424,6 +16424,7 @@
     VendorSeverity:
       azure: 2
       cbl-mariner: 2
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -16476,6 +16477,7 @@
       it on an insecure host should not be okay.
     Severity: LOW
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -16568,6 +16570,7 @@
     VendorSeverity:
       azure: 2
       cbl-mariner: 2
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -16620,6 +16623,7 @@
       it on an insecure host should not be okay.
     Severity: LOW
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 1
     CVSS:

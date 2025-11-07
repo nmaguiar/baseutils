@@ -8363,6 +8363,43 @@
     InstalledFiles:
     - usr/lib/libzstd.so.1
     - usr/lib/libzstd.so.1.5.7
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2025-10966
+    PkgID: curl@8.16.0-r1
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/curl@8.16.0-r1?arch=x86_64&distro=3.23.0_alpha20251016
+      UID: f7593a3d18023fde
+    InstalledVersion: 8.16.0-r1
+    FixedVersion: 8.17.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:b3ff3947cc07a2d01dccd8f2c5b9ffd798bf56a538b991b8ea1faac4845363ad
+      DiffID: sha256:6b90ff93e1c6cd3167d5df6e5611f0f3bf2d1606a555eba0e62b103ef9e93d96
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-10966
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Severity: UNKNOWN
+  - VulnerabilityID: CVE-2025-10966
+    PkgID: libcurl@8.16.0-r1
+    PkgName: libcurl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libcurl@8.16.0-r1?arch=x86_64&distro=3.23.0_alpha20251016
+      UID: 8ebe5dd248028542
+    InstalledVersion: 8.16.0-r1
+    FixedVersion: 8.17.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:b3ff3947cc07a2d01dccd8f2c5b9ffd798bf56a538b991b8ea1faac4845363ad
+      DiffID: sha256:6b90ff93e1c6cd3167d5df6e5611f0f3bf2d1606a555eba0e62b103ef9e93d96
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-10966
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Severity: UNKNOWN
 - Target: Java
   Class: lang-pkgs
   Type: jar

@@ -17899,7 +17899,7 @@
     - CWE-125
     VendorSeverity:
       alma: 2
-      amazon: 1
+      amazon: 2
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -17919,7 +17919,7 @@
     - https://curl.se/docs/CVE-2025-9086.json
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9086
     - https://errata.almalinux.org/9/ALSA-2026-1350.html
-    - https://errata.rockylinux.org/RLSA-2026:1350
+    - https://errata.rockylinux.org/RLSA-2026:1825
     - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
     - https://hackerone.com/reports/3294999
     - https://linux.oracle.com/cve/CVE-2025-9086.html
@@ -18307,7 +18307,7 @@
     - CWE-125
     VendorSeverity:
       alma: 2
-      amazon: 1
+      amazon: 2
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -18327,7 +18327,7 @@
     - https://curl.se/docs/CVE-2025-9086.json
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9086
     - https://errata.almalinux.org/9/ALSA-2026-1350.html
-    - https://errata.rockylinux.org/RLSA-2026:1350
+    - https://errata.rockylinux.org/RLSA-2026:1825
     - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
     - https://hackerone.com/reports/3294999
     - https://linux.oracle.com/cve/CVE-2025-9086.html
@@ -18337,6 +18337,65 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
     PublishedDate: '2025-09-12T06:15:44.1Z'
     LastModifiedDate: '2026-01-20T14:58:01.347Z'
+  - VulnerabilityID: CVE-2025-59375
+    PkgID: libexpat1@2.7.1-2
+    PkgName: libexpat1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libexpat1@2.7.1-2?arch=amd64&distro=ubuntu-25.10
+      UID: 25688396fef8ecac
+    InstalledVersion: 2.7.1-2
+    FixedVersion: 2.7.1-2ubuntu0.2
+    Status: fixed
+    Layer:
+      Digest: sha256:da021fd6d3a2d5eb347f481c21c47fc987151886671b00f7057f177c77f7a8a4
+      DiffID: sha256:d56405f1506f6a2a658ed0267e4f05926fd0d3b8d30aaf8fbd3ae6e0cfed53aa
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-59375
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:38a9c439f3ea907d7af2394f96bb6f9ba553bf0deeb2ae64021c04e69df62111
+    Title: 'expat: libexpat in Expat allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing'
+    Description: libexpat in Expat before 2.7.2 allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      azure: 2
+      cbl-mariner: 2
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/09/16/2
+    - https://access.redhat.com/errata/RHSA-2025:22175
+    - https://access.redhat.com/security/cve/CVE-2025-59375
+    - https://bugzilla.redhat.com/2395108
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2395108
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-59375
+    - https://errata.almalinux.org/9/ALSA-2025-22175.html
+    - https://errata.rockylinux.org/RLSA-2025:19403
+    - https://github.com/libexpat/libexpat/blob/676a4c531ec768732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74
+    - https://github.com/libexpat/libexpat/blob/R_2_7_2/expat/Changes
+    - https://github.com/libexpat/libexpat/issues/1018
+    - https://github.com/libexpat/libexpat/pull/1034
+    - https://issues.oss-fuzz.com/issues/439133977
+    - https://linux.oracle.com/cve/CVE-2025-59375.html
+    - https://linux.oracle.com/errata/ELSA-2025-22175.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-59375
+    - https://ubuntu.com/security/notices/USN-8022-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-59375
+    PublishedDate: '2025-09-15T03:15:40.92Z'
+    LastModifiedDate: '2025-11-04T22:16:34.927Z'
   - VulnerabilityID: CVE-2025-66382
     PkgID: libexpat1@2.7.1-2
     PkgName: libexpat1
@@ -18379,6 +18438,95 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-66382
     PublishedDate: '2025-11-28T07:15:57.9Z'
     LastModifiedDate: '2025-12-19T16:05:03.557Z'
+  - VulnerabilityID: CVE-2026-24515
+    PkgID: libexpat1@2.7.1-2
+    PkgName: libexpat1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libexpat1@2.7.1-2?arch=amd64&distro=ubuntu-25.10
+      UID: 25688396fef8ecac
+    InstalledVersion: 2.7.1-2
+    FixedVersion: 2.7.1-2ubuntu0.2
+    Status: fixed
+    Layer:
+      Digest: sha256:da021fd6d3a2d5eb347f481c21c47fc987151886671b00f7057f177c77f7a8a4
+      DiffID: sha256:d56405f1506f6a2a658ed0267e4f05926fd0d3b8d30aaf8fbd3ae6e0cfed53aa
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-24515
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:3f53410e31751bd1e900f57c5300aa93df55d723494543a48567b5005938b21d
+    Title: 'libexpat: libexpat null pointer dereference'
+    Description: In libexpat before 2.7.4, XML_ExternalEntityParserCreate does not copy unknown encoding handler user data.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      azure: 1
+      cbl-mariner: 1
+      nvd: 1
+      photon: 4
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-24515
+    - https://github.com/libexpat/libexpat/pull/1131
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-24515
+    - https://ubuntu.com/security/notices/USN-8022-1
+    - https://ubuntu.com/security/notices/USN-8023-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-24515
+    PublishedDate: '2026-01-23T08:16:01.49Z'
+    LastModifiedDate: '2026-02-05T17:27:53.29Z'
+  - VulnerabilityID: CVE-2026-25210
+    PkgID: libexpat1@2.7.1-2
+    PkgName: libexpat1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libexpat1@2.7.1-2?arch=amd64&distro=ubuntu-25.10
+      UID: 25688396fef8ecac
+    InstalledVersion: 2.7.1-2
+    FixedVersion: 2.7.1-2ubuntu0.2
+    Status: fixed
+    Layer:
+      Digest: sha256:da021fd6d3a2d5eb347f481c21c47fc987151886671b00f7057f177c77f7a8a4
+      DiffID: sha256:d56405f1506f6a2a658ed0267e4f05926fd0d3b8d30aaf8fbd3ae6e0cfed53aa
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-25210
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:1b81c08e83d32297364a652e940764414922aaab5bae1e9d98be4d792022c056
+    Title: 'libexpat: libexpat: Information disclosure and data integrity issues due to integer overflow in buffer reallocation'
+    Description: In libexpat before 2.7.4, the doContent function does not properly determine the buffer size bufSize because there is no integer overflow check for tag buffer reallocation.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      azure: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 6.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-25210
+    - https://github.com/libexpat/libexpat/pull/1075
+    - https://github.com/libexpat/libexpat/pull/1075/commits/9c2d990389e6abe2e44527eeaa8b39f16fe859c7
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-25210
+    - https://ubuntu.com/security/notices/USN-8022-1
+    - https://ubuntu.com/security/notices/USN-8023-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-25210
+    PublishedDate: '2026-01-30T07:16:15.57Z'
+    LastModifiedDate: '2026-02-04T16:34:21.763Z'
   - VulnerabilityID: CVE-2024-2236
     PkgID: libgcrypt20@1.11.0-7build1
     PkgName: libgcrypt20
@@ -18743,7 +18891,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2334165
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
     - https://errata.almalinux.org/9/ALSA-2025-20559.html
-    - https://errata.rockylinux.org/RLSA-2025:20559
+    - https://errata.rockylinux.org/RLSA-2025:20145
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
     - https://github.com/shadow-maint/shadow/releases/tag/4.4
@@ -18794,7 +18942,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2334165
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
     - https://errata.almalinux.org/9/ALSA-2025-20559.html
-    - https://errata.rockylinux.org/RLSA-2025:20559
+    - https://errata.rockylinux.org/RLSA-2025:20145
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
     - https://github.com/shadow-maint/shadow/releases/tag/4.4
@@ -18845,7 +18993,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2379592
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-45582
     - https://errata.almalinux.org/9/ALSA-2026-0067.html
-    - https://errata.rockylinux.org/RLSA-2026:0067
+    - https://errata.rockylinux.org/RLSA-2026:0002
     - https://github.com/i900008/vulndb/blob/main/Gnu_tar_vuln.md
     - https://linux.oracle.com/cve/CVE-2025-45582.html
     - https://linux.oracle.com/errata/ELSA-2026-0067.html

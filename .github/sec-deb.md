@@ -18621,7 +18621,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 1 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
@@ -18640,7 +18640,7 @@
 │                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-9086 
 │                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-1350.html 
-│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:1350 
+│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:1825 
 │                       │      │                  ├ [10]: https://github.com/curl/curl/commit/c6ae07c6a541e0e96
 │                       │      │                  │       d0040afb6 
 │                       │      │                  ├ [11]: https://hackerone.com/reports/3294999 
@@ -19059,7 +19059,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 1 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
@@ -19078,7 +19078,7 @@
 │                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-9086 
 │                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-1350.html 
-│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:1350 
+│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:1825 
 │                       │      │                  ├ [10]: https://github.com/curl/curl/commit/c6ae07c6a541e0e96
 │                       │      │                  │       d0040afb6 
 │                       │      │                  ├ [11]: https://hackerone.com/reports/3294999 
@@ -19090,7 +19090,71 @@
 │                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
 │                       │      ╰ LastModifiedDate: 2026-01-20T14:58:01.347Z 
-│                       ├ [15] ╭ VulnerabilityID : CVE-2025-66382 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2025-59375 
+│                       │      ├ PkgID           : libexpat1@2.7.1-2 
+│                       │      ├ PkgName         : libexpat1 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libexpat1@2.7.1-2?arch=amd64&distro=ub
+│                       │      │                  │       untu-25.10 
+│                       │      │                  ╰ UID : 25688396fef8ecac 
+│                       │      ├ InstalledVersion: 2.7.1-2 
+│                       │      ├ FixedVersion    : 2.7.1-2ubuntu0.2 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:da021fd6d3a2d5eb347f481c21c47fc987151886671b
+│                       │      │                  │         00f7057f177c77f7a8a4 
+│                       │      │                  ╰ DiffID: sha256:d56405f1506f6a2a658ed0267e4f05926fd0d3b8d30a
+│                       │      │                            af8fbd3ae6e0cfed53aa 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-59375 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:38a9c439f3ea907d7af2394f96bb6f9ba553bf0deeb2ae64021c0
+│                       │      │                   4e69df62111 
+│                       │      ├ Title           : expat: libexpat in Expat allows attackers to trigger large
+│                       │      │                   dynamic memory allocations via a small document that is
+│                       │      │                   submitted for parsing 
+│                       │      ├ Description     : libexpat in Expat before 2.7.2 allows attackers to trigger
+│                       │      │                   large dynamic memory allocations via a small document that
+│                       │      │                   is submitted for parsing. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-770 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.3 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/09/16/2 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:22175 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-59375 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2395108 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2395108 
+│                       │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-59375 
+│                       │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-22175.html 
+│                       │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:19403 
+│                       │      │                  ├ [8] : https://github.com/libexpat/libexpat/blob/676a4c531ec
+│                       │      │                  │       768732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74[
+│                       │      │                  │       m 
+│                       │      │                  ├ [9] : https://github.com/libexpat/libexpat/blob/R_2_7_2/exp
+│                       │      │                  │       at/Changes 
+│                       │      │                  ├ [10]: https://github.com/libexpat/libexpat/issues/1018 
+│                       │      │                  ├ [11]: https://github.com/libexpat/libexpat/pull/1034 
+│                       │      │                  ├ [12]: https://issues.oss-fuzz.com/issues/439133977 
+│                       │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2025-59375.html 
+│                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2025-22175.html 
+│                       │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-59375 
+│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-8022-1 
+│                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-59375 
+│                       │      ├ PublishedDate   : 2025-09-15T03:15:40.92Z 
+│                       │      ╰ LastModifiedDate: 2025-11-04T22:16:34.927Z 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2025-66382 
 │                       │      ├ PkgID           : libexpat1@2.7.1-2 
 │                       │      ├ PkgName         : libexpat1 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libexpat1@2.7.1-2?arch=amd64&distro=ub
@@ -19132,7 +19196,96 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-66382 
 │                       │      ├ PublishedDate   : 2025-11-28T07:15:57.9Z 
 │                       │      ╰ LastModifiedDate: 2025-12-19T16:05:03.557Z 
-│                       ├ [16] ╭ VulnerabilityID : CVE-2024-2236 
+│                       ├ [17] ╭ VulnerabilityID : CVE-2026-24515 
+│                       │      ├ PkgID           : libexpat1@2.7.1-2 
+│                       │      ├ PkgName         : libexpat1 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libexpat1@2.7.1-2?arch=amd64&distro=ub
+│                       │      │                  │       untu-25.10 
+│                       │      │                  ╰ UID : 25688396fef8ecac 
+│                       │      ├ InstalledVersion: 2.7.1-2 
+│                       │      ├ FixedVersion    : 2.7.1-2ubuntu0.2 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:da021fd6d3a2d5eb347f481c21c47fc987151886671b
+│                       │      │                  │         00f7057f177c77f7a8a4 
+│                       │      │                  ╰ DiffID: sha256:d56405f1506f6a2a658ed0267e4f05926fd0d3b8d30a
+│                       │      │                            af8fbd3ae6e0cfed53aa 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-24515 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:3f53410e31751bd1e900f57c5300aa93df55d723494543a48567b
+│                       │      │                   5005938b21d 
+│                       │      ├ Title           : libexpat: libexpat null pointer dereference 
+│                       │      ├ Description     : In libexpat before 2.7.4, XML_ExternalEntityParserCreate
+│                       │      │                   does not copy unknown encoding handler user data. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-476 
+│                       │      ├ VendorSeverity   ╭ azure      : 1 
+│                       │      │                  ├ cbl-mariner: 1 
+│                       │      │                  ├ nvd        : 1 
+│                       │      │                  ├ photon     : 4 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:L 
+│                       │      │                  │        ╰ V3Score : 2.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 2.9 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-24515 
+│                       │      │                  ├ [1]: https://github.com/libexpat/libexpat/pull/1131 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-24515 
+│                       │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-8022-1 
+│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8023-1 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-24515 
+│                       │      ├ PublishedDate   : 2026-01-23T08:16:01.49Z 
+│                       │      ╰ LastModifiedDate: 2026-02-05T17:27:53.29Z 
+│                       ├ [18] ╭ VulnerabilityID : CVE-2026-25210 
+│                       │      ├ PkgID           : libexpat1@2.7.1-2 
+│                       │      ├ PkgName         : libexpat1 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libexpat1@2.7.1-2?arch=amd64&distro=ub
+│                       │      │                  │       untu-25.10 
+│                       │      │                  ╰ UID : 25688396fef8ecac 
+│                       │      ├ InstalledVersion: 2.7.1-2 
+│                       │      ├ FixedVersion    : 2.7.1-2ubuntu0.2 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:da021fd6d3a2d5eb347f481c21c47fc987151886671b
+│                       │      │                  │         00f7057f177c77f7a8a4 
+│                       │      │                  ╰ DiffID: sha256:d56405f1506f6a2a658ed0267e4f05926fd0d3b8d30a
+│                       │      │                            af8fbd3ae6e0cfed53aa 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-25210 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:1b81c08e83d32297364a652e940764414922aaab5bae1e9d98be4
+│                       │      │                   d792022c056 
+│                       │      ├ Title           : libexpat: libexpat: Information disclosure and data
+│                       │      │                   integrity issues due to integer overflow in buffer
+│                       │      │                   reallocation 
+│                       │      ├ Description     : In libexpat before 2.7.4, the doContent function does not
+│                       │      │                   properly determine the buffer size bufSize because there is
+│                       │      │                   no integer overflow check for tag buffer reallocation. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-190 
+│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 6.9 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-25210 
+│                       │      │                  ├ [1]: https://github.com/libexpat/libexpat/pull/1075 
+│                       │      │                  ├ [2]: https://github.com/libexpat/libexpat/pull/1075/commits
+│                       │      │                  │      /9c2d990389e6abe2e44527eeaa8b39f16fe859c7 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-25210 
+│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8022-1 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-8023-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-25210 
+│                       │      ├ PublishedDate   : 2026-01-30T07:16:15.57Z 
+│                       │      ╰ LastModifiedDate: 2026-02-04T16:34:21.763Z 
+│                       ├ [19] ╭ VulnerabilityID : CVE-2024-2236 
 │                       │      ├ PkgID           : libgcrypt20@1.11.0-7build1 
 │                       │      ├ PkgName         : libgcrypt20 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcrypt20@1.11.0-7build1?arch=amd64&
@@ -19191,7 +19344,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
 │                       │      ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
 │                       │      ╰ LastModifiedDate: 2025-04-02T17:15:37.79Z 
-│                       ├ [17] ╭ VulnerabilityID : CVE-2025-8941 
+│                       ├ [20] ╭ VulnerabilityID : CVE-2025-8941 
 │                       │      ├ PkgID           : libpam-modules@1.7.0-5ubuntu2 
 │                       │      ├ PkgName         : libpam-modules 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules@1.7.0-5ubuntu2?arch=amd
@@ -19261,7 +19414,7 @@
 │                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                       ├ [18] ╭ VulnerabilityID : CVE-2025-8941 
+│                       ├ [21] ╭ VulnerabilityID : CVE-2025-8941 
 │                       │      ├ PkgID           : libpam-modules-bin@1.7.0-5ubuntu2 
 │                       │      ├ PkgName         : libpam-modules-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.7.0-5ubuntu2?arch
@@ -19331,7 +19484,7 @@
 │                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                       ├ [19] ╭ VulnerabilityID : CVE-2025-8941 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2025-8941 
 │                       │      ├ PkgID           : libpam-runtime@1.7.0-5ubuntu2 
 │                       │      ├ PkgName         : libpam-runtime 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.7.0-5ubuntu2?arch=all
@@ -19401,7 +19554,7 @@
 │                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                       ├ [20] ╭ VulnerabilityID : CVE-2025-8941 
+│                       ├ [23] ╭ VulnerabilityID : CVE-2025-8941 
 │                       │      ├ PkgID           : libpam0g@1.7.0-5ubuntu2 
 │                       │      ├ PkgName         : libpam0g 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.7.0-5ubuntu2?arch=amd64&dis
@@ -19471,7 +19624,7 @@
 │                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                       ├ [21] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [24] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : login.defs@1:4.17.4-2ubuntu2 
 │                       │      ├ PkgName         : login.defs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login.defs@4.17.4-2ubuntu2?arch=all&di
@@ -19521,7 +19674,7 @@
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-56433 
 │                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
-│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20559 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20145 
 │                       │      │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d574
 │                       │      │                  │       1d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L
 │                       │      │                  │       241 
@@ -19533,7 +19686,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [22] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [25] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : passwd@1:4.17.4-2ubuntu2 
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.17.4-2ubuntu2?arch=amd64&dist
@@ -19583,7 +19736,7 @@
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-56433 
 │                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
-│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20559 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20145 
 │                       │      │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d574
 │                       │      │                  │       1d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L
 │                       │      │                  │       241 
@@ -19595,7 +19748,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [23] ╭ VulnerabilityID : CVE-2025-45582 
+│                       ├ [26] ╭ VulnerabilityID : CVE-2025-45582 
 │                       │      ├ PkgID           : tar@1.35+dfsg-3.1build1 
 │                       │      ├ PkgName         : tar 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3.1build1?arch=amd64&d
@@ -19658,7 +19811,7 @@
 │                       │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-45582 
 │                       │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2026-0067.html 
-│                       │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2026:0067 
+│                       │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2026:0002 
 │                       │      │                  ├ [8] : https://github.com/i900008/vulndb/blob/main/Gnu_tar_v
 │                       │      │                  │       uln.md 
 │                       │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-45582.html 
@@ -19676,7 +19829,7 @@
 │                       │      │                          urity-rules-of-thumb.html 
 │                       │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                       │      ╰ LastModifiedDate: 2025-11-02T01:15:32.307Z 
-│                       ╰ [24] ╭ VulnerabilityID : CVE-2021-31879 
+│                       ╰ [27] ╭ VulnerabilityID : CVE-2021-31879 
 │                              ├ PkgID           : wget@1.25.0-2ubuntu3 
 │                              ├ PkgName         : wget 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.25.0-2ubuntu3?arch=amd64&distro

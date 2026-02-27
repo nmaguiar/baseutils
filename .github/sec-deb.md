@@ -18394,6 +18394,7 @@
 │                       │      │                   
 │                       │      │                   This flaw only affects the wcurl command line tool. 
 │                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-22 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
@@ -18410,7 +18411,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8062-1 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-11563 
 │                       │      ├ PublishedDate   : 2026-02-25T08:16:18.337Z 
-│                       │      ╰ LastModifiedDate: 2026-02-25T19:43:15.377Z 
+│                       │      ╰ LastModifiedDate: 2026-02-26T20:06:37.45Z 
 │                       ├ [1]  ╭ VulnerabilityID : CVE-2025-13034 
 │                       │      ├ PkgID           : curl@8.14.1-2ubuntu1 
 │                       │      ├ PkgName         : curl 
@@ -18918,6 +18919,7 @@
 │                       │      │                   
 │                       │      │                   This flaw only affects the wcurl command line tool. 
 │                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-22 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
@@ -18934,7 +18936,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8062-1 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-11563 
 │                       │      ├ PublishedDate   : 2026-02-25T08:16:18.337Z 
-│                       │      ╰ LastModifiedDate: 2026-02-25T19:43:15.377Z 
+│                       │      ╰ LastModifiedDate: 2026-02-26T20:06:37.45Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2025-13034 
 │                       │      ├ PkgID           : libcurl4t64@8.14.1-2ubuntu1 
 │                       │      ├ PkgName         : libcurl4t64 
@@ -19892,54 +19894,458 @@
 │                       │      │                          urity-rules-of-thumb.html 
 │                       │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                       │      ╰ LastModifiedDate: 2025-11-02T01:15:32.307Z 
-│                       ╰ [27] ╭ VulnerabilityID : CVE-2021-31879 
-│                              ├ PkgID           : wget@1.25.0-2ubuntu3 
-│                              ├ PkgName         : wget 
-│                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.25.0-2ubuntu3?arch=amd64&distro
-│                              │                  │       =ubuntu-25.10 
-│                              │                  ╰ UID : af36aa73af1839de 
-│                              ├ InstalledVersion: 1.25.0-2ubuntu3 
+│                       ├ [27] ╭ VulnerabilityID : CVE-2026-25749 
+│                       │      ├ PkgID           : vim@2:9.1.0967-1ubuntu6 
+│                       │      ├ PkgName         : vim 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.0967-1ubuntu6?arch=amd64&distr
+│                       │      │                  │       o=ubuntu-25.10&epoch=2 
+│                       │      │                  ╰ UID : 81ad1c8083bf3a43 
+│                       │      ├ InstalledVersion: 2:9.1.0967-1ubuntu6 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
+│                       │      │                  │         6e263e97c5a86d79365a 
+│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
+│                       │      │                            45897f0cec1ced6fe6da 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-25749 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:a6c1b599e47565e415d8b397fa28a210eca42bc82d4b07bfae325
+│                       │      │                   742531d3d53 
+│                       │      ├ Title           : vim: Vim: Arbitrary code execution via 'helpfile' option
+│                       │      │                   processing 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
+│                       │      │                   version 9.1.2132, a heap buffer overflow vulnerability
+│                       │      │                   exists in Vim's tag file resolution logic when processing
+│                       │      │                   the 'helpfile' option. The vulnerability is located in the
+│                       │      │                   get_tagfname() function in src/tag.c. When processing help
+│                       │      │                   file tags, Vim copies the user-controlled 'helpfile' option
+│                       │      │                   value into a fixed-size heap buffer of MAXPATHL + 1 bytes
+│                       │      │                   (typically 4097 bytes) using an unsafe STRCPY() operation
+│                       │      │                   without any bounds checking. This issue has been patched in
+│                       │      │                   version 9.1.2132. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-122 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.3 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-25749 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/commit/0714b15940b245108e6e
+│                       │      │                  │      9d7aa2260dd849a26fa9 
+│                       │      │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.1.2132 
+│                       │      │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-5w
+│                       │      │                  │      93-4g67-mm43 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-25749 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-25749 
+│                       │      ├ PublishedDate   : 2026-02-06T23:15:54.23Z 
+│                       │      ╰ LastModifiedDate: 2026-02-20T15:45:19.21Z 
+│                       ├ [28] ╭ VulnerabilityID : CVE-2026-26269 
+│                       │      ├ PkgID           : vim@2:9.1.0967-1ubuntu6 
+│                       │      ├ PkgName         : vim 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.0967-1ubuntu6?arch=amd64&distr
+│                       │      │                  │       o=ubuntu-25.10&epoch=2 
+│                       │      │                  ╰ UID : 81ad1c8083bf3a43 
+│                       │      ├ InstalledVersion: 2:9.1.0967-1ubuntu6 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
+│                       │      │                  │         6e263e97c5a86d79365a 
+│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
+│                       │      │                            45897f0cec1ced6fe6da 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-26269 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:5818388581e0631c1e9bb2a8586a3297cd6c64b525a1faef44415
+│                       │      │                   888d074f560 
+│                       │      ├ Title           : vim: Netbeans specialKeys stack buffer overflow 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.1.2148, a stack buffer overflow vulnerability exists in
+│                       │      │                   Vim's NetBeans integration when processing the specialKeys
+│                       │      │                   command, affecting Vim builds that enable and use the
+│                       │      │                   NetBeans feature. The Stack buffer overflow exists in
+│                       │      │                   special_keys() (in src/netbeans.c). The while (*tok) loop
+│                       │      │                   writes two bytes per iteration into a 64-byte stack buffer
+│                       │      │                   (keybuf) with no bounds check. A malicious NetBeans server
+│                       │      │                   can overflow keybuf with a single specialKeys command. The
+│                       │      │                   issue has been fixed as of Vim patch v9.1.2148. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-121 
+│                       │      ├ VendorSeverity   ╭ nvd   : 3 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 1 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.8 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/02/13/2 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-26269 
+│                       │      │                  ├ [2]: https://github.com/vim/vim/commit/c5f312aad8e4179e437f
+│                       │      │                  │      81ad39a860cd0ef11970 
+│                       │      │                  ├ [3]: https://github.com/vim/vim/releases/tag/v9.1.2148 
+│                       │      │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-9w
+│                       │      │                  │      5c-hwr9-hc68 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-26269 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-26269 
+│                       │      ├ PublishedDate   : 2026-02-13T20:17:41.377Z 
+│                       │      ╰ LastModifiedDate: 2026-02-18T21:29:03.767Z 
+│                       ├ [29] ╭ VulnerabilityID : CVE-2026-25749 
+│                       │      ├ PkgID           : vim-common@2:9.1.0967-1ubuntu6 
+│                       │      ├ PkgName         : vim-common 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.0967-1ubuntu6?arch=all&
+│                       │      │                  │       distro=ubuntu-25.10&epoch=2 
+│                       │      │                  ╰ UID : 7d3460c011f515ad 
+│                       │      ├ InstalledVersion: 2:9.1.0967-1ubuntu6 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
+│                       │      │                  │         6e263e97c5a86d79365a 
+│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
+│                       │      │                            45897f0cec1ced6fe6da 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-25749 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:39a623b2ff204e9a55d84b71b701a4c251a3d357576d5c5180419
+│                       │      │                   b0785f7c268 
+│                       │      ├ Title           : vim: Vim: Arbitrary code execution via 'helpfile' option
+│                       │      │                   processing 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
+│                       │      │                   version 9.1.2132, a heap buffer overflow vulnerability
+│                       │      │                   exists in Vim's tag file resolution logic when processing
+│                       │      │                   the 'helpfile' option. The vulnerability is located in the
+│                       │      │                   get_tagfname() function in src/tag.c. When processing help
+│                       │      │                   file tags, Vim copies the user-controlled 'helpfile' option
+│                       │      │                   value into a fixed-size heap buffer of MAXPATHL + 1 bytes
+│                       │      │                   (typically 4097 bytes) using an unsafe STRCPY() operation
+│                       │      │                   without any bounds checking. This issue has been patched in
+│                       │      │                   version 9.1.2132. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-122 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.3 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-25749 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/commit/0714b15940b245108e6e
+│                       │      │                  │      9d7aa2260dd849a26fa9 
+│                       │      │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.1.2132 
+│                       │      │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-5w
+│                       │      │                  │      93-4g67-mm43 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-25749 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-25749 
+│                       │      ├ PublishedDate   : 2026-02-06T23:15:54.23Z 
+│                       │      ╰ LastModifiedDate: 2026-02-20T15:45:19.21Z 
+│                       ├ [30] ╭ VulnerabilityID : CVE-2026-26269 
+│                       │      ├ PkgID           : vim-common@2:9.1.0967-1ubuntu6 
+│                       │      ├ PkgName         : vim-common 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.0967-1ubuntu6?arch=all&
+│                       │      │                  │       distro=ubuntu-25.10&epoch=2 
+│                       │      │                  ╰ UID : 7d3460c011f515ad 
+│                       │      ├ InstalledVersion: 2:9.1.0967-1ubuntu6 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
+│                       │      │                  │         6e263e97c5a86d79365a 
+│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
+│                       │      │                            45897f0cec1ced6fe6da 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-26269 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:82110406a3a40e2189bc89482b6439b6cefbea36263c329b31839
+│                       │      │                   8b820fbe94d 
+│                       │      ├ Title           : vim: Netbeans specialKeys stack buffer overflow 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.1.2148, a stack buffer overflow vulnerability exists in
+│                       │      │                   Vim's NetBeans integration when processing the specialKeys
+│                       │      │                   command, affecting Vim builds that enable and use the
+│                       │      │                   NetBeans feature. The Stack buffer overflow exists in
+│                       │      │                   special_keys() (in src/netbeans.c). The while (*tok) loop
+│                       │      │                   writes two bytes per iteration into a 64-byte stack buffer
+│                       │      │                   (keybuf) with no bounds check. A malicious NetBeans server
+│                       │      │                   can overflow keybuf with a single specialKeys command. The
+│                       │      │                   issue has been fixed as of Vim patch v9.1.2148. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-121 
+│                       │      ├ VendorSeverity   ╭ nvd   : 3 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 1 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.8 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/02/13/2 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-26269 
+│                       │      │                  ├ [2]: https://github.com/vim/vim/commit/c5f312aad8e4179e437f
+│                       │      │                  │      81ad39a860cd0ef11970 
+│                       │      │                  ├ [3]: https://github.com/vim/vim/releases/tag/v9.1.2148 
+│                       │      │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-9w
+│                       │      │                  │      5c-hwr9-hc68 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-26269 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-26269 
+│                       │      ├ PublishedDate   : 2026-02-13T20:17:41.377Z 
+│                       │      ╰ LastModifiedDate: 2026-02-18T21:29:03.767Z 
+│                       ├ [31] ╭ VulnerabilityID : CVE-2026-25749 
+│                       │      ├ PkgID           : vim-runtime@2:9.1.0967-1ubuntu6 
+│                       │      ├ PkgName         : vim-runtime 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.0967-1ubuntu6?arch=all
+│                       │      │                  │       &distro=ubuntu-25.10&epoch=2 
+│                       │      │                  ╰ UID : 6c9b77964b42ef75 
+│                       │      ├ InstalledVersion: 2:9.1.0967-1ubuntu6 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
+│                       │      │                  │         6e263e97c5a86d79365a 
+│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
+│                       │      │                            45897f0cec1ced6fe6da 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-25749 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:66b40c56e502e3ea5a86285d9f6b9805a373b79e49d2abc442ca2
+│                       │      │                   bb1be508545 
+│                       │      ├ Title           : vim: Vim: Arbitrary code execution via 'helpfile' option
+│                       │      │                   processing 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
+│                       │      │                   version 9.1.2132, a heap buffer overflow vulnerability
+│                       │      │                   exists in Vim's tag file resolution logic when processing
+│                       │      │                   the 'helpfile' option. The vulnerability is located in the
+│                       │      │                   get_tagfname() function in src/tag.c. When processing help
+│                       │      │                   file tags, Vim copies the user-controlled 'helpfile' option
+│                       │      │                   value into a fixed-size heap buffer of MAXPATHL + 1 bytes
+│                       │      │                   (typically 4097 bytes) using an unsafe STRCPY() operation
+│                       │      │                   without any bounds checking. This issue has been patched in
+│                       │      │                   version 9.1.2132. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-122 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.3 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-25749 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/commit/0714b15940b245108e6e
+│                       │      │                  │      9d7aa2260dd849a26fa9 
+│                       │      │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.1.2132 
+│                       │      │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-5w
+│                       │      │                  │      93-4g67-mm43 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-25749 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-25749 
+│                       │      ├ PublishedDate   : 2026-02-06T23:15:54.23Z 
+│                       │      ╰ LastModifiedDate: 2026-02-20T15:45:19.21Z 
+│                       ├ [32] ╭ VulnerabilityID : CVE-2026-26269 
+│                       │      ├ PkgID           : vim-runtime@2:9.1.0967-1ubuntu6 
+│                       │      ├ PkgName         : vim-runtime 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.0967-1ubuntu6?arch=all
+│                       │      │                  │       &distro=ubuntu-25.10&epoch=2 
+│                       │      │                  ╰ UID : 6c9b77964b42ef75 
+│                       │      ├ InstalledVersion: 2:9.1.0967-1ubuntu6 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
+│                       │      │                  │         6e263e97c5a86d79365a 
+│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
+│                       │      │                            45897f0cec1ced6fe6da 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-26269 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:0ce023fc87f2bca1d4772f69aa66582bfe5067063b81b5a51b0e4
+│                       │      │                   86d901fde1f 
+│                       │      ├ Title           : vim: Netbeans specialKeys stack buffer overflow 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.1.2148, a stack buffer overflow vulnerability exists in
+│                       │      │                   Vim's NetBeans integration when processing the specialKeys
+│                       │      │                   command, affecting Vim builds that enable and use the
+│                       │      │                   NetBeans feature. The Stack buffer overflow exists in
+│                       │      │                   special_keys() (in src/netbeans.c). The while (*tok) loop
+│                       │      │                   writes two bytes per iteration into a 64-byte stack buffer
+│                       │      │                   (keybuf) with no bounds check. A malicious NetBeans server
+│                       │      │                   can overflow keybuf with a single specialKeys command. The
+│                       │      │                   issue has been fixed as of Vim patch v9.1.2148. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-121 
+│                       │      ├ VendorSeverity   ╭ nvd   : 3 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 1 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.8 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/02/13/2 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-26269 
+│                       │      │                  ├ [2]: https://github.com/vim/vim/commit/c5f312aad8e4179e437f
+│                       │      │                  │      81ad39a860cd0ef11970 
+│                       │      │                  ├ [3]: https://github.com/vim/vim/releases/tag/v9.1.2148 
+│                       │      │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-9w
+│                       │      │                  │      5c-hwr9-hc68 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-26269 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-26269 
+│                       │      ├ PublishedDate   : 2026-02-13T20:17:41.377Z 
+│                       │      ╰ LastModifiedDate: 2026-02-18T21:29:03.767Z 
+│                       ├ [33] ╭ VulnerabilityID : CVE-2021-31879 
+│                       │      ├ PkgID           : wget@1.25.0-2ubuntu3 
+│                       │      ├ PkgName         : wget 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.25.0-2ubuntu3?arch=amd64&distro
+│                       │      │                  │       =ubuntu-25.10 
+│                       │      │                  ╰ UID : af36aa73af1839de 
+│                       │      ├ InstalledVersion: 1.25.0-2ubuntu3 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
+│                       │      │                  │         6e263e97c5a86d79365a 
+│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
+│                       │      │                            45897f0cec1ced6fe6da 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-31879 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:4e75c0572aad2506685e62d745b0a0d6be0f75c527a0ef6f21812
+│                       │      │                   d4fe81af1a3 
+│                       │      ├ Title           : wget: authorization header disclosure on redirect 
+│                       │      ├ Description     : GNU Wget through 1.21.1 does not omit the Authorization
+│                       │      │                   header upon a redirect to a different origin, a related
+│                       │      │                   issue to CVE-2018-1000007. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-601 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ nvd        : 2 
+│                       │      │                  ├ photon     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:P/I:P/A:N 
+│                       │      │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L
+│                       │      │                  │        │           /A:N 
+│                       │      │                  │        ├ V2Score : 5.8 
+│                       │      │                  │        ╰ V3Score : 6.1 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2021-31879 
+│                       │      │                  ├ [1]: https://mail.gnu.org/archive/html/bug-wget/2021-02/msg
+│                       │      │                  │      00002.html 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2021-31879 
+│                       │      │                  ├ [3]: https://savannah.gnu.org/bugs/?56909 
+│                       │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-20210618-0002/ 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
+│                       │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T06:06:25.02Z 
+│                       ├ [34] ╭ VulnerabilityID : CVE-2026-25749 
+│                       │      ├ PkgID           : xxd@2:9.1.0967-1ubuntu6 
+│                       │      ├ PkgName         : xxd 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.0967-1ubuntu6?arch=amd64&distr
+│                       │      │                  │       o=ubuntu-25.10&epoch=2 
+│                       │      │                  ╰ UID : f205daafc0720033 
+│                       │      ├ InstalledVersion: 2:9.1.0967-1ubuntu6 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
+│                       │      │                  │         6e263e97c5a86d79365a 
+│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
+│                       │      │                            45897f0cec1ced6fe6da 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-25749 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:b9e9144cf30dde32941c631078f3ba9d211ec3f98758f12729b93
+│                       │      │                   9657c462119 
+│                       │      ├ Title           : vim: Vim: Arbitrary code execution via 'helpfile' option
+│                       │      │                   processing 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
+│                       │      │                   version 9.1.2132, a heap buffer overflow vulnerability
+│                       │      │                   exists in Vim's tag file resolution logic when processing
+│                       │      │                   the 'helpfile' option. The vulnerability is located in the
+│                       │      │                   get_tagfname() function in src/tag.c. When processing help
+│                       │      │                   file tags, Vim copies the user-controlled 'helpfile' option
+│                       │      │                   value into a fixed-size heap buffer of MAXPATHL + 1 bytes
+│                       │      │                   (typically 4097 bytes) using an unsafe STRCPY() operation
+│                       │      │                   without any bounds checking. This issue has been patched in
+│                       │      │                   version 9.1.2132. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-122 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.3 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-25749 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/commit/0714b15940b245108e6e
+│                       │      │                  │      9d7aa2260dd849a26fa9 
+│                       │      │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.1.2132 
+│                       │      │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-5w
+│                       │      │                  │      93-4g67-mm43 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-25749 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-25749 
+│                       │      ├ PublishedDate   : 2026-02-06T23:15:54.23Z 
+│                       │      ╰ LastModifiedDate: 2026-02-20T15:45:19.21Z 
+│                       ╰ [35] ╭ VulnerabilityID : CVE-2026-26269 
+│                              ├ PkgID           : xxd@2:9.1.0967-1ubuntu6 
+│                              ├ PkgName         : xxd 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.0967-1ubuntu6?arch=amd64&distr
+│                              │                  │       o=ubuntu-25.10&epoch=2 
+│                              │                  ╰ UID : f205daafc0720033 
+│                              ├ InstalledVersion: 2:9.1.0967-1ubuntu6 
 │                              ├ Status          : affected 
 │                              ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
 │                              │                  │         6e263e97c5a86d79365a 
 │                              │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
 │                              │                            45897f0cec1ced6fe6da 
 │                              ├ SeveritySource  : ubuntu 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-31879 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-26269 
 │                              ├ DataSource       ╭ ID  : ubuntu 
 │                              │                  ├ Name: Ubuntu CVE Tracker 
 │                              │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                              ├ Fingerprint     : sha256:4e75c0572aad2506685e62d745b0a0d6be0f75c527a0ef6f21812
-│                              │                   d4fe81af1a3 
-│                              ├ Title           : wget: authorization header disclosure on redirect 
-│                              ├ Description     : GNU Wget through 1.21.1 does not omit the Authorization
-│                              │                   header upon a redirect to a different origin, a related
-│                              │                   issue to CVE-2018-1000007. 
-│                              ├ Severity        : MEDIUM 
-│                              ├ CweIDs           ─ [0]: CWE-601 
-│                              ├ VendorSeverity   ╭ amazon     : 2 
-│                              │                  ├ cbl-mariner: 2 
-│                              │                  ├ nvd        : 2 
-│                              │                  ├ photon     : 2 
-│                              │                  ├ redhat     : 2 
-│                              │                  ╰ ubuntu     : 2 
-│                              ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:P/I:P/A:N 
-│                              │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L
-│                              │                  │        │           /A:N 
-│                              │                  │        ├ V2Score : 5.8 
-│                              │                  │        ╰ V3Score : 6.1 
-│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N
-│                              │                           │           /A:N 
-│                              │                           ╰ V3Score : 6.5 
-│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2021-31879 
-│                              │                  ├ [1]: https://mail.gnu.org/archive/html/bug-wget/2021-02/msg
-│                              │                  │      00002.html 
-│                              │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2021-31879 
-│                              │                  ├ [3]: https://savannah.gnu.org/bugs/?56909 
-│                              │                  ├ [4]: https://security.netapp.com/advisory/ntap-20210618-0002/ 
-│                              │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
-│                              ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
-│                              ╰ LastModifiedDate: 2024-11-21T06:06:25.02Z 
+│                              ├ Fingerprint     : sha256:5561d9c336129fce84c2acccb84a1c75161bbe54b5d9c9cedc2ee
+│                              │                   91785c431f4 
+│                              ├ Title           : vim: Netbeans specialKeys stack buffer overflow 
+│                              ├ Description     : Vim is an open source, command line text editor. Prior to
+│                              │                   9.1.2148, a stack buffer overflow vulnerability exists in
+│                              │                   Vim's NetBeans integration when processing the specialKeys
+│                              │                   command, affecting Vim builds that enable and use the
+│                              │                   NetBeans feature. The Stack buffer overflow exists in
+│                              │                   special_keys() (in src/netbeans.c). The while (*tok) loop
+│                              │                   writes two bytes per iteration into a 64-byte stack buffer
+│                              │                   (keybuf) with no bounds check. A malicious NetBeans server
+│                              │                   can overflow keybuf with a single specialKeys command. The
+│                              │                   issue has been fixed as of Vim patch v9.1.2148. 
+│                              ├ Severity        : LOW 
+│                              ├ CweIDs           ─ [0]: CWE-121 
+│                              ├ VendorSeverity   ╭ nvd   : 3 
+│                              │                  ├ photon: 3 
+│                              │                  ├ redhat: 1 
+│                              │                  ╰ ubuntu: 1 
+│                              ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H
+│                              │                  │        │           /A:H 
+│                              │                  │        ╰ V3Score : 7.5 
+│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H
+│                              │                           │           /A:H 
+│                              │                           ╰ V3Score : 7.8 
+│                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/02/13/2 
+│                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-26269 
+│                              │                  ├ [2]: https://github.com/vim/vim/commit/c5f312aad8e4179e437f
+│                              │                  │      81ad39a860cd0ef11970 
+│                              │                  ├ [3]: https://github.com/vim/vim/releases/tag/v9.1.2148 
+│                              │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-9w
+│                              │                  │      5c-hwr9-hc68 
+│                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-26269 
+│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-26269 
+│                              ├ PublishedDate   : 2026-02-13T20:17:41.377Z 
+│                              ╰ LastModifiedDate: 2026-02-18T21:29:03.767Z 
 ╰ [1] ╭ Target  : Java 
       ├ Class   : lang-pkgs 
       ├ Type    : jar 

@@ -28,10 +28,10 @@
 │     │                 │       │                ├ [7]: libstdc++6@15.2.0-4ubuntu4 
 │     │                 │       │                ├ [8]: libsystemd0@257.9-0ubuntu2.1 
 │     │                 │       │                ╰ [9]: ubuntu-keyring@2023.11.28.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:5c7db3942fd905c368040650b06516eaf7f96af3521d28f25c2d15
 │     │                 │       │                 524fa57359 
 │     │                 │       ├ InstalledFiles ╭ [0]  : /usr/bin/apt 
@@ -226,10 +226,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ╰ [1]: libcrypt1@1:4.4.38-1build1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:d6ac6917838cb1f1e653ae875caa3cd726852813c73e18b137c47e
 │     │                 │       │                 e6f7849e3d 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/bin/locale-check 
@@ -292,10 +292,10 @@
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ├ [1]: libdebconfclient0@0.279ubuntu1 
 │     │                 │       │                ╰ [2]: libselinux1@3.8.1-1build1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:53adb1ea0ee603f5615752b90cd38458ecf0c7308832c6a080d68a
 │     │                 │       │                 981daed3b9 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/sbin/update-passwd 
@@ -343,10 +343,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: base-files@14ubuntu3 
 │     │                 │       │                ╰ [1]: debianutils@5.23.2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:8f5f9b383b07149ce0e967a251d46622242058f395d348502fc840
 │     │                 │       │                 4bbd6de6aa 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/bin/bash 
@@ -390,10 +390,10 @@
 │     │                 │       │                ╰ [1]: GPL-2.0-only 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]  : /usr/bin/dh_bash-completion 
 │     │                 │       │                ├ [1]  : /usr/share/bash-completion/bash_completion 
 │     │                 │       │                ├ [2]  : /usr/share/bash-completion/completions/2to3 
@@ -964,10 +964,10 @@
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ├ [1]: libsmartcols1@2.41-4ubuntu4.1 
 │     │                 │       │                ╰ [2]: libtinfo6@6.5+20250216-2build1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/bin/col 
 │     │                 │       │                ├ [1] : /usr/bin/colcrt 
 │     │                 │       │                ├ [2] : /usr/bin/colrm 
@@ -1024,10 +1024,10 @@
 │     │                 │       │                ╰ [16]: LGPL-3.0-only 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/bin/logger 
 │     │                 │       │                ├ [1] : /usr/bin/renice 
 │     │                 │       │                ├ [2] : /usr/bin/script 
@@ -1068,10 +1068,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: libbz2-1.0@1.0.8-6build1 
 │     │                 │       │                ╰ [1]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/bin/bzdiff 
 │     │                 │       │                ├ [1] : /usr/bin/bzexe 
 │     │                 │       │                ├ [2] : /usr/bin/bzgrep 
@@ -1101,10 +1101,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: debconf@1.5.91 
 │     │                 │       │                ╰ [1]: openssl@3.5.3-1ubuntu3 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]  : /usr/sbin/update-ca-certificates 
 │     │                 │       │                ├ [1]  : /usr/share/ca-certificates/mozilla/ACCVRAIZ1.crt 
 │     │                 │       │                ├ [2]  : /usr/share/ca-certificates/mozilla/AC_RAIZ_FNMT-RCM.crt 
@@ -1422,10 +1422,10 @@
 │     │                 │       ├ Licenses       ─ [0]: GPL-3.0-only 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:be48c687f892c8a8552fda28390044cb74afca9d9bbda1d1edd557
 │     │                 │       │                 bf86a42eeb 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/share/doc/coreutils/changelog.gz 
@@ -1443,26 +1443,26 @@
 │     │                 │       ├ Licenses       ─ [0]: GPL-3.0-only 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:98ecaa3d286f33259312bcba2490c012a74ce10d98de78c5f12b46
 │     │                 │       │                 69356063c6 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/share/doc/coreutils-from-uutils/changelog.gz 
 │     │                 │       │                ╰ [1]: /usr/share/doc/coreutils-from-uutils/copyright 
 │     │                 │       ╰ AnalyzedBy    : dpkg 
-│     │                 ├ [11]  ╭ ID            : curl@8.14.1-2ubuntu1 
+│     │                 ├ [11]  ╭ ID            : curl@8.14.1-2ubuntu1.1 
 │     │                 │       ├ Name          : curl 
-│     │                 │       ├ Identifier     ╭ PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro=
-│     │                 │       │                │       ubuntu-25.10 
-│     │                 │       │                ╰ UID : 173a610781089e1b 
+│     │                 │       ├ Identifier     ╭ PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1.1?arch=amd64&distr
+│     │                 │       │                │       o=ubuntu-25.10 
+│     │                 │       │                ╰ UID : a175867ded5742c 
 │     │                 │       ├ Version       : 8.14.1 
-│     │                 │       ├ Release       : 2ubuntu1 
+│     │                 │       ├ Release       : 2ubuntu1.1 
 │     │                 │       ├ Arch          : amd64 
 │     │                 │       ├ SrcName       : curl 
 │     │                 │       ├ SrcVersion    : 8.14.1 
-│     │                 │       ├ SrcRelease    : 2ubuntu1 
+│     │                 │       ├ SrcRelease    : 2ubuntu1.1 
 │     │                 │       ├ Licenses       ╭ [0] : curl 
 │     │                 │       │                ├ [1] : OLDAP-2.8 
 │     │                 │       │                ├ [2] : ISC 
@@ -1477,12 +1477,12 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       │                ├ [1]: libcurl4t64@8.14.1-2ubuntu1 
+│     │                 │       │                ├ [1]: libcurl4t64@8.14.1-2ubuntu1.1 
 │     │                 │       │                ╰ [2]: zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/bin/curl 
 │     │                 │       │                ├ [1]: /usr/bin/wcurl 
 │     │                 │       │                ├ [2]: /usr/share/doc/curl/NEWS.Debian.gz 
@@ -1511,10 +1511,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: debianutils@5.23.2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:08c51b234ad83c5d389316fad000a8c8f925903c3ee0e21b70b7b5
 │     │                 │       │                 f286ebab69 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/bin/dash 
@@ -1539,10 +1539,10 @@
 │     │                 │       ├ Licenses       ─ [0]: BSD-2-Clause 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:8d5a58907bfda17bc360de3a48d656a86e805f61d56c5fa531cf12
 │     │                 │       │                 dc733e9784 
 │     │                 │       ├ InstalledFiles ╭ [0]  : /usr/bin/debconf 
@@ -1700,10 +1700,10 @@
 │     │                 │       │                ╰ [3]: SMAIL-GPL 
 │     │                 │       ├ Maintainer    : Ileana Dumitrescu <ileanadumitrescu95@gmail.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:a46001d9a979327d807fa72604264628eea1d2c88c1442a36f7648
 │     │                 │       │                 49e0601a60 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/bin/ischroot 
@@ -1810,10 +1810,10 @@
 │     │                 │       │                ╰ [17]: GFDL-1.3-only 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:fa28fe7c453ccfaea7465accdc06f61f6ecd87d9bde0146a1df23c
 │     │                 │       │                 3507eb5659 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/bin/cmp 
@@ -1844,10 +1844,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: tar@1.35+dfsg-3.1build1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]  : /usr/bin/dpkg 
 │     │                 │       │                ├ [1]  : /usr/bin/dpkg-deb 
 │     │                 │       │                ├ [2]  : /usr/bin/dpkg-divert 
@@ -2024,10 +2024,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: logsave@1.47.2-3ubuntu2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:97cd6120fedc55bcf13662f3d42663eed441405bd2b34405e7e688
 │     │                 │       │                 6503538110 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/bin/chattr 
@@ -2106,10 +2106,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ╰ [1]: libmagic1t64@1:5.46-5build1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/bin/file 
 │     │                 │       │                ├ [1]: /usr/share/bug/file/control 
 │     │                 │       │                ├ [2]: /usr/share/bug/file/presubj 
@@ -2152,10 +2152,10 @@
 │     │                 │       │                ╰ [21]: LGPL-2.1-only 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:3a33a890caf607b12ac5147d5db1ef57ea68670ac1a23012685d3f
 │     │                 │       │                 04dffd9be2 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/bin/find 
@@ -2190,10 +2190,10 @@
 │     │                 │       │                ╰ [5]: Apache-2.0 
 │     │                 │       ├ Maintainer    : Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:5b58d85e04c3f8b52eb0da599fd618deb0969ccd6f14fe61f0181e
 │     │                 │       │                 63cb11e6bc 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/share/doc/gcc-15-base/README.Debian.amd64.gz 
@@ -2221,10 +2221,10 @@
 │     │                 │       │                ╰ [6]: GFDL-1.3-only 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:13dba1e7fff4dd63a0d4ae80e0e8c12488997771963e3f96021c61
 │     │                 │       │                 46bea0e3b5 
 │     │                 │       ├ InstalledFiles ╭ [0]  : /usr/bin/gnu[ 
@@ -2479,10 +2479,10 @@
 │     │                 │       │                ├ [2]: libgcrypt20@1.11.0-7build1 
 │     │                 │       │                ├ [3]: libgpg-error0@1.51-4 
 │     │                 │       │                ╰ [4]: zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/bin/gpgv 
 │     │                 │       │                ├ [1]: /usr/share/doc/gpgv/NEWS.Debian.gz 
 │     │                 │       │                ├ [2]: /usr/share/doc/gpgv/changelog.Debian.gz 
@@ -2504,10 +2504,10 @@
 │     │                 │       │                ╰ [1]: GPL-3.0-only 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:fc0fdc5983ea3d3579ccf335e51dec69684a0dd9bb915734999c57
 │     │                 │       │                 33add9507a 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/bin/egrep 
@@ -2544,10 +2544,10 @@
 │     │                 │       │                ├ [1]: libgcc-s1@15.2.0-4ubuntu4 
 │     │                 │       │                ├ [2]: libstdc++6@15.2.0-4ubuntu4 
 │     │                 │       │                ╰ [3]: libuchardet0@0.0.8-1build1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]  : /usr/bin/eqn 
 │     │                 │       │                ├ [1]  : /usr/bin/groff 
 │     │                 │       │                ├ [2]  : /usr/bin/grog 
@@ -2732,10 +2732,10 @@
 │     │                 │       │                ╰ [4]: GFDL-3 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:5ad33064665977c3aefd430d55fc9886ce159323c0c5b150893258
 │     │                 │       │                 4d855b7353 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/bin/gunzip 
@@ -2778,10 +2778,10 @@
 │     │                 │       ├ Licenses       ─ [0]: GPL-2.0-only 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:41e8679f87db3937458d27e3d1c892e59e440ad636eb2298cf322f
 │     │                 │       │                 8be6f3e3e3 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/bin/hostname 
@@ -2803,10 +2803,10 @@
 │     │                 │       │                ╰ [2]: GPL-2.0-only 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:24a27aafc1e036fc26c053b9785807003203360e2734ac94dac5b5
 │     │                 │       │                 2b447f84f0 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/bin/deb-systemd-helper 
@@ -2839,10 +2839,10 @@
 │     │                 │       ├ Licenses       ─ [0]: GPL-2.0-only 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/share/doc/krb5-locales/changelog.Debian.gz 
 │     │                 │       │                ╰ [1]: /usr/share/doc/krb5-locales/copyright 
 │     │                 │       ╰ AnalyzedBy    : dpkg 
@@ -2866,10 +2866,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ╰ [1]: libtinfo6@6.5+20250216-2build1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/bin/less 
 │     │                 │       │                ├ [1] : /usr/bin/lessecho 
 │     │                 │       │                ├ [2] : /usr/bin/lesskey 
@@ -2903,10 +2903,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:77f8d49c031182bbd6c4fe4ec9ad49edb5d4607f2dac795fc6932d
 │     │                 │       │                 ce0e8f541e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libacl.so.1.1.2302 
@@ -2933,10 +2933,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libapparmor.so.1.24.2 
 │     │                 │       │                ├ [1]: /usr/share/doc/libapparmor1/changelog.Debian.gz 
 │     │                 │       │                ╰ [2]: /usr/share/doc/libapparmor1/copyright 
@@ -2969,10 +2969,10 @@
 │     │                 │       │                ├ [9] : libxxhash0@0.8.3-2 
 │     │                 │       │                ├ [10]: libzstd1@1.5.7+dfsg-1build2 
 │     │                 │       │                ╰ [11]: zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:c05ba63a56eb3201bf48a24cdc24584fe6514fdd9fe632b45b58f2
 │     │                 │       │                 e76681c12b 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/lib/x86_64-linux-gnu/libapt-pkg.so.7.0.0 
@@ -3038,10 +3038,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: gcc-15-base@15.2.0-4ubuntu4 
 │     │                 │       │                ╰ [1]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ─ [0]: /usr/lib/x86_64-linux-gnu/libatomic.so.1.2.0 
 │     │                 │       ╰ AnalyzedBy    : dpkg 
 │     │                 ├ [34]  ╭ ID            : libattr1@1:2.5.2-3build1 
@@ -3064,10 +3064,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:7738dfaa4fefac3985f3c3eada5d5601a7bcf759c405434897e912
 │     │                 │       │                 c767d6f19f 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libattr.so.1.1.2502 
@@ -3092,10 +3092,10 @@
 │     │                 │       │                ╰ [1]: LGPL-2.1-only 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:d2d15168151e7f23e3fae6a5ee712f2f6006eb5c0e5e3a3121b993
 │     │                 │       │                 9a51c2b4e6 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/share/doc/libaudit-common/changelog.Debian.gz 
@@ -3122,10 +3122,10 @@
 │     │                 │       ├ DependsOn      ╭ [0]: libaudit-common@1:4.0.5-1build1 
 │     │                 │       │                ├ [1]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ╰ [2]: libcap-ng0@0.8.5-4build2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:6c2dd3f249be865da3018c577c7ad97f0331c66c5997ac7efd0b8a
 │     │                 │       │                 a385176dad 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0 
@@ -3163,10 +3163,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0 
 │     │                 │       │                ├ [1]: /usr/share/doc/libblkid1/NEWS.Debian.gz 
 │     │                 │       │                ├ [2]: /usr/share/doc/libblkid1/changelog.Debian.gz 
@@ -3188,10 +3188,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.1.0 
 │     │                 │       │                ├ [1]: /usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.1.0 
 │     │                 │       │                ├ [2]: /usr/lib/x86_64-linux-gnu/libbrotlienc.so.1.1.0 
@@ -3228,10 +3228,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ╰ [1]: libmd0@1.1.0-2build3 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:b0cf00fca9a1fd4220535c36b936a2dea4d9b66dabee630b39c5c0
 │     │                 │       │                 098d7b7d67 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libbsd.so.0.12.2 
@@ -3255,10 +3255,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:2eca5aa3957c1901829080d54021ad3b886a013a439219c31b8631
 │     │                 │       │                 0216807ece 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libbz2.so.1.0.4 
@@ -3312,10 +3312,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/bin/getconf 
 │     │                 │       │                ├ [1] : /usr/bin/getent 
 │     │                 │       │                ├ [2] : /usr/bin/iconv 
@@ -3394,10 +3394,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libgcc-s1@15.2.0-4ubuntu4 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]  : /usr/lib/x86_64-linux-gnu/gconv/ANSI_X3.110.so 
 │     │                 │       │                ├ [1]  : /usr/lib/x86_64-linux-gnu/gconv/ARMSCII-8.so 
 │     │                 │       │                ├ [2]  : /usr/lib/x86_64-linux-gnu/gconv/ASMO_449.so 
@@ -3702,10 +3702,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:a0db94168c4755842fb30af13c917d614218205b7b770a794878f3
 │     │                 │       │                 60d544abfd 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0 
@@ -3732,10 +3732,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:f593d836cef0fb7f250a2dd422a0a314f06b2f167b771058d6c326
 │     │                 │       │                 ec6f673560 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libcap.so.2.75 
@@ -3771,10 +3771,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:c8e602fdb8c7a1e5aaf3f105d801eb1dc741dc440f583b86a3103b
 │     │                 │       │                 f7bdfc2882 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libcom_err.so.2.1 
@@ -3797,27 +3797,27 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:bc5a7789099f627f0eefb9850cb6551fc8f7ea8ccb8c331756d3c7
 │     │                 │       │                 06539ac4e0 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0 
 │     │                 │       │                ├ [1]: /usr/share/doc/libcrypt1/changelog.Debian.gz 
 │     │                 │       │                ╰ [2]: /usr/share/doc/libcrypt1/copyright 
 │     │                 │       ╰ AnalyzedBy    : dpkg 
-│     │                 ├ [47]  ╭ ID            : libcurl4t64@8.14.1-2ubuntu1 
+│     │                 ├ [47]  ╭ ID            : libcurl4t64@8.14.1-2ubuntu1.1 
 │     │                 │       ├ Name          : libcurl4t64 
-│     │                 │       ├ Identifier     ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64&
-│     │                 │       │                │       distro=ubuntu-25.10 
-│     │                 │       │                ╰ UID : d157425689f9e9e7 
+│     │                 │       ├ Identifier     ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1.1?arch=amd6
+│     │                 │       │                │       4&distro=ubuntu-25.10 
+│     │                 │       │                ╰ UID : 2097f1cec9b15e9 
 │     │                 │       ├ Version       : 8.14.1 
-│     │                 │       ├ Release       : 2ubuntu1 
+│     │                 │       ├ Release       : 2ubuntu1.1 
 │     │                 │       ├ Arch          : amd64 
 │     │                 │       ├ SrcName       : curl 
 │     │                 │       ├ SrcVersion    : 8.14.1 
-│     │                 │       ├ SrcRelease    : 2ubuntu1 
+│     │                 │       ├ SrcRelease    : 2ubuntu1.1 
 │     │                 │       ├ Licenses       ╭ [0] : curl 
 │     │                 │       │                ├ [1] : OLDAP-2.8 
 │     │                 │       │                ├ [2] : ISC 
@@ -3843,10 +3843,10 @@
 │     │                 │       │                ├ [9] : libssl3t64@3.5.3-1ubuntu3 
 │     │                 │       │                ├ [10]: libzstd1@1.5.7+dfsg-1build2 
 │     │                 │       │                ╰ [11]: zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libcurl.so.4.8.0 
 │     │                 │       │                ├ [1]: /usr/share/doc/libcurl4t64/changelog.Debian.gz 
 │     │                 │       │                ╰ [2]: /usr/share/doc/libcurl4t64/copyright 
@@ -3876,10 +3876,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:5dc03d94a639c12008795ebf87b0c671385dd1b1eb8e7e5e8e851a
 │     │                 │       │                 489a305d27 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libdb-5.3.so 
@@ -3903,10 +3903,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:69de050e7c2be7a01dc3cee617576ec93b4fcf0348185454e9bf04
 │     │                 │       │                 8cca40ec1f 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libdebconfclient.so.0.0.0 
@@ -3940,10 +3940,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libevent_core-2.1.so.7.0.1 
 │     │                 │       │                ├ [1]: /usr/share/doc/libevent-core-2.1-7t64/changelog.Debian.gz 
 │     │                 │       │                ├ [2]: /usr/share/doc/libevent-core-2.1-7t64/copyright 
@@ -3963,10 +3963,10 @@
 │     │                 │       ├ Licenses       ─ [0]: MIT 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libexpat.so.1.10.2 
 │     │                 │       │                ├ [1]: /usr/lib/x86_64-linux-gnu/libexpatw.so.1.10.2 
 │     │                 │       │                ├ [2]: /usr/share/doc/libexpat1/AUTHORS 
@@ -4001,10 +4001,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:08ee739aaf98f55166bff9d05dac55414be00d890c267c39be7b42
 │     │                 │       │                 bfcb70c600 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libe2p.so.2.3 
@@ -4034,10 +4034,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libffi.so.8.2.0 
 │     │                 │       │                ├ [1]: /usr/share/doc/libffi8/changelog.Debian.gz 
 │     │                 │       │                ╰ [2]: /usr/share/doc/libffi8/copyright 
@@ -4057,10 +4057,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: gcc-15-base@15.2.0-4ubuntu4 
 │     │                 │       │                ╰ [1]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:d6b402572df890d133095f12007a172a57c0215bafc1ffb7c8095d
 │     │                 │       │                 771eab6921 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 
@@ -4083,10 +4083,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ╰ [1]: libgpg-error0@1.51-4 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:a4e2cf8fb36a6d59f278fb937008353dc315bc16793f0d3856f26a
 │     │                 │       │                 b6b59c39ed 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.5.0 
@@ -4118,10 +4118,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ╰ [1]: libgdbm6t64@1.26-1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libgdbm_compat.so.4.0.0 
 │     │                 │       │                ├ [1]: /usr/share/doc/libgdbm-compat4t64/copyright 
 │     │                 │       │                ╰ [2]: /usr/share/lintian/overrides/libgdbm-compat4t64 
@@ -4145,10 +4145,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libgdbm.so.6.0.0 
 │     │                 │       │                ├ [1]: /usr/share/doc/libgdbm6t64/changelog.Debian.gz 
 │     │                 │       │                ├ [2]: /usr/share/doc/libgdbm6t64/copyright 
@@ -4199,10 +4199,10 @@
 │     │                 │       │                ├ [4]: libpcre2-8-0@10.46-1 
 │     │                 │       │                ├ [5]: libselinux1@3.8.1-1build1 
 │     │                 │       │                ╰ [6]: zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/lib/x86_64-linux-gnu/glib-2.0/gio-launch-desktop 
 │     │                 │       │                ├ [1] : /usr/lib/x86_64-linux-gnu/glib-2.0/gio-querymodules 
 │     │                 │       │                ├ [2] : /usr/lib/x86_64-linux-gnu/glib-2.0/glib-compile-schemas 
@@ -4256,10 +4256,10 @@
 │     │                 │       │                ╰ [24]: LGPL-3.0-only 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/share/doc/libglib2.0-data/changelog.Debian.gz 
 │     │                 │       │                ╰ [1]: /usr/share/doc/libglib2.0-data/copyright 
 │     │                 │       ╰ AnalyzedBy    : dpkg 
@@ -4286,10 +4286,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:e2ada598e3d8fbf80e74f530fd2c41ef48cc7f735a95bbce0a0642
 │     │                 │       │                 19a60c09e5 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libgmp.so.10.5.0 
@@ -4332,10 +4332,10 @@
 │     │                 │       │                ├ [5]: libp11-kit0@0.25.5-3ubuntu1 
 │     │                 │       │                ├ [6]: libtasn1-6@4.20.0-2ubuntu0.25.10.1 
 │     │                 │       │                ╰ [7]: libunistring5@1.3-2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libgnutls.so.30.40.3 
 │     │                 │       │                ├ [1]: /usr/share/doc/libgnutls30t64/AUTHORS.gz 
 │     │                 │       │                ├ [2]: /usr/share/doc/libgnutls30t64/NEWS.gz 
@@ -4365,10 +4365,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:f8c21f0337f33498862fe47331904a6c3dc8c7ad0fb4f4ab2cbc5a
 │     │                 │       │                 5ba1d55bc9 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.38.0 
@@ -4394,10 +4394,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libgpm.so.2 
 │     │                 │       │                ├ [1]: /usr/share/doc/libgpm2/changelog.Debian.gz 
 │     │                 │       │                ╰ [2]: /usr/share/doc/libgpm2/copyright 
@@ -4421,10 +4421,10 @@
 │     │                 │       │                ├ [2]: libk5crypto3@1.21.3-5ubuntu2 
 │     │                 │       │                ├ [3]: libkrb5-3@1.21.3-5ubuntu2 
 │     │                 │       │                ╰ [4]: libkrb5support0@1.21.3-5ubuntu2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2 
 │     │                 │       │                ├ [1]: /usr/share/doc/libgssapi-krb5-2/copyright 
 │     │                 │       │                ╰ [2]: /usr/share/lintian/overrides/libgssapi-krb5-2 
@@ -4454,10 +4454,10 @@
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ├ [1]: libgmp10@2:6.3.0+dfsg-5ubuntu1 
 │     │                 │       │                ╰ [2]: libnettle8t64@3.10.1-1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libhogweed.so.6.10 
 │     │                 │       │                ├ [1]: /usr/share/doc/libhogweed6t64/copyright 
 │     │                 │       │                ╰ [2]: /usr/share/lintian/overrides/libhogweed6t64 
@@ -4488,10 +4488,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ╰ [1]: libunistring5@1.3-2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libidn2.so.0.4.0 
 │     │                 │       │                ├ [1]: /usr/share/doc/libidn2-0/AUTHORS 
 │     │                 │       │                ├ [2]: /usr/share/doc/libidn2-0/NEWS.gz 
@@ -4522,10 +4522,10 @@
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ├ [1]: libgcc-s1@15.2.0-4ubuntu4 
 │     │                 │       │                ╰ [2]: libstdc++6@15.2.0-4ubuntu4 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libjemalloc.so.2 
 │     │                 │       │                ├ [1]: /usr/share/doc/libjemalloc2/README 
 │     │                 │       │                ├ [2]: /usr/share/doc/libjemalloc2/changelog.Debian.gz 
@@ -4547,10 +4547,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ╰ [1]: libkrb5support0@1.21.3-5ubuntu2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1 
 │     │                 │       │                ╰ [1]: /usr/share/doc/libk5crypto3/copyright 
 │     │                 │       ╰ AnalyzedBy    : dpkg 
@@ -4572,10 +4572,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libkeyutils.so.1.10 
 │     │                 │       │                ├ [1]: /usr/share/doc/libkeyutils1/changelog.Debian.gz 
 │     │                 │       │                ╰ [2]: /usr/share/doc/libkeyutils1/copyright 
@@ -4600,10 +4600,10 @@
 │     │                 │       │                ├ [3]: libkeyutils1@1.6.3-6ubuntu2 
 │     │                 │       │                ├ [4]: libkrb5support0@1.21.3-5ubuntu2 
 │     │                 │       │                ╰ [5]: libssl3t64@3.5.3-1ubuntu3 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/krb5/plugins/preauth/spake.so 
 │     │                 │       │                ├ [1]: /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3 
 │     │                 │       │                ├ [2]: /usr/share/doc/libkrb5-3/README.Debian 
@@ -4626,10 +4626,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1 
 │     │                 │       │                ├ [1]: /usr/share/doc/libkrb5support0/changelog.Debian.gz 
 │     │                 │       │                ├ [2]: /usr/share/doc/libkrb5support0/copyright 
@@ -4667,10 +4667,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ╰ [1]: libsqlite3-0@3.46.1-8 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/liblastlog2.so.2.0.0 
 │     │                 │       │                ├ [1]: /usr/share/doc/liblastlog2-2/NEWS.Debian.gz 
 │     │                 │       │                ├ [2]: /usr/share/doc/liblastlog2-2/changelog.Debian.gz 
@@ -4713,10 +4713,10 @@
 │     │                 │       │                ╰ [23]: GPL-3.0-only 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/share/doc/libldap-common/NEWS.Debian.gz 
 │     │                 │       │                ├ [1]: /usr/share/doc/libldap-common/changelog.Debian.gz 
 │     │                 │       │                ├ [2]: /usr/share/doc/libldap-common/copyright 
@@ -4763,10 +4763,10 @@
 │     │                 │       │                ├ [1]: libldap-common@2.6.10+dfsg-1ubuntu2.1 
 │     │                 │       │                ├ [2]: libsasl2-2@2.1.28+dfsg1-9ubuntu1 
 │     │                 │       │                ╰ [3]: libssl3t64@3.5.3-1ubuntu3 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/liblber.so.2.0.200 
 │     │                 │       │                ├ [1]: /usr/lib/x86_64-linux-gnu/libldap.so.2.0.200 
 │     │                 │       │                ├ [2]: /usr/share/doc/libldap2/NEWS.Debian.gz 
@@ -4791,10 +4791,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ╰ [1]: libxxhash0@0.8.3-2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:ca97e80d3fc01b86bc64ec5b22958cd8da078def38c1c44a88cfda
 │     │                 │       │                 cb339891ca 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/liblz4.so.1.10.0 
@@ -4829,10 +4829,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:53af162c263b0c57811f9833888a4f70cc05b265d591d4ba5bbc05
 │     │                 │       │                 7f9ea67e8d 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/liblzma.so.5.8.1 
@@ -4862,10 +4862,10 @@
 │     │                 │       │                ╰ [4]: MIT-Old-Style-with-legal-disclaimer-2 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/file/magic.mgc 
 │     │                 │       │                ├ [1]: /usr/share/doc/libmagic-mgc/README.Debian 
 │     │                 │       │                ├ [2]: /usr/share/doc/libmagic-mgc/changelog.Debian.gz 
@@ -4896,10 +4896,10 @@
 │     │                 │       │                ├ [2]: liblzma5@5.8.1-1build2 
 │     │                 │       │                ├ [3]: libmagic-mgc@1:5.46-5build1 
 │     │                 │       │                ╰ [4]: zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libmagic.so.1.0.0 
 │     │                 │       │                ├ [1]: /usr/share/bug/libmagic1t64/control 
 │     │                 │       │                ├ [2]: /usr/share/bug/libmagic1t64/presubj 
@@ -4930,10 +4930,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:ff989178c3dc95a434238bd6dfc903ba57962d7571cfd72ebea003
 │     │                 │       │                 96c6ed202d 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libmd.so.0.1.0 
@@ -4973,10 +4973,10 @@
 │     │                 │       ├ DependsOn      ╭ [0]: libblkid1@2.41-4ubuntu4.1 
 │     │                 │       │                ├ [1]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ╰ [2]: libselinux1@3.8.1-1build1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0 
 │     │                 │       │                ├ [1]: /usr/share/doc/libmount1/NEWS.Debian.gz 
 │     │                 │       │                ├ [2]: /usr/share/doc/libmount1/changelog.Debian.gz 
@@ -4998,10 +4998,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ╰ [1]: libtinfo6@6.5+20250216-2build1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:4920a73f26ca171ecc68a445dcfceeaef2cc69701cb8b0359ef998
 │     │                 │       │                 d6f58cef20 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libformw.so.6.5 
@@ -5032,10 +5032,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libnettle.so.8.10 
 │     │                 │       │                ├ [1]: /usr/share/doc/libnettle8t64/NEWS.gz 
 │     │                 │       │                ├ [2]: /usr/share/doc/libnettle8t64/README 
@@ -5062,10 +5062,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libnghttp2.so.14.28.3 
 │     │                 │       │                ├ [1]: /usr/share/doc/libnghttp2-14/AUTHORS 
 │     │                 │       │                ├ [2]: /usr/share/doc/libnghttp2-14/README.rst.gz 
@@ -5099,10 +5099,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ╰ [1]: libffi8@3.5.2-1build1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libp11-kit.so.0.4.1 
 │     │                 │       │                ├ [1]: /usr/share/doc/libp11-kit0/changelog.Debian.gz 
 │     │                 │       │                ├ [2]: /usr/share/doc/libp11-kit0/copyright 
@@ -5132,10 +5132,10 @@
 │     │                 │       │                ╰ [10]: Beerware 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:b66f6802facbe3a9eac20da69770d63815ff1e7fe27d2456d6af04
 │     │                 │       │                 24b612dfec 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/lib/x86_64-linux-gnu/security/pam_access.so 
@@ -5220,10 +5220,10 @@
 │     │                 │       │                ├ [3]: libpam0g@1.7.0-5ubuntu2 
 │     │                 │       │                ├ [4]: libselinux1@3.8.1-1build1 
 │     │                 │       │                ╰ [5]: libsystemd0@257.9-0ubuntu2.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:5e388343f47b69bbbc30afe90c1c8e7df24286a80636b62b23e7b4
 │     │                 │       │                 8d13a6552c 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/lib/systemd/system/pam_namespace.service 
@@ -5265,10 +5265,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: debconf@1.5.91 
 │     │                 │       │                ╰ [1]: libpam-modules@1.7.0-5ubuntu2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:9719c80da63dcd03bcf608c9104103dd5a27a73490293ab4ceb19e
 │     │                 │       │                 9990a2f056 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/sbin/pam-auth-update 
@@ -5380,10 +5380,10 @@
 │     │                 │       ├ DependsOn      ╭ [0]: debconf@1.5.91 
 │     │                 │       │                ├ [1]: libaudit1@1:4.0.5-1build1 
 │     │                 │       │                ╰ [2]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:50c92418dc28a5f9f7d448236dc30e52bc55988e5de6043ed59ddd
 │     │                 │       │                 d7e5d9a62d 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libpam.so.0.85.1 
@@ -5417,10 +5417,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:5486870ccd3285970e15e9d6a6c68da1eabe438515790430f0a75d
 │     │                 │       │                 cc218a6c5b 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.14.0 
@@ -5472,10 +5472,10 @@
 │     │                 │       │                ├ [5]: libgdbm6t64@1.26-1 
 │     │                 │       │                ├ [6]: perl-modules-5.40@5.40.1-6build1 
 │     │                 │       │                ╰ [7]: zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]  : /usr/bin/cpan5.40-x86_64-linux-gnu 
 │     │                 │       │                ├ [1]  : /usr/bin/perl5.40-x86_64-linux-gnu 
 │     │                 │       │                ├ [2]  : /usr/lib/x86_64-linux-gnu/libperl.so.5.40.1 
@@ -6047,10 +6047,10 @@
 │     │                 │       ├ Maintainer    : Colin Watson <cjwatson@debian.org> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libpipeline.so.1.5.8 
 │     │                 │       │                ├ [1]: /usr/share/doc/libpipeline1/NEWS.md.gz 
 │     │                 │       │                ├ [2]: /usr/share/doc/libpipeline1/changelog.Debian.gz 
@@ -6079,10 +6079,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ╰ [1]: libsystemd0@257.9-0ubuntu2.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:56eb466afb2baf37e4f21bd14c3257fc1aa449e50afdd53c89e011
 │     │                 │       │                 c86e4d1548 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libproc2.so.0.0.2 
@@ -6109,10 +6109,10 @@
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ├ [1]: libidn2-0@2.3.8-4 
 │     │                 │       │                ╰ [2]: libunistring5@1.3-2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libpsl.so.5.3.4 
 │     │                 │       │                ├ [1]: /usr/share/doc/libpsl5t64/changelog.Debian.gz 
 │     │                 │       │                ├ [2]: /usr/share/doc/libpsl5t64/copyright 
@@ -6135,10 +6135,10 @@
 │     │                 │       │                ├ [1]: libexpat1@2.7.1-2ubuntu0.2 
 │     │                 │       │                ├ [2]: libpython3.13-stdlib@3.13.7-1ubuntu0.3 
 │     │                 │       │                ╰ [3]: zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libpython3.13.so.1.0 
 │     │                 │       │                ╰ [1]: /usr/share/lintian/overrides/libpython3.13 
 │     │                 │       ╰ AnalyzedBy    : dpkg 
@@ -6178,10 +6178,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ╰ [1]: libssl3t64@3.5.3-1ubuntu3 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]  : /usr/lib/python3.13/__future__.py 
 │     │                 │       │                ├ [1]  : /usr/lib/python3.13/_collections_abc.py 
 │     │                 │       │                ├ [2]  : /usr/lib/python3.13/_colorize.py 
@@ -6506,10 +6506,10 @@
 │     │                 │       │                ├ [11]: media-types@13.0.0 
 │     │                 │       │                ├ [12]: netbase@6.5 
 │     │                 │       │                ╰ [13]: tzdata@2025b-3ubuntu1.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]  : /usr/lib/python3.13/EXTERNALLY-MANAGED 
 │     │                 │       │                ├ [1]  : /usr/lib/python3.13/LICENSE.txt 
 │     │                 │       │                ├ [2]  : /usr/lib/python3.13/__hello__.py 
@@ -6956,10 +6956,10 @@
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ├ [1]: libtinfo6@6.5+20250216-2build1 
 │     │                 │       │                ╰ [2]: readline-common@8.3-3 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libhistory.so.8.3 
 │     │                 │       │                ├ [1]: /usr/lib/x86_64-linux-gnu/libreadline.so.8.3 
 │     │                 │       │                ├ [2]: /usr/share/doc/libreadline8t64/README.Debian 
@@ -6990,10 +6990,10 @@
 │     │                 │       │                ├ [3]: libhogweed6t64@3.10.1-1 
 │     │                 │       │                ├ [4]: libnettle8t64@3.10.1-1 
 │     │                 │       │                ╰ [5]: zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/librtmp.so.1 
 │     │                 │       │                ├ [1]: /usr/share/doc/librtmp1/changelog.Debian.gz 
 │     │                 │       │                ╰ [2]: /usr/share/doc/librtmp1/copyright 
@@ -7031,10 +7031,10 @@
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ├ [1]: libsasl2-modules-db@2.1.28+dfsg1-9ubuntu1 
 │     │                 │       │                ╰ [2]: libssl3t64@3.5.3-1ubuntu3 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25 
 │     │                 │       │                ├ [1]: /usr/share/doc/libsasl2-2/README.Debian 
 │     │                 │       │                ├ [2]: /usr/share/doc/libsasl2-2/copyright 
@@ -7072,10 +7072,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ╰ [1]: libssl3t64@3.5.3-1ubuntu3 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/sasl2/libanonymous.so.2.0.25 
 │     │                 │       │                ├ [1]: /usr/lib/x86_64-linux-gnu/sasl2/libcrammd5.so.2.0.25 
 │     │                 │       │                ├ [2]: /usr/lib/x86_64-linux-gnu/sasl2/libdigestmd5.so.2.0.25 
@@ -7118,10 +7118,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ╰ [1]: libdb5.3t64@5.3.28+dfsg2-9ubuntu1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/sasl2/libsasldb.so.2.0.25 
 │     │                 │       │                ├ [1]: /usr/share/doc/libsasl2-modules-db/changelog.Debian.gz 
 │     │                 │       │                ╰ [2]: /usr/share/doc/libsasl2-modules-db/copyright 
@@ -7141,10 +7141,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:5c5fe3d32ce8ceb021b9d61eb722dad2ee7e6f387c6344245de1e4
 │     │                 │       │                 1ad23f19ac 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libseccomp.so.2.6.0 
@@ -7168,10 +7168,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ╰ [1]: libpcre2-8-0@10.46-1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:58c80f381334c019c8a397ddec57276b509b3cff9200726f7a001a
 │     │                 │       │                 3b404fd6e8 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/tmpfiles.d/libselinux1.conf 
@@ -7195,10 +7195,10 @@
 │     │                 │       │                ╰ [2]: GPL-2.0-only 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:6407d075b747041d4ba67fe6c26251491b87e42ed838d3c493cea0
 │     │                 │       │                 1f4218f602 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/share/doc/libsemanage-common/changelog.Debian.gz 
@@ -7227,10 +7227,10 @@
 │     │                 │       │                ├ [3]: libselinux1@3.8.1-1build1 
 │     │                 │       │                ├ [4]: libsemanage-common@3.8.1-1 
 │     │                 │       │                ╰ [5]: libsepol2@3.8.1-1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:2dc336fcdeda2b38d207d756719479d33388872ff324400146298d
 │     │                 │       │                 bab613def5 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libsemanage.so.2 
@@ -7256,10 +7256,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:fa6d98611b86955964b34f5b0df69122d4648aa1cb95f2650d9023
 │     │                 │       │                 0308cf9169 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libsepol.so.2 
@@ -7282,10 +7282,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libslang.so.2.3.3 
 │     │                 │       │                ├ [1]: /usr/share/doc/libslang2/NEWS.gz 
 │     │                 │       │                ├ [2]: /usr/share/doc/libslang2/README 
@@ -7326,10 +7326,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libsmartcols.so.1.1.0 
 │     │                 │       │                ├ [1]: /usr/share/doc/libsmartcols1/NEWS.Debian.gz 
 │     │                 │       │                ├ [2]: /usr/share/doc/libsmartcols1/changelog.Debian.gz 
@@ -7357,10 +7357,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libsodium.so.23.3.0 
 │     │                 │       │                ├ [1]: /usr/share/doc/libsodium23/AUTHORS.gz 
 │     │                 │       │                ├ [2]: /usr/share/doc/libsodium23/README.markdown 
@@ -7385,10 +7385,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:d53713d24b7aedeb9fca53c30571bac34820d5b5d0bee255ab236d
 │     │                 │       │                 2e0652befd 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6 
@@ -7425,10 +7425,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ╰ [1]: libcom-err2@1.47.2-3ubuntu2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:3112a7540643cf93c745376c3d635fb8373069b700dee0f59d76a8
 │     │                 │       │                 bebe1903d5 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libss.so.2.0 
@@ -7452,10 +7452,10 @@
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ├ [1]: libssl3t64@3.5.3-1ubuntu3 
 │     │                 │       │                ╰ [2]: zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libssh2.so.1.0.1 
 │     │                 │       │                ├ [1]: /usr/share/doc/libssh2-1t64/AUTHORS 
 │     │                 │       │                ├ [2]: /usr/share/doc/libssh2-1t64/RELEASE-NOTES.gz 
@@ -7483,10 +7483,10 @@
 │     │                 │       │                ├ [1]: libzstd1@1.5.7+dfsg-1build2 
 │     │                 │       │                ├ [2]: openssl-provider-legacy@3.5.3-1ubuntu3 
 │     │                 │       │                ╰ [3]: zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/engines-3/afalg.so 
 │     │                 │       │                ├ [1]: /usr/lib/x86_64-linux-gnu/engines-3/loader_attic.so 
 │     │                 │       │                ├ [2]: /usr/lib/x86_64-linux-gnu/engines-3/padlock.so 
@@ -7513,10 +7513,10 @@
 │     │                 │       ├ DependsOn      ╭ [0]: gcc-15-base@15.2.0-4ubuntu4 
 │     │                 │       │                ├ [1]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ╰ [2]: libgcc-s1@15.2.0-4ubuntu4 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:b8c22d58331521eb920a8c00fc4ecd986f4efff8a60bff73ced306
 │     │                 │       │                 84f56252f6 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.34 
@@ -7550,10 +7550,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ╰ [1]: libcap2@1:2.75-7ubuntu2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libsystemd.so.0.40.0 
 │     │                 │       │                ├ [1]: /usr/share/doc/libsystemd0/NEWS.Debian.gz 
 │     │                 │       │                ├ [2]: /usr/share/doc/libsystemd0/changelog.Debian.gz 
@@ -7577,10 +7577,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libtasn1.so.6.6.4 
 │     │                 │       │                ├ [1]: /usr/share/doc/libtasn1-6/AUTHORS 
 │     │                 │       │                ├ [2]: /usr/share/doc/libtasn1-6/README.md 
@@ -7605,10 +7605,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:bfffbdb3d1287339e0b4a40c1940755353a1a5bfb6b1f09ca5ec45
 │     │                 │       │                 035432c2b6 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libtic.so.6.5 
@@ -7637,10 +7637,10 @@
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ├ [1]: libgcc-s1@15.2.0-4ubuntu4 
 │     │                 │       │                ╰ [2]: libstdc++6@15.2.0-4ubuntu4 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libuchardet.so.0.0.8 
 │     │                 │       │                ├ [1]: /usr/share/doc/libuchardet0/changelog.Debian.gz 
 │     │                 │       │                ╰ [2]: /usr/share/doc/libuchardet0/copyright 
@@ -7668,10 +7668,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ╰ [1]: libcap2@1:2.75-7ubuntu2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libudev.so.1.7.10 
 │     │                 │       │                ├ [1]: /usr/share/doc/libudev1/NEWS.Debian.gz 
 │     │                 │       │                ├ [2]: /usr/share/doc/libudev1/changelog.Debian.gz 
@@ -7711,10 +7711,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libunistring.so.5.2.0 
 │     │                 │       │                ├ [1]: /usr/share/doc/libunistring5/changelog.Debian.gz 
 │     │                 │       │                ╰ [2]: /usr/share/doc/libunistring5/copyright 
@@ -7750,10 +7750,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libuuid.so.1.3.0 
 │     │                 │       │                ├ [1]: /usr/share/doc/libuuid1/NEWS.Debian.gz 
 │     │                 │       │                ├ [2]: /usr/share/doc/libuuid1/changelog.Debian.gz 
@@ -7777,10 +7777,10 @@
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ├ [1]: liblzma5@5.8.1-1build2 
 │     │                 │       │                ╰ [2]: zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libxml2.so.16.0.5 
 │     │                 │       │                ├ [1]: /usr/share/doc/libxml2-16/README.Debian 
 │     │                 │       │                ├ [2]: /usr/share/doc/libxml2-16/README.md.gz 
@@ -7805,10 +7805,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:6d8286d995aeef1ffc85790ff7d8bef957a214d94bc1277d716b6b
 │     │                 │       │                 2f5b8cbe51 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libxxhash.so.0.8.3 
@@ -7833,10 +7833,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:357b36efc6d9fdbfcd14e6c044d6f05d4cf901980066958d9a8ae1
 │     │                 │       │                 83f972d9a4 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.7 
@@ -7891,10 +7891,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: debconf@1.5.91 
 │     │                 │       │                ╰ [1]: libc-bin@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]  : /usr/sbin/locale-gen 
 │     │                 │       │                ├ [1]  : /usr/sbin/update-locale 
 │     │                 │       │                ├ [2]  : /usr/sbin/validlocale 
@@ -8558,10 +8558,10 @@
 │     │                 │       │                ├ [3]: libpam-modules@1.7.0-5ubuntu2 
 │     │                 │       │                ├ [4]: libpam-runtime@1.7.0-5ubuntu2 
 │     │                 │       │                ╰ [5]: libpam0g@1.7.0-5ubuntu2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/bin/login 
 │     │                 │       │                ├ [1] : /usr/bin/newgrp 
 │     │                 │       │                ├ [2] : /usr/sbin/nologin 
@@ -8607,10 +8607,10 @@
 │     │                 │       │                ╰ [3]: GPL-2.0-only 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:6448d4fe20b68b23bc9f59a01452ce4499d72edba9bc5ead7c69f8
 │     │                 │       │                 b00110cff5 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/share/apport/package-hooks/source_shadow.py 
@@ -8654,10 +8654,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:25808957df8f7f9404964ca3c00979dfc304f0f7df6b06d36170e3
 │     │                 │       │                 e9e72272b0 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/sbin/logsave 
@@ -8680,10 +8680,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: media-types@13.0.0 
 │     │                 │       │                ╰ [1]: perl@5.40.1-6build1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/bin/cautious-launcher 
 │     │                 │       │                ├ [1] : /usr/bin/run-mailcap 
 │     │                 │       │                ├ [2] : /usr/lib/mime/debian-view 
@@ -8722,10 +8722,10 @@
 │     │                 │       │                ├ [5]: libpipeline1@1.5.8-1build1 
 │     │                 │       │                ├ [6]: libseccomp2@2.6.0-2ubuntu2 
 │     │                 │       │                ╰ [7]: zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]  : /usr/bin/catman 
 │     │                 │       │                ├ [1]  : /usr/bin/lexgrog 
 │     │                 │       │                ├ [2]  : /usr/bin/man 
@@ -9091,10 +9091,10 @@
 │     │                 │       │                ╰ [13]: Linux-man-pages-copyleft-var 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]  : /usr/share/doc/manpages/Changes.old.gz 
 │     │                 │       │                ├ [1]  : /usr/share/doc/manpages/POSIX-MANPAGES 
 │     │                 │       │                ├ [2]  : /usr/share/doc/manpages/TODO.Debian 
@@ -9443,10 +9443,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:8ccec85e069f802a586a8a4c388764571950d823596624585f0cc6
 │     │                 │       │                 9510abf690 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/bin/mawk 
@@ -9499,10 +9499,10 @@
 │     │                 │       │                ├ [4]: libslang2@2.3.3-5 
 │     │                 │       │                ├ [5]: libssh2-1t64@1.11.1-1build1 
 │     │                 │       │                ╰ [6]: mc-data@3:4.8.33-1.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/bin/mc 
 │     │                 │       │                ├ [1] : /usr/lib/mc/cons.saver 
 │     │                 │       │                ├ [2] : /usr/lib/mc/ext.d/archive.sh 
@@ -9606,10 +9606,10 @@
 │     │                 │       │                ╰ [8]: GPL-3.0-only 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]  : /usr/share/doc-base/mc-data.mc-faq 
 │     │                 │       │                ├ [1]  : /usr/share/doc/mc-data/ABOUT-NLS.gz 
 │     │                 │       │                ├ [2]  : /usr/share/doc/mc-data/AUTHORS 
@@ -9897,10 +9897,10 @@
 │     │                 │       ├ Licenses       ─ [0]: ad-hoc 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/share/bug/media-types/presubj 
 │     │                 │       │                ├ [1]: /usr/share/doc/media-types/changelog.gz 
 │     │                 │       │                ╰ [2]: /usr/share/doc/media-types/copyright 
@@ -9935,10 +9935,10 @@
 │     │                 │       │                ╰ [16]: LGPL-3.0-only 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/bin/mount 
 │     │                 │       │                ├ [1] : /usr/bin/umount 
 │     │                 │       │                ├ [2] : /usr/sbin/losetup 
@@ -9979,10 +9979,10 @@
 │     │                 │       │                ╰ [2]: BSD-3-Clause 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:eec208c9947975f1a560000cd59bcecf6b9a8d4e69f39d6439fc15
 │     │                 │       │                 afc29dac35 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/share/doc/ncurses-base/FAQ 
@@ -10052,10 +10052,10 @@
 │     │                 │       │                ╰ [2]: BSD-3-Clause 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:9dd5294a2637a6e3a669a21ede19998a4f9c1299e706ea929867f5
 │     │                 │       │                 34de036a84 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/bin/clear 
@@ -10092,10 +10092,10 @@
 │     │                 │       ├ Licenses       ─ [0]: GPL-2.0-only 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/share/doc/netbase/changelog.gz 
 │     │                 │       │                ╰ [1]: /usr/share/doc/netbase/copyright 
 │     │                 │       ╰ AnalyzedBy    : dpkg 
@@ -10114,10 +10114,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ╰ [1]: libssl3t64@3.5.3-1ubuntu3 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]  : /usr/bin/c_rehash 
 │     │                 │       │                ├ [1]  : /usr/bin/openssl 
 │     │                 │       │                ├ [2]  : /usr/lib/ssl/misc/CA.pl 
@@ -10386,10 +10386,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ╰ [1]: libssl3t64@3.5.3-1ubuntu3 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/ossl-modules/legacy.so 
 │     │                 │       │                ╰ [1]: /usr/share/doc/openssl-provider-legacy/copyright 
 │     │                 │       ╰ AnalyzedBy    : dpkg 
@@ -10423,10 +10423,10 @@
 │     │                 │       │                ├ [8] : libselinux1@3.8.1-1build1 
 │     │                 │       │                ├ [9] : libsemanage2@3.8.1-1 
 │     │                 │       │                ╰ [10]: login.defs@1:4.17.4-2ubuntu2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:ad06647d80fc3f1e5199a25307412ced9998062ffd553e01f33ed4
 │     │                 │       │                 078eba0889 
 │     │                 │       ├ InstalledFiles ╭ [0]  : /usr/bin/chage 
@@ -10794,10 +10794,10 @@
 │     │                 │       ├ DependsOn      ╭ [0]: libperl5.40@5.40.1-6build1 
 │     │                 │       │                ├ [1]: perl-base@5.40.1-6build1 
 │     │                 │       │                ╰ [2]: perl-modules-5.40@5.40.1-6build1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/bin/corelist 
 │     │                 │       │                ├ [1] : /usr/bin/cpan 
 │     │                 │       │                ├ [2] : /usr/bin/enc2xs 
@@ -10894,10 +10894,10 @@
 │     │                 │       │                ╰ [22]: Artistic-2 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:b41ed6c326d4168c7099d753e840de80a384be92e39d083904a0f0
 │     │                 │       │                 7647625a2d 
 │     │                 │       ├ InstalledFiles ╭ [0]  : /usr/bin/perl 
@@ -12043,10 +12043,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: perl-base@5.40.1-6build1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]   : /usr/share/doc/perl-modules-5.40/README.Debian 
 │     │                 │       │                ├ [1]   : /usr/share/doc/perl-modules-5.40/copyright 
 │     │                 │       │                ├ [2]   : /usr/share/perl/5.40.1/AnyDBM_File.pm 
@@ -13472,10 +13472,10 @@
 │     │                 │       │                ├ [3]: libproc2-0@2:4.0.4-8ubuntu3 
 │     │                 │       │                ├ [4]: libsystemd0@257.9-0ubuntu2.1 
 │     │                 │       │                ╰ [5]: libtinfo6@6.5+20250216-2build1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:f088dfbdcdb949934171cf6857d2ba1e073510ce359fc7ef60af0d
 │     │                 │       │                 04d21d9c70 
 │     │                 │       ├ InstalledFiles ╭ [0]  : /usr/bin/free 
@@ -13655,10 +13655,10 @@
 │     │                 │       │                ╰ [1]: CC0-1.0 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/share/doc/publicsuffix/README.Debian 
 │     │                 │       │                ├ [1]: /usr/share/doc/publicsuffix/changelog.Debian.gz 
 │     │                 │       │                ├ [2]: /usr/share/doc/publicsuffix/copyright 
@@ -13686,10 +13686,10 @@
 │     │                 │       │                ╰ [6]: ISC-no-attribution 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/share/doc/readline-common/changelog.Debian.gz 
 │     │                 │       │                ├ [1]: /usr/share/doc/readline-common/copyright 
 │     │                 │       │                ├ [2]: /usr/share/doc/readline-common/inputrc.arrows 
@@ -13718,10 +13718,10 @@
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ├ [1]: libgcc-s1@15.2.0-4ubuntu4 
 │     │                 │       │                ╰ [2]: libselinux1@3.8.1-1build1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]  : /usr/bin/coreutils 
 │     │                 │       │                ├ [1]  : /usr/lib/cargo/bin/coreutils/[ 
 │     │                 │       │                ├ [2]  : /usr/lib/cargo/bin/coreutils/arch 
@@ -14431,10 +14431,10 @@
 │     │                 │       │                ╰ [8]: pcre 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:ca581e6cee8e22a32b88539d8dfc90533274fd80a99b8ebb5dc8b2
 │     │                 │       │                 b2e7f93dd5 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/bin/sed 
@@ -14466,10 +14466,10 @@
 │     │                 │       │                ╰ [4]: GPL-2.0-only 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:014c000644528a116204dab36cfafd7442616ccfda6a67d0c4c606
 │     │                 │       │                 67e2658c58 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/bin/select-editor 
@@ -14520,10 +14520,10 @@
 │     │                 │       │                ├ [2]: libglib2.0-0t64@2.86.0-2ubuntu0.3 
 │     │                 │       │                ├ [3]: libstdc++6@15.2.0-4ubuntu4 
 │     │                 │       │                ╰ [4]: libxml2-16@2.14.5+dfsg-0.2ubuntu0.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/bin/update-mime-database 
 │     │                 │       │                ├ [1] : /usr/share/doc-base/shared-mime-info.shared-mime-info 
 │     │                 │       │                ├ [2] : /usr/share/doc/shared-mime-info/NEWS.gz 
@@ -14657,10 +14657,10 @@
 │     │                 │       │                ├ [5]: libselinux1@3.8.1-1build1 
 │     │                 │       │                ├ [6]: libssl3t64@3.5.3-1ubuntu3 
 │     │                 │       │                ╰ [7]: zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/bin/cvtsudoers.ws 
 │     │                 │       │                ├ [1] : /usr/bin/sudo.ws 
 │     │                 │       │                ├ [2] : /usr/bin/sudoreplay.ws 
@@ -14731,10 +14731,10 @@
 │     │                 │       │                ├ [1]: libgcc-s1@15.2.0-4ubuntu4 
 │     │                 │       │                ├ [2]: libpam0g@1.7.0-5ubuntu2 
 │     │                 │       │                ╰ [3]: sudo@1.9.17p2-1ubuntu1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/lib/cargo/bin/su 
 │     │                 │       │                ├ [1] : /usr/lib/cargo/bin/sudo 
 │     │                 │       │                ├ [2] : /usr/lib/cargo/bin/visudo 
@@ -14766,10 +14766,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:3c62dcbc9c6feb11291c2245645bb13d1cd30e341288b17e3fd09c
 │     │                 │       │                 cefa39ed65 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/lib/init/init-d-script 
@@ -14808,10 +14808,10 @@
 │     │                 │       │                ╰ [8]: GPL-2.0-only 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:6f8ffd06673b253675aee3c111bcde2467809c5edf714ec53cfd45
 │     │                 │       │                 cce9090342 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/bin/tar 
@@ -14853,10 +14853,10 @@
 │     │                 │       │                ├ [2]: libjemalloc2@5.3.0-3build1 
 │     │                 │       │                ├ [3]: libsystemd0@257.9-0ubuntu2.1 
 │     │                 │       │                ╰ [4]: libtinfo6@6.5+20250216-2build1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/bin/tmux 
 │     │                 │       │                ├ [1]: /usr/lib/tmpfiles.d/tmux.conf 
 │     │                 │       │                ├ [2]: /usr/share/debianutils/shells.d/tmux 
@@ -14885,10 +14885,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: debconf@1.5.91 
 │     │                 │       │                ╰ [1]: gnu-coreutils@9.5-1ubuntu4 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]  : /usr/share/doc/tzdata/NEWS.Debian.gz 
 │     │                 │       │                ├ [1]  : /usr/share/doc/tzdata/README.Debian 
 │     │                 │       │                ├ [2]  : /usr/share/doc/tzdata/changelog.Debian.gz 
@@ -15350,10 +15350,10 @@
 │     │                 │       ├ Licenses       ─ [0]: GPL-2.0-or-later 
 │     │                 │       ├ Maintainer    : Dimitri John Ledkov <dimitri.ledkov@canonical.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ Digest        : sha256:36de43b15853ccae0028e9a767613770c704833f82586f28eb262f
 │     │                 │       │                 0311adb8a8 
 │     │                 │       ├ InstalledFiles ╭ [0]: /etc/apt/trusted.gpg.d/ubuntu-keyring-2012-cdimage.gpg 
@@ -15381,10 +15381,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: libbz2-1.0@1.0.8-6build1 
 │     │                 │       │                ╰ [1]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/bin/funzip 
 │     │                 │       │                ├ [1] : /usr/bin/unzip 
 │     │                 │       │                ├ [2] : /usr/bin/unzipsfx 
@@ -15432,10 +15432,10 @@
 │     │                 │       │                ╰ [16]: LGPL-3.0-only 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]  : /usr/bin/choom 
 │     │                 │       │                ├ [1]  : /usr/bin/chrt 
 │     │                 │       │                ├ [2]  : /usr/bin/dmesg 
@@ -15762,10 +15762,10 @@
 │     │                 │       │                ├ [6]: libtinfo6@6.5+20250216-2build1 
 │     │                 │       │                ├ [7]: vim-common@2:9.1.0967-1ubuntu6 
 │     │                 │       │                ╰ [8]: vim-runtime@2:9.1.0967-1ubuntu6 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/bin/vim.basic 
 │     │                 │       │                ├ [1]: /usr/share/bug/vim/presubj 
 │     │                 │       │                ├ [2]: /usr/share/bug/vim/script 
@@ -15812,10 +15812,10 @@
 │     │                 │       │                ╰ [23]: Artistic-2.0 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/bin/helpztags 
 │     │                 │       │                ├ [1] : /usr/lib/mime/packages/vim-common 
 │     │                 │       │                ├ [2] : /usr/share/applications/vim.desktop 
@@ -15889,10 +15889,10 @@
 │     │                 │       │                ╰ [23]: Artistic-2.0 
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]   : /usr/bin/vimtutor 
 │     │                 │       │                ├ [1]   : /usr/share/doc/vim-runtime/changelog.Debian.gz 
 │     │                 │       │                ├ [2]   : /usr/share/doc/vim-runtime/copyright 
@@ -18164,10 +18164,10 @@
 │     │                 │       │                ├ [5]: libpsl5t64@0.21.2-1.1build1 
 │     │                 │       │                ├ [6]: libuuid1@2.41-4ubuntu4.1 
 │     │                 │       │                ╰ [7]: zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/bin/wget 
 │     │                 │       │                ├ [1]: /usr/share/doc/wget/AUTHORS.gz 
 │     │                 │       │                ├ [2]: /usr/share/doc/wget/MAILING-LIST 
@@ -18194,10 +18194,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: init-system-helpers@1.68 
 │     │                 │       │                ╰ [1]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/bin/xdg-user-dir 
 │     │                 │       │                ├ [1]: /usr/bin/xdg-user-dirs-update 
 │     │                 │       │                ├ [2]: /usr/lib/systemd/user/xdg-user-dirs.service 
@@ -18249,10 +18249,10 @@
 │     │                 │       ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0]: /usr/bin/xxd 
 │     │                 │       │                ├ [1]: /usr/share/doc/xxd/changelog.Debian.gz 
 │     │                 │       │                ├ [2]: /usr/share/doc/xxd/copyright 
@@ -18292,10 +18292,10 @@
 │     │                 │       ├ Repository     ─ Class: official 
 │     │                 │       ├ DependsOn      ╭ [0]: libc6@2.42-0ubuntu3.1 
 │     │                 │       │                ╰ [1]: liblzma5@5.8.1-1build2 
-│     │                 │       ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                 │       │                │         e263e97c5a86d79365a 
-│     │                 │       │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                 │       │                          5897f0cec1ced6fe6da 
+│     │                 │       ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                 │       │                │         576f48f6fa76dd8a354 
+│     │                 │       │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                 │       │                          fec0ce431f316d14a6e 
 │     │                 │       ├ InstalledFiles ╭ [0] : /usr/bin/lzmainfo 
 │     │                 │       │                ├ [1] : /usr/bin/xz 
 │     │                 │       │                ├ [2] : /usr/bin/xzdiff 
@@ -18355,391 +18355,17 @@
 │     │                         ├ Maintainer    : Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com> 
 │     │                         ├ Repository     ─ Class: official 
 │     │                         ├ DependsOn      ─ [0]: libc6@2.42-0ubuntu3.1 
-│     │                         ├ Layer          ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906
-│     │                         │                │         e263e97c5a86d79365a 
-│     │                         │                ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa74
-│     │                         │                          5897f0cec1ced6fe6da 
+│     │                         ├ Layer          ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+│     │                         │                │         576f48f6fa76dd8a354 
+│     │                         │                ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+│     │                         │                          fec0ce431f316d14a6e 
 │     │                         ├ Digest        : sha256:f8100c77fdf80754b2e0fa46366fae640ed933458be85cc633dc3c
 │     │                         │                 f1fa30176b 
 │     │                         ├ InstalledFiles ╭ [0]: /usr/lib/x86_64-linux-gnu/libz.so.1.3.1 
 │     │                         │                ├ [1]: /usr/share/doc/zlib1g/changelog.Debian.gz 
 │     │                         │                ╰ [2]: /usr/share/doc/zlib1g/copyright 
 │     │                         ╰ AnalyzedBy    : dpkg 
-│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2025-11563 
-│                       │      ├ PkgID           : curl@8.14.1-2ubuntu1 
-│                       │      ├ PkgName         : curl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro
-│                       │      │                  │       =ubuntu-25.10 
-│                       │      │                  ╰ UID : 173a610781089e1b 
-│                       │      ├ InstalledVersion: 8.14.1-2ubuntu1 
-│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.1 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-11563 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:849410baa326d9b06941504197e56b8c84039747c07f99d2f6589
-│                       │      │                   585490c307b 
-│                       │      ├ Title           : wcurl: wcurl: Arbitrary file placement via crafted URLs 
-│                       │      ├ Description     : URLs containing percent-encoded slashes (`/` or `\`) can
-│                       │      │                   trick wcurl into
-│                       │      │                   saving the output file outside of the current directory
-│                       │      │                   without the user
-│                       │      │                   explicitly asking for it.
-│                       │      │                   
-│                       │      │                   This flaw only affects the wcurl command line tool. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-22 
-│                       │      ├ VendorSeverity   ╭ amazon: 2 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L
-│                       │      │                           │           /A:L 
-│                       │      │                           ╰ V3Score : 6.5 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/11/04/1 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-11563 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-11563.html 
-│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-11563.json 
-│                       │      │                  ├ [4]: https://lists.debian.org/debian-release/2025/11/msg005
-│                       │      │                  │      04.html 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-11563 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8062-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-11563 
-│                       │      ├ PublishedDate   : 2026-02-25T08:16:18.337Z 
-│                       │      ╰ LastModifiedDate: 2026-02-26T20:06:37.45Z 
-│                       ├ [1]  ╭ VulnerabilityID : CVE-2025-13034 
-│                       │      ├ PkgID           : curl@8.14.1-2ubuntu1 
-│                       │      ├ PkgName         : curl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro
-│                       │      │                  │       =ubuntu-25.10 
-│                       │      │                  ╰ UID : 173a610781089e1b 
-│                       │      ├ InstalledVersion: 8.14.1-2ubuntu1 
-│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.1 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13034 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:15143f5203305e5f37fb5aab5d47b018d910a7604a791e2596263
-│                       │      │                   19bd44c4d7c 
-│                       │      ├ Title           : When using `CURLOPT_PINNEDPUBLICKEY` option with libcurl or
-│                       │      │                   `--pinnedp ... 
-│                       │      ├ Description     : When using `CURLOPT_PINNEDPUBLICKEY` option with libcurl or
-│                       │      │                   `--pinnedpubkey`
-│                       │      │                   with the curl tool,curl should check the public key of the
-│                       │      │                   server certificate
-│                       │      │                   to verify the peer.
-│                       │      │                   
-│                       │      │                   This check was skipped in a certain condition that would
-│                       │      │                   then make curl allow
-│                       │      │                   the connection without performing the proper check, thus not
-│                       │      │                    noticing a
-│                       │      │                   possible impostor. To skip this check, the connection had to
-│                       │      │                    be done with QUIC
-│                       │      │                   with ngtcp2 built to use GnuTLS and the user had to
-│                       │      │                   explicitly disable the
-│                       │      │                   standard certificate verification. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-295 
-│                       │      ├ VendorSeverity   ╭ amazon: 2 
-│                       │      │                  ├ photon: 2 
-│                       │      │                  ╰ ubuntu: 2 
-│                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-13034.html 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-13034.json 
-│                       │      │                  ├ [2]: https://ubuntu.com/security/notices/USN-8062-1 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-13034 
-│                       │      ├ PublishedDate   : 2026-01-08T10:15:45.407Z 
-│                       │      ╰ LastModifiedDate: 2026-01-20T14:54:02.73Z 
-│                       ├ [2]  ╭ VulnerabilityID : CVE-2025-14017 
-│                       │      ├ PkgID           : curl@8.14.1-2ubuntu1 
-│                       │      ├ PkgName         : curl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro
-│                       │      │                  │       =ubuntu-25.10 
-│                       │      │                  ╰ UID : 173a610781089e1b 
-│                       │      ├ InstalledVersion: 8.14.1-2ubuntu1 
-│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.1 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14017 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:8c0bf1af2a6bb31172a77834436559b9dd4495163532689429b22
-│                       │      │                   1098eb60083 
-│                       │      ├ Title           : curl: curl: Security bypass due to global TLS option changes
-│                       │      │                    in multi-threaded LDAPS transfers 
-│                       │      ├ Description     : When doing multi-threaded LDAPS transfers (LDAP over TLS)
-│                       │      │                   with libcurl,
-│                       │      │                   changing TLS options in one thread would inadvertently
-│                       │      │                   change them globally
-│                       │      │                   and therefore possibly also affect other concurrently setup
-│                       │      │                   transfers.
-│                       │      │                   
-│                       │      │                   Disabling certificate verification for a specific transfer
-│                       │      │                   could
-│                       │      │                   unintentionally disable the feature for other threads as
-│                       │      │                   well. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
-│                       │      │                  ├ azure      : 2 
-│                       │      │                  ├ cbl-mariner: 2 
-│                       │      │                  ├ photon     : 2 
-│                       │      │                  ├ redhat     : 2 
-│                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 4.8 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/3 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-14017 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14017.html 
-│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-14017.json 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-14017 
-│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-8062-1 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-14017 
-│                       │      ├ PublishedDate   : 2026-01-08T10:15:45.667Z 
-│                       │      ╰ LastModifiedDate: 2026-01-27T21:29:39.953Z 
-│                       ├ [3]  ╭ VulnerabilityID : CVE-2025-10148 
-│                       │      ├ PkgID           : curl@8.14.1-2ubuntu1 
-│                       │      ├ PkgName         : curl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro
-│                       │      │                  │       =ubuntu-25.10 
-│                       │      │                  ╰ UID : 173a610781089e1b 
-│                       │      ├ InstalledVersion: 8.14.1-2ubuntu1 
-│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.1 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-10148 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:f6715700a75951fb2f6941c9cb6e5aecaa9ed3c10cc74812a4634
-│                       │      │                   8978b838ec3 
-│                       │      ├ Title           : curl: predictable WebSocket mask 
-│                       │      ├ Description     : curl's websocket code did not update the 32 bit mask pattern
-│                       │      │                    for each new
-│                       │      │                    outgoing frame as the specification says. Instead it used a
-│                       │      │                    fixed mask that
-│                       │      │                   persisted and was used throughout the entire connection.
-│                       │      │                   
-│                       │      │                   A predictable mask pattern allows for a malicious server to
-│                       │      │                   induce traffic
-│                       │      │                   between the two communicating parties that could be
-│                       │      │                   interpreted by an involved
-│                       │      │                   proxy (configured or transparent) as genuine, real, HTTP
-│                       │      │                   traffic with content
-│                       │      │                   and thereby poison its cache. That cached poisoned content
-│                       │      │                   could then be
-│                       │      │                   served to all users of that proxy. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
-│                       │      │                  ├ azure      : 2 
-│                       │      │                  ├ cbl-mariner: 2 
-│                       │      │                  ├ photon     : 2 
-│                       │      │                  ├ redhat     : 1 
-│                       │      │                  ╰ ubuntu     : 1 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 4.8 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/09/10/2 
-│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/09/10/3 
-│                       │      │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/09/10/4 
-│                       │      │                  ├ [3]: https://access.redhat.com/security/cve/CVE-2025-10148 
-│                       │      │                  ├ [4]: https://curl.se/docs/CVE-2025-10148.html 
-│                       │      │                  ├ [5]: https://curl.se/docs/CVE-2025-10148.json 
-│                       │      │                  ├ [6]: https://hackerone.com/reports/3330839 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
-│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-8062-1 
-│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
-│                       │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
-│                       │      ╰ LastModifiedDate: 2026-01-20T14:55:47.997Z 
-│                       ├ [4]  ╭ VulnerabilityID : CVE-2025-14524 
-│                       │      ├ PkgID           : curl@8.14.1-2ubuntu1 
-│                       │      ├ PkgName         : curl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro
-│                       │      │                  │       =ubuntu-25.10 
-│                       │      │                  ╰ UID : 173a610781089e1b 
-│                       │      ├ InstalledVersion: 8.14.1-2ubuntu1 
-│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.1 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14524 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:45f2b744c56060b0c21888e394ef037c3fa58363c38db51c13550
-│                       │      │                   6c345e46ef0 
-│                       │      ├ Title           : When an OAuth2 bearer token is used for an HTTP(S) transfer,
-│                       │      │                    and that  ... 
-│                       │      ├ Description     : When an OAuth2 bearer token is used for an HTTP(S) transfer,
-│                       │      │                    and that transfer
-│                       │      │                   performs a cross-protocol redirect to a second URL that uses
-│                       │      │                    an IMAP, LDAP,
-│                       │      │                   POP3 or SMTP scheme, curl might wrongly pass on the bearer
-│                       │      │                   token to the new
-│                       │      │                   target host. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-601 
-│                       │      ├ VendorSeverity   ╭ amazon: 2 
-│                       │      │                  ├ photon: 2 
-│                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/4 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-14524.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14524.json 
-│                       │      │                  ├ [3]: https://hackerone.com/reports/3459417 
-│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8062-1 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-14524 
-│                       │      ├ PublishedDate   : 2026-01-08T10:15:46.607Z 
-│                       │      ╰ LastModifiedDate: 2026-01-20T14:53:11.017Z 
-│                       ├ [5]  ╭ VulnerabilityID : CVE-2025-14819 
-│                       │      ├ PkgID           : curl@8.14.1-2ubuntu1 
-│                       │      ├ PkgName         : curl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro
-│                       │      │                  │       =ubuntu-25.10 
-│                       │      │                  ╰ UID : 173a610781089e1b 
-│                       │      ├ InstalledVersion: 8.14.1-2ubuntu1 
-│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.1 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14819 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:8de57fb03564522b0ec0162b4bcd7d46c3932cac3024d183356fc
-│                       │      │                   965cc5d0059 
-│                       │      ├ Title           : When doing TLS related transfers with reused easy or multi
-│                       │      │                   handles and ... 
-│                       │      ├ Description     : When doing TLS related transfers with reused easy or multi
-│                       │      │                   handles and
-│                       │      │                   altering the  `CURLSSLOPT_NO_PARTIALCHAIN` option, libcurl
-│                       │      │                   could accidentally
-│                       │      │                   reuse a CA store cached in memory for which the partial
-│                       │      │                   chain option was
-│                       │      │                   reversed. Contrary to the user's wishes and expectations.
-│                       │      │                   This could make
-│                       │      │                   libcurl find and accept a trust chain that it otherwise
-│                       │      │                   would not. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-295 
-│                       │      ├ VendorSeverity   ╭ amazon: 2 
-│                       │      │                  ├ photon: 2 
-│                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/5 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-14819.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14819.json 
-│                       │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-8062-1 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-14819 
-│                       │      ├ PublishedDate   : 2026-01-08T10:15:46.73Z 
-│                       │      ╰ LastModifiedDate: 2026-01-20T14:51:26.263Z 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2025-9086 
-│                       │      ├ PkgID           : curl@8.14.1-2ubuntu1 
-│                       │      ├ PkgName         : curl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro
-│                       │      │                  │       =ubuntu-25.10 
-│                       │      │                  ╰ UID : 173a610781089e1b 
-│                       │      ├ InstalledVersion: 8.14.1-2ubuntu1 
-│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.1 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-9086 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:513215456860d14d6df44377b4a042b00fba70fcc3f87551a8aff
-│                       │      │                   dfe74381f58 
-│                       │      ├ Title           : curl: libcurl: Curl out of bounds read for cookie path 
-│                       │      ├ Description     : 1. A cookie is set using the `secure` keyword for
-│                       │      │                   `https://target` 
-│                       │      │                    2. curl is redirected to or otherwise made to speak with
-│                       │      │                   `http://target` (same 
-│                       │      │                      hostname, but using clear text HTTP) using the same
-│                       │      │                   cookie set 
-│                       │      │                    3. The same cookie name is set - but with just a slash as
-│                       │      │                   path (`path=\"/\",`).
-│                       │      │                      Since this site is not secure, the cookie *should* just
-│                       │      │                   be ignored.
-│                       │      │                   4. A bug in the path comparison logic makes curl read
-│                       │      │                   outside a heap buffer
-│                       │      │                      boundary
-│                       │      │                   
-│                       │      │                   The bug either causes a crash or it potentially makes the
-│                       │      │                   comparison come to
-│                       │      │                   the wrong conclusion and lets the clear-text site override
-│                       │      │                   the contents of the
-│                       │      │                   secure cookie, contrary to expectations and depending on the
-│                       │      │                    memory contents
-│                       │      │                   immediately following the single-byte allocation that holds
-│                       │      │                   the path.
-│                       │      │                   The presumed and correct behavior would be to plainly ignore
-│                       │      │                    the second set of
-│                       │      │                   the cookie since it was already set as secure on a secure
-│                       │      │                   host so overriding
-│                       │      │                   it on an insecure host should not be okay. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-125 
-│                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
-│                       │      │                  ├ oracle-oval: 2 
-│                       │      │                  ├ photon     : 3 
-│                       │      │                  ├ redhat     : 2 
-│                       │      │                  ├ rocky      : 2 
-│                       │      │                  ╰ ubuntu     : 1 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
-│                       │      │                           │           /A:L 
-│                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/09/10/1 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:1350 
-│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-9086 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2394750 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2394750 
-│                       │      │                  ├ [5] : https://curl.se/docs/CVE-2025-9086.html 
-│                       │      │                  ├ [6] : https://curl.se/docs/CVE-2025-9086.json 
-│                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-9086 
-│                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-1350.html 
-│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:1350 
-│                       │      │                  ├ [10]: https://github.com/curl/curl/commit/c6ae07c6a541e0e96
-│                       │      │                  │       d0040afb6 
-│                       │      │                  ├ [11]: https://hackerone.com/reports/3294999 
-│                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-9086.html 
-│                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2026-1825.html 
-│                       │      │                  ├ [14]: https://lists.debian.org/debian-lts-announce/2026/01/
-│                       │      │                  │       msg00002.html 
-│                       │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
-│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-8062-1 
-│                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
-│                       │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
-│                       │      ╰ LastModifiedDate: 2026-01-20T14:58:01.347Z 
-│                       ├ [7]  ╭ VulnerabilityID : CVE-2016-2781 
+│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2016-2781 
 │                       │      ├ PkgID           : gnu-coreutils@9.5-1ubuntu4 
 │                       │      ├ PkgName         : gnu-coreutils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gnu-coreutils@9.5-1ubuntu4?arch=amd64&
@@ -18747,17 +18373,17 @@
 │                       │      │                  ╰ UID : 972becbf46b2fccc 
 │                       │      ├ InstalledVersion: 9.5-1ubuntu4 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
+│                       │      ├ Layer            ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd
+│                       │      │                  │         6576f48f6fa76dd8a354 
+│                       │      │                  ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdff
+│                       │      │                            efec0ce431f316d14a6e 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-2781 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:231f86bb6767e8db23892fecd2f17fd0d4c2495c72f2733372212
-│                       │      │                   33b7b2d1b3d 
+│                       │      ├ Fingerprint     : sha256:f287dba1a8dbe9c1dbda84b271e42fc2fab77b53167a1d304a0b8
+│                       │      │                   c0a1a850fc8 
 │                       │      ├ Title           : coreutils: Non-privileged session can escape to the parent
 │                       │      │                   session in chroot 
 │                       │      ├ Description     : chroot in GNU coreutils, when used with --userspec, allows
@@ -18795,7 +18421,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2016-2781 
 │                       │      ├ PublishedDate   : 2017-02-07T15:59:00.333Z 
 │                       │      ╰ LastModifiedDate: 2025-06-09T16:15:25.013Z 
-│                       ├ [8]  ╭ VulnerabilityID : CVE-2025-68972 
+│                       ├ [1]  ╭ VulnerabilityID : CVE-2025-68972 
 │                       │      ├ PkgID           : gpgv@2.4.8-2ubuntu2.1 
 │                       │      ├ PkgName         : gpgv 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgv@2.4.8-2ubuntu2.1?arch=amd64&distr
@@ -18803,17 +18429,17 @@
 │                       │      │                  ╰ UID : 7ceb4bdb93da459c 
 │                       │      ├ InstalledVersion: 2.4.8-2ubuntu2.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
+│                       │      ├ Layer            ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd
+│                       │      │                  │         6576f48f6fa76dd8a354 
+│                       │      │                  ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdff
+│                       │      │                            efec0ce431f316d14a6e 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-68972 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:0338445f1efc3609081bde3babe189d4ac99fc9ea2404b5128d47
-│                       │      │                   83b2a8b5259 
+│                       │      ├ Fingerprint     : sha256:741a01a8aab329c7f35185c1b0e4848ec2b1dbecda50e48124d02
+│                       │      │                   4fb4e7a28c2 
 │                       │      ├ Title           : gnupg: GnuPG: Signature bypass via form feed character in
 │                       │      │                   signed messages 
 │                       │      ├ Description     : In GnuPG through 2.4.8, if a signed message has \f at the
@@ -18845,7 +18471,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-68972 
 │                       │      ├ PublishedDate   : 2025-12-27T23:15:40.9Z 
 │                       │      ╰ LastModifiedDate: 2026-01-09T20:08:47.323Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2022-3219 
+│                       ├ [2]  ╭ VulnerabilityID : CVE-2022-3219 
 │                       │      ├ PkgID           : gpgv@2.4.8-2ubuntu2.1 
 │                       │      ├ PkgName         : gpgv 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgv@2.4.8-2ubuntu2.1?arch=amd64&distr
@@ -18853,17 +18479,17 @@
 │                       │      │                  ╰ UID : 7ceb4bdb93da459c 
 │                       │      ├ InstalledVersion: 2.4.8-2ubuntu2.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
+│                       │      ├ Layer            ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd
+│                       │      │                  │         6576f48f6fa76dd8a354 
+│                       │      │                  ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdff
+│                       │      │                            efec0ce431f316d14a6e 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:d6a8b59912da5ac5ac73342c10ba2d5bb741196383d693e6df14a
-│                       │      │                   2605f3e5925 
+│                       │      ├ Fingerprint     : sha256:2be69445f035dfc5ec29898d4925fd424f244d58ef082be98a211
+│                       │      │                   8e7e2f0096f 
 │                       │      ├ Title           : gnupg: denial of service issue (resource consumption) using
 │                       │      │                   compressed packets 
 │                       │      ├ Description     : GnuPG can be made to spin on a relatively small input by
@@ -18890,381 +18516,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                       │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                       │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2025-11563 
-│                       │      ├ PkgID           : libcurl4t64@8.14.1-2ubuntu1 
-│                       │      ├ PkgName         : libcurl4t64 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64
-│                       │      │                  │       &distro=ubuntu-25.10 
-│                       │      │                  ╰ UID : d157425689f9e9e7 
-│                       │      ├ InstalledVersion: 8.14.1-2ubuntu1 
-│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.1 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-11563 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:e03d327f693f7b3e7d98516ba10d2fcfcd131548121dd32de56d8
-│                       │      │                   42f33425ca9 
-│                       │      ├ Title           : wcurl: wcurl: Arbitrary file placement via crafted URLs 
-│                       │      ├ Description     : URLs containing percent-encoded slashes (`/` or `\`) can
-│                       │      │                   trick wcurl into
-│                       │      │                   saving the output file outside of the current directory
-│                       │      │                   without the user
-│                       │      │                   explicitly asking for it.
-│                       │      │                   
-│                       │      │                   This flaw only affects the wcurl command line tool. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-22 
-│                       │      ├ VendorSeverity   ╭ amazon: 2 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L
-│                       │      │                           │           /A:L 
-│                       │      │                           ╰ V3Score : 6.5 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/11/04/1 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-11563 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-11563.html 
-│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-11563.json 
-│                       │      │                  ├ [4]: https://lists.debian.org/debian-release/2025/11/msg005
-│                       │      │                  │      04.html 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-11563 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8062-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-11563 
-│                       │      ├ PublishedDate   : 2026-02-25T08:16:18.337Z 
-│                       │      ╰ LastModifiedDate: 2026-02-26T20:06:37.45Z 
-│                       ├ [11] ╭ VulnerabilityID : CVE-2025-13034 
-│                       │      ├ PkgID           : libcurl4t64@8.14.1-2ubuntu1 
-│                       │      ├ PkgName         : libcurl4t64 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64
-│                       │      │                  │       &distro=ubuntu-25.10 
-│                       │      │                  ╰ UID : d157425689f9e9e7 
-│                       │      ├ InstalledVersion: 8.14.1-2ubuntu1 
-│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.1 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13034 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:2dc0db0bbee5e787c5d2b461cb42152bc567e3aa035cbd8c4ed47
-│                       │      │                   ea528269042 
-│                       │      ├ Title           : When using `CURLOPT_PINNEDPUBLICKEY` option with libcurl or
-│                       │      │                   `--pinnedp ... 
-│                       │      ├ Description     : When using `CURLOPT_PINNEDPUBLICKEY` option with libcurl or
-│                       │      │                   `--pinnedpubkey`
-│                       │      │                   with the curl tool,curl should check the public key of the
-│                       │      │                   server certificate
-│                       │      │                   to verify the peer.
-│                       │      │                   
-│                       │      │                   This check was skipped in a certain condition that would
-│                       │      │                   then make curl allow
-│                       │      │                   the connection without performing the proper check, thus not
-│                       │      │                    noticing a
-│                       │      │                   possible impostor. To skip this check, the connection had to
-│                       │      │                    be done with QUIC
-│                       │      │                   with ngtcp2 built to use GnuTLS and the user had to
-│                       │      │                   explicitly disable the
-│                       │      │                   standard certificate verification. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-295 
-│                       │      ├ VendorSeverity   ╭ amazon: 2 
-│                       │      │                  ├ photon: 2 
-│                       │      │                  ╰ ubuntu: 2 
-│                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-13034.html 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-13034.json 
-│                       │      │                  ├ [2]: https://ubuntu.com/security/notices/USN-8062-1 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-13034 
-│                       │      ├ PublishedDate   : 2026-01-08T10:15:45.407Z 
-│                       │      ╰ LastModifiedDate: 2026-01-20T14:54:02.73Z 
-│                       ├ [12] ╭ VulnerabilityID : CVE-2025-14017 
-│                       │      ├ PkgID           : libcurl4t64@8.14.1-2ubuntu1 
-│                       │      ├ PkgName         : libcurl4t64 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64
-│                       │      │                  │       &distro=ubuntu-25.10 
-│                       │      │                  ╰ UID : d157425689f9e9e7 
-│                       │      ├ InstalledVersion: 8.14.1-2ubuntu1 
-│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.1 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14017 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:5f201609fc8e486b26eec43494b609f14f8493976b83c262a09b1
-│                       │      │                   67469fb4793 
-│                       │      ├ Title           : curl: curl: Security bypass due to global TLS option changes
-│                       │      │                    in multi-threaded LDAPS transfers 
-│                       │      ├ Description     : When doing multi-threaded LDAPS transfers (LDAP over TLS)
-│                       │      │                   with libcurl,
-│                       │      │                   changing TLS options in one thread would inadvertently
-│                       │      │                   change them globally
-│                       │      │                   and therefore possibly also affect other concurrently setup
-│                       │      │                   transfers.
-│                       │      │                   
-│                       │      │                   Disabling certificate verification for a specific transfer
-│                       │      │                   could
-│                       │      │                   unintentionally disable the feature for other threads as
-│                       │      │                   well. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
-│                       │      │                  ├ azure      : 2 
-│                       │      │                  ├ cbl-mariner: 2 
-│                       │      │                  ├ photon     : 2 
-│                       │      │                  ├ redhat     : 2 
-│                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 4.8 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/3 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-14017 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14017.html 
-│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-14017.json 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-14017 
-│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-8062-1 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-14017 
-│                       │      ├ PublishedDate   : 2026-01-08T10:15:45.667Z 
-│                       │      ╰ LastModifiedDate: 2026-01-27T21:29:39.953Z 
-│                       ├ [13] ╭ VulnerabilityID : CVE-2025-10148 
-│                       │      ├ PkgID           : libcurl4t64@8.14.1-2ubuntu1 
-│                       │      ├ PkgName         : libcurl4t64 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64
-│                       │      │                  │       &distro=ubuntu-25.10 
-│                       │      │                  ╰ UID : d157425689f9e9e7 
-│                       │      ├ InstalledVersion: 8.14.1-2ubuntu1 
-│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.1 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-10148 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:a16424be48ca4a0601f7e969dcc9e69413471f9bec1a76c41d883
-│                       │      │                   a8b00c4ad0a 
-│                       │      ├ Title           : curl: predictable WebSocket mask 
-│                       │      ├ Description     : curl's websocket code did not update the 32 bit mask pattern
-│                       │      │                    for each new
-│                       │      │                    outgoing frame as the specification says. Instead it used a
-│                       │      │                    fixed mask that
-│                       │      │                   persisted and was used throughout the entire connection.
-│                       │      │                   
-│                       │      │                   A predictable mask pattern allows for a malicious server to
-│                       │      │                   induce traffic
-│                       │      │                   between the two communicating parties that could be
-│                       │      │                   interpreted by an involved
-│                       │      │                   proxy (configured or transparent) as genuine, real, HTTP
-│                       │      │                   traffic with content
-│                       │      │                   and thereby poison its cache. That cached poisoned content
-│                       │      │                   could then be
-│                       │      │                   served to all users of that proxy. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
-│                       │      │                  ├ azure      : 2 
-│                       │      │                  ├ cbl-mariner: 2 
-│                       │      │                  ├ photon     : 2 
-│                       │      │                  ├ redhat     : 1 
-│                       │      │                  ╰ ubuntu     : 1 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 4.8 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/09/10/2 
-│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/09/10/3 
-│                       │      │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/09/10/4 
-│                       │      │                  ├ [3]: https://access.redhat.com/security/cve/CVE-2025-10148 
-│                       │      │                  ├ [4]: https://curl.se/docs/CVE-2025-10148.html 
-│                       │      │                  ├ [5]: https://curl.se/docs/CVE-2025-10148.json 
-│                       │      │                  ├ [6]: https://hackerone.com/reports/3330839 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
-│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-8062-1 
-│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
-│                       │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
-│                       │      ╰ LastModifiedDate: 2026-01-20T14:55:47.997Z 
-│                       ├ [14] ╭ VulnerabilityID : CVE-2025-14524 
-│                       │      ├ PkgID           : libcurl4t64@8.14.1-2ubuntu1 
-│                       │      ├ PkgName         : libcurl4t64 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64
-│                       │      │                  │       &distro=ubuntu-25.10 
-│                       │      │                  ╰ UID : d157425689f9e9e7 
-│                       │      ├ InstalledVersion: 8.14.1-2ubuntu1 
-│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.1 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14524 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:8ba54b7cbf51663f82a2ef0cc6883329faf1f382a4b9a4ec49c98
-│                       │      │                   d2f957644a2 
-│                       │      ├ Title           : When an OAuth2 bearer token is used for an HTTP(S) transfer,
-│                       │      │                    and that  ... 
-│                       │      ├ Description     : When an OAuth2 bearer token is used for an HTTP(S) transfer,
-│                       │      │                    and that transfer
-│                       │      │                   performs a cross-protocol redirect to a second URL that uses
-│                       │      │                    an IMAP, LDAP,
-│                       │      │                   POP3 or SMTP scheme, curl might wrongly pass on the bearer
-│                       │      │                   token to the new
-│                       │      │                   target host. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-601 
-│                       │      ├ VendorSeverity   ╭ amazon: 2 
-│                       │      │                  ├ photon: 2 
-│                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/4 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-14524.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14524.json 
-│                       │      │                  ├ [3]: https://hackerone.com/reports/3459417 
-│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8062-1 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-14524 
-│                       │      ├ PublishedDate   : 2026-01-08T10:15:46.607Z 
-│                       │      ╰ LastModifiedDate: 2026-01-20T14:53:11.017Z 
-│                       ├ [15] ╭ VulnerabilityID : CVE-2025-14819 
-│                       │      ├ PkgID           : libcurl4t64@8.14.1-2ubuntu1 
-│                       │      ├ PkgName         : libcurl4t64 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64
-│                       │      │                  │       &distro=ubuntu-25.10 
-│                       │      │                  ╰ UID : d157425689f9e9e7 
-│                       │      ├ InstalledVersion: 8.14.1-2ubuntu1 
-│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.1 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14819 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:91b409341c4809a5195def6db175e8562c9cf4b09b4f4e34e974c
-│                       │      │                   85d913e3790 
-│                       │      ├ Title           : When doing TLS related transfers with reused easy or multi
-│                       │      │                   handles and ... 
-│                       │      ├ Description     : When doing TLS related transfers with reused easy or multi
-│                       │      │                   handles and
-│                       │      │                   altering the  `CURLSSLOPT_NO_PARTIALCHAIN` option, libcurl
-│                       │      │                   could accidentally
-│                       │      │                   reuse a CA store cached in memory for which the partial
-│                       │      │                   chain option was
-│                       │      │                   reversed. Contrary to the user's wishes and expectations.
-│                       │      │                   This could make
-│                       │      │                   libcurl find and accept a trust chain that it otherwise
-│                       │      │                   would not. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-295 
-│                       │      ├ VendorSeverity   ╭ amazon: 2 
-│                       │      │                  ├ photon: 2 
-│                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/5 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-14819.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14819.json 
-│                       │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-8062-1 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-14819 
-│                       │      ├ PublishedDate   : 2026-01-08T10:15:46.73Z 
-│                       │      ╰ LastModifiedDate: 2026-01-20T14:51:26.263Z 
-│                       ├ [16] ╭ VulnerabilityID : CVE-2025-9086 
-│                       │      ├ PkgID           : libcurl4t64@8.14.1-2ubuntu1 
-│                       │      ├ PkgName         : libcurl4t64 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64
-│                       │      │                  │       &distro=ubuntu-25.10 
-│                       │      │                  ╰ UID : d157425689f9e9e7 
-│                       │      ├ InstalledVersion: 8.14.1-2ubuntu1 
-│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.1 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-9086 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:8af7f37c694822a6332c5f9a933f938fc80cbc9b6ccabc7ce5103
-│                       │      │                   2af7a72b8e1 
-│                       │      ├ Title           : curl: libcurl: Curl out of bounds read for cookie path 
-│                       │      ├ Description     : 1. A cookie is set using the `secure` keyword for
-│                       │      │                   `https://target` 
-│                       │      │                    2. curl is redirected to or otherwise made to speak with
-│                       │      │                   `http://target` (same 
-│                       │      │                      hostname, but using clear text HTTP) using the same
-│                       │      │                   cookie set 
-│                       │      │                    3. The same cookie name is set - but with just a slash as
-│                       │      │                   path (`path=\"/\",`).
-│                       │      │                      Since this site is not secure, the cookie *should* just
-│                       │      │                   be ignored.
-│                       │      │                   4. A bug in the path comparison logic makes curl read
-│                       │      │                   outside a heap buffer
-│                       │      │                      boundary
-│                       │      │                   
-│                       │      │                   The bug either causes a crash or it potentially makes the
-│                       │      │                   comparison come to
-│                       │      │                   the wrong conclusion and lets the clear-text site override
-│                       │      │                   the contents of the
-│                       │      │                   secure cookie, contrary to expectations and depending on the
-│                       │      │                    memory contents
-│                       │      │                   immediately following the single-byte allocation that holds
-│                       │      │                   the path.
-│                       │      │                   The presumed and correct behavior would be to plainly ignore
-│                       │      │                    the second set of
-│                       │      │                   the cookie since it was already set as secure on a secure
-│                       │      │                   host so overriding
-│                       │      │                   it on an insecure host should not be okay. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-125 
-│                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
-│                       │      │                  ├ oracle-oval: 2 
-│                       │      │                  ├ photon     : 3 
-│                       │      │                  ├ redhat     : 2 
-│                       │      │                  ├ rocky      : 2 
-│                       │      │                  ╰ ubuntu     : 1 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
-│                       │      │                           │           /A:L 
-│                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/09/10/1 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:1350 
-│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-9086 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2394750 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2394750 
-│                       │      │                  ├ [5] : https://curl.se/docs/CVE-2025-9086.html 
-│                       │      │                  ├ [6] : https://curl.se/docs/CVE-2025-9086.json 
-│                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-9086 
-│                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-1350.html 
-│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:1350 
-│                       │      │                  ├ [10]: https://github.com/curl/curl/commit/c6ae07c6a541e0e96
-│                       │      │                  │       d0040afb6 
-│                       │      │                  ├ [11]: https://hackerone.com/reports/3294999 
-│                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-9086.html 
-│                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2026-1825.html 
-│                       │      │                  ├ [14]: https://lists.debian.org/debian-lts-announce/2026/01/
-│                       │      │                  │       msg00002.html 
-│                       │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
-│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-8062-1 
-│                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
-│                       │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
-│                       │      ╰ LastModifiedDate: 2026-01-20T14:58:01.347Z 
-│                       ├ [17] ╭ VulnerabilityID : CVE-2025-66382 
+│                       ├ [3]  ╭ VulnerabilityID : CVE-2025-66382 
 │                       │      ├ PkgID           : libexpat1@2.7.1-2ubuntu0.2 
 │                       │      ├ PkgName         : libexpat1 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libexpat1@2.7.1-2ubuntu0.2?arch=amd64&
@@ -19272,17 +18524,17 @@
 │                       │      │                  ╰ UID : bb3ed74d0fd332c6 
 │                       │      ├ InstalledVersion: 2.7.1-2ubuntu0.2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
+│                       │      ├ Layer            ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd
+│                       │      │                  │         6576f48f6fa76dd8a354 
+│                       │      │                  ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdff
+│                       │      │                            efec0ce431f316d14a6e 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-66382 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:6ce7bbc96619f1daee87bade9db4851736ae8a7ef385841b718f5
-│                       │      │                   118f628bbe2 
+│                       │      ├ Fingerprint     : sha256:2ea25748eab1dba85a0755aabc86d604c75b18ccb07d1061eca2b
+│                       │      │                   9fd4d852eed 
 │                       │      ├ Title           : libexpat: libexpat: Denial of service via crafted file
 │                       │      │                   processing 
 │                       │      ├ Description     : In libexpat through 2.7.3, a crafted file with an
@@ -19306,7 +18558,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-66382 
 │                       │      ├ PublishedDate   : 2025-11-28T07:15:57.9Z 
 │                       │      ╰ LastModifiedDate: 2025-12-19T16:05:03.557Z 
-│                       ├ [18] ╭ VulnerabilityID : CVE-2024-2236 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2024-2236 
 │                       │      ├ PkgID           : libgcrypt20@1.11.0-7build1 
 │                       │      ├ PkgName         : libgcrypt20 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcrypt20@1.11.0-7build1?arch=amd64&
@@ -19314,17 +18566,17 @@
 │                       │      │                  ╰ UID : dacd70a6a90042e1 
 │                       │      ├ InstalledVersion: 1.11.0-7build1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
+│                       │      ├ Layer            ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd
+│                       │      │                  │         6576f48f6fa76dd8a354 
+│                       │      │                  ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdff
+│                       │      │                            efec0ce431f316d14a6e 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-2236 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:f906fbca69cd61294436faaf0b21a09d910a04a29c488ffef7e44
-│                       │      │                   39a5e5bfcf6 
+│                       │      ├ Fingerprint     : sha256:33c4db925ea13a4c2b6ec6f2d34ef509cf314d104e0a48b9b38f4
+│                       │      │                   d8cd71ad01e 
 │                       │      ├ Title           : libgcrypt: vulnerable to Marvin Attack 
 │                       │      ├ Description     : A timing-based side-channel flaw was found in libgcrypt's
 │                       │      │                   RSA implementation. This issue may allow a remote attacker
@@ -19365,7 +18617,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
 │                       │      ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
 │                       │      ╰ LastModifiedDate: 2026-02-25T20:17:20.547Z 
-│                       ├ [19] ╭ VulnerabilityID : CVE-2025-8941 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2025-8941 
 │                       │      ├ PkgID           : libpam-modules@1.7.0-5ubuntu2 
 │                       │      ├ PkgName         : libpam-modules 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules@1.7.0-5ubuntu2?arch=amd
@@ -19373,17 +18625,17 @@
 │                       │      │                  ╰ UID : c56304432b2639ff 
 │                       │      ├ InstalledVersion: 1.7.0-5ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
+│                       │      ├ Layer            ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd
+│                       │      │                  │         6576f48f6fa76dd8a354 
+│                       │      │                  ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdff
+│                       │      │                            efec0ce431f316d14a6e 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8941 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:32784194852370ed1952143dfa5ffdc58b562e3908c73d0de8f4d
-│                       │      │                   dcb51de8129 
+│                       │      ├ Fingerprint     : sha256:bfb3c1abb5eaef45e4da8918d510145784f008ce08aceb47987ea
+│                       │      │                   386980c9a6a 
 │                       │      ├ Title           : linux-pam: Incomplete fix for CVE-2025-6020 
 │                       │      ├ Description     : A flaw was found in linux-pam. The pam_namespace module may
 │                       │      │                   improperly handle user-controlled paths, allowing local
@@ -19435,7 +18687,7 @@
 │                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                       ├ [20] ╭ VulnerabilityID : CVE-2025-8941 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2025-8941 
 │                       │      ├ PkgID           : libpam-modules-bin@1.7.0-5ubuntu2 
 │                       │      ├ PkgName         : libpam-modules-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.7.0-5ubuntu2?arch
@@ -19443,17 +18695,17 @@
 │                       │      │                  ╰ UID : 2a15df456a8e7951 
 │                       │      ├ InstalledVersion: 1.7.0-5ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
+│                       │      ├ Layer            ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd
+│                       │      │                  │         6576f48f6fa76dd8a354 
+│                       │      │                  ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdff
+│                       │      │                            efec0ce431f316d14a6e 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8941 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:5673d74e7a30f688885273e438831fe7ed3d6b8b7d04023bdf44b
-│                       │      │                   481051a2f44 
+│                       │      ├ Fingerprint     : sha256:41f4bfc80ac4e2cdd7a5eb7ba9882ce7999ad606c5e8097c4d704
+│                       │      │                   0e326761e33 
 │                       │      ├ Title           : linux-pam: Incomplete fix for CVE-2025-6020 
 │                       │      ├ Description     : A flaw was found in linux-pam. The pam_namespace module may
 │                       │      │                   improperly handle user-controlled paths, allowing local
@@ -19505,7 +18757,7 @@
 │                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                       ├ [21] ╭ VulnerabilityID : CVE-2025-8941 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2025-8941 
 │                       │      ├ PkgID           : libpam-runtime@1.7.0-5ubuntu2 
 │                       │      ├ PkgName         : libpam-runtime 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.7.0-5ubuntu2?arch=all
@@ -19513,17 +18765,17 @@
 │                       │      │                  ╰ UID : 7e1a4e8f3bea5117 
 │                       │      ├ InstalledVersion: 1.7.0-5ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
+│                       │      ├ Layer            ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd
+│                       │      │                  │         6576f48f6fa76dd8a354 
+│                       │      │                  ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdff
+│                       │      │                            efec0ce431f316d14a6e 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8941 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:a9bb60a0d2620367955fee05b1f9fc553fc5d8d00ff6b21868449
-│                       │      │                   ba8bec8a88f 
+│                       │      ├ Fingerprint     : sha256:b6541b285a1c05b7388e4b634617dc0d810eacfeb78660c890651
+│                       │      │                   ab141adaf9c 
 │                       │      ├ Title           : linux-pam: Incomplete fix for CVE-2025-6020 
 │                       │      ├ Description     : A flaw was found in linux-pam. The pam_namespace module may
 │                       │      │                   improperly handle user-controlled paths, allowing local
@@ -19575,7 +18827,7 @@
 │                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                       ├ [22] ╭ VulnerabilityID : CVE-2025-8941 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2025-8941 
 │                       │      ├ PkgID           : libpam0g@1.7.0-5ubuntu2 
 │                       │      ├ PkgName         : libpam0g 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.7.0-5ubuntu2?arch=amd64&dis
@@ -19583,17 +18835,17 @@
 │                       │      │                  ╰ UID : da547a8d11d3a01d 
 │                       │      ├ InstalledVersion: 1.7.0-5ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
+│                       │      ├ Layer            ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd
+│                       │      │                  │         6576f48f6fa76dd8a354 
+│                       │      │                  ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdff
+│                       │      │                            efec0ce431f316d14a6e 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8941 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:3c5322ed226b5ce612f27d0ef6d076923a426d22cb3bbb8b989d8
-│                       │      │                   d0e413280b4 
+│                       │      ├ Fingerprint     : sha256:fce45ef30afd59f1e09b388c1401c666cededacf73a9599e89579
+│                       │      │                   8bb6661f400 
 │                       │      ├ Title           : linux-pam: Incomplete fix for CVE-2025-6020 
 │                       │      ├ Description     : A flaw was found in linux-pam. The pam_namespace module may
 │                       │      │                   improperly handle user-controlled paths, allowing local
@@ -19645,7 +18897,7 @@
 │                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                       ├ [23] ╭ VulnerabilityID : CVE-2026-1757 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2026-1757 
 │                       │      ├ PkgID           : libxml2-16@2.14.5+dfsg-0.2ubuntu0.1 
 │                       │      ├ PkgName         : libxml2-16 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxml2-16@2.14.5%2Bdfsg-0.2ubuntu0.1?
@@ -19653,17 +18905,17 @@
 │                       │      │                  ╰ UID : 713b877d62e397e4 
 │                       │      ├ InstalledVersion: 2.14.5+dfsg-0.2ubuntu0.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
+│                       │      ├ Layer            ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd
+│                       │      │                  │         6576f48f6fa76dd8a354 
+│                       │      │                  ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdff
+│                       │      │                            efec0ce431f316d14a6e 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-1757 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:216efabea3c413927423e2ecac809b41c8b76fd9ca69ae7b2ae00
-│                       │      │                   01490e8bd57 
+│                       │      ├ Fingerprint     : sha256:e0a763a8c09148e8bc403650a0c93da36821a07fd734ae6c3c0b5
+│                       │      │                   375022cd311 
 │                       │      ├ Title           : libxml2: Memory Leak Leading to Local Denial of Service in
 │                       │      │                   xmllint Interactive Shell 
 │                       │      ├ Description     : A flaw was identified in the interactive shell of the
@@ -19689,7 +18941,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-1757 
 │                       │      ├ PublishedDate   : 2026-02-02T13:15:58.58Z 
 │                       │      ╰ LastModifiedDate: 2026-02-03T16:44:36.63Z 
-│                       ├ [24] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : login.defs@1:4.17.4-2ubuntu2 
 │                       │      ├ PkgName         : login.defs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login.defs@4.17.4-2ubuntu2?arch=all&di
@@ -19697,17 +18949,17 @@
 │                       │      │                  ╰ UID : 685157e74dbd875c 
 │                       │      ├ InstalledVersion: 1:4.17.4-2ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
+│                       │      ├ Layer            ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd
+│                       │      │                  │         6576f48f6fa76dd8a354 
+│                       │      │                  ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdff
+│                       │      │                            efec0ce431f316d14a6e 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56433 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:5d19c197ea63f6b30e3e11d8362c2a665c7dc38baf2a393b9c382
-│                       │      │                   5902bfe8fec 
+│                       │      ├ Fingerprint     : sha256:cea62bf813749eddd523594e8efa99f595c358aac48df4ddf9c58
+│                       │      │                   fa9577d5bf6 
 │                       │      ├ Title           : shadow-utils: Default subordinate ID configuration in
 │                       │      │                   /etc/login.defs could lead to compromise 
 │                       │      ├ Description     : shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a
@@ -19732,13 +18984,13 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.6 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:20559 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:20145 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-56433 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2334165 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2334165 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-56433 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-20145.html 
 │                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20559 
 │                       │      │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d574
 │                       │      │                  │       1d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L
@@ -19751,7 +19003,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [25] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : passwd@1:4.17.4-2ubuntu2 
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.17.4-2ubuntu2?arch=amd64&dist
@@ -19759,17 +19011,17 @@
 │                       │      │                  ╰ UID : 2d87ef360f209a3f 
 │                       │      ├ InstalledVersion: 1:4.17.4-2ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
+│                       │      ├ Layer            ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd
+│                       │      │                  │         6576f48f6fa76dd8a354 
+│                       │      │                  ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdff
+│                       │      │                            efec0ce431f316d14a6e 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56433 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:efd3fe1265e83867a4ebbb661046aac43dba98cf2557f0f424eb2
-│                       │      │                   c37fa4f9a48 
+│                       │      ├ Fingerprint     : sha256:b7b8bd6bffefb8d16b0bb76c02e491866145924a5845fecf57258
+│                       │      │                   b8a70f5b881 
 │                       │      ├ Title           : shadow-utils: Default subordinate ID configuration in
 │                       │      │                   /etc/login.defs could lead to compromise 
 │                       │      ├ Description     : shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a
@@ -19794,13 +19046,13 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.6 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:20559 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:20145 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-56433 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2334165 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2334165 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-56433 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-20145.html 
 │                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20559 
 │                       │      │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d574
 │                       │      │                  │       1d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L
@@ -19813,7 +19065,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [26] ╭ VulnerabilityID : CVE-2025-45582 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2025-45582 
 │                       │      ├ PkgID           : tar@1.35+dfsg-3.1build1 
 │                       │      ├ PkgName         : tar 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3.1build1?arch=amd64&d
@@ -19821,17 +19073,17 @@
 │                       │      │                  ╰ UID : 41081f85f98b9d6a 
 │                       │      ├ InstalledVersion: 1.35+dfsg-3.1build1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
+│                       │      ├ Layer            ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd
+│                       │      │                  │         6576f48f6fa76dd8a354 
+│                       │      │                  ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdff
+│                       │      │                            efec0ce431f316d14a6e 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-45582 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:b8c6818ed5e9866e48506cdc74bf4cc39bd0f9282682feb20aa09
-│                       │      │                   b5ae740f379 
+│                       │      ├ Fingerprint     : sha256:8a4859be67da86ccdf356b8a153c929427aa265f2c74d1cf10323
+│                       │      │                   7a9ff37854a 
 │                       │      ├ Title           : tar: Tar path traversal 
 │                       │      ├ Description     : GNU Tar through 1.35 allows file overwrite via directory
 │                       │      │                   traversal in crafted TAR archives, with a certain two-step
@@ -19869,13 +19121,13 @@
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.6 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/11/01/6 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:0067 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:0002 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-45582 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2379592 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2379592 
 │                       │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-45582 
-│                       │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2026-0067.html 
+│                       │      │                  ├ [6] : https://errata.almalinux.org/10/ALSA-2026-0002.html 
 │                       │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2026:0067 
 │                       │      │                  ├ [8] : https://github.com/i900008/vulndb/blob/main/Gnu_tar_v
 │                       │      │                  │       uln.md 
@@ -19894,7 +19146,7 @@
 │                       │      │                          urity-rules-of-thumb.html 
 │                       │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                       │      ╰ LastModifiedDate: 2025-11-02T01:15:32.307Z 
-│                       ├ [27] ╭ VulnerabilityID : CVE-2026-25749 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2026-25749 
 │                       │      ├ PkgID           : vim@2:9.1.0967-1ubuntu6 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.0967-1ubuntu6?arch=amd64&distr
@@ -19902,17 +19154,17 @@
 │                       │      │                  ╰ UID : 81ad1c8083bf3a43 
 │                       │      ├ InstalledVersion: 2:9.1.0967-1ubuntu6 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
+│                       │      ├ Layer            ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd
+│                       │      │                  │         6576f48f6fa76dd8a354 
+│                       │      │                  ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdff
+│                       │      │                            efec0ce431f316d14a6e 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-25749 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:a6c1b599e47565e415d8b397fa28a210eca42bc82d4b07bfae325
-│                       │      │                   742531d3d53 
+│                       │      ├ Fingerprint     : sha256:2294538a18195a81d516b1d87af92dbb28a188e8794f1545367e0
+│                       │      │                   6930c8930e4 
 │                       │      ├ Title           : vim: Vim: Arbitrary code execution via 'helpfile' option
 │                       │      │                   processing 
 │                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
@@ -19942,7 +19194,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-25749 
 │                       │      ├ PublishedDate   : 2026-02-06T23:15:54.23Z 
 │                       │      ╰ LastModifiedDate: 2026-02-20T15:45:19.21Z 
-│                       ├ [28] ╭ VulnerabilityID : CVE-2026-26269 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2026-26269 
 │                       │      ├ PkgID           : vim@2:9.1.0967-1ubuntu6 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.0967-1ubuntu6?arch=amd64&distr
@@ -19950,17 +19202,17 @@
 │                       │      │                  ╰ UID : 81ad1c8083bf3a43 
 │                       │      ├ InstalledVersion: 2:9.1.0967-1ubuntu6 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
+│                       │      ├ Layer            ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd
+│                       │      │                  │         6576f48f6fa76dd8a354 
+│                       │      │                  ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdff
+│                       │      │                            efec0ce431f316d14a6e 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-26269 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:5818388581e0631c1e9bb2a8586a3297cd6c64b525a1faef44415
-│                       │      │                   888d074f560 
+│                       │      ├ Fingerprint     : sha256:f8eec8ab74d98cb9c86e369921d6d67128e19b4f445899c7265cc
+│                       │      │                   af8c8948bce 
 │                       │      ├ Title           : vim: Netbeans specialKeys stack buffer overflow 
 │                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
 │                       │      │                   9.1.2148, a stack buffer overflow vulnerability exists in
@@ -19981,9 +19233,9 @@
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H
 │                       │      │                  │        │           /A:H 
 │                       │      │                  │        ╰ V3Score : 7.5 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
-│                       │      │                           ╰ V3Score : 7.8 
+│                       │      │                           ╰ V3Score : 7.5 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/02/13/2 
 │                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-26269 
 │                       │      │                  ├ [2]: https://github.com/vim/vim/commit/c5f312aad8e4179e437f
@@ -19995,7 +19247,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-26269 
 │                       │      ├ PublishedDate   : 2026-02-13T20:17:41.377Z 
 │                       │      ╰ LastModifiedDate: 2026-02-18T21:29:03.767Z 
-│                       ├ [29] ╭ VulnerabilityID : CVE-2026-25749 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2026-25749 
 │                       │      ├ PkgID           : vim-common@2:9.1.0967-1ubuntu6 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.0967-1ubuntu6?arch=all&
@@ -20003,17 +19255,17 @@
 │                       │      │                  ╰ UID : 7d3460c011f515ad 
 │                       │      ├ InstalledVersion: 2:9.1.0967-1ubuntu6 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
+│                       │      ├ Layer            ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd
+│                       │      │                  │         6576f48f6fa76dd8a354 
+│                       │      │                  ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdff
+│                       │      │                            efec0ce431f316d14a6e 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-25749 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:39a623b2ff204e9a55d84b71b701a4c251a3d357576d5c5180419
-│                       │      │                   b0785f7c268 
+│                       │      ├ Fingerprint     : sha256:701f77da3908a6e3b88c31920aa606ea6893411bcac70809cfc2f
+│                       │      │                   b63a4d07fa9 
 │                       │      ├ Title           : vim: Vim: Arbitrary code execution via 'helpfile' option
 │                       │      │                   processing 
 │                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
@@ -20043,7 +19295,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-25749 
 │                       │      ├ PublishedDate   : 2026-02-06T23:15:54.23Z 
 │                       │      ╰ LastModifiedDate: 2026-02-20T15:45:19.21Z 
-│                       ├ [30] ╭ VulnerabilityID : CVE-2026-26269 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2026-26269 
 │                       │      ├ PkgID           : vim-common@2:9.1.0967-1ubuntu6 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.0967-1ubuntu6?arch=all&
@@ -20051,17 +19303,17 @@
 │                       │      │                  ╰ UID : 7d3460c011f515ad 
 │                       │      ├ InstalledVersion: 2:9.1.0967-1ubuntu6 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
+│                       │      ├ Layer            ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd
+│                       │      │                  │         6576f48f6fa76dd8a354 
+│                       │      │                  ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdff
+│                       │      │                            efec0ce431f316d14a6e 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-26269 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:82110406a3a40e2189bc89482b6439b6cefbea36263c329b31839
-│                       │      │                   8b820fbe94d 
+│                       │      ├ Fingerprint     : sha256:00dd903e51bf80636e055aec9ab205cedfee1171a2dfdbf6a557a
+│                       │      │                   a5cd75b962a 
 │                       │      ├ Title           : vim: Netbeans specialKeys stack buffer overflow 
 │                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
 │                       │      │                   9.1.2148, a stack buffer overflow vulnerability exists in
@@ -20082,9 +19334,9 @@
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H
 │                       │      │                  │        │           /A:H 
 │                       │      │                  │        ╰ V3Score : 7.5 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
-│                       │      │                           ╰ V3Score : 7.8 
+│                       │      │                           ╰ V3Score : 7.5 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/02/13/2 
 │                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-26269 
 │                       │      │                  ├ [2]: https://github.com/vim/vim/commit/c5f312aad8e4179e437f
@@ -20096,7 +19348,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-26269 
 │                       │      ├ PublishedDate   : 2026-02-13T20:17:41.377Z 
 │                       │      ╰ LastModifiedDate: 2026-02-18T21:29:03.767Z 
-│                       ├ [31] ╭ VulnerabilityID : CVE-2026-25749 
+│                       ├ [17] ╭ VulnerabilityID : CVE-2026-25749 
 │                       │      ├ PkgID           : vim-runtime@2:9.1.0967-1ubuntu6 
 │                       │      ├ PkgName         : vim-runtime 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.0967-1ubuntu6?arch=all
@@ -20104,17 +19356,17 @@
 │                       │      │                  ╰ UID : 6c9b77964b42ef75 
 │                       │      ├ InstalledVersion: 2:9.1.0967-1ubuntu6 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
+│                       │      ├ Layer            ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd
+│                       │      │                  │         6576f48f6fa76dd8a354 
+│                       │      │                  ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdff
+│                       │      │                            efec0ce431f316d14a6e 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-25749 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:66b40c56e502e3ea5a86285d9f6b9805a373b79e49d2abc442ca2
-│                       │      │                   bb1be508545 
+│                       │      ├ Fingerprint     : sha256:801e030c2a3955f0a36cc8095e5aed09efe6aebfdcaeeef4b5e96
+│                       │      │                   b6ed9e19775 
 │                       │      ├ Title           : vim: Vim: Arbitrary code execution via 'helpfile' option
 │                       │      │                   processing 
 │                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
@@ -20144,7 +19396,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-25749 
 │                       │      ├ PublishedDate   : 2026-02-06T23:15:54.23Z 
 │                       │      ╰ LastModifiedDate: 2026-02-20T15:45:19.21Z 
-│                       ├ [32] ╭ VulnerabilityID : CVE-2026-26269 
+│                       ├ [18] ╭ VulnerabilityID : CVE-2026-26269 
 │                       │      ├ PkgID           : vim-runtime@2:9.1.0967-1ubuntu6 
 │                       │      ├ PkgName         : vim-runtime 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.0967-1ubuntu6?arch=all
@@ -20152,17 +19404,17 @@
 │                       │      │                  ╰ UID : 6c9b77964b42ef75 
 │                       │      ├ InstalledVersion: 2:9.1.0967-1ubuntu6 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
+│                       │      ├ Layer            ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd
+│                       │      │                  │         6576f48f6fa76dd8a354 
+│                       │      │                  ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdff
+│                       │      │                            efec0ce431f316d14a6e 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-26269 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:0ce023fc87f2bca1d4772f69aa66582bfe5067063b81b5a51b0e4
-│                       │      │                   86d901fde1f 
+│                       │      ├ Fingerprint     : sha256:1ea3f6a3407d2d15c61db24d22fbf6dce0de268d04f5bf4ba4155
+│                       │      │                   c4ad3893ea3 
 │                       │      ├ Title           : vim: Netbeans specialKeys stack buffer overflow 
 │                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
 │                       │      │                   9.1.2148, a stack buffer overflow vulnerability exists in
@@ -20183,9 +19435,9 @@
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H
 │                       │      │                  │        │           /A:H 
 │                       │      │                  │        ╰ V3Score : 7.5 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
-│                       │      │                           ╰ V3Score : 7.8 
+│                       │      │                           ╰ V3Score : 7.5 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/02/13/2 
 │                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-26269 
 │                       │      │                  ├ [2]: https://github.com/vim/vim/commit/c5f312aad8e4179e437f
@@ -20197,7 +19449,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-26269 
 │                       │      ├ PublishedDate   : 2026-02-13T20:17:41.377Z 
 │                       │      ╰ LastModifiedDate: 2026-02-18T21:29:03.767Z 
-│                       ├ [33] ╭ VulnerabilityID : CVE-2021-31879 
+│                       ├ [19] ╭ VulnerabilityID : CVE-2021-31879 
 │                       │      ├ PkgID           : wget@1.25.0-2ubuntu3 
 │                       │      ├ PkgName         : wget 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.25.0-2ubuntu3?arch=amd64&distro
@@ -20205,17 +19457,17 @@
 │                       │      │                  ╰ UID : af36aa73af1839de 
 │                       │      ├ InstalledVersion: 1.25.0-2ubuntu3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
+│                       │      ├ Layer            ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd
+│                       │      │                  │         6576f48f6fa76dd8a354 
+│                       │      │                  ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdff
+│                       │      │                            efec0ce431f316d14a6e 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-31879 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:4e75c0572aad2506685e62d745b0a0d6be0f75c527a0ef6f21812
-│                       │      │                   d4fe81af1a3 
+│                       │      ├ Fingerprint     : sha256:130411e293af8183707b27dfc9620a8fee9aa35eb910fa841fe0e
+│                       │      │                   0dfbf6c64a4 
 │                       │      ├ Title           : wget: authorization header disclosure on redirect 
 │                       │      ├ Description     : GNU Wget through 1.21.1 does not omit the Authorization
 │                       │      │                   header upon a redirect to a different origin, a related
@@ -20245,7 +19497,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                       │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:06:25.02Z 
-│                       ├ [34] ╭ VulnerabilityID : CVE-2026-25749 
+│                       ├ [20] ╭ VulnerabilityID : CVE-2026-25749 
 │                       │      ├ PkgID           : xxd@2:9.1.0967-1ubuntu6 
 │                       │      ├ PkgName         : xxd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.0967-1ubuntu6?arch=amd64&distr
@@ -20253,17 +19505,17 @@
 │                       │      │                  ╰ UID : f205daafc0720033 
 │                       │      ├ InstalledVersion: 2:9.1.0967-1ubuntu6 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                       │      │                  │         6e263e97c5a86d79365a 
-│                       │      │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                       │      │                            45897f0cec1ced6fe6da 
+│                       │      ├ Layer            ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd
+│                       │      │                  │         6576f48f6fa76dd8a354 
+│                       │      │                  ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdff
+│                       │      │                            efec0ce431f316d14a6e 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-25749 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:b9e9144cf30dde32941c631078f3ba9d211ec3f98758f12729b93
-│                       │      │                   9657c462119 
+│                       │      ├ Fingerprint     : sha256:7b98448dc4c99cf19a77616ec03697a2fef1235e580c958757685
+│                       │      │                   16674fbd405 
 │                       │      ├ Title           : vim: Vim: Arbitrary code execution via 'helpfile' option
 │                       │      │                   processing 
 │                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
@@ -20293,7 +19545,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-25749 
 │                       │      ├ PublishedDate   : 2026-02-06T23:15:54.23Z 
 │                       │      ╰ LastModifiedDate: 2026-02-20T15:45:19.21Z 
-│                       ╰ [35] ╭ VulnerabilityID : CVE-2026-26269 
+│                       ╰ [21] ╭ VulnerabilityID : CVE-2026-26269 
 │                              ├ PkgID           : xxd@2:9.1.0967-1ubuntu6 
 │                              ├ PkgName         : xxd 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.0967-1ubuntu6?arch=amd64&distr
@@ -20301,17 +19553,17 @@
 │                              │                  ╰ UID : f205daafc0720033 
 │                              ├ InstalledVersion: 2:9.1.0967-1ubuntu6 
 │                              ├ Status          : affected 
-│                              ├ Layer            ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f90
-│                              │                  │         6e263e97c5a86d79365a 
-│                              │                  ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa7
-│                              │                            45897f0cec1ced6fe6da 
+│                              ├ Layer            ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd
+│                              │                  │         6576f48f6fa76dd8a354 
+│                              │                  ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdff
+│                              │                            efec0ce431f316d14a6e 
 │                              ├ SeveritySource  : ubuntu 
 │                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-26269 
 │                              ├ DataSource       ╭ ID  : ubuntu 
 │                              │                  ├ Name: Ubuntu CVE Tracker 
 │                              │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                              ├ Fingerprint     : sha256:5561d9c336129fce84c2acccb84a1c75161bbe54b5d9c9cedc2ee
-│                              │                   91785c431f4 
+│                              ├ Fingerprint     : sha256:2f6ff4e5bb83af4a258d5c449371320148fd69b547125efa90f20
+│                              │                   955322579d1 
 │                              ├ Title           : vim: Netbeans specialKeys stack buffer overflow 
 │                              ├ Description     : Vim is an open source, command line text editor. Prior to
 │                              │                   9.1.2148, a stack buffer overflow vulnerability exists in
@@ -20332,9 +19584,9 @@
 │                              ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H
 │                              │                  │        │           /A:H 
 │                              │                  │        ╰ V3Score : 7.5 
-│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H
+│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H
 │                              │                           │           /A:H 
-│                              │                           ╰ V3Score : 7.8 
+│                              │                           ╰ V3Score : 7.5 
 │                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/02/13/2 
 │                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-26269 
 │                              │                  ├ [2]: https://github.com/vim/vim/commit/c5f312aad8e4179e437f
@@ -20346,664 +19598,855 @@
 │                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-26269 
 │                              ├ PublishedDate   : 2026-02-13T20:17:41.377Z 
 │                              ╰ LastModifiedDate: 2026-02-18T21:29:03.767Z 
-╰ [1] ╭ Target  : Java 
-      ├ Class   : lang-pkgs 
-      ├ Type    : jar 
-      ╰ Packages ╭ [0]  ╭ Name      : com.fasterxml.jackson.core:jackson-annotations 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.20 
-                 │      │            ╰ UID : 58b3f59746021d4b 
-                 │      ├ Version   : 2.20 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [1]  ╭ Name      : com.fasterxml.jackson.core:jackson-core 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-core@2.20.1 
-                 │      │            ╰ UID : 1996e2d8cd1022b9 
-                 │      ├ Version   : 2.20.1 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [2]  ╭ Name      : com.fasterxml.jackson.core:jackson-databind 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.20.1 
-                 │      │            ╰ UID : 6c556f8b9b0117ec 
-                 │      ├ Version   : 2.20.1 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [3]  ╭ Name      : com.fasterxml.jackson.dataformat:jackson-dataformat-toml 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-toml
-                 │      │            │       @2.19.2 
-                 │      │            ╰ UID : cd502bd403e61f97 
-                 │      ├ Version   : 2.19.2 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [4]  ╭ Name      : com.github.mwiede:jsch 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.github.mwiede/jsch@2.27.6 
-                 │      │            ╰ UID : 7c5f9c834d8395f 
-                 │      ├ Version   : 2.27.6 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [5]  ╭ Name      : com.github.vertical-blank:sql-formatter 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.github.vertical-blank/sql-formatter@2.0.5 
-                 │      │            ╰ UID : b476ea318a48e65d 
-                 │      ├ Version   : 2.0.5 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [6]  ╭ Name      : com.google.code.gson:gson 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.google.code.gson/gson@2.13.2 
-                 │      │            ╰ UID : 55058bf256f684f6 
-                 │      ├ Version   : 2.13.2 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [7]  ╭ Name      : com.googlecode.juniversalchardet:juniversalchardet 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.googlecode.juniversalchardet/juniversalchardet@1.0.3 
-                 │      │            ╰ UID : 5447189855b6db87 
-                 │      ├ Version   : 1.0.3 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [8]  ╭ Name      : com.jcraft:jsch.agentproxy.connector-factory 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.connector-factory@0.0.9 
-                 │      │            ╰ UID : a99fffa9ec19f7cf 
-                 │      ├ Version   : 0.0.9 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [9]  ╭ Name      : com.jcraft:jsch.agentproxy.core 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.core@0.0.9 
-                 │      │            ╰ UID : afb96fc5c6b4a255 
-                 │      ├ Version   : 0.0.9 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [10] ╭ Name      : com.jcraft:jsch.agentproxy.jsch 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.jsch@0.0.9 
-                 │      │            ╰ UID : 8066e61c44eb14ea 
-                 │      ├ Version   : 0.0.9 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [11] ╭ Name      : com.jcraft:jsch.agentproxy.pageant 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.pageant@0.0.9 
-                 │      │            ╰ UID : c0284278b99b17bc 
-                 │      ├ Version   : 0.0.9 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [12] ╭ Name      : com.jcraft:jsch.agentproxy.sshagent 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.sshagent@0.0.9 
-                 │      │            ╰ UID : bd9e5fa40773f9dc 
-                 │      ├ Version   : 0.0.9 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [13] ╭ Name      : com.jcraft:jsch.agentproxy.svnkit-trilead-ssh2 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.svnkit-trilead-ssh2@0.0.9 
-                 │      │            ╰ UID : 4bc35c3b9b6add62 
-                 │      ├ Version   : 0.0.9 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [14] ╭ Name      : com.jcraft:jsch.agentproxy.usocket-jna 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.usocket-jna@0.0.9 
-                 │      │            ╰ UID : c30290a3390d8666 
-                 │      ├ Version   : 0.0.9 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [15] ╭ Name      : com.jcraft:jsch.agentproxy.usocket-nc 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.usocket-nc@0.0.9 
-                 │      │            ╰ UID : 48390e4cf4a3666a 
-                 │      ├ Version   : 0.0.9 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [16] ╭ Name      : com.sun.activation:javax.activation 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.sun.activation/javax.activation@1.2.0 
-                 │      │            ╰ UID : 76398eb1d6d13adc 
-                 │      ├ Version   : 1.2.0 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [17] ╭ Name      : com.sun.mail:javax.mail 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.sun.mail/javax.mail@1.6.2 
-                 │      │            ╰ UID : 1e7beb37baabc57a 
-                 │      ├ Version   : 1.6.2 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [18] ╭ Name      : com.warrenstrange:googleauth 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.warrenstrange/googleauth@1.5.0 
-                 │      │            ╰ UID : 99ee628fb0243c8d 
-                 │      ├ Version   : 1.5.0 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [19] ╭ Name      : commons-cli:commons-cli 
-                 │      ├ Identifier ╭ PURL: pkg:maven/commons-cli/commons-cli@1.11.0 
-                 │      │            ╰ UID : 3475d2ee4b04dbe0 
-                 │      ├ Version   : 1.11.0 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [20] ╭ Name      : commons-codec:commons-codec 
-                 │      ├ Identifier ╭ PURL: pkg:maven/commons-codec/commons-codec@1.20.0 
-                 │      │            ╰ UID : 7de4c84c0e3f3115 
-                 │      ├ Version   : 1.20.0 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [21] ╭ Name      : commons-io:commons-io 
-                 │      ├ Identifier ╭ PURL: pkg:maven/commons-io/commons-io@2.21.0 
-                 │      │            ╰ UID : 2061cef217097cbb 
-                 │      ├ Version   : 2.21.0 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [22] ╭ Name      : commons-logging:commons-logging 
-                 │      ├ Identifier ╭ PURL: pkg:maven/commons-logging/commons-logging@1.3.5 
-                 │      │            ╰ UID : 8120d86e07931c92 
-                 │      ├ Version   : 1.3.5 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [23] ╭ Name      : commons-net:commons-net 
-                 │      ├ Identifier ╭ PURL: pkg:maven/commons-net/commons-net@3.12.0 
-                 │      │            ╰ UID : f30479acbb8d626f 
-                 │      ├ Version   : 3.12.0 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [24] ╭ Name      : de.vandermeer:asciilist-j7 
-                 │      ├ Identifier ╭ PURL: pkg:maven/de.vandermeer/asciilist-j7@1.0.0 
-                 │      │            ╰ UID : 5d38f221ce7d2a1 
-                 │      ├ Version   : 1.0.0 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [25] ╭ Name      : de.vandermeer:asciitable-j7 
-                 │      ├ Identifier ╭ PURL: pkg:maven/de.vandermeer/asciitable-j7@1.0.1 
-                 │      │            ╰ UID : 4ec0aaacbd72cc14 
-                 │      ├ Version   : 1.0.1 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [26] ╭ Name      : dnsjava:dnsjava 
-                 │      ├ Identifier ╭ PURL: pkg:maven/dnsjava/dnsjava@3.6.3 
-                 │      │            ╰ UID : 5943d2f91aeed918 
-                 │      ├ Version   : 3.6.3 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [27] ╭ Name      : io.jsonwebtoken:jjwt-api 
-                 │      ├ Identifier ╭ PURL: pkg:maven/io.jsonwebtoken/jjwt-api@0.13.0 
-                 │      │            ╰ UID : fe506a80a2899a4a 
-                 │      ├ Version   : 0.13.0 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [28] ╭ Name      : io.jsonwebtoken:jjwt-gson 
-                 │      ├ Identifier ╭ PURL: pkg:maven/io.jsonwebtoken/jjwt-gson@0.13.0 
-                 │      │            ╰ UID : cc7c47a353e36bec 
-                 │      ├ Version   : 0.13.0 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [29] ╭ Name      : io.jsonwebtoken:jjwt-impl 
-                 │      ├ Identifier ╭ PURL: pkg:maven/io.jsonwebtoken/jjwt-impl@0.13.0 
-                 │      │            ╰ UID : fb75cc968ac3dc0d 
-                 │      ├ Version   : 0.13.0 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [30] ╭ Name      : io.sigpipe:jbsdiff 
-                 │      ├ Identifier ╭ PURL: pkg:maven/io.sigpipe/jbsdiff@1.0 
-                 │      │            ╰ UID : e618a95843fba36b 
-                 │      ├ Version   : 1.0 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [31] ╭ Name      : jakarta.activation:jakarta.activation-api 
-                 │      ├ Identifier ╭ PURL: pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2 
-                 │      │            ╰ UID : 5d2ee0e1a121653f 
-                 │      ├ Version   : 1.2.2 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [32] ╭ Name      : javax.xml.bind:jaxb-api 
-                 │      ├ Identifier ╭ PURL: pkg:maven/javax.xml.bind/jaxb-api@2.3.1 
-                 │      │            ╰ UID : d465243f613cf5b8 
-                 │      ├ Version   : 2.3.1 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [33] ╭ Name      : jline:jline 
-                 │      ├ Identifier ╭ PURL: pkg:maven/jline/jline@2.14.6 
-                 │      │            ╰ UID : 509c1c4b5bcd42a1 
-                 │      ├ Version   : 2.14.6 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [34] ╭ Name      : org.apache.commons:commons-collections4 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.apache.commons/commons-collections4@4.5.0 
-                 │      │            ╰ UID : 72513cdccf1d063 
-                 │      ├ Version   : 4.5.0 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [35] ╭ Name      : org.apache.commons:commons-compress 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.apache.commons/commons-compress@1.28.0 
-                 │      │            ╰ UID : a82eeb62843349ae 
-                 │      ├ Version   : 1.28.0 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [36] ╭ Name      : org.apache.commons:commons-csv 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.apache.commons/commons-csv@1.14.1 
-                 │      │            ╰ UID : 250a69832ed56f8d 
-                 │      ├ Version   : 1.14.1 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [37] ╭ Name      : org.apache.commons:commons-email 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.apache.commons/commons-email@1.6.0 
-                 │      │            ╰ UID : 973048c510561123 
-                 │      ├ Version   : 1.6.0 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [38] ╭ Name      : org.apache.commons:commons-lang3 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.apache.commons/commons-lang3@3.19.0 
-                 │      │            ╰ UID : f267aeee188ae905 
-                 │      ├ Version   : 3.19.0 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [39] ╭ Name      : org.apache.commons:commons-math3 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.apache.commons/commons-math3@3.6.1 
-                 │      │            ╰ UID : ce9b8a6c7e85850 
-                 │      ├ Version   : 3.6.1 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [40] ╭ Name      : org.eclipse.jetty.compression:jetty-compression-common 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty.compression/jetty-compression-common@1
-                 │      │            │       2.1.4 
-                 │      │            ╰ UID : f37e5e834b4a703f 
-                 │      ├ Version   : 12.1.4 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [41] ╭ Name      : org.eclipse.jetty.websocket:jetty-websocket-core-client 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-core-client@
-                 │      │            │       12.1.4 
-                 │      │            ╰ UID : 580e7ee2f5e0631d 
-                 │      ├ Version   : 12.1.4 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [42] ╭ Name      : org.eclipse.jetty.websocket:jetty-websocket-core-common 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-core-common@
-                 │      │            │       12.1.4 
-                 │      │            ╰ UID : e7b817f228319546 
-                 │      ├ Version   : 12.1.4 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [43] ╭ Name      : org.eclipse.jetty.websocket:jetty-websocket-jetty-api 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-jetty-api@12
-                 │      │            │       .1.4 
-                 │      │            ╰ UID : 884cadec5b8bc19f 
-                 │      ├ Version   : 12.1.4 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [44] ╭ Name      : org.eclipse.jetty.websocket:jetty-websocket-jetty-client 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-jetty-client
-                 │      │            │       @12.1.4 
-                 │      │            ╰ UID : 35d5b28501b6a385 
-                 │      ├ Version   : 12.1.4 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [45] ╭ Name      : org.eclipse.jetty.websocket:jetty-websocket-jetty-common 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-jetty-common
-                 │      │            │       @12.1.4 
-                 │      │            ╰ UID : 82dbeb6fdddb95cf 
-                 │      ├ Version   : 12.1.4 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [46] ╭ Name      : org.eclipse.jetty:jetty-client 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty/jetty-client@12.1.3 
-                 │      │            ╰ UID : 7786ea18dd55a07c 
-                 │      ├ Version   : 12.1.3 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [47] ╭ Name      : org.eclipse.jetty:jetty-http 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty/jetty-http@12.1.4 
-                 │      │            ╰ UID : ca9ccff3501f06b9 
-                 │      ├ Version   : 12.1.4 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [48] ╭ Name      : org.eclipse.jetty:jetty-io 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty/jetty-io@12.1.3 
-                 │      │            ╰ UID : f8351b3bbf480fcd 
-                 │      ├ Version   : 12.1.3 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [49] ╭ Name      : org.eclipse.jetty:jetty-util 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty/jetty-util@12.1.3 
-                 │      │            ╰ UID : 9c4d92131b8724cc 
-                 │      ├ Version   : 12.1.3 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [50] ╭ Name      : org.fusesource.hawtjni:hawtjni-runtime 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.hawtjni/hawtjni-runtime@1.17 
-                 │      │            ╰ UID : cf88955c9d0ae18b 
-                 │      ├ Version   : 1.17 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [51] ╭ Name      : org.fusesource.jansi:jansi 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi@1.18 
-                 │      │            ╰ UID : 8ad8d3ab8ae11065 
-                 │      ├ Version   : 1.18 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [52] ╭ Name      : org.fusesource.jansi:jansi-freebsd32 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-freebsd32@1.8 
-                 │      │            ╰ UID : 87b73bc3f694180c 
-                 │      ├ Version   : 1.8 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [53] ╭ Name      : org.fusesource.jansi:jansi-freebsd64 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-freebsd64@1.8 
-                 │      │            ╰ UID : 68d99c3788225531 
-                 │      ├ Version   : 1.8 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [54] ╭ Name      : org.fusesource.jansi:jansi-linux32 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-linux32@1.8 
-                 │      │            ╰ UID : b748a87749ace306 
-                 │      ├ Version   : 1.8 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [55] ╭ Name      : org.fusesource.jansi:jansi-linux64 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-linux64@1.8 
-                 │      │            ╰ UID : 26eee13eafbc9417 
-                 │      ├ Version   : 1.8 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [56] ╭ Name      : org.fusesource.jansi:jansi-native 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-native@1.8 
-                 │      │            ╰ UID : 6fdce73a584d6707 
-                 │      ├ Version   : 1.8 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [57] ╭ Name      : org.fusesource.jansi:jansi-osx 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-osx@1.8 
-                 │      │            ╰ UID : 907023130116e83c 
-                 │      ├ Version   : 1.8 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [58] ╭ Name      : org.fusesource.jansi:jansi-windows32 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-windows32@1.8 
-                 │      │            ╰ UID : ab926f311d1d4210 
-                 │      ├ Version   : 1.8 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [59] ╭ Name      : org.fusesource.jansi:jansi-windows64 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-windows64@1.8 
-                 │      │            ╰ UID : edf1cd987a2068b8 
-                 │      ├ Version   : 1.8 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [60] ╭ Name      : org.semver4j:semver4j 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.semver4j/semver4j@6.0.0 
-                 │      │            ╰ UID : 452bf269462d8b69 
-                 │      ├ Version   : 6.0.0 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [61] ╭ Name      : org.slf4j:slf4j-api 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.slf4j/slf4j-api@2.0.17 
-                 │      │            ╰ UID : e6e431b8b5e0302a 
-                 │      ├ Version   : 2.0.17 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [62] ╭ Name      : org.slf4j:slf4j-nop 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.slf4j/slf4j-nop@2.0.17 
-                 │      │            ╰ UID : 67713c09148cf9b 
-                 │      ├ Version   : 2.0.17 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [63] ╭ Name      : org.snmp4j:snmp4j 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.snmp4j/snmp4j@3.9.6 
-                 │      │            ╰ UID : fc06219dfaa6f987 
-                 │      ├ Version   : 3.9.6 
-                 │      ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                 │      │            │         d79365a 
-                 │      │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                 │      │                      d6fe6da 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ╰ [64] ╭ Name      : org.snmp4j:snmp4j-agent 
-                        ├ Identifier ╭ PURL: pkg:maven/org.snmp4j/snmp4j-agent@3.8.2 
-                        │            ╰ UID : 8910657e688649b8 
-                        ├ Version   : 3.8.2 
-                        ├ Layer      ╭ Digest: sha256:2751018ed5c9dd0688731faa75cf0249998999fc4f906e263e97c5a86
-                        │            │         d79365a 
-                        │            ╰ DiffID: sha256:809cebf9d9e6f1808617672cbcf5531551f68ca5dfa745897f0cec1ce
-                        │                      d6fe6da 
-                        ├ FilePath  : openaf/openaf.jar 
-                        ╰ AnalyzedBy: jar 
+╰ [1] ╭ Target         : Java 
+      ├ Class          : lang-pkgs 
+      ├ Type           : jar 
+      ├ Packages        ╭ [0]  ╭ Name      : com.fasterxml.jackson.core:jackson-annotations 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.20 
+      │                 │      │            ╰ UID : 58b3f59746021d4b 
+      │                 │      ├ Version   : 2.20 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [1]  ╭ Name      : com.fasterxml.jackson.core:jackson-core 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-core@2.20.1 
+      │                 │      │            ╰ UID : 1996e2d8cd1022b9 
+      │                 │      ├ Version   : 2.20.1 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [2]  ╭ Name      : com.fasterxml.jackson.core:jackson-databind 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.20.1 
+      │                 │      │            ╰ UID : 6c556f8b9b0117ec 
+      │                 │      ├ Version   : 2.20.1 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [3]  ╭ Name      : com.fasterxml.jackson.dataformat:jackson-dataformat-toml 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataform
+      │                 │      │            │       at-toml@2.19.2 
+      │                 │      │            ╰ UID : cd502bd403e61f97 
+      │                 │      ├ Version   : 2.19.2 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [4]  ╭ Name      : com.github.mwiede:jsch 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.github.mwiede/jsch@2.27.6 
+      │                 │      │            ╰ UID : 7c5f9c834d8395f 
+      │                 │      ├ Version   : 2.27.6 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [5]  ╭ Name      : com.github.vertical-blank:sql-formatter 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.github.vertical-blank/sql-formatter@2.0.5 
+      │                 │      │            ╰ UID : b476ea318a48e65d 
+      │                 │      ├ Version   : 2.0.5 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [6]  ╭ Name      : com.google.code.gson:gson 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.google.code.gson/gson@2.13.2 
+      │                 │      │            ╰ UID : 55058bf256f684f6 
+      │                 │      ├ Version   : 2.13.2 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [7]  ╭ Name      : com.googlecode.juniversalchardet:juniversalchardet 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.googlecode.juniversalchardet/juniversalcharde
+      │                 │      │            │       t@1.0.3 
+      │                 │      │            ╰ UID : 5447189855b6db87 
+      │                 │      ├ Version   : 1.0.3 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [8]  ╭ Name      : com.jcraft:jsch.agentproxy.connector-factory 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.connector-factory@0.0.9 
+      │                 │      │            ╰ UID : a99fffa9ec19f7cf 
+      │                 │      ├ Version   : 0.0.9 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [9]  ╭ Name      : com.jcraft:jsch.agentproxy.core 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.core@0.0.9 
+      │                 │      │            ╰ UID : afb96fc5c6b4a255 
+      │                 │      ├ Version   : 0.0.9 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [10] ╭ Name      : com.jcraft:jsch.agentproxy.jsch 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.jsch@0.0.9 
+      │                 │      │            ╰ UID : 8066e61c44eb14ea 
+      │                 │      ├ Version   : 0.0.9 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [11] ╭ Name      : com.jcraft:jsch.agentproxy.pageant 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.pageant@0.0.9 
+      │                 │      │            ╰ UID : c0284278b99b17bc 
+      │                 │      ├ Version   : 0.0.9 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [12] ╭ Name      : com.jcraft:jsch.agentproxy.sshagent 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.sshagent@0.0.9 
+      │                 │      │            ╰ UID : bd9e5fa40773f9dc 
+      │                 │      ├ Version   : 0.0.9 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [13] ╭ Name      : com.jcraft:jsch.agentproxy.svnkit-trilead-ssh2 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.svnkit-trilead-ssh2@0.
+      │                 │      │            │       0.9 
+      │                 │      │            ╰ UID : 4bc35c3b9b6add62 
+      │                 │      ├ Version   : 0.0.9 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [14] ╭ Name      : com.jcraft:jsch.agentproxy.usocket-jna 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.usocket-jna@0.0.9 
+      │                 │      │            ╰ UID : c30290a3390d8666 
+      │                 │      ├ Version   : 0.0.9 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [15] ╭ Name      : com.jcraft:jsch.agentproxy.usocket-nc 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.usocket-nc@0.0.9 
+      │                 │      │            ╰ UID : 48390e4cf4a3666a 
+      │                 │      ├ Version   : 0.0.9 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [16] ╭ Name      : com.sun.activation:javax.activation 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.sun.activation/javax.activation@1.2.0 
+      │                 │      │            ╰ UID : 76398eb1d6d13adc 
+      │                 │      ├ Version   : 1.2.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [17] ╭ Name      : com.sun.mail:javax.mail 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.sun.mail/javax.mail@1.6.2 
+      │                 │      │            ╰ UID : 1e7beb37baabc57a 
+      │                 │      ├ Version   : 1.6.2 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [18] ╭ Name      : com.warrenstrange:googleauth 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.warrenstrange/googleauth@1.5.0 
+      │                 │      │            ╰ UID : 99ee628fb0243c8d 
+      │                 │      ├ Version   : 1.5.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [19] ╭ Name      : commons-cli:commons-cli 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/commons-cli/commons-cli@1.11.0 
+      │                 │      │            ╰ UID : 3475d2ee4b04dbe0 
+      │                 │      ├ Version   : 1.11.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [20] ╭ Name      : commons-codec:commons-codec 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/commons-codec/commons-codec@1.20.0 
+      │                 │      │            ╰ UID : 7de4c84c0e3f3115 
+      │                 │      ├ Version   : 1.20.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [21] ╭ Name      : commons-io:commons-io 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/commons-io/commons-io@2.21.0 
+      │                 │      │            ╰ UID : 2061cef217097cbb 
+      │                 │      ├ Version   : 2.21.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [22] ╭ Name      : commons-logging:commons-logging 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/commons-logging/commons-logging@1.3.5 
+      │                 │      │            ╰ UID : 8120d86e07931c92 
+      │                 │      ├ Version   : 1.3.5 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [23] ╭ Name      : commons-net:commons-net 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/commons-net/commons-net@3.12.0 
+      │                 │      │            ╰ UID : f30479acbb8d626f 
+      │                 │      ├ Version   : 3.12.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [24] ╭ Name      : de.vandermeer:asciilist-j7 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/de.vandermeer/asciilist-j7@1.0.0 
+      │                 │      │            ╰ UID : 5d38f221ce7d2a1 
+      │                 │      ├ Version   : 1.0.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [25] ╭ Name      : de.vandermeer:asciitable-j7 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/de.vandermeer/asciitable-j7@1.0.1 
+      │                 │      │            ╰ UID : 4ec0aaacbd72cc14 
+      │                 │      ├ Version   : 1.0.1 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [26] ╭ Name      : dnsjava:dnsjava 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/dnsjava/dnsjava@3.6.3 
+      │                 │      │            ╰ UID : 5943d2f91aeed918 
+      │                 │      ├ Version   : 3.6.3 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [27] ╭ Name      : io.jsonwebtoken:jjwt-api 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/io.jsonwebtoken/jjwt-api@0.13.0 
+      │                 │      │            ╰ UID : fe506a80a2899a4a 
+      │                 │      ├ Version   : 0.13.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [28] ╭ Name      : io.jsonwebtoken:jjwt-gson 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/io.jsonwebtoken/jjwt-gson@0.13.0 
+      │                 │      │            ╰ UID : cc7c47a353e36bec 
+      │                 │      ├ Version   : 0.13.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [29] ╭ Name      : io.jsonwebtoken:jjwt-impl 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/io.jsonwebtoken/jjwt-impl@0.13.0 
+      │                 │      │            ╰ UID : fb75cc968ac3dc0d 
+      │                 │      ├ Version   : 0.13.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [30] ╭ Name      : io.sigpipe:jbsdiff 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/io.sigpipe/jbsdiff@1.0 
+      │                 │      │            ╰ UID : e618a95843fba36b 
+      │                 │      ├ Version   : 1.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [31] ╭ Name      : jakarta.activation:jakarta.activation-api 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2 
+      │                 │      │            ╰ UID : 5d2ee0e1a121653f 
+      │                 │      ├ Version   : 1.2.2 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [32] ╭ Name      : javax.xml.bind:jaxb-api 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/javax.xml.bind/jaxb-api@2.3.1 
+      │                 │      │            ╰ UID : d465243f613cf5b8 
+      │                 │      ├ Version   : 2.3.1 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [33] ╭ Name      : jline:jline 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/jline/jline@2.14.6 
+      │                 │      │            ╰ UID : 509c1c4b5bcd42a1 
+      │                 │      ├ Version   : 2.14.6 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [34] ╭ Name      : org.apache.commons:commons-collections4 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.apache.commons/commons-collections4@4.5.0 
+      │                 │      │            ╰ UID : 72513cdccf1d063 
+      │                 │      ├ Version   : 4.5.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [35] ╭ Name      : org.apache.commons:commons-compress 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.apache.commons/commons-compress@1.28.0 
+      │                 │      │            ╰ UID : a82eeb62843349ae 
+      │                 │      ├ Version   : 1.28.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [36] ╭ Name      : org.apache.commons:commons-csv 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.apache.commons/commons-csv@1.14.1 
+      │                 │      │            ╰ UID : 250a69832ed56f8d 
+      │                 │      ├ Version   : 1.14.1 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [37] ╭ Name      : org.apache.commons:commons-email 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.apache.commons/commons-email@1.6.0 
+      │                 │      │            ╰ UID : 973048c510561123 
+      │                 │      ├ Version   : 1.6.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [38] ╭ Name      : org.apache.commons:commons-lang3 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.apache.commons/commons-lang3@3.19.0 
+      │                 │      │            ╰ UID : f267aeee188ae905 
+      │                 │      ├ Version   : 3.19.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [39] ╭ Name      : org.apache.commons:commons-math3 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.apache.commons/commons-math3@3.6.1 
+      │                 │      │            ╰ UID : ce9b8a6c7e85850 
+      │                 │      ├ Version   : 3.6.1 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [40] ╭ Name      : org.eclipse.jetty.compression:jetty-compression-common 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty.compression/jetty-compression-c
+      │                 │      │            │       ommon@12.1.4 
+      │                 │      │            ╰ UID : f37e5e834b4a703f 
+      │                 │      ├ Version   : 12.1.4 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [41] ╭ Name      : org.eclipse.jetty.websocket:jetty-websocket-core-client 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-core-
+      │                 │      │            │       client@12.1.4 
+      │                 │      │            ╰ UID : 580e7ee2f5e0631d 
+      │                 │      ├ Version   : 12.1.4 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [42] ╭ Name      : org.eclipse.jetty.websocket:jetty-websocket-core-common 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-core-
+      │                 │      │            │       common@12.1.4 
+      │                 │      │            ╰ UID : e7b817f228319546 
+      │                 │      ├ Version   : 12.1.4 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [43] ╭ Name      : org.eclipse.jetty.websocket:jetty-websocket-jetty-api 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-jetty
+      │                 │      │            │       -api@12.1.4 
+      │                 │      │            ╰ UID : 884cadec5b8bc19f 
+      │                 │      ├ Version   : 12.1.4 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [44] ╭ Name      : org.eclipse.jetty.websocket:jetty-websocket-jetty-client 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-jetty
+      │                 │      │            │       -client@12.1.4 
+      │                 │      │            ╰ UID : 35d5b28501b6a385 
+      │                 │      ├ Version   : 12.1.4 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [45] ╭ Name      : org.eclipse.jetty.websocket:jetty-websocket-jetty-common 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-jetty
+      │                 │      │            │       -common@12.1.4 
+      │                 │      │            ╰ UID : 82dbeb6fdddb95cf 
+      │                 │      ├ Version   : 12.1.4 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [46] ╭ Name      : org.eclipse.jetty:jetty-client 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty/jetty-client@12.1.3 
+      │                 │      │            ╰ UID : 7786ea18dd55a07c 
+      │                 │      ├ Version   : 12.1.3 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [47] ╭ Name      : org.eclipse.jetty:jetty-http 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty/jetty-http@12.1.4 
+      │                 │      │            ╰ UID : ca9ccff3501f06b9 
+      │                 │      ├ Version   : 12.1.4 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [48] ╭ Name      : org.eclipse.jetty:jetty-io 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty/jetty-io@12.1.3 
+      │                 │      │            ╰ UID : f8351b3bbf480fcd 
+      │                 │      ├ Version   : 12.1.3 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [49] ╭ Name      : org.eclipse.jetty:jetty-util 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty/jetty-util@12.1.3 
+      │                 │      │            ╰ UID : 9c4d92131b8724cc 
+      │                 │      ├ Version   : 12.1.3 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [50] ╭ Name      : org.fusesource.hawtjni:hawtjni-runtime 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.hawtjni/hawtjni-runtime@1.17 
+      │                 │      │            ╰ UID : cf88955c9d0ae18b 
+      │                 │      ├ Version   : 1.17 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [51] ╭ Name      : org.fusesource.jansi:jansi 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi@1.18 
+      │                 │      │            ╰ UID : 8ad8d3ab8ae11065 
+      │                 │      ├ Version   : 1.18 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [52] ╭ Name      : org.fusesource.jansi:jansi-freebsd32 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-freebsd32@1.8 
+      │                 │      │            ╰ UID : 87b73bc3f694180c 
+      │                 │      ├ Version   : 1.8 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [53] ╭ Name      : org.fusesource.jansi:jansi-freebsd64 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-freebsd64@1.8 
+      │                 │      │            ╰ UID : 68d99c3788225531 
+      │                 │      ├ Version   : 1.8 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [54] ╭ Name      : org.fusesource.jansi:jansi-linux32 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-linux32@1.8 
+      │                 │      │            ╰ UID : b748a87749ace306 
+      │                 │      ├ Version   : 1.8 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [55] ╭ Name      : org.fusesource.jansi:jansi-linux64 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-linux64@1.8 
+      │                 │      │            ╰ UID : 26eee13eafbc9417 
+      │                 │      ├ Version   : 1.8 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [56] ╭ Name      : org.fusesource.jansi:jansi-native 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-native@1.8 
+      │                 │      │            ╰ UID : 6fdce73a584d6707 
+      │                 │      ├ Version   : 1.8 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [57] ╭ Name      : org.fusesource.jansi:jansi-osx 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-osx@1.8 
+      │                 │      │            ╰ UID : 907023130116e83c 
+      │                 │      ├ Version   : 1.8 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [58] ╭ Name      : org.fusesource.jansi:jansi-windows32 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-windows32@1.8 
+      │                 │      │            ╰ UID : ab926f311d1d4210 
+      │                 │      ├ Version   : 1.8 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [59] ╭ Name      : org.fusesource.jansi:jansi-windows64 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-windows64@1.8 
+      │                 │      │            ╰ UID : edf1cd987a2068b8 
+      │                 │      ├ Version   : 1.8 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [60] ╭ Name      : org.semver4j:semver4j 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.semver4j/semver4j@6.0.0 
+      │                 │      │            ╰ UID : 452bf269462d8b69 
+      │                 │      ├ Version   : 6.0.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [61] ╭ Name      : org.slf4j:slf4j-api 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.slf4j/slf4j-api@2.0.17 
+      │                 │      │            ╰ UID : e6e431b8b5e0302a 
+      │                 │      ├ Version   : 2.0.17 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [62] ╭ Name      : org.slf4j:slf4j-nop 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.slf4j/slf4j-nop@2.0.17 
+      │                 │      │            ╰ UID : 67713c09148cf9b 
+      │                 │      ├ Version   : 2.0.17 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [63] ╭ Name      : org.snmp4j:snmp4j 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.snmp4j/snmp4j@3.9.6 
+      │                 │      │            ╰ UID : fc06219dfaa6f987 
+      │                 │      ├ Version   : 3.9.6 
+      │                 │      ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                 │      │            │         8f6fa76dd8a354 
+      │                 │      │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                 │      │                      e431f316d14a6e 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ╰ [64] ╭ Name      : org.snmp4j:snmp4j-agent 
+      │                        ├ Identifier ╭ PURL: pkg:maven/org.snmp4j/snmp4j-agent@3.8.2 
+      │                        │            ╰ UID : 8910657e688649b8 
+      │                        ├ Version   : 3.8.2 
+      │                        ├ Layer      ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6576f4
+      │                        │            │         8f6fa76dd8a354 
+      │                        │            ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffefec0c
+      │                        │                      e431f316d14a6e 
+      │                        ├ FilePath  : openaf/openaf.jar 
+      │                        ╰ AnalyzedBy: jar 
+      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : GHSA-72hv-8253-57qq 
+                              ├ PkgName         : com.fasterxml.jackson.core:jackson-core 
+                              ├ PkgPath         : openaf/openaf.jar 
+                              ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-core@2.20.1 
+                              │                  ╰ UID : 1996e2d8cd1022b9 
+                              ├ InstalledVersion: 2.20.1 
+                              ├ FixedVersion    : 2.18.6, 2.21.1, 3.1.0 
+                              ├ Status          : fixed 
+                              ├ Layer            ╭ Digest: sha256:cad845de676b922854e9f707bff84cfffd90910205cd6
+                              │                  │         576f48f6fa76dd8a354 
+                              │                  ╰ DiffID: sha256:8260b0b5a0394b0e2f112235e185accfa7a2988cbdffe
+                              │                            fec0ce431f316d14a6e 
+                              ├ SeveritySource  : ghsa 
+                              ├ PrimaryURL      : https://github.com/advisories/GHSA-72hv-8253-57qq 
+                              ├ DataSource       ╭ ID  : ghsa 
+                              │                  ├ Name: GitHub Security Advisory Maven 
+                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
+                              │                          osystem%3Amaven 
+                              ├ Fingerprint     : sha256:997bf47740588e333aeecf7d6efaefb69ad1c411524c59f1143ffd
+                              │                   f347d986fb 
+                              ├ Title           : jackson-core: Number Length Constraint Bypass in Async Parser
+                              │                    Leads to Potential DoS Condition 
+                              ├ Description     : ### Summary
+                              │                   The non-blocking (async) JSON parser in `jackson-core`
+                              │                   bypasses the `maxNumberLength` constraint (default: 1000
+                              │                   characters) defined in `StreamReadConstraints`. This allows
+                              │                   an attacker to send JSON with arbitrarily long numbers
+                              │                   through the async parser API, leading to excessive memory
+                              │                   allocation and potential CPU exhaustion, resulting in a
+                              │                   Denial of Service (DoS).
+                              │                   
+                              │                   The standard synchronous parser correctly enforces this
+                              │                   limit, but the async parser fails to do so, creating an
+                              │                   inconsistent enforcement policy.
+                              │                   ### Details
+                              │                   The root cause is that the async parsing path in
+                              │                   `NonBlockingUtf8JsonParserBase` (and related classes) does
+                              │                   not call the methods responsible for number length
+                              │                   validation.
+                              │                   - The number parsing methods (e.g.,
+                              │                   `_finishNumberIntegralPart`) accumulate digits into the
+                              │                   `TextBuffer` without any length checks.
+                              │                   - After parsing, they call `_valueComplete()`, which
+                              │                   finalizes the token but does **not** call `resetInt()` or
+                              │                   `resetFloat()`.
+                              │                   - The `resetInt()`/`resetFloat()` methods in `ParserBase` are
+                              │                    where the `validateIntegerLength()` and `validateFPLength()`
+                              │                    checks are performed.
+                              │                   - Because this validation step is skipped, the
+                              │                   `maxNumberLength` constraint is never enforced in the async
+                              │                   code path.
+                              │                   ### PoC
+                              │                   The following JUnit 5 test demonstrates the vulnerability. It
+                              │                    shows that the async parser accepts a 5,000-digit number,
+                              │                   whereas the limit should be 1,000.
+                              │                   ```java
+                              │                   package tools.jackson.core.unittest.dos;
+                              │                   import java.nio.charset.StandardCharsets;
+                              │                   import org.junit.jupiter.api.Test;
+                              │                   import tools.jackson.core.*;
+                              │                   import tools.jackson.core.exc.StreamConstraintsException;
+                              │                   import tools.jackson.core.json.JsonFactory;
+                              │                   import
+                              │                   tools.jackson.core.json.async.NonBlockingByteArrayJsonParser;
+                              │                   import static org.junit.jupiter.api.Assertions.*;
+                              │                   /**
+                              │                    * POC: Number Length Constraint Bypass in Non-Blocking
+                              │                   (Async) JSON Parsers
+                              │                    *
+                              │                    * Authors: sprabhav7, rohan-repos
+                              │                    * 
+                              │                    * maxNumberLength default = 1000 characters (digits).
+                              │                    * A number with more than 1000 digits should be rejected by
+                              │                   any parser.
+                              │                    * BUG: The async parser never calls resetInt()/resetFloat()
+                              │                   which is where
+                              │                    * validateIntegerLength()/validateFPLength() lives. Instead
+                              │                   it calls
+                              │                    * _valueComplete() which skips all number length
+                              │                    * CWE-770: Allocation of Resources Without Limits or
+                              │                   Throttling
+                              │                    */
+                              │                   class AsyncParserNumberLengthBypassTest {
+                              │                       private static final int MAX_NUMBER_LENGTH = 1000;
+                              │                       private static final int TEST_NUMBER_LENGTH = 5000;
+                              │                       private final JsonFactory factory = new JsonFactory();
+                              │                       // CONTROL: Sync parser correctly rejects a number
+                              │                   exceeding maxNumberLength
+                              │                       @Test
+                              │                       void syncParserRejectsLongNumber() throws Exception {
+                              │                           byte[] payload =
+                              │                   buildPayloadWithLongInteger(TEST_NUMBER_LENGTH);
+                              │                   		
+                              │                   		// Output to console
+                              │                           System.out.println("[SYNC] Parsing " +
+                              │                   TEST_NUMBER_LENGTH + "-digit number (limit: " +
+                              │                   MAX_NUMBER_LENGTH + ")");
+                              │                           try {
+                              │                               try (JsonParser p =
+                              │                   factory.createParser(ObjectReadContext.empty(), payload)) {
+                              │                                   while (p.nextToken() != null) {
+                              │                                       if (p.currentToken() ==
+                              │                   JsonToken.VALUE_NUMBER_INT) {
+                              │                                           System.out.println("[SYNC] Accepted
+                              │                   number with " + p.getText().length() + " digits —
+                              │                   UNEXPECTED");
+                              │                                       }
+                              │                                   }
+                              │                               }
+                              │                               fail("Sync parser must reject a " +
+                              │                   TEST_NUMBER_LENGTH + "-digit number");
+                              │                           } catch (StreamConstraintsException e) {
+                              │                               System.out.println("[SYNC] Rejected with
+                              │                   StreamConstraintsException: " + e.getMessage());
+                              │                           }
+                              │                       }
+                              │                       // VULNERABILITY: Async parser accepts the SAME number
+                              │                   that sync rejects
+                              │                       void asyncParserAcceptsLongNumber() throws Exception {
+                              │                           NonBlockingByteArrayJsonParser p =
+                              │                               (NonBlockingByteArrayJsonParser)
+                              │                   factory.createNonBlockingByteArrayParser(ObjectReadContext.em
+                              │                   pty());
+                              │                           p.feedInput(payload, 0, payload.length);
+                              │                           p.endOfInput();
+                              │                           boolean foundNumber = false;
+                              │                               while (p.nextToken() != null) {
+                              │                                   if (p.currentToken() ==
+                              │                                       foundNumber = true;
+                              │                                       String numberText = p.getText();
+                              │                                       assertEquals(TEST_NUMBER_LENGTH,
+                              │                   numberText.length(),
+                              │                                           "Async parser silently accepted all "
+                              │                    + TEST_NUMBER_LENGTH + " digits");
+                              │                               // Output to console
+                              │                               System.out.println("[ASYNC INT] Accepted number
+                              │                   with " + TEST_NUMBER_LENGTH + " digits — BUG CONFIRMED");
+                              │                               assertTrue(foundNumber, "Parser should have
+                              │                   produced a VALUE_NUMBER_INT token");
+                              │                               fail("Bug is fixed — async parser now correctly
+                              │                   rejects long numbers: " + e.getMessage());
+                              │                           p.close();
+                              │                       private byte[] buildPayloadWithLongInteger(int numDigits)
+                              │                    {
+                              │                           StringBuilder sb = new StringBuilder(numDigits +
+                              │                   10);
+                              │                           sb.append("{\"v\":");
+                              │                           for (int i = 0; i < numDigits; i++) {
+                              │                               sb.append((char) ('1' + (i % 9)));
+                              │                           sb.append('}');
+                              │                           return
+                              │                   sb.toString().getBytes(StandardCharsets.UTF_8);
+                              │                   }
+                              │                   ```
+                              │                   ### Impact
+                              │                   A malicious actor can send a JSON document with an
+                              │                   arbitrarily long number to an application using the async
+                              │                   parser (e.g., in a Spring WebFlux or other reactive
+                              │                   application). This can cause:
+                              │                   1.  **Memory Exhaustion:** Unbounded allocation of memory in
+                              │                   the `TextBuffer` to store the number's digits, leading to an
+                              │                   `OutOfMemoryError`.
+                              │                   2.  **CPU Exhaustion:** If the application subsequently calls
+                              │                    `getBigIntegerValue()` or `getDecimalValue()`, the JVM can
+                              │                   be tied up in O(n^2) `BigInteger` parsing operations, leading
+                              │                    to a CPU-based DoS.
+                              │                   ### Suggested Remediation
+                              │                   The async parsing path should be updated to respect the
+                              │                   `maxNumberLength` constraint. The simplest fix appears to
+                              │                   ensure that `_valueComplete()` or a similar method in the
+                              │                   async path calls the appropriate validation methods
+                              │                   (`resetInt()` or `resetFloat()`) already present in
+                              │                   `ParserBase`, mirroring the behavior of the synchronous
+                              │                   parsers.
+                              │                   **NOTE:** This research was performed in collaboration with
+                              │                   [rohan-repos](https://github.com/rohan-repos) 
+                              ├ Severity        : HIGH 
+                              ├ VendorSeverity   ─ ghsa: 3 
+                              ├ CVSS             ─ ghsa ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:
+                              │                         │            N/VA:H/SC:N/SI:N/SA:N 
+                              │                         ╰ V40Score : 8.7 
+                              ├ References       ╭ [0]: https://github.com/FasterXML/jackson-core 
+                              │                  ├ [1]: https://github.com/FasterXML/jackson-core/commit/a004e9
+                              │                  │      789c2cc6b41b379d02d229d58474d9a738 
+                              │                  ├ [2]: https://github.com/FasterXML/jackson-core/issues/1538 
+                              │                  ╰ [3]: https://github.com/FasterXML/jackson-core/security/advi
+                              │                         sories/GHSA-72hv-8253-57qq 
+                              ├ PublishedDate   : 2026-02-28T02:01:05Z 
+                              ╰ LastModifiedDate: 2026-02-28T02:01:06Z 
 ````

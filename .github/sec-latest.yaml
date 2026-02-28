@@ -18,32 +18,32 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:1692d70717669c753f52909bc16fa87b66cdb617
     InstalledFiles:
     - usr/lib/libacl.so.1
     - usr/lib/libacl.so.1.1.2302
     AnalyzedBy: apk
-  - ID: alpine-baselayout@3.7.1-r11
+  - ID: alpine-baselayout@3.7.1-r12
     Name: alpine-baselayout
     Identifier:
-      PURL: pkg:apk/alpine/alpine-baselayout@3.7.1-r11?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: 8ef4309456b034f5
-    Version: 3.7.1-r11
+      PURL: pkg:apk/alpine/alpine-baselayout@3.7.1-r12?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: f9c6002d28d4d45c
+    Version: 3.7.1-r12
     Arch: x86_64
     SrcName: alpine-baselayout
-    SrcVersion: 3.7.1-r11
+    SrcVersion: 3.7.1-r12
     Licenses:
     - GPL-2.0-only
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
-    - alpine-baselayout-data@3.7.1-r11
+    - alpine-baselayout-data@3.7.1-r12
     - busybox-binsh@1.37.0-r31
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
-    Digest: sha1:8d5804610e39d1393bf2a788ff7a0556e998bfef
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
+    Digest: sha1:fbf4b36de85e65c78297365b3e27fd40a39da0a7
     InstalledFiles:
     - etc/motd
     - etc/crontabs/root
@@ -59,22 +59,22 @@
     - var/spool/mail
     - var/spool/cron/crontabs
     AnalyzedBy: apk
-  - ID: alpine-baselayout-data@3.7.1-r11
+  - ID: alpine-baselayout-data@3.7.1-r12
     Name: alpine-baselayout-data
     Identifier:
-      PURL: pkg:apk/alpine/alpine-baselayout-data@3.7.1-r11?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: 992b3e4a75e6bc0a
-    Version: 3.7.1-r11
+      PURL: pkg:apk/alpine/alpine-baselayout-data@3.7.1-r12?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: c52077bc10a9b37b
+    Version: 3.7.1-r12
     Arch: x86_64
     SrcName: alpine-baselayout
-    SrcVersion: 3.7.1-r11
+    SrcVersion: 3.7.1-r12
     Licenses:
     - GPL-2.0-only
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
-    Digest: sha1:5aa46106792bf896c49b19978d601b9f599d8096
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
+    Digest: sha1:060a8febebf0568ca6a4c9fd4da11f00f53b4ffc
     InstalledFiles:
     - etc/fstab
     - etc/group
@@ -105,8 +105,8 @@
     - MIT
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:e2b0ee196494dc3874f853370dff9451e3bd91d7
     InstalledFiles:
     - etc/apk/keys/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub
@@ -166,8 +166,8 @@
     DependsOn:
     - alpine-keys@2.6-r0
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:76e6b86cdaf5b233b35bd94ba4ac0bc9bbeafd3e
     InstalledFiles:
     - etc/alpine-release
@@ -176,47 +176,47 @@
     - etc/secfixes.d/alpine
     - usr/lib/os-release
     AnalyzedBy: apk
-  - ID: apk-tools@3.0.4-r0
+  - ID: apk-tools@3.0.5-r0
     Name: apk-tools
     Identifier:
-      PURL: pkg:apk/alpine/apk-tools@3.0.4-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: afd95bdc0b3dc81
-    Version: 3.0.4-r0
+      PURL: pkg:apk/alpine/apk-tools@3.0.5-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 57887fe04c82e7de
+    Version: 3.0.5-r0
     Arch: x86_64
     SrcName: apk-tools
-    SrcVersion: 3.0.4-r0
+    SrcVersion: 3.0.5-r0
     Licenses:
     - GPL-2.0-only
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
     - ca-certificates-bundle@20251003-r0
-    - libapk@3.0.4-r0
+    - libapk@3.0.5-r0
     - libcrypto3@3.5.5-r0
     - musl@1.2.5-r21
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
-    Digest: sha1:ec0f533fbb87848a8a6d816d1d8784b8529be013
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
+    Digest: sha1:7942ff9f1d9b5757f49be0fee3afb1023b94d08a
     InstalledFiles:
     - sbin/apk
     AnalyzedBy: apk
-  - ID: apk-tools-bash-completion@3.0.4-r0
+  - ID: apk-tools-bash-completion@3.0.5-r0
     Name: apk-tools-bash-completion
     Identifier:
-      PURL: pkg:apk/alpine/apk-tools-bash-completion@3.0.4-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: e18a0413ab34800
-    Version: 3.0.4-r0
+      PURL: pkg:apk/alpine/apk-tools-bash-completion@3.0.5-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 148a53c7e3b93464
+    Version: 3.0.5-r0
     Arch: x86_64
     SrcName: apk-tools
-    SrcVersion: 3.0.4-r0
+    SrcVersion: 3.0.5-r0
     Licenses:
     - GPL-2.0-only
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
-    Digest: sha1:507aa35b69d4c8bbf8cec1cfd2ff51c88092797d
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
+    Digest: sha1:c0f229495dd405a9aaa7eff3c4c3dbbe88191fc6
     InstalledFiles:
     - usr/share/bash-completion/completions/_apk
     AnalyzedBy: apk
@@ -237,8 +237,8 @@
     - musl@1.2.5-r21
     - readline@8.3.3-r1
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:5f7c292fbd73a3ec3e1c448fb4a1836cad4a1b08
     InstalledFiles:
     - bin/bash
@@ -300,8 +300,8 @@
     DependsOn:
     - bash@5.3.9-r1
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:5969378965f8a721f2f2ee4344bf076037142f35
     InstalledFiles:
     - etc/bash/bash_completion.sh
@@ -1386,8 +1386,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:0814694602f35d2741e916fdcb4c9a1e0ec50b42
     InstalledFiles:
     - usr/lib/libbrotlicommon.so.1
@@ -1412,8 +1412,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:da5feffd3d293cadda41a516988f5d8e22e917e8
     InstalledFiles:
     - bin/busybox
@@ -1439,8 +1439,8 @@
     DependsOn:
     - busybox@1.37.0-r31
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:4c3e2c012d65f1ac56e905b0d03d6af90bbf692b
     InstalledFiles:
     - bin/sh
@@ -1460,8 +1460,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:67d1948d07b29383e0ce2997bfdfa400f9804a3d
     InstalledFiles:
     - usr/lib/libcares.so.2
@@ -1485,8 +1485,8 @@
     - libcrypto3@3.5.5-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:3b10fd335b2af819c4fd3562900e76fd6ea304c5
     InstalledFiles:
     - etc/ca-certificates.conf
@@ -1657,8 +1657,8 @@
     - MIT
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:63ebe72ba79f548b6cdc8a9894e16a90d80f42b0
     InstalledFiles:
     - etc/ssl/cert.pem
@@ -1683,8 +1683,8 @@
     - musl@1.2.5-r21
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:f79503f230c438d5ed6f4ab63053737074c75641
     InstalledFiles:
     - usr/bin/curl
@@ -1709,8 +1709,8 @@
     - libcom_err@1.47.3-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:a6f2f8d1af4ae9aa344c38b0a4829743af49719f
     InstalledFiles:
     - usr/lib/libe2p.so.2
@@ -1741,8 +1741,8 @@
     - pcre2@10.47-r0
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:12898b5c37b46db9049d4c9630c26b8d9952e4e5
     InstalledFiles:
     - usr/bin/gapplication
@@ -1788,8 +1788,8 @@
     - LGPL-2.1-or-later
     Maintainer: team/gnome <achill@achill.org>
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:7b3b4ed244ddca5a3cbd085162cc1ad7b7a8b1dd
     InstalledFiles:
     - usr/share/bash-completion/completions/gapplication
@@ -1814,8 +1814,8 @@
     - libncursesw@6.6_p20251231-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:665674d7650e217aa46c621976193a641f1fcfe2
     InstalledFiles:
     - usr/lib/libgpm.so.2
@@ -1837,8 +1837,8 @@
     - less@692-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:7565a31df3cb312f77b3cfacddd46647e76bd9c6
     InstalledFiles:
     - bin/gunzip
@@ -1873,23 +1873,23 @@
     - libncursesw@6.6_p20251231-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:cc85c3259b1918cb31eebb2b713106fa83372a36
     InstalledFiles:
     - usr/bin/less
     - usr/bin/lessecho
     - usr/bin/lesskey
     AnalyzedBy: apk
-  - ID: libapk@3.0.4-r0
+  - ID: libapk@3.0.5-r0
     Name: libapk
     Identifier:
-      PURL: pkg:apk/alpine/libapk@3.0.4-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: d0220fc3e1ddf2ff
-    Version: 3.0.4-r0
+      PURL: pkg:apk/alpine/libapk@3.0.5-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 4df86b3346bc4821
+    Version: 3.0.5-r0
     Arch: x86_64
     SrcName: apk-tools
-    SrcVersion: 3.0.4-r0
+    SrcVersion: 3.0.5-r0
     Licenses:
     - GPL-2.0-only
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
@@ -1899,9 +1899,9 @@
     - musl@1.2.5-r21
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
-    Digest: sha1:b25c547cfc08ded7082c8e4376a3b30f71402b34
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
+    Digest: sha1:3d62eac169b1846edb3eb4e6112ca5945c915a78
     InstalledFiles:
     - usr/lib/libapk.so.3.0.0
     AnalyzedBy: apk
@@ -1921,8 +1921,8 @@
     - libeconf@0.8.3-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:47fccdde8b74a48637e24acd65f4eee5da2b8583
     InstalledFiles:
     - usr/lib/libblkid.so.1
@@ -1946,8 +1946,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:6661c874b35451cbd0687ea5d147d10ae65d1207
     InstalledFiles:
     - usr/lib/libcom_err.so.2
@@ -1968,8 +1968,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:c726e4041f4aa79836204042198a3be54e125007
     InstalledFiles:
     - etc/ssl/ct_log_list.cnf
@@ -2009,8 +2009,8 @@
     - zlib@1.3.1-r2
     - zstd-libs@1.5.7-r2
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:c997e5da7aaaaf98c885b6b8a5a75bddc28122e1
     InstalledFiles:
     - usr/lib/libcurl.so.4
@@ -2031,8 +2031,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:100389bca133f84da577ba3ad9cdd5bf8c9a5b1e
     InstalledFiles:
     - usr/bin/econftool
@@ -2056,8 +2056,8 @@
     - libssl3@3.5.5-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:b5d3e42cfb21b218fa78c23d12d58b248f0d1dbe
     InstalledFiles:
     - usr/lib/libevent-2.1.so.7
@@ -2086,8 +2086,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:50679beb8093d7c2ecbf0a919465b0ed08d80c3f
     InstalledFiles:
     - usr/lib/libffi.so.8
@@ -2110,8 +2110,8 @@
     - libunistring@1.4.1-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:ae187b51fa0223e13d8a4df74b8e90912f2144d8
     InstalledFiles:
     - usr/lib/libidn2.so.0
@@ -2132,8 +2132,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:0d8738141e8b7cf11c830ec8b400e5b43bd1fc6e
     InstalledFiles:
     - usr/lib/libintl.so.8
@@ -2155,8 +2155,8 @@
     - libblkid@2.41.3-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:13ccffb44765c6d010d95506247b4cc2d1e3128b
     InstalledFiles:
     - usr/lib/libmount.so.1
@@ -2178,8 +2178,8 @@
     - musl@1.2.5-r21
     - ncurses-terminfo-base@6.6_p20251231-r0
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:86bea3d5b9fe016858e82a2c80d0c185cd2f84cb
     InstalledFiles:
     - usr/lib/libncursesw.so.6
@@ -2202,8 +2202,8 @@
     - musl@1.2.5-r21
     - utmps-libs@0.1.3.2-r1
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:06de98d317d886db529997f71c177198ddefede5
     InstalledFiles:
     - usr/lib/libproc2.so.1
@@ -2226,8 +2226,8 @@
     - libunistring@1.4.1-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:9103905efb1892668c2ffcd27a887ea432feb5ca
     InstalledFiles:
     - usr/lib/libpsl.so.5
@@ -2250,8 +2250,8 @@
     - musl@1.2.5-r21
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:4aa1c491e1be97f1d952292428da5386595f36d1
     InstalledFiles:
     - usr/lib/libssh2.so.1
@@ -2273,8 +2273,8 @@
     - libcrypto3@3.5.5-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:2b3071b49917e1500c7768e3b4dac3948d9c7dc4
     InstalledFiles:
     - usr/lib/libssl.so.3
@@ -2295,29 +2295,29 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:6e56562bde456bee5971787d3d95c34e84ced797
     InstalledFiles:
     - usr/lib/libunistring.so.5
     - usr/lib/libunistring.so.5.2.1
     AnalyzedBy: apk
-  - ID: man-pages@6.16-r1
+  - ID: man-pages@6.16-r2
     Name: man-pages
     Identifier:
-      PURL: pkg:apk/alpine/man-pages@6.16-r1?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: 2b057809091992eb
-    Version: 6.16-r1
+      PURL: pkg:apk/alpine/man-pages@6.16-r2?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 789e2cdf56f0b131
+    Version: 6.16-r2
     Arch: x86_64
     SrcName: man-pages
-    SrcVersion: 6.16-r1
+    SrcVersion: 6.16-r2
     Licenses:
     - GPL-2.0-or-later
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
-    Digest: sha1:e33ac74f6b53742dd1acc2bfb8dd438f1c6360ac
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
+    Digest: sha1:1d419528c5ef8443a8dbc4efb567aa07ac532af2
     InstalledFiles:
     - usr/bin/diffman-git
     - usr/bin/mansect
@@ -5188,6 +5188,7 @@
     - usr/share/man/man7/futex.7.gz
     - usr/share/man/man7/glibc.7.gz
     - usr/share/man/man7/glob.7.gz
+    - usr/share/man/man7/gnu-hier.7.gz
     - usr/share/man/man7/hostname.7.gz
     - usr/share/man/man7/icmp.7.gz
     - usr/share/man/man7/inode.7.gz
@@ -5354,8 +5355,8 @@
     - musl@1.2.5-r21
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:8bcdf6860fb55e4a22198192bf306c3ad5fb3e4f
     InstalledFiles:
     - usr/bin/demandoc
@@ -5384,8 +5385,8 @@
     - musl@1.2.5-r21
     - slang@2.3.3-r3
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:6ad642fa3581cd1fe71739ac022e6b812228d851
     InstalledFiles:
     - etc/mc/edit.indent.rc
@@ -5627,8 +5628,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:5c7f1b16b4cddf1bb6f6547cd8682ee89a52426d
     InstalledFiles:
     - usr/lib/libmimalloc-secure.so.2
@@ -5649,8 +5650,8 @@
     - MIT
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:4dcd8f28bb875b9a45d3c7afbafcb7c063ddcc4c
     InstalledFiles:
     - lib/ld-musl-x86_64.so.1
@@ -5674,8 +5675,8 @@
     - musl@1.2.5-r21
     - scanelf@1.3.9-r0
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:793ce8115cfc734d044044e5a6b93cbce69bbb42
     InstalledFiles:
     - sbin/ldconfig
@@ -5697,8 +5698,8 @@
     - X-11
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:a2cb02aa665b1a9e96b6cb8ddc2dfcc031aafbd8
     InstalledFiles:
     - etc/terminfo/a/alacritty
@@ -5758,8 +5759,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:584b6a1b0aed58a3f543bfd77729b0d8a8b1745b
     InstalledFiles:
     - usr/lib/libnghttp2.so.14
@@ -5780,8 +5781,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:e48fcb3e81f7e46a42e3926d8513c83b7798774b
     InstalledFiles:
     - usr/lib/libnghttp3.so.9
@@ -5804,8 +5805,8 @@
     - libssl3@3.5.5-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:d735c62da159ec60a075b0bee75db1623330e016
     InstalledFiles:
     - usr/bin/openssl
@@ -5825,8 +5826,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:549059958151627bb0f5469bded945988b1bc24b
     InstalledFiles:
     - usr/lib/libpcre2-8.so.0
@@ -5854,8 +5855,8 @@
     - musl@1.2.5-r21
     - utmps-libs@0.1.3.2-r1
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:475002748f145d15159e475308f44bd441ae6488
     InstalledFiles:
     - bin/hugetop
@@ -5892,8 +5893,8 @@
     - libncursesw@6.6_p20251231-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:be48571958aed1187ff5c40f28233f624182ca25
     InstalledFiles:
     - etc/inputrc
@@ -5915,8 +5916,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:f91d557640d9e829bb650f8056edea0fc1e099cf
     InstalledFiles:
     - usr/bin/scanelf
@@ -5936,8 +5937,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:bba5c4e603c23990f8b4a609efbdc51235332d6d
     InstalledFiles:
     - usr/lib/libskarnet.so.2.14
@@ -5958,8 +5959,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:0073f55b982a022ee9cb665281d1a254cf13f36f
     InstalledFiles:
     - etc/slsh.rc
@@ -6110,8 +6111,8 @@
     - libssl3@3.5.5-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:6e8aec54788a34a67e76ecf2079e4b8e05704a05
     InstalledFiles:
     - usr/bin/ssl_client
@@ -6133,8 +6134,8 @@
     - musl@1.2.5-r21
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:237f40feff9ef853ce96d2247d1875522d5d1296
     InstalledFiles:
     - etc/sudo.conf
@@ -6173,8 +6174,8 @@
     - acl-libs@2.3.2-r1
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:57ba73f5abe68d19c2503468269b7f50cdde4acf
     InstalledFiles:
     - bin/tar
@@ -6198,8 +6199,8 @@
     - musl@1.2.5-r21
     - ncurses-terminfo-base@6.6_p20251231-r0
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:a4be5e96a4bb57dfc88377228188b8cdfdae9017
     InstalledFiles:
     - usr/bin/tmux
@@ -6226,8 +6227,8 @@
     - Public-Domain
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:cc34025efd7fc43d76a9796ac0b5fe8efb514e9c
     InstalledFiles:
     - usr/share/doc/util-linux/getopt-example.bash
@@ -6389,34 +6390,34 @@
     - musl@1.2.5-r21
     - skalibs-libs@2.14.5.1-r0
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:bfdbdf84bd31cc3714cc0f2013ed4dd43d0b0491
     InstalledFiles:
     - usr/lib/libutmps.so.0.1
     - usr/lib/libutmps.so.0.1.3.2
     AnalyzedBy: apk
-  - ID: vim@9.2.0033-r0
+  - ID: vim@9.2.0061-r0
     Name: vim
     Identifier:
-      PURL: pkg:apk/alpine/vim@9.2.0033-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: 2933393bb9dd0db6
-    Version: 9.2.0033-r0
+      PURL: pkg:apk/alpine/vim@9.2.0061-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 6ff31aad45809a44
+    Version: 9.2.0061-r0
     Arch: x86_64
     SrcName: vim
-    SrcVersion: 9.2.0033-r0
+    SrcVersion: 9.2.0061-r0
     Licenses:
     - Vim
     Maintainer: mio <miyopan@e.email>
     DependsOn:
     - libncursesw@6.6_p20251231-r0
     - musl@1.2.5-r21
-    - vim-common@9.2.0033-r0
-    - xxd@9.2.0033-r0
+    - vim-common@9.2.0061-r0
+    - xxd@9.2.0061-r0
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
-    Digest: sha1:001ece7a3654fb3349efff9a5e61168b76d9749f
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
+    Digest: sha1:0fc637b0a16d6f91d507c397800254725185fed2
     InstalledFiles:
     - usr/bin/ex
     - usr/bin/rview
@@ -6424,22 +6425,22 @@
     - usr/bin/view
     - usr/bin/vim
     AnalyzedBy: apk
-  - ID: vim-common@9.2.0033-r0
+  - ID: vim-common@9.2.0061-r0
     Name: vim-common
     Identifier:
-      PURL: pkg:apk/alpine/vim-common@9.2.0033-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: 3d20229876be7cd8
-    Version: 9.2.0033-r0
+      PURL: pkg:apk/alpine/vim-common@9.2.0061-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 5f07d50baf4fbd21
+    Version: 9.2.0061-r0
     Arch: x86_64
     SrcName: vim
-    SrcVersion: 9.2.0033-r0
+    SrcVersion: 9.2.0061-r0
     Licenses:
     - Vim
     Maintainer: mio <miyopan@e.email>
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
-    Digest: sha1:d5ffe89d0956ecff5b8d7dd7d8abf04e58ed3821
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
+    Digest: sha1:9c23767c3a7be8b6da1768643de60135a94ee51e
     InstalledFiles:
     - etc/vim/vimrc
     - usr/share/vim/vim92/LICENSE
@@ -8407,24 +8408,24 @@
     - usr/share/vim/vim92/tools/vimspell.txt
     - usr/share/vim/vim92/tools/xcmdsrv_client.c
     AnalyzedBy: apk
-  - ID: xxd@9.2.0033-r0
+  - ID: xxd@9.2.0061-r0
     Name: xxd
     Identifier:
-      PURL: pkg:apk/alpine/xxd@9.2.0033-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: 72fbddee39386051
-    Version: 9.2.0033-r0
+      PURL: pkg:apk/alpine/xxd@9.2.0061-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9f43851c4b638d42
+    Version: 9.2.0061-r0
     Arch: x86_64
     SrcName: vim
-    SrcVersion: 9.2.0033-r0
+    SrcVersion: 9.2.0061-r0
     Licenses:
     - Vim
     Maintainer: mio <miyopan@e.email>
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
-    Digest: sha1:47e7b7ef9b94bb22ad8b11a93936cf912f641ba0
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
+    Digest: sha1:067981ab937f0523f193c64625ce32d36c0f8a18
     InstalledFiles:
     - usr/bin/xxd
     AnalyzedBy: apk
@@ -8443,8 +8444,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:7f6d1b44c82e08e09edc330137f50a408f87b6d6
     InstalledFiles:
     - usr/lib/libz.so.1
@@ -8466,8 +8467,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     Digest: sha1:43ac44ea9c46b340ba31d8f7fe10469f2d4223f4
     InstalledFiles:
     - usr/lib/libzstd.so.1
@@ -8483,8 +8484,8 @@
       UID: a68585b707b894c6
     Version: '2.21'
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.fasterxml.jackson.core:jackson-core
@@ -8493,8 +8494,8 @@
       UID: afa8da117872fcb2
     Version: 2.21.0
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.fasterxml.jackson.core:jackson-databind
@@ -8503,8 +8504,8 @@
       UID: 2784dd508107deac
     Version: 2.21.0
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.fasterxml.jackson.dataformat:jackson-dataformat-toml
@@ -8513,18 +8514,18 @@
       UID: 7c48d43f3b350e2a
     Version: 2.21.0
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.github.mwiede:jsch
     Identifier:
-      PURL: pkg:maven/com.github.mwiede/jsch@2.27.7
-      UID: b2ea43fc7e760c5e
-    Version: 2.27.7
+      PURL: pkg:maven/com.github.mwiede/jsch@2.27.8
+      UID: a6af1857d5abec1
+    Version: 2.27.8
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.github.vertical-blank:sql-formatter
@@ -8533,8 +8534,8 @@
       UID: b476ea318a48e65d
     Version: 2.0.5
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.google.code.gson:gson
@@ -8543,8 +8544,8 @@
       UID: 55058bf256f684f6
     Version: 2.13.2
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.googlecode.juniversalchardet:juniversalchardet
@@ -8553,8 +8554,8 @@
       UID: 5447189855b6db87
     Version: 1.0.3
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.connector-factory
@@ -8563,8 +8564,8 @@
       UID: a99fffa9ec19f7cf
     Version: 0.0.9
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.core
@@ -8573,8 +8574,8 @@
       UID: afb96fc5c6b4a255
     Version: 0.0.9
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.jsch
@@ -8583,8 +8584,8 @@
       UID: 8066e61c44eb14ea
     Version: 0.0.9
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.pageant
@@ -8593,8 +8594,8 @@
       UID: c0284278b99b17bc
     Version: 0.0.9
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.sshagent
@@ -8603,8 +8604,8 @@
       UID: bd9e5fa40773f9dc
     Version: 0.0.9
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.svnkit-trilead-ssh2
@@ -8613,8 +8614,8 @@
       UID: 4bc35c3b9b6add62
     Version: 0.0.9
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.usocket-jna
@@ -8623,8 +8624,8 @@
       UID: c30290a3390d8666
     Version: 0.0.9
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.usocket-nc
@@ -8633,8 +8634,8 @@
       UID: 48390e4cf4a3666a
     Version: 0.0.9
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.sun.activation:javax.activation
@@ -8643,8 +8644,8 @@
       UID: 76398eb1d6d13adc
     Version: 1.2.0
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.sun.mail:javax.mail
@@ -8653,8 +8654,8 @@
       UID: 1e7beb37baabc57a
     Version: 1.6.2
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: com.warrenstrange:googleauth
@@ -8663,8 +8664,8 @@
       UID: 99ee628fb0243c8d
     Version: 1.5.0
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: commons-cli:commons-cli
@@ -8673,8 +8674,8 @@
       UID: 3475d2ee4b04dbe0
     Version: 1.11.0
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: commons-codec:commons-codec
@@ -8683,8 +8684,8 @@
       UID: 2426b259c63a1b24
     Version: 1.21.0
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: commons-io:commons-io
@@ -8693,8 +8694,8 @@
       UID: 2061cef217097cbb
     Version: 2.21.0
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: commons-logging:commons-logging
@@ -8703,8 +8704,8 @@
       UID: 8120d86e07931c92
     Version: 1.3.5
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: commons-net:commons-net
@@ -8713,8 +8714,8 @@
       UID: f30479acbb8d626f
     Version: 3.12.0
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: de.vandermeer:asciilist-j7
@@ -8723,8 +8724,8 @@
       UID: 5d38f221ce7d2a1
     Version: 1.0.0
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: de.vandermeer:asciitable-j7
@@ -8733,8 +8734,8 @@
       UID: 4ec0aaacbd72cc14
     Version: 1.0.1
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: dnsjava:dnsjava
@@ -8743,8 +8744,8 @@
       UID: 7aac8b1c2f9d99a1
     Version: 3.6.4
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: io.jsonwebtoken:jjwt-api
@@ -8753,8 +8754,8 @@
       UID: fe506a80a2899a4a
     Version: 0.13.0
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: io.jsonwebtoken:jjwt-gson
@@ -8763,8 +8764,8 @@
       UID: cc7c47a353e36bec
     Version: 0.13.0
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: io.jsonwebtoken:jjwt-impl
@@ -8773,8 +8774,8 @@
       UID: fb75cc968ac3dc0d
     Version: 0.13.0
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: io.sigpipe:jbsdiff
@@ -8783,8 +8784,8 @@
       UID: e618a95843fba36b
     Version: '1.0'
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: jakarta.activation:jakarta.activation-api
@@ -8793,8 +8794,8 @@
       UID: 5d2ee0e1a121653f
     Version: 1.2.2
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: javax.xml.bind:jaxb-api
@@ -8803,8 +8804,8 @@
       UID: d465243f613cf5b8
     Version: 2.3.1
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: jline:jline
@@ -8813,8 +8814,8 @@
       UID: 509c1c4b5bcd42a1
     Version: 2.14.6
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.apache.commons:commons-collections4
@@ -8823,8 +8824,8 @@
       UID: 72513cdccf1d063
     Version: 4.5.0
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.apache.commons:commons-compress
@@ -8833,8 +8834,8 @@
       UID: a82eeb62843349ae
     Version: 1.28.0
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.apache.commons:commons-csv
@@ -8843,8 +8844,8 @@
       UID: 250a69832ed56f8d
     Version: 1.14.1
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.apache.commons:commons-email
@@ -8853,8 +8854,8 @@
       UID: 973048c510561123
     Version: 1.6.0
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.apache.commons:commons-lang3
@@ -8863,8 +8864,8 @@
       UID: 85a4dd2e7bf06fed
     Version: 3.20.0
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.apache.commons:commons-math3
@@ -8873,8 +8874,8 @@
       UID: ce9b8a6c7e85850
     Version: 3.6.1
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.eclipse.jetty.compression:jetty-compression-common
@@ -8883,8 +8884,8 @@
       UID: 1b7722a94f939d65
     Version: 12.1.6
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.eclipse.jetty.websocket:jetty-websocket-core-client
@@ -8893,8 +8894,8 @@
       UID: afa537d2c41c802c
     Version: 12.1.6
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.eclipse.jetty.websocket:jetty-websocket-core-common
@@ -8903,8 +8904,8 @@
       UID: 748aa59648d83acc
     Version: 12.1.6
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.eclipse.jetty.websocket:jetty-websocket-jetty-api
@@ -8913,8 +8914,8 @@
       UID: 972f439f1c399fc2
     Version: 12.1.6
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.eclipse.jetty.websocket:jetty-websocket-jetty-client
@@ -8923,8 +8924,8 @@
       UID: 85305991230eee20
     Version: 12.1.6
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.eclipse.jetty.websocket:jetty-websocket-jetty-common
@@ -8933,8 +8934,8 @@
       UID: f40fec16fc289a3c
     Version: 12.1.6
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.eclipse.jetty:jetty-client
@@ -8943,8 +8944,8 @@
       UID: e303ddf68c495dac
     Version: 12.1.6
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.eclipse.jetty:jetty-http
@@ -8953,8 +8954,8 @@
       UID: a166ead78c90179a
     Version: 12.1.6
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.eclipse.jetty:jetty-io
@@ -8963,8 +8964,8 @@
       UID: cf7a7dcfb2ad7f23
     Version: 12.1.6
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.eclipse.jetty:jetty-util
@@ -8973,8 +8974,8 @@
       UID: f3004d626218e544
     Version: 12.1.6
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.fusesource.hawtjni:hawtjni-runtime
@@ -8983,8 +8984,8 @@
       UID: cf88955c9d0ae18b
     Version: '1.17'
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi
@@ -8993,8 +8994,8 @@
       UID: 8ad8d3ab8ae11065
     Version: '1.18'
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-freebsd32
@@ -9003,8 +9004,8 @@
       UID: 87b73bc3f694180c
     Version: '1.8'
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-freebsd64
@@ -9013,8 +9014,8 @@
       UID: 68d99c3788225531
     Version: '1.8'
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-linux32
@@ -9023,8 +9024,8 @@
       UID: b748a87749ace306
     Version: '1.8'
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-linux64
@@ -9033,8 +9034,8 @@
       UID: 26eee13eafbc9417
     Version: '1.8'
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-native
@@ -9043,8 +9044,8 @@
       UID: 6fdce73a584d6707
     Version: '1.8'
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-osx
@@ -9053,8 +9054,8 @@
       UID: 907023130116e83c
     Version: '1.8'
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-windows32
@@ -9063,8 +9064,8 @@
       UID: ab926f311d1d4210
     Version: '1.8'
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-windows64
@@ -9073,8 +9074,8 @@
       UID: edf1cd987a2068b8
     Version: '1.8'
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.semver4j:semver4j
@@ -9083,8 +9084,8 @@
       UID: 452bf269462d8b69
     Version: 6.0.0
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.slf4j:slf4j-api
@@ -9093,8 +9094,8 @@
       UID: e6e431b8b5e0302a
     Version: 2.0.17
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.slf4j:slf4j-nop
@@ -9103,8 +9104,8 @@
       UID: 67713c09148cf9b
     Version: 2.0.17
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.snmp4j:snmp4j
@@ -9113,8 +9114,8 @@
       UID: 2bdda8a0d94fe3fd
     Version: 3.9.7
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
   - Name: org.snmp4j:snmp4j-agent
@@ -9123,7 +9124,43 @@
       UID: 7d83d9c8b188faec
     Version: 3.8.3
     Layer:
-      Digest: sha256:d7967f421f0113ba1408d76145bce26d88048725a02a44588e6feb1c16578696
-      DiffID: sha256:43d068af704c4797030cdda5434129ad444ae24f616537493ea87e0999825179
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
+  Vulnerabilities:
+  - VulnerabilityID: GHSA-72hv-8253-57qq
+    PkgName: com.fasterxml.jackson.core:jackson-core
+    PkgPath: openaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/com.fasterxml.jackson.core/jackson-core@2.21.0
+      UID: afa8da117872fcb2
+    InstalledVersion: 2.21.0
+    FixedVersion: 2.18.6, 2.21.1, 3.1.0
+    Status: fixed
+    Layer:
+      Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
+      DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
+    SeveritySource: ghsa
+    PrimaryURL: https://github.com/advisories/GHSA-72hv-8253-57qq
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:817b1931113fbf3222417d8c1c627a593fdd70577c3a72accf58ea4bd547e136
+    Title: 'jackson-core: Number Length Constraint Bypass in Async Parser Leads to Potential DoS Condition'
+    Description: "### Summary\nThe non-blocking (async) JSON parser in `jackson-core` bypasses the `maxNumberLength` constraint (default: 1000 characters) defined in `StreamReadConstraints`. This allows an attacker to send JSON with arbitrarily long numbers through the async parser API, leading to excessive memory allocation and potential CPU exhaustion, resulting in a Denial of Service (DoS).\n\nThe standard synchronous parser correctly enforces this limit, but the async parser fails to do so, creating an inconsistent enforcement policy.\n\n### Details\nThe root cause is that the async parsing path in `NonBlockingUtf8JsonParserBase` (and related classes) does not call the methods responsible for number length validation.\n\n- The number parsing methods (e.g., `_finishNumberIntegralPart`) accumulate digits into the `TextBuffer` without any length checks.\n- After parsing, they call `_valueComplete()`, which finalizes the token but does **not** call `resetInt()` or `resetFloat()`.\n- The `resetInt()`/`resetFloat()` methods in `ParserBase` are where the `validateIntegerLength()` and `validateFPLength()` checks are performed.\n- Because this validation step is skipped, the `maxNumberLength` constraint is never enforced in the async code path.\n\n### PoC\nThe following JUnit 5 test demonstrates the vulnerability. It shows that the async parser accepts a 5,000-digit number, whereas the limit should be 1,000.\n\n```java\npackage tools.jackson.core.unittest.dos;\n\nimport java.nio.charset.StandardCharsets;\n\nimport org.junit.jupiter.api.Test;\n\nimport tools.jackson.core.*;\nimport tools.jackson.core.exc.StreamConstraintsException;\nimport tools.jackson.core.json.JsonFactory;\nimport tools.jackson.core.json.async.NonBlockingByteArrayJsonParser;\n\nimport static org.junit.jupiter.api.Assertions.*;\n\n/**\n * POC: Number Length Constraint Bypass in Non-Blocking (Async) JSON Parsers\n *\n * Authors: sprabhav7, rohan-repos\n * \n * maxNumberLength default = 1000 characters (digits).\n * A number with more than 1000 digits should be rejected by any parser.\n *\n * BUG: The async parser never calls resetInt()/resetFloat() which is where\n * validateIntegerLength()/validateFPLength() lives. Instead it calls\n * _valueComplete() which skips all number length validation.\n *\n * CWE-770: Allocation of Resources Without Limits or Throttling\n */\nclass AsyncParserNumberLengthBypassTest {\n\n    private static final int MAX_NUMBER_LENGTH = 1000;\n    private static final int TEST_NUMBER_LENGTH = 5000;\n\n    private final JsonFactory factory = new JsonFactory();\n\n    // CONTROL: Sync parser correctly rejects a number exceeding maxNumberLength\n    @Test\n    void syncParserRejectsLongNumber() throws Exception {\n        byte[] payload = buildPayloadWithLongInteger(TEST_NUMBER_LENGTH);\n\t\t\n\t\t// Output to console\n        System.out.println(\"[SYNC] Parsing \" + TEST_NUMBER_LENGTH + \"-digit number (limit: \" + MAX_NUMBER_LENGTH + \")\");\n        try {\n            try (JsonParser p = factory.createParser(ObjectReadContext.empty(), payload)) {\n                while (p.nextToken() != null) {\n                    if (p.currentToken() == JsonToken.VALUE_NUMBER_INT) {\n                        System.out.println(\"[SYNC] Accepted number with \" + p.getText().length() + \" digits — UNEXPECTED\");\n                    }\n                }\n            }\n            fail(\"Sync parser must reject a \" + TEST_NUMBER_LENGTH + \"-digit number\");\n        } catch (StreamConstraintsException e) {\n            System.out.println(\"[SYNC] Rejected with StreamConstraintsException: \" + e.getMessage());\n        }\n    }\n\n    // VULNERABILITY: Async parser accepts the SAME number that sync rejects\n    @Test\n    void asyncParserAcceptsLongNumber() throws Exception {\n        byte[] payload = buildPayloadWithLongInteger(TEST_NUMBER_LENGTH);\n\n        NonBlockingByteArrayJsonParser p =\n            (NonBlockingByteArrayJsonParser) factory.createNonBlockingByteArrayParser(ObjectReadContext.empty());\n        p.feedInput(payload, 0, payload.length);\n        p.endOfInput();\n\n        boolean foundNumber = false;\n        try {\n            while (p.nextToken() != null) {\n                if (p.currentToken() == JsonToken.VALUE_NUMBER_INT) {\n                    foundNumber = true;\n                    String numberText = p.getText();\n                    assertEquals(TEST_NUMBER_LENGTH, numberText.length(),\n                        \"Async parser silently accepted all \" + TEST_NUMBER_LENGTH + \" digits\");\n                }\n            }\n            // Output to console\n            System.out.println(\"[ASYNC INT] Accepted number with \" + TEST_NUMBER_LENGTH + \" digits — BUG CONFIRMED\");\n            assertTrue(foundNumber, \"Parser should have produced a VALUE_NUMBER_INT token\");\n        } catch (StreamConstraintsException e) {\n            fail(\"Bug is fixed — async parser now correctly rejects long numbers: \" + e.getMessage());\n        }\n        p.close();\n    }\n\n    private byte[] buildPayloadWithLongInteger(int numDigits) {\n        StringBuilder sb = new StringBuilder(numDigits + 10);\n        sb.append(\"{\\\"v\\\":\");\n        for (int i = 0; i < numDigits; i++) {\n            sb.append((char) ('1' + (i % 9)));\n        }\n        sb.append('}');\n        return sb.toString().getBytes(StandardCharsets.UTF_8);\n    }\n}\n\n```\n\n\n### Impact\nA malicious actor can send a JSON document with an arbitrarily long number to an application using the async parser (e.g., in a Spring WebFlux or other reactive application). This can cause:\n1.  **Memory Exhaustion:** Unbounded allocation of memory in the `TextBuffer` to store the number's digits, leading to an `OutOfMemoryError`.\n2.  **CPU Exhaustion:** If the application subsequently calls `getBigIntegerValue()` or `getDecimalValue()`, the JVM can be tied up in O(n^2) `BigInteger` parsing operations, leading to a CPU-based DoS.\n\n### Suggested Remediation\n\nThe async parsing path should be updated to respect the `maxNumberLength` constraint. The simplest fix appears to ensure that `_valueComplete()` or a similar method in the async path calls the appropriate validation methods (`resetInt()` or `resetFloat()`) already present in `ParserBase`, mirroring the behavior of the synchronous parsers.\n\n**NOTE:** This research was performed in collaboration with [rohan-repos](https://github.com/rohan-repos)"
+    Severity: HIGH
+    VendorSeverity:
+      ghsa: 3
+    CVSS:
+      ghsa:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N
+        V40Score: 8.7
+    References:
+    - https://github.com/FasterXML/jackson-core
+    - https://github.com/FasterXML/jackson-core/commit/a004e9789c2cc6b41b379d02d229d58474d9a738
+    - https://github.com/FasterXML/jackson-core/issues/1538
+    - https://github.com/FasterXML/jackson-core/security/advisories/GHSA-72hv-8253-57qq
+    PublishedDate: '2026-02-28T02:01:05Z'
+    LastModifiedDate: '2026-02-28T02:01:06Z'

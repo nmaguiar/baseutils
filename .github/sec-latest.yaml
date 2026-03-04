@@ -8487,6 +8487,7 @@
     Layer:
       Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
       DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28417
     DataSource:
       ID: alpine
@@ -8495,12 +8496,17 @@
     Fingerprint: sha256:b359d1358776580146eea6aa9b3e87ee333ec4ed9c0bcf1965b1f4706e7a7953
     Title: 'vim: Vim: Arbitrary code execution via OS command injection in the netrw plugin'
     Description: Vim is an open source, command line text editor. Prior to version 9.2.0073, an OS command injection vulnerability exists in the `netrw` standard plugin bundled with Vim. By inducing a user to open a crafted URL (e.g., using the `scp://` protocol handler), an attacker can execute arbitrary shell commands with the privileges of the Vim process. Version 9.2.0073 fixes the issue.
-    Severity: MEDIUM
+    Severity: HIGH
     CweIDs:
     - CWE-86
+    - CWE-78
     VendorSeverity:
+      nvd: 3
       redhat: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
         V3Score: 4.4
@@ -8513,7 +8519,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-28417
     - https://www.cve.org/CVERecord?id=CVE-2026-28417
     PublishedDate: '2026-02-27T22:16:24.833Z'
-    LastModifiedDate: '2026-02-28T01:16:04.733Z'
+    LastModifiedDate: '2026-03-03T17:50:29.827Z'
   - VulnerabilityID: CVE-2026-28418
     PkgID: vim@9.2.0061-r0
     PkgName: vim
@@ -8526,6 +8532,7 @@
     Layer:
       Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
       DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28418
     DataSource:
       ID: alpine
@@ -8539,8 +8546,12 @@
     - CWE-122
     - CWE-125
     VendorSeverity:
+      nvd: 2
       redhat: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L
         V3Score: 5.3
@@ -8553,7 +8564,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-28418
     - https://www.cve.org/CVERecord?id=CVE-2026-28418
     PublishedDate: '2026-02-27T22:16:25.003Z'
-    LastModifiedDate: '2026-02-28T01:16:04.85Z'
+    LastModifiedDate: '2026-03-03T17:49:55.213Z'
   - VulnerabilityID: CVE-2026-28419
     PkgID: vim@9.2.0061-r0
     PkgName: vim
@@ -8593,7 +8604,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-28419
     - https://www.cve.org/CVERecord?id=CVE-2026-28419
     PublishedDate: '2026-02-27T22:16:25.163Z'
-    LastModifiedDate: '2026-02-28T01:16:04.963Z'
+    LastModifiedDate: '2026-03-02T20:30:10.923Z'
   - VulnerabilityID: CVE-2026-28420
     PkgID: vim@9.2.0061-r0
     PkgName: vim
@@ -8633,7 +8644,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-28420
     - https://www.cve.org/CVERecord?id=CVE-2026-28420
     PublishedDate: '2026-02-27T22:16:25.33Z'
-    LastModifiedDate: '2026-02-28T01:16:05.077Z'
+    LastModifiedDate: '2026-03-02T20:30:10.923Z'
   - VulnerabilityID: CVE-2026-28421
     PkgID: vim@9.2.0061-r0
     PkgName: vim
@@ -8673,7 +8684,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-28421
     - https://www.cve.org/CVERecord?id=CVE-2026-28421
     PublishedDate: '2026-02-27T22:16:25.493Z'
-    LastModifiedDate: '2026-02-28T01:16:05.203Z'
+    LastModifiedDate: '2026-03-02T20:30:10.923Z'
   - VulnerabilityID: CVE-2026-28422
     PkgID: vim@9.2.0061-r0
     PkgName: vim
@@ -8712,7 +8723,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-28422
     - https://www.cve.org/CVERecord?id=CVE-2026-28422
     PublishedDate: '2026-02-27T22:16:25.667Z'
-    LastModifiedDate: '2026-02-28T01:16:05.32Z'
+    LastModifiedDate: '2026-03-02T20:30:10.923Z'
   - VulnerabilityID: CVE-2026-28417
     PkgID: vim-common@9.2.0061-r0
     PkgName: vim-common
@@ -8725,6 +8736,7 @@
     Layer:
       Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
       DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28417
     DataSource:
       ID: alpine
@@ -8733,12 +8745,17 @@
     Fingerprint: sha256:99a0a36fb7e1e1c6e83325365e1b95e3f6298cca4bc4590c4e96c7740322dbdd
     Title: 'vim: Vim: Arbitrary code execution via OS command injection in the netrw plugin'
     Description: Vim is an open source, command line text editor. Prior to version 9.2.0073, an OS command injection vulnerability exists in the `netrw` standard plugin bundled with Vim. By inducing a user to open a crafted URL (e.g., using the `scp://` protocol handler), an attacker can execute arbitrary shell commands with the privileges of the Vim process. Version 9.2.0073 fixes the issue.
-    Severity: MEDIUM
+    Severity: HIGH
     CweIDs:
     - CWE-86
+    - CWE-78
     VendorSeverity:
+      nvd: 3
       redhat: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
         V3Score: 4.4
@@ -8751,7 +8768,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-28417
     - https://www.cve.org/CVERecord?id=CVE-2026-28417
     PublishedDate: '2026-02-27T22:16:24.833Z'
-    LastModifiedDate: '2026-02-28T01:16:04.733Z'
+    LastModifiedDate: '2026-03-03T17:50:29.827Z'
   - VulnerabilityID: CVE-2026-28418
     PkgID: vim-common@9.2.0061-r0
     PkgName: vim-common
@@ -8764,6 +8781,7 @@
     Layer:
       Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
       DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28418
     DataSource:
       ID: alpine
@@ -8777,8 +8795,12 @@
     - CWE-122
     - CWE-125
     VendorSeverity:
+      nvd: 2
       redhat: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L
         V3Score: 5.3
@@ -8791,7 +8813,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-28418
     - https://www.cve.org/CVERecord?id=CVE-2026-28418
     PublishedDate: '2026-02-27T22:16:25.003Z'
-    LastModifiedDate: '2026-02-28T01:16:04.85Z'
+    LastModifiedDate: '2026-03-03T17:49:55.213Z'
   - VulnerabilityID: CVE-2026-28419
     PkgID: vim-common@9.2.0061-r0
     PkgName: vim-common
@@ -8831,7 +8853,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-28419
     - https://www.cve.org/CVERecord?id=CVE-2026-28419
     PublishedDate: '2026-02-27T22:16:25.163Z'
-    LastModifiedDate: '2026-02-28T01:16:04.963Z'
+    LastModifiedDate: '2026-03-02T20:30:10.923Z'
   - VulnerabilityID: CVE-2026-28420
     PkgID: vim-common@9.2.0061-r0
     PkgName: vim-common
@@ -8871,7 +8893,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-28420
     - https://www.cve.org/CVERecord?id=CVE-2026-28420
     PublishedDate: '2026-02-27T22:16:25.33Z'
-    LastModifiedDate: '2026-02-28T01:16:05.077Z'
+    LastModifiedDate: '2026-03-02T20:30:10.923Z'
   - VulnerabilityID: CVE-2026-28421
     PkgID: vim-common@9.2.0061-r0
     PkgName: vim-common
@@ -8911,7 +8933,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-28421
     - https://www.cve.org/CVERecord?id=CVE-2026-28421
     PublishedDate: '2026-02-27T22:16:25.493Z'
-    LastModifiedDate: '2026-02-28T01:16:05.203Z'
+    LastModifiedDate: '2026-03-02T20:30:10.923Z'
   - VulnerabilityID: CVE-2026-28422
     PkgID: vim-common@9.2.0061-r0
     PkgName: vim-common
@@ -8950,7 +8972,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-28422
     - https://www.cve.org/CVERecord?id=CVE-2026-28422
     PublishedDate: '2026-02-27T22:16:25.667Z'
-    LastModifiedDate: '2026-02-28T01:16:05.32Z'
+    LastModifiedDate: '2026-03-02T20:30:10.923Z'
   - VulnerabilityID: CVE-2026-28417
     PkgID: xxd@9.2.0061-r0
     PkgName: xxd
@@ -8963,6 +8985,7 @@
     Layer:
       Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
       DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28417
     DataSource:
       ID: alpine
@@ -8971,12 +8994,17 @@
     Fingerprint: sha256:33e9dd11350783d113a920455f10164a018d17f389c3d226d47c92e25f643bf0
     Title: 'vim: Vim: Arbitrary code execution via OS command injection in the netrw plugin'
     Description: Vim is an open source, command line text editor. Prior to version 9.2.0073, an OS command injection vulnerability exists in the `netrw` standard plugin bundled with Vim. By inducing a user to open a crafted URL (e.g., using the `scp://` protocol handler), an attacker can execute arbitrary shell commands with the privileges of the Vim process. Version 9.2.0073 fixes the issue.
-    Severity: MEDIUM
+    Severity: HIGH
     CweIDs:
     - CWE-86
+    - CWE-78
     VendorSeverity:
+      nvd: 3
       redhat: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
         V3Score: 4.4
@@ -8989,7 +9017,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-28417
     - https://www.cve.org/CVERecord?id=CVE-2026-28417
     PublishedDate: '2026-02-27T22:16:24.833Z'
-    LastModifiedDate: '2026-02-28T01:16:04.733Z'
+    LastModifiedDate: '2026-03-03T17:50:29.827Z'
   - VulnerabilityID: CVE-2026-28418
     PkgID: xxd@9.2.0061-r0
     PkgName: xxd
@@ -9002,6 +9030,7 @@
     Layer:
       Digest: sha256:213a2e484b40dbdc00e2a2718eb98afc4f9e90838b98c8d61b9cb53ed97f787e
       DiffID: sha256:b0088b3313dcece42153656e20593fab7b19115be4277136e733576ff9c60b02
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28418
     DataSource:
       ID: alpine
@@ -9015,8 +9044,12 @@
     - CWE-122
     - CWE-125
     VendorSeverity:
+      nvd: 2
       redhat: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L
         V3Score: 5.3
@@ -9029,7 +9062,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-28418
     - https://www.cve.org/CVERecord?id=CVE-2026-28418
     PublishedDate: '2026-02-27T22:16:25.003Z'
-    LastModifiedDate: '2026-02-28T01:16:04.85Z'
+    LastModifiedDate: '2026-03-03T17:49:55.213Z'
   - VulnerabilityID: CVE-2026-28419
     PkgID: xxd@9.2.0061-r0
     PkgName: xxd
@@ -9069,7 +9102,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-28419
     - https://www.cve.org/CVERecord?id=CVE-2026-28419
     PublishedDate: '2026-02-27T22:16:25.163Z'
-    LastModifiedDate: '2026-02-28T01:16:04.963Z'
+    LastModifiedDate: '2026-03-02T20:30:10.923Z'
   - VulnerabilityID: CVE-2026-28420
     PkgID: xxd@9.2.0061-r0
     PkgName: xxd
@@ -9109,7 +9142,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-28420
     - https://www.cve.org/CVERecord?id=CVE-2026-28420
     PublishedDate: '2026-02-27T22:16:25.33Z'
-    LastModifiedDate: '2026-02-28T01:16:05.077Z'
+    LastModifiedDate: '2026-03-02T20:30:10.923Z'
   - VulnerabilityID: CVE-2026-28421
     PkgID: xxd@9.2.0061-r0
     PkgName: xxd
@@ -9149,7 +9182,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-28421
     - https://www.cve.org/CVERecord?id=CVE-2026-28421
     PublishedDate: '2026-02-27T22:16:25.493Z'
-    LastModifiedDate: '2026-02-28T01:16:05.203Z'
+    LastModifiedDate: '2026-03-02T20:30:10.923Z'
   - VulnerabilityID: CVE-2026-28422
     PkgID: xxd@9.2.0061-r0
     PkgName: xxd
@@ -9188,7 +9221,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-28422
     - https://www.cve.org/CVERecord?id=CVE-2026-28422
     PublishedDate: '2026-02-27T22:16:25.667Z'
-    LastModifiedDate: '2026-02-28T01:16:05.32Z'
+    LastModifiedDate: '2026-03-02T20:30:10.923Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar

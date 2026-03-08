@@ -18365,7 +18365,69 @@
 │     │                         │                ├ [1]: /usr/share/doc/zlib1g/changelog.Debian.gz 
 │     │                         │                ╰ [2]: /usr/share/doc/zlib1g/copyright 
 │     │                         ╰ AnalyzedBy    : dpkg 
-│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2016-2781 
+│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2026-3184 
+│                       │      ├ PkgID           : bsdextrautils@2.41-4ubuntu4.1 
+│                       │      ├ PkgName         : bsdextrautils 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/bsdextrautils@2.41-4ubuntu4.1?arch=amd
+│                       │      │                  │       64&distro=ubuntu-25.10 
+│                       │      │                  ╰ UID : 4a137277116777e1 
+│                       │      ├ InstalledVersion: 2.41-4ubuntu4.1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:ce424f2b3b088255eb7ebf81d015f03711e71ae9ba87
+│                       │      │                  │         44f1cfa47573e8bcae9e 
+│                       │      │                  ╰ DiffID: sha256:c7d5b29643510bafd3ac11178e050883ee1ea40024d0
+│                       │      │                            67ffde4a72843aec15e9 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3184 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:c5b2a4aede6cc17188e9931a02385adc578af369dc37335517a0a
+│                       │      │                   a13a3cc7938 
+│                       │      ├ Title           : util-linux: util-linux: Access control bypass due to
+│                       │      │                   improper hostname canonicalization 
+│                       │      ├ Description     : No description is available for this CVE. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-3184 
+│                       │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-3184 
+│                       │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
+│                       ├ [1]  ╭ VulnerabilityID : CVE-2026-3184 
+│                       │      ├ PkgID           : bsdutils@1:2.41-4ubuntu4.1 
+│                       │      ├ PkgName         : bsdutils 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/bsdutils@2.41-4ubuntu4.1?arch=amd64&di
+│                       │      │                  │       stro=ubuntu-25.10&epoch=1 
+│                       │      │                  ╰ UID : 38bcfba16c536ac0 
+│                       │      ├ InstalledVersion: 1:2.41-4ubuntu4.1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:ce424f2b3b088255eb7ebf81d015f03711e71ae9ba87
+│                       │      │                  │         44f1cfa47573e8bcae9e 
+│                       │      │                  ╰ DiffID: sha256:c7d5b29643510bafd3ac11178e050883ee1ea40024d0
+│                       │      │                            67ffde4a72843aec15e9 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3184 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:d2d0e35651a2e2855c024ce5ec96e01b388ca369d010644800d90
+│                       │      │                   ea3f039b2ce 
+│                       │      ├ Title           : util-linux: util-linux: Access control bypass due to
+│                       │      │                   improper hostname canonicalization 
+│                       │      ├ Description     : No description is available for this CVE. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-3184 
+│                       │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-3184 
+│                       │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
+│                       ├ [2]  ╭ VulnerabilityID : CVE-2016-2781 
 │                       │      ├ PkgID           : gnu-coreutils@9.5-1ubuntu4 
 │                       │      ├ PkgName         : gnu-coreutils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gnu-coreutils@9.5-1ubuntu4?arch=amd64&
@@ -18421,7 +18483,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2016-2781 
 │                       │      ├ PublishedDate   : 2017-02-07T15:59:00.333Z 
 │                       │      ╰ LastModifiedDate: 2025-06-09T16:15:25.013Z 
-│                       ├ [1]  ╭ VulnerabilityID : CVE-2025-68972 
+│                       ├ [3]  ╭ VulnerabilityID : CVE-2025-68972 
 │                       │      ├ PkgID           : gpgv@2.4.8-2ubuntu2.1 
 │                       │      ├ PkgName         : gpgv 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgv@2.4.8-2ubuntu2.1?arch=amd64&distr
@@ -18471,7 +18533,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-68972 
 │                       │      ├ PublishedDate   : 2025-12-27T23:15:40.9Z 
 │                       │      ╰ LastModifiedDate: 2026-01-09T20:08:47.323Z 
-│                       ├ [2]  ╭ VulnerabilityID : CVE-2022-3219 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2022-3219 
 │                       │      ├ PkgID           : gpgv@2.4.8-2ubuntu2.1 
 │                       │      ├ PkgName         : gpgv 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgv@2.4.8-2ubuntu2.1?arch=amd64&distr
@@ -18516,7 +18578,38 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                       │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                       │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                       ├ [3]  ╭ VulnerabilityID : CVE-2025-66382 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2026-3184 
+│                       │      ├ PkgID           : libblkid1@2.41-4ubuntu4.1 
+│                       │      ├ PkgName         : libblkid1 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libblkid1@2.41-4ubuntu4.1?arch=amd64&d
+│                       │      │                  │       istro=ubuntu-25.10 
+│                       │      │                  ╰ UID : 9c137b546dbdb52a 
+│                       │      ├ InstalledVersion: 2.41-4ubuntu4.1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:ce424f2b3b088255eb7ebf81d015f03711e71ae9ba87
+│                       │      │                  │         44f1cfa47573e8bcae9e 
+│                       │      │                  ╰ DiffID: sha256:c7d5b29643510bafd3ac11178e050883ee1ea40024d0
+│                       │      │                            67ffde4a72843aec15e9 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3184 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:eab723d5a3b80e34b3f36f39a6110be115176c2c157140514748a
+│                       │      │                   c8eb9094674 
+│                       │      ├ Title           : util-linux: util-linux: Access control bypass due to
+│                       │      │                   improper hostname canonicalization 
+│                       │      ├ Description     : No description is available for this CVE. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-3184 
+│                       │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-3184 
+│                       │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2025-66382 
 │                       │      ├ PkgID           : libexpat1@2.7.1-2ubuntu0.2 
 │                       │      ├ PkgName         : libexpat1 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libexpat1@2.7.1-2ubuntu0.2?arch=amd64&
@@ -18558,7 +18651,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-66382 
 │                       │      ├ PublishedDate   : 2025-11-28T07:15:57.9Z 
 │                       │      ╰ LastModifiedDate: 2025-12-19T16:05:03.557Z 
-│                       ├ [4]  ╭ VulnerabilityID : CVE-2024-2236 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2024-2236 
 │                       │      ├ PkgID           : libgcrypt20@1.11.0-7build1 
 │                       │      ├ PkgName         : libgcrypt20 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcrypt20@1.11.0-7build1?arch=amd64&
@@ -18617,7 +18710,69 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
 │                       │      ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
 │                       │      ╰ LastModifiedDate: 2026-02-25T20:17:20.547Z 
-│                       ├ [5]  ╭ VulnerabilityID : CVE-2025-8941 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2026-3184 
+│                       │      ├ PkgID           : liblastlog2-2@2.41-4ubuntu4.1 
+│                       │      ├ PkgName         : liblastlog2-2 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/liblastlog2-2@2.41-4ubuntu4.1?arch=amd
+│                       │      │                  │       64&distro=ubuntu-25.10 
+│                       │      │                  ╰ UID : 9048473316777a29 
+│                       │      ├ InstalledVersion: 2.41-4ubuntu4.1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:ce424f2b3b088255eb7ebf81d015f03711e71ae9ba87
+│                       │      │                  │         44f1cfa47573e8bcae9e 
+│                       │      │                  ╰ DiffID: sha256:c7d5b29643510bafd3ac11178e050883ee1ea40024d0
+│                       │      │                            67ffde4a72843aec15e9 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3184 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:4ea2934c4319132bb1425de6d44ea954bce19eb533e0962d9ba66
+│                       │      │                   f26a520e189 
+│                       │      ├ Title           : util-linux: util-linux: Access control bypass due to
+│                       │      │                   improper hostname canonicalization 
+│                       │      ├ Description     : No description is available for this CVE. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-3184 
+│                       │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-3184 
+│                       │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2026-3184 
+│                       │      ├ PkgID           : libmount1@2.41-4ubuntu4.1 
+│                       │      ├ PkgName         : libmount1 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libmount1@2.41-4ubuntu4.1?arch=amd64&d
+│                       │      │                  │       istro=ubuntu-25.10 
+│                       │      │                  ╰ UID : fc2d8887c9919248 
+│                       │      ├ InstalledVersion: 2.41-4ubuntu4.1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:ce424f2b3b088255eb7ebf81d015f03711e71ae9ba87
+│                       │      │                  │         44f1cfa47573e8bcae9e 
+│                       │      │                  ╰ DiffID: sha256:c7d5b29643510bafd3ac11178e050883ee1ea40024d0
+│                       │      │                            67ffde4a72843aec15e9 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3184 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:8d175bbb0e91a9b4de42c7299df6fa0724d52594b395f140456a1
+│                       │      │                   3ffdd612b60 
+│                       │      ├ Title           : util-linux: util-linux: Access control bypass due to
+│                       │      │                   improper hostname canonicalization 
+│                       │      ├ Description     : No description is available for this CVE. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-3184 
+│                       │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-3184 
+│                       │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2025-8941 
 │                       │      ├ PkgID           : libpam-modules@1.7.0-5ubuntu2 
 │                       │      ├ PkgName         : libpam-modules 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules@1.7.0-5ubuntu2?arch=amd
@@ -18687,7 +18842,7 @@
 │                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2025-8941 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2025-8941 
 │                       │      ├ PkgID           : libpam-modules-bin@1.7.0-5ubuntu2 
 │                       │      ├ PkgName         : libpam-modules-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.7.0-5ubuntu2?arch
@@ -18757,7 +18912,7 @@
 │                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                       ├ [7]  ╭ VulnerabilityID : CVE-2025-8941 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2025-8941 
 │                       │      ├ PkgID           : libpam-runtime@1.7.0-5ubuntu2 
 │                       │      ├ PkgName         : libpam-runtime 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.7.0-5ubuntu2?arch=all
@@ -18827,7 +18982,7 @@
 │                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                       ├ [8]  ╭ VulnerabilityID : CVE-2025-8941 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2025-8941 
 │                       │      ├ PkgID           : libpam0g@1.7.0-5ubuntu2 
 │                       │      ├ PkgName         : libpam0g 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.7.0-5ubuntu2?arch=amd64&dis
@@ -18897,7 +19052,69 @@
 │                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2026-1757 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2026-3184 
+│                       │      ├ PkgID           : libsmartcols1@2.41-4ubuntu4.1 
+│                       │      ├ PkgName         : libsmartcols1 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsmartcols1@2.41-4ubuntu4.1?arch=amd
+│                       │      │                  │       64&distro=ubuntu-25.10 
+│                       │      │                  ╰ UID : 5767b278754d57be 
+│                       │      ├ InstalledVersion: 2.41-4ubuntu4.1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:ce424f2b3b088255eb7ebf81d015f03711e71ae9ba87
+│                       │      │                  │         44f1cfa47573e8bcae9e 
+│                       │      │                  ╰ DiffID: sha256:c7d5b29643510bafd3ac11178e050883ee1ea40024d0
+│                       │      │                            67ffde4a72843aec15e9 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3184 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:95b6058e6d12aeac89904b12a5594b0f30e154d32f0eabc00c224
+│                       │      │                   2c786511306 
+│                       │      ├ Title           : util-linux: util-linux: Access control bypass due to
+│                       │      │                   improper hostname canonicalization 
+│                       │      ├ Description     : No description is available for this CVE. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-3184 
+│                       │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-3184 
+│                       │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2026-3184 
+│                       │      ├ PkgID           : libuuid1@2.41-4ubuntu4.1 
+│                       │      ├ PkgName         : libuuid1 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libuuid1@2.41-4ubuntu4.1?arch=amd64&di
+│                       │      │                  │       stro=ubuntu-25.10 
+│                       │      │                  ╰ UID : 40f54ab6376e4e77 
+│                       │      ├ InstalledVersion: 2.41-4ubuntu4.1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:ce424f2b3b088255eb7ebf81d015f03711e71ae9ba87
+│                       │      │                  │         44f1cfa47573e8bcae9e 
+│                       │      │                  ╰ DiffID: sha256:c7d5b29643510bafd3ac11178e050883ee1ea40024d0
+│                       │      │                            67ffde4a72843aec15e9 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3184 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:7c0ca2c511dc95002c23730654bf74076c5427c6c9f216d796066
+│                       │      │                   078066b1eb0 
+│                       │      ├ Title           : util-linux: util-linux: Access control bypass due to
+│                       │      │                   improper hostname canonicalization 
+│                       │      ├ Description     : No description is available for this CVE. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-3184 
+│                       │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-3184 
+│                       │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2026-1757 
 │                       │      ├ PkgID           : libxml2-16@2.14.5+dfsg-0.2ubuntu0.1 
 │                       │      ├ PkgName         : libxml2-16 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxml2-16@2.14.5%2Bdfsg-0.2ubuntu0.1?
@@ -18942,7 +19159,38 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-1757 
 │                       │      ├ PublishedDate   : 2026-02-02T13:15:58.58Z 
 │                       │      ╰ LastModifiedDate: 2026-02-03T16:44:36.63Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [17] ╭ VulnerabilityID : CVE-2026-3184 
+│                       │      ├ PkgID           : login@1:4.16.0-2+really2.41-4ubuntu4.1 
+│                       │      ├ PkgName         : login 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.16.0-2%2Breally2.41-4ubuntu4.1
+│                       │      │                  │       ?arch=amd64&distro=ubuntu-25.10&epoch=1 
+│                       │      │                  ╰ UID : 30231a03641090db 
+│                       │      ├ InstalledVersion: 1:4.16.0-2+really2.41-4ubuntu4.1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:ce424f2b3b088255eb7ebf81d015f03711e71ae9ba87
+│                       │      │                  │         44f1cfa47573e8bcae9e 
+│                       │      │                  ╰ DiffID: sha256:c7d5b29643510bafd3ac11178e050883ee1ea40024d0
+│                       │      │                            67ffde4a72843aec15e9 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3184 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:7c704e19b49a2dc15f9502f2459757bb72ec171de5ef1805e79fa
+│                       │      │                   23432aed7ad 
+│                       │      ├ Title           : util-linux: util-linux: Access control bypass due to
+│                       │      │                   improper hostname canonicalization 
+│                       │      ├ Description     : No description is available for this CVE. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-3184 
+│                       │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-3184 
+│                       │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
+│                       ├ [18] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : login.defs@1:4.17.4-2ubuntu2 
 │                       │      ├ PkgName         : login.defs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login.defs@4.17.4-2ubuntu2?arch=all&di
@@ -19004,7 +19252,38 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [11] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [19] ╭ VulnerabilityID : CVE-2026-3184 
+│                       │      ├ PkgID           : mount@2.41-4ubuntu4.1 
+│                       │      ├ PkgName         : mount 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/mount@2.41-4ubuntu4.1?arch=amd64&distr
+│                       │      │                  │       o=ubuntu-25.10 
+│                       │      │                  ╰ UID : f9126cfff0b67d63 
+│                       │      ├ InstalledVersion: 2.41-4ubuntu4.1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:ce424f2b3b088255eb7ebf81d015f03711e71ae9ba87
+│                       │      │                  │         44f1cfa47573e8bcae9e 
+│                       │      │                  ╰ DiffID: sha256:c7d5b29643510bafd3ac11178e050883ee1ea40024d0
+│                       │      │                            67ffde4a72843aec15e9 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3184 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:4f8bdc2daa0eb973dc2235233fbd1420b7f5a43151ae28eb6fe58
+│                       │      │                   1e361dbcdc3 
+│                       │      ├ Title           : util-linux: util-linux: Access control bypass due to
+│                       │      │                   improper hostname canonicalization 
+│                       │      ├ Description     : No description is available for this CVE. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-3184 
+│                       │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-3184 
+│                       │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
+│                       ├ [20] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : passwd@1:4.17.4-2ubuntu2 
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.17.4-2ubuntu2?arch=amd64&dist
@@ -19066,7 +19345,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [12] ╭ VulnerabilityID : CVE-2025-45582 
+│                       ├ [21] ╭ VulnerabilityID : CVE-2025-45582 
 │                       │      ├ PkgID           : tar@1.35+dfsg-3.1build1 
 │                       │      ├ PkgName         : tar 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3.1build1?arch=amd64&d
@@ -19147,7 +19426,38 @@
 │                       │      │                          urity-rules-of-thumb.html 
 │                       │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                       │      ╰ LastModifiedDate: 2025-11-02T01:15:32.307Z 
-│                       ├ [13] ╭ VulnerabilityID : CVE-2026-25749 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2026-3184 
+│                       │      ├ PkgID           : util-linux@2.41-4ubuntu4.1 
+│                       │      ├ PkgName         : util-linux 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/util-linux@2.41-4ubuntu4.1?arch=amd64&
+│                       │      │                  │       distro=ubuntu-25.10 
+│                       │      │                  ╰ UID : 6b0b782d4f6791e9 
+│                       │      ├ InstalledVersion: 2.41-4ubuntu4.1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:ce424f2b3b088255eb7ebf81d015f03711e71ae9ba87
+│                       │      │                  │         44f1cfa47573e8bcae9e 
+│                       │      │                  ╰ DiffID: sha256:c7d5b29643510bafd3ac11178e050883ee1ea40024d0
+│                       │      │                            67ffde4a72843aec15e9 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3184 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:919f9e18e6a2871dd12a01cbddd0150b71b2702288f2214be4071
+│                       │      │                   22e6a75223e 
+│                       │      ├ Title           : util-linux: util-linux: Access control bypass due to
+│                       │      │                   improper hostname canonicalization 
+│                       │      ├ Description     : No description is available for this CVE. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-3184 
+│                       │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-3184 
+│                       │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
+│                       ├ [23] ╭ VulnerabilityID : CVE-2026-25749 
 │                       │      ├ PkgID           : vim@2:9.1.0967-1ubuntu6 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.0967-1ubuntu6?arch=amd64&distr
@@ -19195,7 +19505,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-25749 
 │                       │      ├ PublishedDate   : 2026-02-06T23:15:54.23Z 
 │                       │      ╰ LastModifiedDate: 2026-02-20T15:45:19.21Z 
-│                       ├ [14] ╭ VulnerabilityID : CVE-2026-26269 
+│                       ├ [24] ╭ VulnerabilityID : CVE-2026-26269 
 │                       │      ├ PkgID           : vim@2:9.1.0967-1ubuntu6 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.0967-1ubuntu6?arch=amd64&distr
@@ -19248,7 +19558,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-26269 
 │                       │      ├ PublishedDate   : 2026-02-13T20:17:41.377Z 
 │                       │      ╰ LastModifiedDate: 2026-02-18T21:29:03.767Z 
-│                       ├ [15] ╭ VulnerabilityID : CVE-2026-25749 
+│                       ├ [25] ╭ VulnerabilityID : CVE-2026-25749 
 │                       │      ├ PkgID           : vim-common@2:9.1.0967-1ubuntu6 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.0967-1ubuntu6?arch=all&
@@ -19296,7 +19606,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-25749 
 │                       │      ├ PublishedDate   : 2026-02-06T23:15:54.23Z 
 │                       │      ╰ LastModifiedDate: 2026-02-20T15:45:19.21Z 
-│                       ├ [16] ╭ VulnerabilityID : CVE-2026-26269 
+│                       ├ [26] ╭ VulnerabilityID : CVE-2026-26269 
 │                       │      ├ PkgID           : vim-common@2:9.1.0967-1ubuntu6 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.0967-1ubuntu6?arch=all&
@@ -19349,7 +19659,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-26269 
 │                       │      ├ PublishedDate   : 2026-02-13T20:17:41.377Z 
 │                       │      ╰ LastModifiedDate: 2026-02-18T21:29:03.767Z 
-│                       ├ [17] ╭ VulnerabilityID : CVE-2026-25749 
+│                       ├ [27] ╭ VulnerabilityID : CVE-2026-25749 
 │                       │      ├ PkgID           : vim-runtime@2:9.1.0967-1ubuntu6 
 │                       │      ├ PkgName         : vim-runtime 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.0967-1ubuntu6?arch=all
@@ -19397,7 +19707,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-25749 
 │                       │      ├ PublishedDate   : 2026-02-06T23:15:54.23Z 
 │                       │      ╰ LastModifiedDate: 2026-02-20T15:45:19.21Z 
-│                       ├ [18] ╭ VulnerabilityID : CVE-2026-26269 
+│                       ├ [28] ╭ VulnerabilityID : CVE-2026-26269 
 │                       │      ├ PkgID           : vim-runtime@2:9.1.0967-1ubuntu6 
 │                       │      ├ PkgName         : vim-runtime 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.0967-1ubuntu6?arch=all
@@ -19450,7 +19760,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-26269 
 │                       │      ├ PublishedDate   : 2026-02-13T20:17:41.377Z 
 │                       │      ╰ LastModifiedDate: 2026-02-18T21:29:03.767Z 
-│                       ├ [19] ╭ VulnerabilityID : CVE-2021-31879 
+│                       ├ [29] ╭ VulnerabilityID : CVE-2021-31879 
 │                       │      ├ PkgID           : wget@1.25.0-2ubuntu3 
 │                       │      ├ PkgName         : wget 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.25.0-2ubuntu3?arch=amd64&distro
@@ -19498,7 +19808,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                       │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:06:25.02Z 
-│                       ├ [20] ╭ VulnerabilityID : CVE-2026-25749 
+│                       ├ [30] ╭ VulnerabilityID : CVE-2026-25749 
 │                       │      ├ PkgID           : xxd@2:9.1.0967-1ubuntu6 
 │                       │      ├ PkgName         : xxd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.0967-1ubuntu6?arch=amd64&distr
@@ -19546,7 +19856,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-25749 
 │                       │      ├ PublishedDate   : 2026-02-06T23:15:54.23Z 
 │                       │      ╰ LastModifiedDate: 2026-02-20T15:45:19.21Z 
-│                       ╰ [21] ╭ VulnerabilityID : CVE-2026-26269 
+│                       ╰ [31] ╭ VulnerabilityID : CVE-2026-26269 
 │                              ├ PkgID           : xxd@2:9.1.0967-1ubuntu6 
 │                              ├ PkgName         : xxd 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.0967-1ubuntu6?arch=amd64&distr
@@ -20484,10 +20794,14 @@
                               ├ Severity        : LOW 
                               ├ CweIDs           ─ [0]: CWE-20 
                               ├ VendorSeverity   ╭ ghsa  : 1 
+                              │                  ├ nvd   : 2 
                               │                  ╰ redhat: 1 
                               ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/
                               │                  │        │           A:N 
                               │                  │        ╰ V3Score : 3.7 
+                              │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/
+                              │                  │        │           A:N 
+                              │                  │        ╰ V3Score : 6.5 
                               │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/
                               │                           │           A:N 
                               │                           ╰ V3Score : 3.7 
@@ -20510,5 +20824,5 @@
                               │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-11143 
                               │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-11143 
                               ├ PublishedDate   : 2026-03-05T10:15:54.68Z 
-                              ╰ LastModifiedDate: 2026-03-05T19:38:33.877Z 
+                              ╰ LastModifiedDate: 2026-03-06T20:30:58.117Z 
 ````

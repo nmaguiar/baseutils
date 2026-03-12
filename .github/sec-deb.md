@@ -18427,7 +18427,186 @@
 │                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-3184 
 │                       │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-3184 
 │                       │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
-│                       ├ [2]  ╭ VulnerabilityID : CVE-2016-2781 
+│                       ├ [2]  ╭ VulnerabilityID : CVE-2026-1965 
+│                       │      ├ PkgID           : curl@8.14.1-2ubuntu1.1 
+│                       │      ├ PkgName         : curl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1.1?arch=amd64&dist
+│                       │      │                  │       ro=ubuntu-25.10 
+│                       │      │                  ╰ UID : a175867ded5742c 
+│                       │      ├ InstalledVersion: 8.14.1-2ubuntu1.1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:ce424f2b3b088255eb7ebf81d015f03711e71ae9ba87
+│                       │      │                  │         44f1cfa47573e8bcae9e 
+│                       │      │                  ╰ DiffID: sha256:c7d5b29643510bafd3ac11178e050883ee1ea40024d0
+│                       │      │                            67ffde4a72843aec15e9 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-1965 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:4036c430df54f0b35cdb61c548dd418d075fd74468bee81165199
+│                       │      │                   06e6257e9ab 
+│                       │      ├ Description     : libcurl can in some circumstances reuse the wrong connection
+│                       │      │                    when asked to do
+│                       │      │                   an Negotiate-authenticated HTTP or HTTPS request.
+│                       │      │                   
+│                       │      │                   libcurl features a pool of recent connections so that
+│                       │      │                   subsequent requests can
+│                       │      │                   reuse an existing connection to avoid overhead.
+│                       │      │                   When reusing a connection a range of criterion must first be
+│                       │      │                    met. Due to a
+│                       │      │                   logical error in the code, a request that was issued by an
+│                       │      │                   application could
+│                       │      │                   wrongfully reuse an existing connection to the same server
+│                       │      │                   that was
+│                       │      │                   authenticated using different credentials. One underlying
+│                       │      │                   reason being that
+│                       │      │                   Negotiate sometimes authenticates *connections* and not
+│                       │      │                   *requests*, contrary
+│                       │      │                   to how HTTP is designed to work.
+│                       │      │                   An application that allows Negotiate authentication to a
+│                       │      │                   server (that responds
+│                       │      │                   wanting Negotiate) with `user1:password1` and then does
+│                       │      │                   another operation to
+│                       │      │                   the same server also using Negotiate but with
+│                       │      │                   `user2:password2` (while the
+│                       │      │                   previous connection is still alive) - the second request
+│                       │      │                   wrongly reused the
+│                       │      │                   same connection and since it then sees that the Negotiate
+│                       │      │                   negotiation is
+│                       │      │                   already made, it just sends the request over that connection
+│                       │      │                    thinking it uses
+│                       │      │                   the user2 credentials when it is in fact still using the
+│                       │      │                   connection
+│                       │      │                   authenticated for user1...
+│                       │      │                   The set of authentication methods to use is set with 
+│                       │      │                   `CURLOPT_HTTPAUTH`.
+│                       │      │                   Applications can disable libcurl's reuse of connections and
+│                       │      │                   thus mitigate this
+│                       │      │                   problem, by using one of the following libcurl options to
+│                       │      │                   alter how
+│                       │      │                   connections are or are not reused: `CURLOPT_FRESH_CONNECT`,
+│                       │      │                   `CURLOPT_MAXCONNECTS` and `CURLMOPT_MAX_HOST_CONNECTIONS`
+│                       │      │                   (if using the
+│                       │      │                   curl_multi API). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-305 
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-1965.html 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-1965.json 
+│                       │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-1965 
+│                       │      ├ PublishedDate   : 2026-03-11T11:15:59.177Z 
+│                       │      ╰ LastModifiedDate: 2026-03-11T15:16:25.763Z 
+│                       ├ [3]  ╭ VulnerabilityID : CVE-2026-3783 
+│                       │      ├ PkgID           : curl@8.14.1-2ubuntu1.1 
+│                       │      ├ PkgName         : curl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1.1?arch=amd64&dist
+│                       │      │                  │       ro=ubuntu-25.10 
+│                       │      │                  ╰ UID : a175867ded5742c 
+│                       │      ├ InstalledVersion: 8.14.1-2ubuntu1.1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:ce424f2b3b088255eb7ebf81d015f03711e71ae9ba87
+│                       │      │                  │         44f1cfa47573e8bcae9e 
+│                       │      │                  ╰ DiffID: sha256:c7d5b29643510bafd3ac11178e050883ee1ea40024d0
+│                       │      │                            67ffde4a72843aec15e9 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3783 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:d4c127c351f57cc679abf2e08f2d31aa84048f382b3cc5d30a3d1
+│                       │      │                   8b3bfaeb0ae 
+│                       │      ├ Description     : When an OAuth2 bearer token is used for an HTTP(S) transfer,
+│                       │      │                    and that transfer
+│                       │      │                   performs a redirect to a second URL, curl could leak that
+│                       │      │                   token to the second
+│                       │      │                   hostname under some circumstances.
+│                       │      │                   
+│                       │      │                   If the hostname that the first request is redirected to has
+│                       │      │                   information in the
+│                       │      │                   used .netrc file, with either of the `machine` or `default`
+│                       │      │                   keywords, curl
+│                       │      │                   would pass on the bearer token set for the first host also
+│                       │      │                   to the second one. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-522 
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/11/2 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-3783.html 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-3783.json 
+│                       │      │                  ├ [3]: https://hackerone.com/reports/3583983 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-3783 
+│                       │      ├ PublishedDate   : 2026-03-11T11:16:00.08Z 
+│                       │      ╰ LastModifiedDate: 2026-03-11T15:16:33.117Z 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2026-3805 
+│                       │      ├ PkgID           : curl@8.14.1-2ubuntu1.1 
+│                       │      ├ PkgName         : curl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1.1?arch=amd64&dist
+│                       │      │                  │       ro=ubuntu-25.10 
+│                       │      │                  ╰ UID : a175867ded5742c 
+│                       │      ├ InstalledVersion: 8.14.1-2ubuntu1.1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:ce424f2b3b088255eb7ebf81d015f03711e71ae9ba87
+│                       │      │                  │         44f1cfa47573e8bcae9e 
+│                       │      │                  ╰ DiffID: sha256:c7d5b29643510bafd3ac11178e050883ee1ea40024d0
+│                       │      │                            67ffde4a72843aec15e9 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3805 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:ea8ddfdcb1089835617cc93ae3072d331fcae38b3930acab7ffdb
+│                       │      │                   3373c77cb97 
+│                       │      ├ Description     : When doing a second SMB request to the same host again, curl
+│                       │      │                    would wrongly use
+│                       │      │                   a data pointer pointing into already freed memory. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-416 
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/11/4 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-3805.html 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-3805.json 
+│                       │      │                  ├ [3]: https://hackerone.com/reports/3591944 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-3805 
+│                       │      ├ PublishedDate   : 2026-03-11T11:16:00.967Z 
+│                       │      ╰ LastModifiedDate: 2026-03-11T16:16:47.143Z 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2026-3784 
+│                       │      ├ PkgID           : curl@8.14.1-2ubuntu1.1 
+│                       │      ├ PkgName         : curl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1.1?arch=amd64&dist
+│                       │      │                  │       ro=ubuntu-25.10 
+│                       │      │                  ╰ UID : a175867ded5742c 
+│                       │      ├ InstalledVersion: 8.14.1-2ubuntu1.1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:ce424f2b3b088255eb7ebf81d015f03711e71ae9ba87
+│                       │      │                  │         44f1cfa47573e8bcae9e 
+│                       │      │                  ╰ DiffID: sha256:c7d5b29643510bafd3ac11178e050883ee1ea40024d0
+│                       │      │                            67ffde4a72843aec15e9 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3784 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:84e6b543c0c0b11354b0fedd88491227878524c7c2cad428d04f3
+│                       │      │                   78c80d31745 
+│                       │      ├ Description     : curl would wrongly reuse an existing HTTP proxy connection
+│                       │      │                   doing CONNECT to a
+│                       │      │                   server, even if the new request uses different credentials
+│                       │      │                   for the HTTP proxy.
+│                       │      │                   The proper behavior is to create or use a separate
+│                       │      │                   connection. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-305 
+│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/11/3 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-3784.html 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-3784.json 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2026-proxy.html 
+│                       │      │                  ├ [4]: https://hackerone.com/reports/3584903 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-3784 
+│                       │      ├ PublishedDate   : 2026-03-11T11:16:00.437Z 
+│                       │      ╰ LastModifiedDate: 2026-03-11T16:16:46.583Z 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2016-2781 
 │                       │      ├ PkgID           : gnu-coreutils@9.5-1ubuntu4 
 │                       │      ├ PkgName         : gnu-coreutils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gnu-coreutils@9.5-1ubuntu4?arch=amd64&
@@ -18483,7 +18662,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2016-2781 
 │                       │      ├ PublishedDate   : 2017-02-07T15:59:00.333Z 
 │                       │      ╰ LastModifiedDate: 2025-06-09T16:15:25.013Z 
-│                       ├ [3]  ╭ VulnerabilityID : CVE-2025-68972 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2025-68972 
 │                       │      ├ PkgID           : gpgv@2.4.8-2ubuntu2.1 
 │                       │      ├ PkgName         : gpgv 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgv@2.4.8-2ubuntu2.1?arch=amd64&distr
@@ -18533,7 +18712,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-68972 
 │                       │      ├ PublishedDate   : 2025-12-27T23:15:40.9Z 
 │                       │      ╰ LastModifiedDate: 2026-01-09T20:08:47.323Z 
-│                       ├ [4]  ╭ VulnerabilityID : CVE-2022-3219 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2022-3219 
 │                       │      ├ PkgID           : gpgv@2.4.8-2ubuntu2.1 
 │                       │      ├ PkgName         : gpgv 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgv@2.4.8-2ubuntu2.1?arch=amd64&distr
@@ -18578,7 +18757,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                       │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                       │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                       ├ [5]  ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2026-3184 
 │                       │      ├ PkgID           : libblkid1@2.41-4ubuntu4.1 
 │                       │      ├ PkgName         : libblkid1 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libblkid1@2.41-4ubuntu4.1?arch=amd64&d
@@ -18609,7 +18788,186 @@
 │                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-3184 
 │                       │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-3184 
 │                       │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2025-66382 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2026-1965 
+│                       │      ├ PkgID           : libcurl4t64@8.14.1-2ubuntu1.1 
+│                       │      ├ PkgName         : libcurl4t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1.1?arch=amd
+│                       │      │                  │       64&distro=ubuntu-25.10 
+│                       │      │                  ╰ UID : 2097f1cec9b15e9 
+│                       │      ├ InstalledVersion: 8.14.1-2ubuntu1.1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:ce424f2b3b088255eb7ebf81d015f03711e71ae9ba87
+│                       │      │                  │         44f1cfa47573e8bcae9e 
+│                       │      │                  ╰ DiffID: sha256:c7d5b29643510bafd3ac11178e050883ee1ea40024d0
+│                       │      │                            67ffde4a72843aec15e9 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-1965 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:fc056f3c8b21df13aba230041484fc697ddabb20c499ce2058401
+│                       │      │                   b2617112056 
+│                       │      ├ Description     : libcurl can in some circumstances reuse the wrong connection
+│                       │      │                    when asked to do
+│                       │      │                   an Negotiate-authenticated HTTP or HTTPS request.
+│                       │      │                   
+│                       │      │                   libcurl features a pool of recent connections so that
+│                       │      │                   subsequent requests can
+│                       │      │                   reuse an existing connection to avoid overhead.
+│                       │      │                   When reusing a connection a range of criterion must first be
+│                       │      │                    met. Due to a
+│                       │      │                   logical error in the code, a request that was issued by an
+│                       │      │                   application could
+│                       │      │                   wrongfully reuse an existing connection to the same server
+│                       │      │                   that was
+│                       │      │                   authenticated using different credentials. One underlying
+│                       │      │                   reason being that
+│                       │      │                   Negotiate sometimes authenticates *connections* and not
+│                       │      │                   *requests*, contrary
+│                       │      │                   to how HTTP is designed to work.
+│                       │      │                   An application that allows Negotiate authentication to a
+│                       │      │                   server (that responds
+│                       │      │                   wanting Negotiate) with `user1:password1` and then does
+│                       │      │                   another operation to
+│                       │      │                   the same server also using Negotiate but with
+│                       │      │                   `user2:password2` (while the
+│                       │      │                   previous connection is still alive) - the second request
+│                       │      │                   wrongly reused the
+│                       │      │                   same connection and since it then sees that the Negotiate
+│                       │      │                   negotiation is
+│                       │      │                   already made, it just sends the request over that connection
+│                       │      │                    thinking it uses
+│                       │      │                   the user2 credentials when it is in fact still using the
+│                       │      │                   connection
+│                       │      │                   authenticated for user1...
+│                       │      │                   The set of authentication methods to use is set with 
+│                       │      │                   `CURLOPT_HTTPAUTH`.
+│                       │      │                   Applications can disable libcurl's reuse of connections and
+│                       │      │                   thus mitigate this
+│                       │      │                   problem, by using one of the following libcurl options to
+│                       │      │                   alter how
+│                       │      │                   connections are or are not reused: `CURLOPT_FRESH_CONNECT`,
+│                       │      │                   `CURLOPT_MAXCONNECTS` and `CURLMOPT_MAX_HOST_CONNECTIONS`
+│                       │      │                   (if using the
+│                       │      │                   curl_multi API). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-305 
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-1965.html 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-1965.json 
+│                       │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-1965 
+│                       │      ├ PublishedDate   : 2026-03-11T11:15:59.177Z 
+│                       │      ╰ LastModifiedDate: 2026-03-11T15:16:25.763Z 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2026-3783 
+│                       │      ├ PkgID           : libcurl4t64@8.14.1-2ubuntu1.1 
+│                       │      ├ PkgName         : libcurl4t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1.1?arch=amd
+│                       │      │                  │       64&distro=ubuntu-25.10 
+│                       │      │                  ╰ UID : 2097f1cec9b15e9 
+│                       │      ├ InstalledVersion: 8.14.1-2ubuntu1.1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:ce424f2b3b088255eb7ebf81d015f03711e71ae9ba87
+│                       │      │                  │         44f1cfa47573e8bcae9e 
+│                       │      │                  ╰ DiffID: sha256:c7d5b29643510bafd3ac11178e050883ee1ea40024d0
+│                       │      │                            67ffde4a72843aec15e9 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3783 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:f899812b20e850d97389b1c5a549fa5a754d76774fca2b46a1ff3
+│                       │      │                   a2904ac1731 
+│                       │      ├ Description     : When an OAuth2 bearer token is used for an HTTP(S) transfer,
+│                       │      │                    and that transfer
+│                       │      │                   performs a redirect to a second URL, curl could leak that
+│                       │      │                   token to the second
+│                       │      │                   hostname under some circumstances.
+│                       │      │                   
+│                       │      │                   If the hostname that the first request is redirected to has
+│                       │      │                   information in the
+│                       │      │                   used .netrc file, with either of the `machine` or `default`
+│                       │      │                   keywords, curl
+│                       │      │                   would pass on the bearer token set for the first host also
+│                       │      │                   to the second one. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-522 
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/11/2 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-3783.html 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-3783.json 
+│                       │      │                  ├ [3]: https://hackerone.com/reports/3583983 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-3783 
+│                       │      ├ PublishedDate   : 2026-03-11T11:16:00.08Z 
+│                       │      ╰ LastModifiedDate: 2026-03-11T15:16:33.117Z 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2026-3805 
+│                       │      ├ PkgID           : libcurl4t64@8.14.1-2ubuntu1.1 
+│                       │      ├ PkgName         : libcurl4t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1.1?arch=amd
+│                       │      │                  │       64&distro=ubuntu-25.10 
+│                       │      │                  ╰ UID : 2097f1cec9b15e9 
+│                       │      ├ InstalledVersion: 8.14.1-2ubuntu1.1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:ce424f2b3b088255eb7ebf81d015f03711e71ae9ba87
+│                       │      │                  │         44f1cfa47573e8bcae9e 
+│                       │      │                  ╰ DiffID: sha256:c7d5b29643510bafd3ac11178e050883ee1ea40024d0
+│                       │      │                            67ffde4a72843aec15e9 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3805 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:5b93a57d650ce45dd1f96b733a2591577b7fc7dd0612775d7afde
+│                       │      │                   65d06f58083 
+│                       │      ├ Description     : When doing a second SMB request to the same host again, curl
+│                       │      │                    would wrongly use
+│                       │      │                   a data pointer pointing into already freed memory. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-416 
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/11/4 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-3805.html 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-3805.json 
+│                       │      │                  ├ [3]: https://hackerone.com/reports/3591944 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-3805 
+│                       │      ├ PublishedDate   : 2026-03-11T11:16:00.967Z 
+│                       │      ╰ LastModifiedDate: 2026-03-11T16:16:47.143Z 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2026-3784 
+│                       │      ├ PkgID           : libcurl4t64@8.14.1-2ubuntu1.1 
+│                       │      ├ PkgName         : libcurl4t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1.1?arch=amd
+│                       │      │                  │       64&distro=ubuntu-25.10 
+│                       │      │                  ╰ UID : 2097f1cec9b15e9 
+│                       │      ├ InstalledVersion: 8.14.1-2ubuntu1.1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:ce424f2b3b088255eb7ebf81d015f03711e71ae9ba87
+│                       │      │                  │         44f1cfa47573e8bcae9e 
+│                       │      │                  ╰ DiffID: sha256:c7d5b29643510bafd3ac11178e050883ee1ea40024d0
+│                       │      │                            67ffde4a72843aec15e9 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3784 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:0baf96fc1fcb485efd5f75cecb08e6fe7cc83ce25af64bcc078e2
+│                       │      │                   8966e5eec2d 
+│                       │      ├ Description     : curl would wrongly reuse an existing HTTP proxy connection
+│                       │      │                   doing CONNECT to a
+│                       │      │                   server, even if the new request uses different credentials
+│                       │      │                   for the HTTP proxy.
+│                       │      │                   The proper behavior is to create or use a separate
+│                       │      │                   connection. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-305 
+│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/11/3 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-3784.html 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-3784.json 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2026-proxy.html 
+│                       │      │                  ├ [4]: https://hackerone.com/reports/3584903 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-3784 
+│                       │      ├ PublishedDate   : 2026-03-11T11:16:00.437Z 
+│                       │      ╰ LastModifiedDate: 2026-03-11T16:16:46.583Z 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2025-66382 
 │                       │      ├ PkgID           : libexpat1@2.7.1-2ubuntu0.2 
 │                       │      ├ PkgName         : libexpat1 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libexpat1@2.7.1-2ubuntu0.2?arch=amd64&
@@ -18651,7 +19009,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-66382 
 │                       │      ├ PublishedDate   : 2025-11-28T07:15:57.9Z 
 │                       │      ╰ LastModifiedDate: 2025-12-19T16:05:03.557Z 
-│                       ├ [7]  ╭ VulnerabilityID : CVE-2024-2236 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2024-2236 
 │                       │      ├ PkgID           : libgcrypt20@1.11.0-7build1 
 │                       │      ├ PkgName         : libgcrypt20 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcrypt20@1.11.0-7build1?arch=amd64&
@@ -18710,7 +19068,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
 │                       │      ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
 │                       │      ╰ LastModifiedDate: 2026-02-25T20:17:20.547Z 
-│                       ├ [8]  ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2026-3184 
 │                       │      ├ PkgID           : liblastlog2-2@2.41-4ubuntu4.1 
 │                       │      ├ PkgName         : liblastlog2-2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/liblastlog2-2@2.41-4ubuntu4.1?arch=amd
@@ -18741,7 +19099,7 @@
 │                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-3184 
 │                       │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-3184 
 │                       │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [17] ╭ VulnerabilityID : CVE-2026-3184 
 │                       │      ├ PkgID           : libmount1@2.41-4ubuntu4.1 
 │                       │      ├ PkgName         : libmount1 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libmount1@2.41-4ubuntu4.1?arch=amd64&d
@@ -18772,7 +19130,7 @@
 │                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-3184 
 │                       │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-3184 
 │                       │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2025-8941 
+│                       ├ [18] ╭ VulnerabilityID : CVE-2025-8941 
 │                       │      ├ PkgID           : libpam-modules@1.7.0-5ubuntu2 
 │                       │      ├ PkgName         : libpam-modules 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules@1.7.0-5ubuntu2?arch=amd
@@ -18842,7 +19200,7 @@
 │                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                       ├ [11] ╭ VulnerabilityID : CVE-2025-8941 
+│                       ├ [19] ╭ VulnerabilityID : CVE-2025-8941 
 │                       │      ├ PkgID           : libpam-modules-bin@1.7.0-5ubuntu2 
 │                       │      ├ PkgName         : libpam-modules-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.7.0-5ubuntu2?arch
@@ -18912,7 +19270,7 @@
 │                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                       ├ [12] ╭ VulnerabilityID : CVE-2025-8941 
+│                       ├ [20] ╭ VulnerabilityID : CVE-2025-8941 
 │                       │      ├ PkgID           : libpam-runtime@1.7.0-5ubuntu2 
 │                       │      ├ PkgName         : libpam-runtime 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.7.0-5ubuntu2?arch=all
@@ -18982,7 +19340,7 @@
 │                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                       ├ [13] ╭ VulnerabilityID : CVE-2025-8941 
+│                       ├ [21] ╭ VulnerabilityID : CVE-2025-8941 
 │                       │      ├ PkgID           : libpam0g@1.7.0-5ubuntu2 
 │                       │      ├ PkgName         : libpam0g 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.7.0-5ubuntu2?arch=amd64&dis
@@ -19052,7 +19410,7 @@
 │                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                       ├ [14] ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2026-3184 
 │                       │      ├ PkgID           : libsmartcols1@2.41-4ubuntu4.1 
 │                       │      ├ PkgName         : libsmartcols1 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsmartcols1@2.41-4ubuntu4.1?arch=amd
@@ -19083,7 +19441,7 @@
 │                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-3184 
 │                       │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-3184 
 │                       │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
-│                       ├ [15] ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [23] ╭ VulnerabilityID : CVE-2026-3184 
 │                       │      ├ PkgID           : libuuid1@2.41-4ubuntu4.1 
 │                       │      ├ PkgName         : libuuid1 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libuuid1@2.41-4ubuntu4.1?arch=amd64&di
@@ -19114,7 +19472,7 @@
 │                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-3184 
 │                       │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-3184 
 │                       │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
-│                       ├ [16] ╭ VulnerabilityID : CVE-2026-1757 
+│                       ├ [24] ╭ VulnerabilityID : CVE-2026-1757 
 │                       │      ├ PkgID           : libxml2-16@2.14.5+dfsg-0.2ubuntu0.1 
 │                       │      ├ PkgName         : libxml2-16 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxml2-16@2.14.5%2Bdfsg-0.2ubuntu0.1?
@@ -19159,7 +19517,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-1757 
 │                       │      ├ PublishedDate   : 2026-02-02T13:15:58.58Z 
 │                       │      ╰ LastModifiedDate: 2026-02-03T16:44:36.63Z 
-│                       ├ [17] ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [25] ╭ VulnerabilityID : CVE-2026-3184 
 │                       │      ├ PkgID           : login@1:4.16.0-2+really2.41-4ubuntu4.1 
 │                       │      ├ PkgName         : login 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.16.0-2%2Breally2.41-4ubuntu4.1
@@ -19190,7 +19548,7 @@
 │                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-3184 
 │                       │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-3184 
 │                       │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
-│                       ├ [18] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [26] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : login.defs@1:4.17.4-2ubuntu2 
 │                       │      ├ PkgName         : login.defs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login.defs@4.17.4-2ubuntu2?arch=all&di
@@ -19252,7 +19610,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [19] ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [27] ╭ VulnerabilityID : CVE-2026-3184 
 │                       │      ├ PkgID           : mount@2.41-4ubuntu4.1 
 │                       │      ├ PkgName         : mount 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/mount@2.41-4ubuntu4.1?arch=amd64&distr
@@ -19283,7 +19641,7 @@
 │                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-3184 
 │                       │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-3184 
 │                       │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
-│                       ├ [20] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [28] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : passwd@1:4.17.4-2ubuntu2 
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.17.4-2ubuntu2?arch=amd64&dist
@@ -19345,7 +19703,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [21] ╭ VulnerabilityID : CVE-2025-45582 
+│                       ├ [29] ╭ VulnerabilityID : CVE-2025-45582 
 │                       │      ├ PkgID           : tar@1.35+dfsg-3.1build1 
 │                       │      ├ PkgName         : tar 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3.1build1?arch=amd64&d
@@ -19426,7 +19784,7 @@
 │                       │      │                          urity-rules-of-thumb.html 
 │                       │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                       │      ╰ LastModifiedDate: 2025-11-02T01:15:32.307Z 
-│                       ├ [22] ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [30] ╭ VulnerabilityID : CVE-2026-3184 
 │                       │      ├ PkgID           : util-linux@2.41-4ubuntu4.1 
 │                       │      ├ PkgName         : util-linux 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/util-linux@2.41-4ubuntu4.1?arch=amd64&
@@ -19457,7 +19815,7 @@
 │                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-3184 
 │                       │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-3184 
 │                       │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
-│                       ├ [23] ╭ VulnerabilityID : CVE-2026-25749 
+│                       ├ [31] ╭ VulnerabilityID : CVE-2026-25749 
 │                       │      ├ PkgID           : vim@2:9.1.0967-1ubuntu6 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.0967-1ubuntu6?arch=amd64&distr
@@ -19490,8 +19848,9 @@
 │                       │      │                   version 9.1.2132. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
-│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.3 
@@ -19505,7 +19864,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-25749 
 │                       │      ├ PublishedDate   : 2026-02-06T23:15:54.23Z 
 │                       │      ╰ LastModifiedDate: 2026-02-20T15:45:19.21Z 
-│                       ├ [24] ╭ VulnerabilityID : CVE-2026-26269 
+│                       ├ [32] ╭ VulnerabilityID : CVE-2026-26269 
 │                       │      ├ PkgID           : vim@2:9.1.0967-1ubuntu6 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.0967-1ubuntu6?arch=amd64&distr
@@ -19537,10 +19896,11 @@
 │                       │      │                   issue has been fixed as of Vim patch v9.1.2148. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-121 
-│                       │      ├ VendorSeverity   ╭ nvd   : 3 
-│                       │      │                  ├ photon: 3 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      │                  ├ nvd        : 3 
+│                       │      │                  ├ photon     : 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H
 │                       │      │                  │        │           /A:H 
 │                       │      │                  │        ╰ V3Score : 7.5 
@@ -19558,7 +19918,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-26269 
 │                       │      ├ PublishedDate   : 2026-02-13T20:17:41.377Z 
 │                       │      ╰ LastModifiedDate: 2026-02-18T21:29:03.767Z 
-│                       ├ [25] ╭ VulnerabilityID : CVE-2026-25749 
+│                       ├ [33] ╭ VulnerabilityID : CVE-2026-25749 
 │                       │      ├ PkgID           : vim-common@2:9.1.0967-1ubuntu6 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.0967-1ubuntu6?arch=all&
@@ -19591,8 +19951,9 @@
 │                       │      │                   version 9.1.2132. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
-│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.3 
@@ -19606,7 +19967,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-25749 
 │                       │      ├ PublishedDate   : 2026-02-06T23:15:54.23Z 
 │                       │      ╰ LastModifiedDate: 2026-02-20T15:45:19.21Z 
-│                       ├ [26] ╭ VulnerabilityID : CVE-2026-26269 
+│                       ├ [34] ╭ VulnerabilityID : CVE-2026-26269 
 │                       │      ├ PkgID           : vim-common@2:9.1.0967-1ubuntu6 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.0967-1ubuntu6?arch=all&
@@ -19638,10 +19999,11 @@
 │                       │      │                   issue has been fixed as of Vim patch v9.1.2148. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-121 
-│                       │      ├ VendorSeverity   ╭ nvd   : 3 
-│                       │      │                  ├ photon: 3 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      │                  ├ nvd        : 3 
+│                       │      │                  ├ photon     : 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H
 │                       │      │                  │        │           /A:H 
 │                       │      │                  │        ╰ V3Score : 7.5 
@@ -19659,7 +20021,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-26269 
 │                       │      ├ PublishedDate   : 2026-02-13T20:17:41.377Z 
 │                       │      ╰ LastModifiedDate: 2026-02-18T21:29:03.767Z 
-│                       ├ [27] ╭ VulnerabilityID : CVE-2026-25749 
+│                       ├ [35] ╭ VulnerabilityID : CVE-2026-25749 
 │                       │      ├ PkgID           : vim-runtime@2:9.1.0967-1ubuntu6 
 │                       │      ├ PkgName         : vim-runtime 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.0967-1ubuntu6?arch=all
@@ -19692,8 +20054,9 @@
 │                       │      │                   version 9.1.2132. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
-│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.3 
@@ -19707,7 +20070,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-25749 
 │                       │      ├ PublishedDate   : 2026-02-06T23:15:54.23Z 
 │                       │      ╰ LastModifiedDate: 2026-02-20T15:45:19.21Z 
-│                       ├ [28] ╭ VulnerabilityID : CVE-2026-26269 
+│                       ├ [36] ╭ VulnerabilityID : CVE-2026-26269 
 │                       │      ├ PkgID           : vim-runtime@2:9.1.0967-1ubuntu6 
 │                       │      ├ PkgName         : vim-runtime 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.0967-1ubuntu6?arch=all
@@ -19739,10 +20102,11 @@
 │                       │      │                   issue has been fixed as of Vim patch v9.1.2148. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-121 
-│                       │      ├ VendorSeverity   ╭ nvd   : 3 
-│                       │      │                  ├ photon: 3 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      │                  ├ nvd        : 3 
+│                       │      │                  ├ photon     : 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H
 │                       │      │                  │        │           /A:H 
 │                       │      │                  │        ╰ V3Score : 7.5 
@@ -19760,7 +20124,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-26269 
 │                       │      ├ PublishedDate   : 2026-02-13T20:17:41.377Z 
 │                       │      ╰ LastModifiedDate: 2026-02-18T21:29:03.767Z 
-│                       ├ [29] ╭ VulnerabilityID : CVE-2021-31879 
+│                       ├ [37] ╭ VulnerabilityID : CVE-2021-31879 
 │                       │      ├ PkgID           : wget@1.25.0-2ubuntu3 
 │                       │      ├ PkgName         : wget 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.25.0-2ubuntu3?arch=amd64&distro
@@ -19808,7 +20172,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                       │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:06:25.02Z 
-│                       ├ [30] ╭ VulnerabilityID : CVE-2026-25749 
+│                       ├ [38] ╭ VulnerabilityID : CVE-2026-25749 
 │                       │      ├ PkgID           : xxd@2:9.1.0967-1ubuntu6 
 │                       │      ├ PkgName         : xxd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.0967-1ubuntu6?arch=amd64&distr
@@ -19841,8 +20205,9 @@
 │                       │      │                   version 9.1.2132. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
-│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.3 
@@ -19856,7 +20221,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-25749 
 │                       │      ├ PublishedDate   : 2026-02-06T23:15:54.23Z 
 │                       │      ╰ LastModifiedDate: 2026-02-20T15:45:19.21Z 
-│                       ╰ [31] ╭ VulnerabilityID : CVE-2026-26269 
+│                       ╰ [39] ╭ VulnerabilityID : CVE-2026-26269 
 │                              ├ PkgID           : xxd@2:9.1.0967-1ubuntu6 
 │                              ├ PkgName         : xxd 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.0967-1ubuntu6?arch=amd64&distr
@@ -19888,10 +20253,11 @@
 │                              │                   issue has been fixed as of Vim patch v9.1.2148. 
 │                              ├ Severity        : LOW 
 │                              ├ CweIDs           ─ [0]: CWE-121 
-│                              ├ VendorSeverity   ╭ nvd   : 3 
-│                              │                  ├ photon: 3 
-│                              │                  ├ redhat: 1 
-│                              │                  ╰ ubuntu: 1 
+│                              ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                              │                  ├ nvd        : 3 
+│                              │                  ├ photon     : 3 
+│                              │                  ├ redhat     : 1 
+│                              │                  ╰ ubuntu     : 1 
 │                              ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H
 │                              │                  │        │           /A:H 
 │                              │                  │        ╰ V3Score : 7.5 

@@ -17726,6 +17726,174 @@
     - https://access.redhat.com/security/cve/CVE-2026-3184
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3184
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
+  - VulnerabilityID: CVE-2026-1965
+    PkgID: curl@8.14.1-2ubuntu1.1
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1.1?arch=amd64&distro=ubuntu-25.10
+      UID: a175867ded5742c
+    InstalledVersion: 8.14.1-2ubuntu1.1
+    Status: affected
+    Layer:
+      Digest: sha256:ce424f2b3b088255eb7ebf81d015f03711e71ae9ba8744f1cfa47573e8bcae9e
+      DiffID: sha256:c7d5b29643510bafd3ac11178e050883ee1ea40024d067ffde4a72843aec15e9
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-1965
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:4036c430df54f0b35cdb61c548dd418d075fd74468bee8116519906e6257e9ab
+    Description: |-
+      libcurl can in some circumstances reuse the wrong connection when asked to do
+      an Negotiate-authenticated HTTP or HTTPS request.
+
+      libcurl features a pool of recent connections so that subsequent requests can
+      reuse an existing connection to avoid overhead.
+
+      When reusing a connection a range of criterion must first be met. Due to a
+      logical error in the code, a request that was issued by an application could
+      wrongfully reuse an existing connection to the same server that was
+      authenticated using different credentials. One underlying reason being that
+      Negotiate sometimes authenticates *connections* and not *requests*, contrary
+      to how HTTP is designed to work.
+
+      An application that allows Negotiate authentication to a server (that responds
+      wanting Negotiate) with `user1:password1` and then does another operation to
+      the same server also using Negotiate but with `user2:password2` (while the
+      previous connection is still alive) - the second request wrongly reused the
+      same connection and since it then sees that the Negotiate negotiation is
+      already made, it just sends the request over that connection thinking it uses
+      the user2 credentials when it is in fact still using the connection
+      authenticated for user1...
+
+      The set of authentication methods to use is set with  `CURLOPT_HTTPAUTH`.
+
+      Applications can disable libcurl's reuse of connections and thus mitigate this
+      problem, by using one of the following libcurl options to alter how
+      connections are or are not reused: `CURLOPT_FRESH_CONNECT`,
+      `CURLOPT_MAXCONNECTS` and `CURLMOPT_MAX_HOST_CONNECTIONS` (if using the
+      curl_multi API).
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-305
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://curl.se/docs/CVE-2026-1965.html
+    - https://curl.se/docs/CVE-2026-1965.json
+    - https://www.cve.org/CVERecord?id=CVE-2026-1965
+    PublishedDate: '2026-03-11T11:15:59.177Z'
+    LastModifiedDate: '2026-03-11T15:16:25.763Z'
+  - VulnerabilityID: CVE-2026-3783
+    PkgID: curl@8.14.1-2ubuntu1.1
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1.1?arch=amd64&distro=ubuntu-25.10
+      UID: a175867ded5742c
+    InstalledVersion: 8.14.1-2ubuntu1.1
+    Status: affected
+    Layer:
+      Digest: sha256:ce424f2b3b088255eb7ebf81d015f03711e71ae9ba8744f1cfa47573e8bcae9e
+      DiffID: sha256:c7d5b29643510bafd3ac11178e050883ee1ea40024d067ffde4a72843aec15e9
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-3783
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:d4c127c351f57cc679abf2e08f2d31aa84048f382b3cc5d30a3d18b3bfaeb0ae
+    Description: |-
+      When an OAuth2 bearer token is used for an HTTP(S) transfer, and that transfer
+      performs a redirect to a second URL, curl could leak that token to the second
+      hostname under some circumstances.
+
+      If the hostname that the first request is redirected to has information in the
+      used .netrc file, with either of the `machine` or `default` keywords, curl
+      would pass on the bearer token set for the first host also to the second one.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-522
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/03/11/2
+    - https://curl.se/docs/CVE-2026-3783.html
+    - https://curl.se/docs/CVE-2026-3783.json
+    - https://hackerone.com/reports/3583983
+    - https://www.cve.org/CVERecord?id=CVE-2026-3783
+    PublishedDate: '2026-03-11T11:16:00.08Z'
+    LastModifiedDate: '2026-03-11T15:16:33.117Z'
+  - VulnerabilityID: CVE-2026-3805
+    PkgID: curl@8.14.1-2ubuntu1.1
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1.1?arch=amd64&distro=ubuntu-25.10
+      UID: a175867ded5742c
+    InstalledVersion: 8.14.1-2ubuntu1.1
+    Status: affected
+    Layer:
+      Digest: sha256:ce424f2b3b088255eb7ebf81d015f03711e71ae9ba8744f1cfa47573e8bcae9e
+      DiffID: sha256:c7d5b29643510bafd3ac11178e050883ee1ea40024d067ffde4a72843aec15e9
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-3805
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:ea8ddfdcb1089835617cc93ae3072d331fcae38b3930acab7ffdb3373c77cb97
+    Description: |-
+      When doing a second SMB request to the same host again, curl would wrongly use
+      a data pointer pointing into already freed memory.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/03/11/4
+    - https://curl.se/docs/CVE-2026-3805.html
+    - https://curl.se/docs/CVE-2026-3805.json
+    - https://hackerone.com/reports/3591944
+    - https://www.cve.org/CVERecord?id=CVE-2026-3805
+    PublishedDate: '2026-03-11T11:16:00.967Z'
+    LastModifiedDate: '2026-03-11T16:16:47.143Z'
+  - VulnerabilityID: CVE-2026-3784
+    PkgID: curl@8.14.1-2ubuntu1.1
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1.1?arch=amd64&distro=ubuntu-25.10
+      UID: a175867ded5742c
+    InstalledVersion: 8.14.1-2ubuntu1.1
+    Status: affected
+    Layer:
+      Digest: sha256:ce424f2b3b088255eb7ebf81d015f03711e71ae9ba8744f1cfa47573e8bcae9e
+      DiffID: sha256:c7d5b29643510bafd3ac11178e050883ee1ea40024d067ffde4a72843aec15e9
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-3784
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:84e6b543c0c0b11354b0fedd88491227878524c7c2cad428d04f378c80d31745
+    Description: |-
+      curl would wrongly reuse an existing HTTP proxy connection doing CONNECT to a
+      server, even if the new request uses different credentials for the HTTP proxy.
+      The proper behavior is to create or use a separate connection.
+    Severity: LOW
+    CweIDs:
+    - CWE-305
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/03/11/3
+    - https://curl.se/docs/CVE-2026-3784.html
+    - https://curl.se/docs/CVE-2026-3784.json
+    - https://curl.se/docs/CVE-2026-proxy.html
+    - https://hackerone.com/reports/3584903
+    - https://www.cve.org/CVERecord?id=CVE-2026-3784
+    PublishedDate: '2026-03-11T11:16:00.437Z'
+    LastModifiedDate: '2026-03-11T16:16:46.583Z'
   - VulnerabilityID: CVE-2016-2781
     PkgID: gnu-coreutils@9.5-1ubuntu4
     PkgName: gnu-coreutils
@@ -17899,6 +18067,174 @@
     - https://access.redhat.com/security/cve/CVE-2026-3184
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3184
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
+  - VulnerabilityID: CVE-2026-1965
+    PkgID: libcurl4t64@8.14.1-2ubuntu1.1
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1.1?arch=amd64&distro=ubuntu-25.10
+      UID: 2097f1cec9b15e9
+    InstalledVersion: 8.14.1-2ubuntu1.1
+    Status: affected
+    Layer:
+      Digest: sha256:ce424f2b3b088255eb7ebf81d015f03711e71ae9ba8744f1cfa47573e8bcae9e
+      DiffID: sha256:c7d5b29643510bafd3ac11178e050883ee1ea40024d067ffde4a72843aec15e9
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-1965
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:fc056f3c8b21df13aba230041484fc697ddabb20c499ce2058401b2617112056
+    Description: |-
+      libcurl can in some circumstances reuse the wrong connection when asked to do
+      an Negotiate-authenticated HTTP or HTTPS request.
+
+      libcurl features a pool of recent connections so that subsequent requests can
+      reuse an existing connection to avoid overhead.
+
+      When reusing a connection a range of criterion must first be met. Due to a
+      logical error in the code, a request that was issued by an application could
+      wrongfully reuse an existing connection to the same server that was
+      authenticated using different credentials. One underlying reason being that
+      Negotiate sometimes authenticates *connections* and not *requests*, contrary
+      to how HTTP is designed to work.
+
+      An application that allows Negotiate authentication to a server (that responds
+      wanting Negotiate) with `user1:password1` and then does another operation to
+      the same server also using Negotiate but with `user2:password2` (while the
+      previous connection is still alive) - the second request wrongly reused the
+      same connection and since it then sees that the Negotiate negotiation is
+      already made, it just sends the request over that connection thinking it uses
+      the user2 credentials when it is in fact still using the connection
+      authenticated for user1...
+
+      The set of authentication methods to use is set with  `CURLOPT_HTTPAUTH`.
+
+      Applications can disable libcurl's reuse of connections and thus mitigate this
+      problem, by using one of the following libcurl options to alter how
+      connections are or are not reused: `CURLOPT_FRESH_CONNECT`,
+      `CURLOPT_MAXCONNECTS` and `CURLMOPT_MAX_HOST_CONNECTIONS` (if using the
+      curl_multi API).
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-305
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://curl.se/docs/CVE-2026-1965.html
+    - https://curl.se/docs/CVE-2026-1965.json
+    - https://www.cve.org/CVERecord?id=CVE-2026-1965
+    PublishedDate: '2026-03-11T11:15:59.177Z'
+    LastModifiedDate: '2026-03-11T15:16:25.763Z'
+  - VulnerabilityID: CVE-2026-3783
+    PkgID: libcurl4t64@8.14.1-2ubuntu1.1
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1.1?arch=amd64&distro=ubuntu-25.10
+      UID: 2097f1cec9b15e9
+    InstalledVersion: 8.14.1-2ubuntu1.1
+    Status: affected
+    Layer:
+      Digest: sha256:ce424f2b3b088255eb7ebf81d015f03711e71ae9ba8744f1cfa47573e8bcae9e
+      DiffID: sha256:c7d5b29643510bafd3ac11178e050883ee1ea40024d067ffde4a72843aec15e9
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-3783
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:f899812b20e850d97389b1c5a549fa5a754d76774fca2b46a1ff3a2904ac1731
+    Description: |-
+      When an OAuth2 bearer token is used for an HTTP(S) transfer, and that transfer
+      performs a redirect to a second URL, curl could leak that token to the second
+      hostname under some circumstances.
+
+      If the hostname that the first request is redirected to has information in the
+      used .netrc file, with either of the `machine` or `default` keywords, curl
+      would pass on the bearer token set for the first host also to the second one.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-522
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/03/11/2
+    - https://curl.se/docs/CVE-2026-3783.html
+    - https://curl.se/docs/CVE-2026-3783.json
+    - https://hackerone.com/reports/3583983
+    - https://www.cve.org/CVERecord?id=CVE-2026-3783
+    PublishedDate: '2026-03-11T11:16:00.08Z'
+    LastModifiedDate: '2026-03-11T15:16:33.117Z'
+  - VulnerabilityID: CVE-2026-3805
+    PkgID: libcurl4t64@8.14.1-2ubuntu1.1
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1.1?arch=amd64&distro=ubuntu-25.10
+      UID: 2097f1cec9b15e9
+    InstalledVersion: 8.14.1-2ubuntu1.1
+    Status: affected
+    Layer:
+      Digest: sha256:ce424f2b3b088255eb7ebf81d015f03711e71ae9ba8744f1cfa47573e8bcae9e
+      DiffID: sha256:c7d5b29643510bafd3ac11178e050883ee1ea40024d067ffde4a72843aec15e9
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-3805
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:5b93a57d650ce45dd1f96b733a2591577b7fc7dd0612775d7afde65d06f58083
+    Description: |-
+      When doing a second SMB request to the same host again, curl would wrongly use
+      a data pointer pointing into already freed memory.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/03/11/4
+    - https://curl.se/docs/CVE-2026-3805.html
+    - https://curl.se/docs/CVE-2026-3805.json
+    - https://hackerone.com/reports/3591944
+    - https://www.cve.org/CVERecord?id=CVE-2026-3805
+    PublishedDate: '2026-03-11T11:16:00.967Z'
+    LastModifiedDate: '2026-03-11T16:16:47.143Z'
+  - VulnerabilityID: CVE-2026-3784
+    PkgID: libcurl4t64@8.14.1-2ubuntu1.1
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1.1?arch=amd64&distro=ubuntu-25.10
+      UID: 2097f1cec9b15e9
+    InstalledVersion: 8.14.1-2ubuntu1.1
+    Status: affected
+    Layer:
+      Digest: sha256:ce424f2b3b088255eb7ebf81d015f03711e71ae9ba8744f1cfa47573e8bcae9e
+      DiffID: sha256:c7d5b29643510bafd3ac11178e050883ee1ea40024d067ffde4a72843aec15e9
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-3784
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:0baf96fc1fcb485efd5f75cecb08e6fe7cc83ce25af64bcc078e28966e5eec2d
+    Description: |-
+      curl would wrongly reuse an existing HTTP proxy connection doing CONNECT to a
+      server, even if the new request uses different credentials for the HTTP proxy.
+      The proper behavior is to create or use a separate connection.
+    Severity: LOW
+    CweIDs:
+    - CWE-305
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/03/11/3
+    - https://curl.se/docs/CVE-2026-3784.html
+    - https://curl.se/docs/CVE-2026-3784.json
+    - https://curl.se/docs/CVE-2026-proxy.html
+    - https://hackerone.com/reports/3584903
+    - https://www.cve.org/CVERecord?id=CVE-2026-3784
+    PublishedDate: '2026-03-11T11:16:00.437Z'
+    LastModifiedDate: '2026-03-11T16:16:46.583Z'
   - VulnerabilityID: CVE-2025-66382
     PkgID: libexpat1@2.7.1-2ubuntu0.2
     PkgName: libexpat1
@@ -18706,6 +19042,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -18745,6 +19082,7 @@
     CweIDs:
     - CWE-121
     VendorSeverity:
+      cbl-mariner: 2
       nvd: 3
       photon: 3
       redhat: 1
@@ -18790,6 +19128,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -18829,6 +19168,7 @@
     CweIDs:
     - CWE-121
     VendorSeverity:
+      cbl-mariner: 2
       nvd: 3
       photon: 3
       redhat: 1
@@ -18874,6 +19214,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -18913,6 +19254,7 @@
     CweIDs:
     - CWE-121
     VendorSeverity:
+      cbl-mariner: 2
       nvd: 3
       photon: 3
       redhat: 1
@@ -19006,6 +19348,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -19045,6 +19388,7 @@
     CweIDs:
     - CWE-121
     VendorSeverity:
+      cbl-mariner: 2
       nvd: 3
       photon: 3
       redhat: 1

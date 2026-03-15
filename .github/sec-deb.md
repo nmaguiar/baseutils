@@ -19569,7 +19569,8 @@
 │                       │      │                   version 9.1.2132. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
-│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -19577,16 +19578,19 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.3 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-25749 
-│                       │      │                  ├ [1]: https://github.com/vim/vim/commit/0714b15940b245108e6e
-│                       │      │                  │      9d7aa2260dd849a26fa9 
-│                       │      │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.1.2132 
-│                       │      │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-5w
-│                       │      │                  │      93-4g67-mm43 
-│                       │      │                  ├ [4]: https://linux.oracle.com/cve/CVE-2026-25749.html 
-│                       │      │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2026-4442.html 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-25749 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-25749 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:4442 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-25749 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2437843 
+│                       │      │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2026-4442.html 
+│                       │      │                  ├ [4] : https://github.com/vim/vim/commit/0714b15940b245108e6
+│                       │      │                  │       e9d7aa2260dd849a26fa9 
+│                       │      │                  ├ [5] : https://github.com/vim/vim/releases/tag/v9.1.2132 
+│                       │      │                  ├ [6] : https://github.com/vim/vim/security/advisories/GHSA-5
+│                       │      │                  │       w93-4g67-mm43 
+│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2026-25749.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2026-4442.html 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2026-25749 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2026-25749 
 │                       │      ├ PublishedDate   : 2026-02-06T23:15:54.23Z 
 │                       │      ╰ LastModifiedDate: 2026-02-20T15:45:19.21Z 
 │                       ├ [24] ╭ VulnerabilityID : CVE-2026-26269 
@@ -19677,7 +19681,8 @@
 │                       │      │                   version 9.1.2132. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
-│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -19685,16 +19690,19 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.3 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-25749 
-│                       │      │                  ├ [1]: https://github.com/vim/vim/commit/0714b15940b245108e6e
-│                       │      │                  │      9d7aa2260dd849a26fa9 
-│                       │      │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.1.2132 
-│                       │      │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-5w
-│                       │      │                  │      93-4g67-mm43 
-│                       │      │                  ├ [4]: https://linux.oracle.com/cve/CVE-2026-25749.html 
-│                       │      │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2026-4442.html 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-25749 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-25749 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:4442 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-25749 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2437843 
+│                       │      │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2026-4442.html 
+│                       │      │                  ├ [4] : https://github.com/vim/vim/commit/0714b15940b245108e6
+│                       │      │                  │       e9d7aa2260dd849a26fa9 
+│                       │      │                  ├ [5] : https://github.com/vim/vim/releases/tag/v9.1.2132 
+│                       │      │                  ├ [6] : https://github.com/vim/vim/security/advisories/GHSA-5
+│                       │      │                  │       w93-4g67-mm43 
+│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2026-25749.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2026-4442.html 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2026-25749 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2026-25749 
 │                       │      ├ PublishedDate   : 2026-02-06T23:15:54.23Z 
 │                       │      ╰ LastModifiedDate: 2026-02-20T15:45:19.21Z 
 │                       ├ [26] ╭ VulnerabilityID : CVE-2026-26269 
@@ -19785,7 +19793,8 @@
 │                       │      │                   version 9.1.2132. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
-│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -19793,16 +19802,19 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.3 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-25749 
-│                       │      │                  ├ [1]: https://github.com/vim/vim/commit/0714b15940b245108e6e
-│                       │      │                  │      9d7aa2260dd849a26fa9 
-│                       │      │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.1.2132 
-│                       │      │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-5w
-│                       │      │                  │      93-4g67-mm43 
-│                       │      │                  ├ [4]: https://linux.oracle.com/cve/CVE-2026-25749.html 
-│                       │      │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2026-4442.html 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-25749 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-25749 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:4442 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-25749 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2437843 
+│                       │      │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2026-4442.html 
+│                       │      │                  ├ [4] : https://github.com/vim/vim/commit/0714b15940b245108e6
+│                       │      │                  │       e9d7aa2260dd849a26fa9 
+│                       │      │                  ├ [5] : https://github.com/vim/vim/releases/tag/v9.1.2132 
+│                       │      │                  ├ [6] : https://github.com/vim/vim/security/advisories/GHSA-5
+│                       │      │                  │       w93-4g67-mm43 
+│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2026-25749.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2026-4442.html 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2026-25749 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2026-25749 
 │                       │      ├ PublishedDate   : 2026-02-06T23:15:54.23Z 
 │                       │      ╰ LastModifiedDate: 2026-02-20T15:45:19.21Z 
 │                       ├ [28] ╭ VulnerabilityID : CVE-2026-26269 
@@ -19941,7 +19953,8 @@
 │                       │      │                   version 9.1.2132. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
-│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -19949,16 +19962,19 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.3 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-25749 
-│                       │      │                  ├ [1]: https://github.com/vim/vim/commit/0714b15940b245108e6e
-│                       │      │                  │      9d7aa2260dd849a26fa9 
-│                       │      │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.1.2132 
-│                       │      │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-5w
-│                       │      │                  │      93-4g67-mm43 
-│                       │      │                  ├ [4]: https://linux.oracle.com/cve/CVE-2026-25749.html 
-│                       │      │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2026-4442.html 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-25749 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-25749 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:4442 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-25749 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2437843 
+│                       │      │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2026-4442.html 
+│                       │      │                  ├ [4] : https://github.com/vim/vim/commit/0714b15940b245108e6
+│                       │      │                  │       e9d7aa2260dd849a26fa9 
+│                       │      │                  ├ [5] : https://github.com/vim/vim/releases/tag/v9.1.2132 
+│                       │      │                  ├ [6] : https://github.com/vim/vim/security/advisories/GHSA-5
+│                       │      │                  │       w93-4g67-mm43 
+│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2026-25749.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2026-4442.html 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2026-25749 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2026-25749 
 │                       │      ├ PublishedDate   : 2026-02-06T23:15:54.23Z 
 │                       │      ╰ LastModifiedDate: 2026-02-20T15:45:19.21Z 
 │                       ╰ [31] ╭ VulnerabilityID : CVE-2026-26269 

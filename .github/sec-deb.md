@@ -19161,8 +19161,8 @@
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │      ├ Fingerprint     : sha256:d9d0d5fcf17681266dff3eedd7402739226ef26c31ad5ec43c0f1
 │                       │      │                   b597d7bac60 
-│                       │      ├ Title           : Issue summary: During processing of a crafted CMS
-│                       │      │                   EnvelopedData messag ... 
+│                       │      ├ Title           : openssl: OpenSSL: Denial of Service due to NULL pointer
+│                       │      │                   dereference in CMS EnvelopedData processing 
 │                       │      ├ Description     : Issue summary: During processing of a crafted CMS
 │                       │      │                   EnvelopedData message
 │                       │      │                   with KeyTransportRecipientInfo a NULL pointer dereference
@@ -19192,22 +19192,28 @@
 │                       │      │                   module boundary. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
-│                       │      ├ VendorSeverity   ─ ubuntu: 1 
-│                       │      ├ References       ╭ [0]: https://github.com/openssl/openssl/commit/01194a8f1941
-│                       │      │                  │      115cd0383bfa91c736dd3993c8bc 
-│                       │      │                  ├ [1]: https://github.com/openssl/openssl/commit/2e39b7a6993b
-│                       │      │                  │      e445fddb9fbce316fa756e0397b6 
-│                       │      │                  ├ [2]: https://github.com/openssl/openssl/commit/af2a5fecd3e7
-│                       │      │                  │      1a29e7568f9c1453dec5cebbaff4 
-│                       │      │                  ├ [3]: https://github.com/openssl/openssl/commit/ea7b4ea4f9f8
-│                       │      │                  │      53521ba34830cbcadc970d2e0788 
-│                       │      │                  ├ [4]: https://github.com/openssl/openssl/commit/fd2f1a6cf53b
-│                       │      │                  │      9ceeca723a001aa4b825d7c7ee75 
-│                       │      │                  ├ [5]: https://openssl-library.org/news/secadv/20260407.txt 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8155-1 
-│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2026-28390 
-│                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2026/04/07
-│                       │      │                         /11 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.5 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-28390 
+│                       │      │                  ├ [1] : https://github.com/openssl/openssl/commit/01194a8f194
+│                       │      │                  │       1115cd0383bfa91c736dd3993c8bc 
+│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/2e39b7a6993
+│                       │      │                  │       be445fddb9fbce316fa756e0397b6 
+│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/af2a5fecd3e
+│                       │      │                  │       71a29e7568f9c1453dec5cebbaff4 
+│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/ea7b4ea4f9f
+│                       │      │                  │       853521ba34830cbcadc970d2e0788 
+│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/fd2f1a6cf53
+│                       │      │                  │       b9ceeca723a001aa4b825d7c7ee75 
+│                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2026-28390 
+│                       │      │                  ├ [7] : https://openssl-library.org/news/secadv/20260407.txt 
+│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-8155-1 
+│                       │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2026-28390 
+│                       │      │                  ╰ [10]: https://www.openwall.com/lists/oss-security/2026/04/0
+│                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.19Z 
 │                       │      ╰ LastModifiedDate: 2026-04-08T21:27:00.663Z 
 │                       ├ [14] ╭ VulnerabilityID : CVE-2026-31789 
@@ -19461,13 +19467,13 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.6 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:20559 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:20145 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-56433 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2334165 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2334165 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-56433 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-20145.html 
 │                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20559 
 │                       │      │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d574
 │                       │      │                  │       1d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L
@@ -19962,8 +19968,8 @@
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │      ├ Fingerprint     : sha256:1e8bdb26bdfffbfd63d830ff2c39bb1d464e5c83326d4d7e30c0b
 │                       │      │                   e0f024a123c 
-│                       │      ├ Title           : Issue summary: During processing of a crafted CMS
-│                       │      │                   EnvelopedData messag ... 
+│                       │      ├ Title           : openssl: OpenSSL: Denial of Service due to NULL pointer
+│                       │      │                   dereference in CMS EnvelopedData processing 
 │                       │      ├ Description     : Issue summary: During processing of a crafted CMS
 │                       │      │                   EnvelopedData message
 │                       │      │                   with KeyTransportRecipientInfo a NULL pointer dereference
@@ -19993,22 +19999,28 @@
 │                       │      │                   module boundary. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
-│                       │      ├ VendorSeverity   ─ ubuntu: 1 
-│                       │      ├ References       ╭ [0]: https://github.com/openssl/openssl/commit/01194a8f1941
-│                       │      │                  │      115cd0383bfa91c736dd3993c8bc 
-│                       │      │                  ├ [1]: https://github.com/openssl/openssl/commit/2e39b7a6993b
-│                       │      │                  │      e445fddb9fbce316fa756e0397b6 
-│                       │      │                  ├ [2]: https://github.com/openssl/openssl/commit/af2a5fecd3e7
-│                       │      │                  │      1a29e7568f9c1453dec5cebbaff4 
-│                       │      │                  ├ [3]: https://github.com/openssl/openssl/commit/ea7b4ea4f9f8
-│                       │      │                  │      53521ba34830cbcadc970d2e0788 
-│                       │      │                  ├ [4]: https://github.com/openssl/openssl/commit/fd2f1a6cf53b
-│                       │      │                  │      9ceeca723a001aa4b825d7c7ee75 
-│                       │      │                  ├ [5]: https://openssl-library.org/news/secadv/20260407.txt 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8155-1 
-│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2026-28390 
-│                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2026/04/07
-│                       │      │                         /11 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.5 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-28390 
+│                       │      │                  ├ [1] : https://github.com/openssl/openssl/commit/01194a8f194
+│                       │      │                  │       1115cd0383bfa91c736dd3993c8bc 
+│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/2e39b7a6993
+│                       │      │                  │       be445fddb9fbce316fa756e0397b6 
+│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/af2a5fecd3e
+│                       │      │                  │       71a29e7568f9c1453dec5cebbaff4 
+│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/ea7b4ea4f9f
+│                       │      │                  │       853521ba34830cbcadc970d2e0788 
+│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/fd2f1a6cf53
+│                       │      │                  │       b9ceeca723a001aa4b825d7c7ee75 
+│                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2026-28390 
+│                       │      │                  ├ [7] : https://openssl-library.org/news/secadv/20260407.txt 
+│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-8155-1 
+│                       │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2026-28390 
+│                       │      │                  ╰ [10]: https://www.openwall.com/lists/oss-security/2026/04/0
+│                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.19Z 
 │                       │      ╰ LastModifiedDate: 2026-04-08T21:27:00.663Z 
 │                       ├ [26] ╭ VulnerabilityID : CVE-2026-31789 
@@ -20526,8 +20538,8 @@
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │      ├ Fingerprint     : sha256:49d9cad7308d7adb4013ea4658edbb1887a5b1849f2d5f81fc68e
 │                       │      │                   445881c327a 
-│                       │      ├ Title           : Issue summary: During processing of a crafted CMS
-│                       │      │                   EnvelopedData messag ... 
+│                       │      ├ Title           : openssl: OpenSSL: Denial of Service due to NULL pointer
+│                       │      │                   dereference in CMS EnvelopedData processing 
 │                       │      ├ Description     : Issue summary: During processing of a crafted CMS
 │                       │      │                   EnvelopedData message
 │                       │      │                   with KeyTransportRecipientInfo a NULL pointer dereference
@@ -20557,22 +20569,28 @@
 │                       │      │                   module boundary. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
-│                       │      ├ VendorSeverity   ─ ubuntu: 1 
-│                       │      ├ References       ╭ [0]: https://github.com/openssl/openssl/commit/01194a8f1941
-│                       │      │                  │      115cd0383bfa91c736dd3993c8bc 
-│                       │      │                  ├ [1]: https://github.com/openssl/openssl/commit/2e39b7a6993b
-│                       │      │                  │      e445fddb9fbce316fa756e0397b6 
-│                       │      │                  ├ [2]: https://github.com/openssl/openssl/commit/af2a5fecd3e7
-│                       │      │                  │      1a29e7568f9c1453dec5cebbaff4 
-│                       │      │                  ├ [3]: https://github.com/openssl/openssl/commit/ea7b4ea4f9f8
-│                       │      │                  │      53521ba34830cbcadc970d2e0788 
-│                       │      │                  ├ [4]: https://github.com/openssl/openssl/commit/fd2f1a6cf53b
-│                       │      │                  │      9ceeca723a001aa4b825d7c7ee75 
-│                       │      │                  ├ [5]: https://openssl-library.org/news/secadv/20260407.txt 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8155-1 
-│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2026-28390 
-│                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2026/04/07
-│                       │      │                         /11 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.5 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-28390 
+│                       │      │                  ├ [1] : https://github.com/openssl/openssl/commit/01194a8f194
+│                       │      │                  │       1115cd0383bfa91c736dd3993c8bc 
+│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/2e39b7a6993
+│                       │      │                  │       be445fddb9fbce316fa756e0397b6 
+│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/af2a5fecd3e
+│                       │      │                  │       71a29e7568f9c1453dec5cebbaff4 
+│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/ea7b4ea4f9f
+│                       │      │                  │       853521ba34830cbcadc970d2e0788 
+│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/fd2f1a6cf53
+│                       │      │                  │       b9ceeca723a001aa4b825d7c7ee75 
+│                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2026-28390 
+│                       │      │                  ├ [7] : https://openssl-library.org/news/secadv/20260407.txt 
+│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-8155-1 
+│                       │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2026-28390 
+│                       │      │                  ╰ [10]: https://www.openwall.com/lists/oss-security/2026/04/0
+│                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.19Z 
 │                       │      ╰ LastModifiedDate: 2026-04-08T21:27:00.663Z 
 │                       ├ [33] ╭ VulnerabilityID : CVE-2026-31789 
@@ -20694,13 +20712,13 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.6 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:20559 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:20145 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-56433 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2334165 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2334165 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-56433 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-20145.html 
 │                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20559 
 │                       │      │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d574
 │                       │      │                  │       1d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L
@@ -20769,13 +20787,13 @@
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.6 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/11/01/6 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:0067 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:0002 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-45582 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2379592 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2379592 
 │                       │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-45582 
-│                       │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2026-0067.html 
+│                       │      │                  ├ [6] : https://errata.almalinux.org/10/ALSA-2026-0002.html 
 │                       │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2026:0067 
 │                       │      │                  ├ [8] : https://github.com/i900008/vulndb/blob/main/Gnu_tar_v
 │                       │      │                  │       uln.md 

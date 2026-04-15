@@ -19152,7 +19152,8 @@
 │                       │      │                  │       tro=ubuntu-25.10&epoch=2 
 │                       │      │                  ╰ UID : ab2bb8730e4aa40d 
 │                       │      ├ InstalledVersion: 2:9.1.0967-1ubuntu6.1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2:9.1.0967-1ubuntu6.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:98accfafa2ff249e99428f492559c328facfeadbc719
 │                       │      │                  │         55e093102cbf6b6b226f 
 │                       │      │                  ╰ DiffID: sha256:f0a8c72b19a806f2d868cf6a16ec3ca082a8c3c32c5f
@@ -19179,7 +19180,8 @@
 │                       │      │                   9.2.0137. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
-│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ azure : 2 
 │                       │      │                  ├ nvd   : 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 2 
@@ -19196,7 +19198,8 @@
 │                       │      │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-9p
 │                       │      │                  │      hh-423r-778r 
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-32249 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-32249 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-8171-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-32249 
 │                       │      ├ PublishedDate   : 2026-03-12T20:16:05.523Z 
 │                       │      ╰ LastModifiedDate: 2026-03-18T11:50:06Z 
 │                       ├ [17] ╭ VulnerabilityID : CVE-2026-33412 
@@ -19206,7 +19209,8 @@
 │                       │      │                  │       tro=ubuntu-25.10&epoch=2 
 │                       │      │                  ╰ UID : ab2bb8730e4aa40d 
 │                       │      ├ InstalledVersion: 2:9.1.0967-1ubuntu6.1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2:9.1.0967-1ubuntu6.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:98accfafa2ff249e99428f492559c328facfeadbc719
 │                       │      │                  │         55e093102cbf6b6b226f 
 │                       │      │                  ╰ DiffID: sha256:f0a8c72b19a806f2d868cf6a16ec3ca082a8c3c32c5f
@@ -19229,9 +19233,11 @@
 │                       │      │                   This issue has been patched in version 9.2.0202. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-78 
-│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H
@@ -19248,9 +19254,10 @@
 │                       │      │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-w5
 │                       │      │                  │      jw-f54h-x46c 
 │                       │      │                  ├ [5]: https://linux.oracle.com/cve/CVE-2026-33412.html 
-│                       │      │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2026-6915.html 
+│                       │      │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2026-7711.html 
 │                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2026-33412 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-33412 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-8171-1 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-33412 
 │                       │      ├ PublishedDate   : 2026-03-24T20:16:29.74Z 
 │                       │      ╰ LastModifiedDate: 2026-03-25T21:59:14.98Z 
 │                       ├ [18] ╭ VulnerabilityID : CVE-2026-34982 
@@ -19260,7 +19267,8 @@
 │                       │      │                  │       tro=ubuntu-25.10&epoch=2 
 │                       │      │                  ╰ UID : ab2bb8730e4aa40d 
 │                       │      ├ InstalledVersion: 2:9.1.0967-1ubuntu6.1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2:9.1.0967-1ubuntu6.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:98accfafa2ff249e99428f492559c328facfeadbc719
 │                       │      │                  │         55e093102cbf6b6b226f 
 │                       │      │                  ╰ DiffID: sha256:f0a8c72b19a806f2d868cf6a16ec3ca082a8c3c32c5f
@@ -19283,7 +19291,8 @@
 │                       │      │                   sandboxed expressions. Commit 9.2.0276 fixes the issue. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-78 
-│                       │      ├ VendorSeverity   ╭ redhat: 3 
+│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ redhat: 3 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H
 │                       │      │                           │           /A:N 
@@ -19296,7 +19305,8 @@
 │                       │      │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-8h
 │                       │      │                  │      6p-m6gr-mpw9 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-34982 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-34982 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8171-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-34982 
 │                       │      ├ PublishedDate   : 2026-04-06T16:16:38.777Z 
 │                       │      ╰ LastModifiedDate: 2026-04-07T13:20:11.643Z 
 │                       ├ [19] ╭ VulnerabilityID : CVE-2026-32249 
@@ -19306,7 +19316,8 @@
 │                       │      │                  │       l&distro=ubuntu-25.10&epoch=2 
 │                       │      │                  ╰ UID : 968cc6ac272367a 
 │                       │      ├ InstalledVersion: 2:9.1.0967-1ubuntu6.1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2:9.1.0967-1ubuntu6.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:98accfafa2ff249e99428f492559c328facfeadbc719
 │                       │      │                  │         55e093102cbf6b6b226f 
 │                       │      │                  ╰ DiffID: sha256:f0a8c72b19a806f2d868cf6a16ec3ca082a8c3c32c5f
@@ -19333,7 +19344,8 @@
 │                       │      │                   9.2.0137. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
-│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ azure : 2 
 │                       │      │                  ├ nvd   : 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 2 
@@ -19350,7 +19362,8 @@
 │                       │      │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-9p
 │                       │      │                  │      hh-423r-778r 
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-32249 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-32249 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-8171-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-32249 
 │                       │      ├ PublishedDate   : 2026-03-12T20:16:05.523Z 
 │                       │      ╰ LastModifiedDate: 2026-03-18T11:50:06Z 
 │                       ├ [20] ╭ VulnerabilityID : CVE-2026-33412 
@@ -19360,7 +19373,8 @@
 │                       │      │                  │       l&distro=ubuntu-25.10&epoch=2 
 │                       │      │                  ╰ UID : 968cc6ac272367a 
 │                       │      ├ InstalledVersion: 2:9.1.0967-1ubuntu6.1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2:9.1.0967-1ubuntu6.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:98accfafa2ff249e99428f492559c328facfeadbc719
 │                       │      │                  │         55e093102cbf6b6b226f 
 │                       │      │                  ╰ DiffID: sha256:f0a8c72b19a806f2d868cf6a16ec3ca082a8c3c32c5f
@@ -19383,9 +19397,11 @@
 │                       │      │                   This issue has been patched in version 9.2.0202. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-78 
-│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H
@@ -19402,9 +19418,10 @@
 │                       │      │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-w5
 │                       │      │                  │      jw-f54h-x46c 
 │                       │      │                  ├ [5]: https://linux.oracle.com/cve/CVE-2026-33412.html 
-│                       │      │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2026-6915.html 
+│                       │      │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2026-7711.html 
 │                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2026-33412 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-33412 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-8171-1 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-33412 
 │                       │      ├ PublishedDate   : 2026-03-24T20:16:29.74Z 
 │                       │      ╰ LastModifiedDate: 2026-03-25T21:59:14.98Z 
 │                       ├ [21] ╭ VulnerabilityID : CVE-2026-34982 
@@ -19414,7 +19431,8 @@
 │                       │      │                  │       l&distro=ubuntu-25.10&epoch=2 
 │                       │      │                  ╰ UID : 968cc6ac272367a 
 │                       │      ├ InstalledVersion: 2:9.1.0967-1ubuntu6.1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2:9.1.0967-1ubuntu6.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:98accfafa2ff249e99428f492559c328facfeadbc719
 │                       │      │                  │         55e093102cbf6b6b226f 
 │                       │      │                  ╰ DiffID: sha256:f0a8c72b19a806f2d868cf6a16ec3ca082a8c3c32c5f
@@ -19437,7 +19455,8 @@
 │                       │      │                   sandboxed expressions. Commit 9.2.0276 fixes the issue. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-78 
-│                       │      ├ VendorSeverity   ╭ redhat: 3 
+│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ redhat: 3 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H
 │                       │      │                           │           /A:N 
@@ -19450,7 +19469,8 @@
 │                       │      │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-8h
 │                       │      │                  │      6p-m6gr-mpw9 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-34982 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-34982 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8171-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-34982 
 │                       │      ├ PublishedDate   : 2026-04-06T16:16:38.777Z 
 │                       │      ╰ LastModifiedDate: 2026-04-07T13:20:11.643Z 
 │                       ├ [22] ╭ VulnerabilityID : CVE-2026-32249 
@@ -19460,7 +19480,8 @@
 │                       │      │                  │       ll&distro=ubuntu-25.10&epoch=2 
 │                       │      │                  ╰ UID : 7cd53147d9ed2ca0 
 │                       │      ├ InstalledVersion: 2:9.1.0967-1ubuntu6.1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2:9.1.0967-1ubuntu6.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:98accfafa2ff249e99428f492559c328facfeadbc719
 │                       │      │                  │         55e093102cbf6b6b226f 
 │                       │      │                  ╰ DiffID: sha256:f0a8c72b19a806f2d868cf6a16ec3ca082a8c3c32c5f
@@ -19487,7 +19508,8 @@
 │                       │      │                   9.2.0137. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
-│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ azure : 2 
 │                       │      │                  ├ nvd   : 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 2 
@@ -19504,7 +19526,8 @@
 │                       │      │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-9p
 │                       │      │                  │      hh-423r-778r 
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-32249 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-32249 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-8171-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-32249 
 │                       │      ├ PublishedDate   : 2026-03-12T20:16:05.523Z 
 │                       │      ╰ LastModifiedDate: 2026-03-18T11:50:06Z 
 │                       ├ [23] ╭ VulnerabilityID : CVE-2026-33412 
@@ -19514,7 +19537,8 @@
 │                       │      │                  │       ll&distro=ubuntu-25.10&epoch=2 
 │                       │      │                  ╰ UID : 7cd53147d9ed2ca0 
 │                       │      ├ InstalledVersion: 2:9.1.0967-1ubuntu6.1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2:9.1.0967-1ubuntu6.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:98accfafa2ff249e99428f492559c328facfeadbc719
 │                       │      │                  │         55e093102cbf6b6b226f 
 │                       │      │                  ╰ DiffID: sha256:f0a8c72b19a806f2d868cf6a16ec3ca082a8c3c32c5f
@@ -19537,9 +19561,11 @@
 │                       │      │                   This issue has been patched in version 9.2.0202. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-78 
-│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H
@@ -19556,9 +19582,10 @@
 │                       │      │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-w5
 │                       │      │                  │      jw-f54h-x46c 
 │                       │      │                  ├ [5]: https://linux.oracle.com/cve/CVE-2026-33412.html 
-│                       │      │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2026-6915.html 
+│                       │      │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2026-7711.html 
 │                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2026-33412 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-33412 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-8171-1 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-33412 
 │                       │      ├ PublishedDate   : 2026-03-24T20:16:29.74Z 
 │                       │      ╰ LastModifiedDate: 2026-03-25T21:59:14.98Z 
 │                       ├ [24] ╭ VulnerabilityID : CVE-2026-34982 
@@ -19568,7 +19595,8 @@
 │                       │      │                  │       ll&distro=ubuntu-25.10&epoch=2 
 │                       │      │                  ╰ UID : 7cd53147d9ed2ca0 
 │                       │      ├ InstalledVersion: 2:9.1.0967-1ubuntu6.1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2:9.1.0967-1ubuntu6.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:98accfafa2ff249e99428f492559c328facfeadbc719
 │                       │      │                  │         55e093102cbf6b6b226f 
 │                       │      │                  ╰ DiffID: sha256:f0a8c72b19a806f2d868cf6a16ec3ca082a8c3c32c5f
@@ -19591,7 +19619,8 @@
 │                       │      │                   sandboxed expressions. Commit 9.2.0276 fixes the issue. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-78 
-│                       │      ├ VendorSeverity   ╭ redhat: 3 
+│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ redhat: 3 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H
 │                       │      │                           │           /A:N 
@@ -19604,7 +19633,8 @@
 │                       │      │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-8h
 │                       │      │                  │      6p-m6gr-mpw9 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-34982 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-34982 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8171-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-34982 
 │                       │      ├ PublishedDate   : 2026-04-06T16:16:38.777Z 
 │                       │      ╰ LastModifiedDate: 2026-04-07T13:20:11.643Z 
 │                       ├ [25] ╭ VulnerabilityID : CVE-2021-31879 
@@ -19662,7 +19692,8 @@
 │                       │      │                  │       tro=ubuntu-25.10&epoch=2 
 │                       │      │                  ╰ UID : 7f75ee73de978205 
 │                       │      ├ InstalledVersion: 2:9.1.0967-1ubuntu6.1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2:9.1.0967-1ubuntu6.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:98accfafa2ff249e99428f492559c328facfeadbc719
 │                       │      │                  │         55e093102cbf6b6b226f 
 │                       │      │                  ╰ DiffID: sha256:f0a8c72b19a806f2d868cf6a16ec3ca082a8c3c32c5f
@@ -19689,7 +19720,8 @@
 │                       │      │                   9.2.0137. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
-│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ azure : 2 
 │                       │      │                  ├ nvd   : 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 2 
@@ -19706,7 +19738,8 @@
 │                       │      │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-9p
 │                       │      │                  │      hh-423r-778r 
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-32249 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-32249 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-8171-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-32249 
 │                       │      ├ PublishedDate   : 2026-03-12T20:16:05.523Z 
 │                       │      ╰ LastModifiedDate: 2026-03-18T11:50:06Z 
 │                       ├ [27] ╭ VulnerabilityID : CVE-2026-33412 
@@ -19716,7 +19749,8 @@
 │                       │      │                  │       tro=ubuntu-25.10&epoch=2 
 │                       │      │                  ╰ UID : 7f75ee73de978205 
 │                       │      ├ InstalledVersion: 2:9.1.0967-1ubuntu6.1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2:9.1.0967-1ubuntu6.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:98accfafa2ff249e99428f492559c328facfeadbc719
 │                       │      │                  │         55e093102cbf6b6b226f 
 │                       │      │                  ╰ DiffID: sha256:f0a8c72b19a806f2d868cf6a16ec3ca082a8c3c32c5f
@@ -19739,9 +19773,11 @@
 │                       │      │                   This issue has been patched in version 9.2.0202. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-78 
-│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H
@@ -19758,9 +19794,10 @@
 │                       │      │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-w5
 │                       │      │                  │      jw-f54h-x46c 
 │                       │      │                  ├ [5]: https://linux.oracle.com/cve/CVE-2026-33412.html 
-│                       │      │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2026-6915.html 
+│                       │      │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2026-7711.html 
 │                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2026-33412 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-33412 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-8171-1 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-33412 
 │                       │      ├ PublishedDate   : 2026-03-24T20:16:29.74Z 
 │                       │      ╰ LastModifiedDate: 2026-03-25T21:59:14.98Z 
 │                       ╰ [28] ╭ VulnerabilityID : CVE-2026-34982 
@@ -19770,7 +19807,8 @@
 │                              │                  │       tro=ubuntu-25.10&epoch=2 
 │                              │                  ╰ UID : 7f75ee73de978205 
 │                              ├ InstalledVersion: 2:9.1.0967-1ubuntu6.1 
-│                              ├ Status          : affected 
+│                              ├ FixedVersion    : 2:9.1.0967-1ubuntu6.2 
+│                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:98accfafa2ff249e99428f492559c328facfeadbc719
 │                              │                  │         55e093102cbf6b6b226f 
 │                              │                  ╰ DiffID: sha256:f0a8c72b19a806f2d868cf6a16ec3ca082a8c3c32c5f
@@ -19793,7 +19831,8 @@
 │                              │                   sandboxed expressions. Commit 9.2.0276 fixes the issue. 
 │                              ├ Severity        : MEDIUM 
 │                              ├ CweIDs           ─ [0]: CWE-78 
-│                              ├ VendorSeverity   ╭ redhat: 3 
+│                              ├ VendorSeverity   ╭ amazon: 3 
+│                              │                  ├ redhat: 3 
 │                              │                  ╰ ubuntu: 2 
 │                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H
 │                              │                           │           /A:N 
@@ -19806,7 +19845,8 @@
 │                              │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-8h
 │                              │                  │      6p-m6gr-mpw9 
 │                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-34982 
-│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-34982 
+│                              │                  ├ [6]: https://ubuntu.com/security/notices/USN-8171-1 
+│                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-34982 
 │                              ├ PublishedDate   : 2026-04-06T16:16:38.777Z 
 │                              ╰ LastModifiedDate: 2026-04-07T13:20:11.643Z 
 ╰ [1] ╭ Target  : Java 

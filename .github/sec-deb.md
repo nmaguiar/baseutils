@@ -19968,7 +19968,7 @@
 │                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-27135 
 │                       │       │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2026-7896.html 
-│                       │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:7668 
+│                       │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:7666 
 │                       │       │                  ├ [11]: https://github.com/nghttp2/nghttp2/commit/5c7df8fa81
 │                       │       │                  │       5ac1004d9ecb9d1f7595c4d37f46e1 
 │                       │       │                  ├ [12]: https://github.com/nghttp2/nghttp2/security/advisori
@@ -20563,7 +20563,7 @@
 │                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       024-56433 
 │                       │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
-│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20559 
+│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20145 
 │                       │       │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d57
 │                       │       │                  │       41d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238
 │                       │       │                  │       -L241 
@@ -20741,7 +20741,7 @@
 │                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       024-56433 
 │                       │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
-│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20559 
+│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20145 
 │                       │       │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d57
 │                       │       │                  │       41d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238
 │                       │       │                  │       -L241 
@@ -22918,7 +22918,7 @@
 │                       │       │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-45582 
 │                       │       │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2026-0067.html 
-│                       │       │                  ├ [7] : https://errata.rockylinux.org/RLSA-2026:0067 
+│                       │       │                  ├ [7] : https://errata.rockylinux.org/RLSA-2026:0002 
 │                       │       │                  ├ [8] : https://github.com/i900008/vulndb/blob/main/Gnu_tar_
 │                       │       │                  │       vuln.md 
 │                       │       │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-45582.html 

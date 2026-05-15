@@ -343,7 +343,7 @@
     - CWE-125
     VendorSeverity:
       azure: 2
-      photon: 2
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -384,7 +384,7 @@
     - CWE-88
     VendorSeverity:
       azure: 2
-      photon: 4
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -472,7 +472,7 @@
     - CWE-125
     VendorSeverity:
       azure: 2
-      photon: 2
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -513,7 +513,7 @@
     - CWE-88
     VendorSeverity:
       azure: 2
-      photon: 4
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -829,7 +829,7 @@
     - CWE-668
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 1
       oracle-oval: 3
       redhat: 1
       rocky: 3
@@ -915,7 +915,7 @@
     - CWE-668
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 1
       oracle-oval: 3
       redhat: 1
       rocky: 3
@@ -1001,7 +1001,7 @@
     - CWE-668
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 1
       oracle-oval: 3
       redhat: 1
       rocky: 3
@@ -1353,7 +1353,7 @@
     - CWE-125
     VendorSeverity:
       azure: 2
-      photon: 2
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1394,7 +1394,7 @@
     - CWE-88
     VendorSeverity:
       azure: 2
-      photon: 4
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:

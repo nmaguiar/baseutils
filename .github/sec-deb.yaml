@@ -299,8 +299,10 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      alma: 2
       amazon: 3
       azure: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -309,8 +311,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:20587
     - https://access.redhat.com/security/cve/CVE-2026-4046
+    - https://bugzilla.redhat.com/2453117
+    - https://errata.almalinux.org/8/ALSA-2026-20587.html
     - https://inbox.sourceware.org/libc-announce/76814edf-cf7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u
+    - https://linux.oracle.com/cve/CVE-2026-4046.html
+    - https://linux.oracle.com/errata/ELSA-2026-20587.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4046
     - https://packages.fedoraproject.org/pkgs/glibc/glibc-gconv-extra/
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33980
@@ -343,6 +350,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      alma: 2
       azure: 2
       photon: 3
       redhat: 2
@@ -352,7 +360,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:19061
     - https://access.redhat.com/security/cve/CVE-2026-4437
+    - https://bugzilla.redhat.com/2449777
+    - https://bugzilla.redhat.com/2449783
+    - https://errata.almalinux.org/10/ALSA-2026-19061.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4437
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34014
     - https://www.cve.org/CVERecord?id=CVE-2026-4437
@@ -384,6 +396,7 @@
     - CWE-20
     - CWE-88
     VendorSeverity:
+      alma: 2
       azure: 2
       photon: 2
       redhat: 1
@@ -393,7 +406,11 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 4
     References:
+    - https://access.redhat.com/errata/RHSA-2026:19061
     - https://access.redhat.com/security/cve/CVE-2026-4438
+    - https://bugzilla.redhat.com/2449777
+    - https://bugzilla.redhat.com/2449783
+    - https://errata.almalinux.org/10/ALSA-2026-19061.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4438
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34015
     - https://www.cve.org/CVERecord?id=CVE-2026-4438
@@ -429,8 +446,10 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      alma: 2
       amazon: 3
       azure: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -439,8 +458,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:20587
     - https://access.redhat.com/security/cve/CVE-2026-4046
+    - https://bugzilla.redhat.com/2453117
+    - https://errata.almalinux.org/8/ALSA-2026-20587.html
     - https://inbox.sourceware.org/libc-announce/76814edf-cf7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u
+    - https://linux.oracle.com/cve/CVE-2026-4046.html
+    - https://linux.oracle.com/errata/ELSA-2026-20587.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4046
     - https://packages.fedoraproject.org/pkgs/glibc/glibc-gconv-extra/
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33980
@@ -473,6 +497,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      alma: 2
       azure: 2
       photon: 3
       redhat: 2
@@ -482,7 +507,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:19061
     - https://access.redhat.com/security/cve/CVE-2026-4437
+    - https://bugzilla.redhat.com/2449777
+    - https://bugzilla.redhat.com/2449783
+    - https://errata.almalinux.org/10/ALSA-2026-19061.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4437
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34014
     - https://www.cve.org/CVERecord?id=CVE-2026-4437
@@ -514,6 +543,7 @@
     - CWE-20
     - CWE-88
     VendorSeverity:
+      alma: 2
       azure: 2
       photon: 2
       redhat: 1
@@ -523,7 +553,11 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 4
     References:
+    - https://access.redhat.com/errata/RHSA-2026:19061
     - https://access.redhat.com/security/cve/CVE-2026-4438
+    - https://bugzilla.redhat.com/2449777
+    - https://bugzilla.redhat.com/2449783
+    - https://errata.almalinux.org/10/ALSA-2026-19061.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4438
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34015
     - https://www.cve.org/CVERecord?id=CVE-2026-4438
@@ -567,6 +601,54 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-66382
     PublishedDate: '2025-11-28T07:15:57.9Z'
     LastModifiedDate: '2026-05-12T13:17:23.933Z'
+  - VulnerabilityID: CVE-2026-41989
+    PkgID: libgcrypt20@1.11.0-7build1
+    PkgName: libgcrypt20
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libgcrypt20@1.11.0-7build1?arch=amd64&distro=ubuntu-25.10
+      UID: dacd70a6a90042e1
+    InstalledVersion: 1.11.0-7build1
+    FixedVersion: 1.11.0-7ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:a1193d7990949fe82bc1f1700e2b5c4c29489205b85dd39d3e1970131776587d
+      DiffID: sha256:e70f240759bae2780f3df00914ad30022c40bdb80914fe5db57b3c092bb952d0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-41989
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:7fa3c4025bbe15c850cfe7eaf5fa0841aa0a1281249067ec080d2a09f06e9c5b
+    Title: 'Libgcrypt: Libgcrypt: Denial of Service and buffer overflow via crafted ECDH ciphertext'
+    Description: Libgcrypt before 1.12.2 sometimes allows a heap-based buffer overflow and denial of service via crafted ECDH ciphertext to gcry_pk_decrypt.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      amazon: 2
+      azure: 1
+      julia: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H
+        V3Score: 6.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-41989
+    - https://dev.gnupg.org/T8211
+    - https://github.com/advisories/GHSA-wrv8-79m2-qg24
+    - https://lists.gnupg.org/pipermail/gnupg-announce/2026q2/000503.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-41989
+    - https://ubuntu.com/security/notices/USN-8319-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-41989
+    - https://www.openwall.com/lists/oss-security/2026/04/21/1
+    PublishedDate: '2026-04-23T05:16:05.75Z'
+    LastModifiedDate: '2026-04-27T18:33:18.157Z'
   - VulnerabilityID: CVE-2024-2236
     PkgID: libgcrypt20@1.11.0-7build1
     PkgName: libgcrypt20
@@ -830,7 +912,7 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
-    - https://access.redhat.com/errata/RHSA-2026:10950
+    - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
     - https://bugzilla.redhat.com/2408891
@@ -840,6 +922,7 @@
     - https://bugzilla.redhat.com/2444691
     - https://bugzilla.redhat.com/2448168
     - https://bugzilla.redhat.com/2448181
+    - https://bugzilla.redhat.com/2449649
     - https://bugzilla.redhat.com/2457409
     - https://bugzilla.redhat.com/2457932
     - https://bugzilla.redhat.com/2458049
@@ -865,7 +948,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4224
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/8/ALSA-2026-10950.html
+    - https://errata.almalinux.org/9/ALSA-2026-19177.html
     - https://errata.rockylinux.org/RLSA-2026:10950
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -916,7 +999,7 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
-    - https://access.redhat.com/errata/RHSA-2026:10950
+    - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
     - https://bugzilla.redhat.com/2408891
@@ -926,6 +1009,7 @@
     - https://bugzilla.redhat.com/2444691
     - https://bugzilla.redhat.com/2448168
     - https://bugzilla.redhat.com/2448181
+    - https://bugzilla.redhat.com/2449649
     - https://bugzilla.redhat.com/2457409
     - https://bugzilla.redhat.com/2457932
     - https://bugzilla.redhat.com/2458049
@@ -951,7 +1035,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4224
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/8/ALSA-2026-10950.html
+    - https://errata.almalinux.org/9/ALSA-2026-19177.html
     - https://errata.rockylinux.org/RLSA-2026:10950
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -1002,7 +1086,7 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
-    - https://access.redhat.com/errata/RHSA-2026:10950
+    - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
     - https://bugzilla.redhat.com/2408891
@@ -1012,6 +1096,7 @@
     - https://bugzilla.redhat.com/2444691
     - https://bugzilla.redhat.com/2448168
     - https://bugzilla.redhat.com/2448181
+    - https://bugzilla.redhat.com/2449649
     - https://bugzilla.redhat.com/2457409
     - https://bugzilla.redhat.com/2457932
     - https://bugzilla.redhat.com/2458049
@@ -1037,7 +1122,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4224
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/8/ALSA-2026-10950.html
+    - https://errata.almalinux.org/9/ALSA-2026-19177.html
     - https://errata.rockylinux.org/RLSA-2026:10950
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -1141,6 +1226,52 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
     LastModifiedDate: '2026-05-01T19:29:51.02Z'
+  - VulnerabilityID: CVE-2026-7598
+    PkgID: libssh2-1t64@1.11.1-1build1
+    PkgName: libssh2-1t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh2-1t64@1.11.1-1build1?arch=amd64&distro=ubuntu-25.10
+      UID: d028863c8b738a5c
+    InstalledVersion: 1.11.1-1build1
+    FixedVersion: 1.11.1-1ubuntu0.25.10.1
+    Status: fixed
+    Layer:
+      Digest: sha256:a1193d7990949fe82bc1f1700e2b5c4c29489205b85dd39d3e1970131776587d
+      DiffID: sha256:e70f240759bae2780f3df00914ad30022c40bdb80914fe5db57b3c092bb952d0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-7598
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:c71c3af9b97532ce27de1c9d084001d3f1e4b39682f24ccda0244719db427f30
+    Title: 'libssh2: integer overflow via large username or password arguments'
+    Description: A security vulnerability has been detected in libssh2 up to 1.11.1. The impacted element is the function userauth_password of the file src/userauth.c. Such manipulation of the argument username_len/password_len leads to integer overflow. The attack may be launched remotely. The name of the patch is 256d04b60d80bf1190e96b0ad1e91b2174d744b1. A patch should be applied to remediate this issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-189
+    - CWE-190
+    VendorSeverity:
+      azure: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H
+        V3Score: 9.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-7598
+    - https://github.com/libssh2/libssh2/
+    - https://github.com/libssh2/libssh2/commit/256d04b60d80bf1190e96b0ad1e91b2174d744b1
+    - https://github.com/libssh2/libssh2/pull/1858
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-7598
+    - https://ubuntu.com/security/notices/USN-8309-1
+    - https://vuldb.com/submit/805564
+    - https://vuldb.com/vuln/360555
+    - https://vuldb.com/vuln/360555/cti
+    - https://www.cve.org/CVERecord?id=CVE-2026-7598
+    PublishedDate: '2026-05-01T22:16:16.947Z'
+    LastModifiedDate: '2026-05-07T01:47:08.857Z'
   - VulnerabilityID: CVE-2026-27456
     PkgID: libuuid1@2.41-4ubuntu4.2
     PkgName: libuuid1
@@ -1299,8 +1430,10 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      alma: 2
       amazon: 3
       azure: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -1309,8 +1442,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:20587
     - https://access.redhat.com/security/cve/CVE-2026-4046
+    - https://bugzilla.redhat.com/2453117
+    - https://errata.almalinux.org/8/ALSA-2026-20587.html
     - https://inbox.sourceware.org/libc-announce/76814edf-cf7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u
+    - https://linux.oracle.com/cve/CVE-2026-4046.html
+    - https://linux.oracle.com/errata/ELSA-2026-20587.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4046
     - https://packages.fedoraproject.org/pkgs/glibc/glibc-gconv-extra/
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33980
@@ -1343,6 +1481,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      alma: 2
       azure: 2
       photon: 3
       redhat: 2
@@ -1352,7 +1491,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:19061
     - https://access.redhat.com/security/cve/CVE-2026-4437
+    - https://bugzilla.redhat.com/2449777
+    - https://bugzilla.redhat.com/2449783
+    - https://errata.almalinux.org/10/ALSA-2026-19061.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4437
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34014
     - https://www.cve.org/CVERecord?id=CVE-2026-4437
@@ -1384,6 +1527,7 @@
     - CWE-20
     - CWE-88
     VendorSeverity:
+      alma: 2
       azure: 2
       photon: 2
       redhat: 1
@@ -1393,7 +1537,11 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 4
     References:
+    - https://access.redhat.com/errata/RHSA-2026:19061
     - https://access.redhat.com/security/cve/CVE-2026-4438
+    - https://bugzilla.redhat.com/2449777
+    - https://bugzilla.redhat.com/2449783
+    - https://errata.almalinux.org/10/ALSA-2026-19061.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4438
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34015
     - https://www.cve.org/CVERecord?id=CVE-2026-4438

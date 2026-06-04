@@ -816,11 +816,12 @@
     - http://www.openwall.com/lists/oss-security/2025/12/02/1
     - https://access.redhat.com/security/cve/CVE-2025-66382
     - https://cert-portal.siemens.com/productcert/html/ssa-082556.html
+    - https://cert-portal.siemens.com/productcert/html/ssa-253495.html
     - https://github.com/libexpat/libexpat/issues/1076
     - https://nvd.nist.gov/vuln/detail/CVE-2025-66382
     - https://www.cve.org/CVERecord?id=CVE-2025-66382
     PublishedDate: '2025-11-28T07:15:57.9Z'
-    LastModifiedDate: '2026-05-12T13:17:23.933Z'
+    LastModifiedDate: '2026-06-02T14:16:37.12Z'
   - VulnerabilityID: CVE-2024-2236
     PkgID: libgcrypt20@1.11.0-7ubuntu0.1
     PkgName: libgcrypt20
@@ -972,7 +973,8 @@
       PURL: pkg:deb/ubuntu/liblzma5@5.8.1-1build2?arch=amd64&distro=ubuntu-25.10
       UID: c6d7a6fa1546d4a2
     InstalledVersion: 5.8.1-1build2
-    Status: affected
+    FixedVersion: 5.8.1-1ubuntu0.1
+    Status: fixed
     Layer:
       Digest: sha256:2f30d729d0cffb42001e622690eb7acb4f39579d9cf31d723afca4c817561dec
       DiffID: sha256:ba3afff67b418de4ef9ecba9dd38bd52bd0af55348b1a78a39b4be2f6ef374c7
@@ -1009,6 +1011,7 @@
     - https://github.com/tukaani-project/xz/security/advisories/GHSA-x872-m794-cxhv
     - https://nvd.nist.gov/vuln/detail/CVE-2026-34743
     - https://tukaani.org/xz/index-append-overflow.html
+    - https://ubuntu.com/security/notices/USN-8362-1
     - https://www.cve.org/CVERecord?id=CVE-2026-34743
     PublishedDate: '2026-04-02T19:21:33.187Z'
     LastModifiedDate: '2026-04-15T17:33:17.68Z'
@@ -1137,7 +1140,7 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
-    - https://access.redhat.com/errata/RHSA-2026:19177
+    - https://access.redhat.com/errata/RHSA-2026:10950
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
     - https://bugzilla.redhat.com/2408891
@@ -1147,7 +1150,6 @@
     - https://bugzilla.redhat.com/2444691
     - https://bugzilla.redhat.com/2448168
     - https://bugzilla.redhat.com/2448181
-    - https://bugzilla.redhat.com/2449649
     - https://bugzilla.redhat.com/2457409
     - https://bugzilla.redhat.com/2457932
     - https://bugzilla.redhat.com/2458049
@@ -1175,7 +1177,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/8/ALSA-2026-10950.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -1226,7 +1228,7 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
-    - https://access.redhat.com/errata/RHSA-2026:19177
+    - https://access.redhat.com/errata/RHSA-2026:10950
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
     - https://bugzilla.redhat.com/2408891
@@ -1236,7 +1238,6 @@
     - https://bugzilla.redhat.com/2444691
     - https://bugzilla.redhat.com/2448168
     - https://bugzilla.redhat.com/2448181
-    - https://bugzilla.redhat.com/2449649
     - https://bugzilla.redhat.com/2457409
     - https://bugzilla.redhat.com/2457932
     - https://bugzilla.redhat.com/2458049
@@ -1264,7 +1265,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/8/ALSA-2026-10950.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -1315,7 +1316,7 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
-    - https://access.redhat.com/errata/RHSA-2026:19177
+    - https://access.redhat.com/errata/RHSA-2026:10950
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
     - https://bugzilla.redhat.com/2408891
@@ -1325,7 +1326,6 @@
     - https://bugzilla.redhat.com/2444691
     - https://bugzilla.redhat.com/2448168
     - https://bugzilla.redhat.com/2448181
-    - https://bugzilla.redhat.com/2449649
     - https://bugzilla.redhat.com/2457409
     - https://bugzilla.redhat.com/2457932
     - https://bugzilla.redhat.com/2458049
@@ -1353,7 +1353,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/8/ALSA-2026-10950.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -4012,6 +4012,225 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
     LastModifiedDate: '2026-05-01T19:29:51.02Z'
+  - VulnerabilityID: CVE-2026-43961
+    PkgID: vim@2:9.1.0967-1ubuntu6.5
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim@9.1.0967-1ubuntu6.5?arch=amd64&distro=ubuntu-25.10&epoch=2
+      UID: 2541eefb3c0876e6
+    InstalledVersion: 2:9.1.0967-1ubuntu6.5
+    Status: affected
+    Layer:
+      Digest: sha256:2f30d729d0cffb42001e622690eb7acb4f39579d9cf31d723afca4c817561dec
+      DiffID: sha256:ba3afff67b418de4ef9ecba9dd38bd52bd0af55348b1a78a39b4be2f6ef374c7
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-43961
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:cb99bfdc31a2b06394245f2559396dcf03c0e0505cd02b465d410618f43cba9f
+    Description: '[Unknown description]'
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/vim/vim/security/advisories/GHSA-66hr-7p6x-x5j3
+    - https://www.cve.org/CVERecord?id=CVE-2026-43961
+    - https://www.openwall.com/lists/oss-security/2026/05/14/7
+  - VulnerabilityID: CVE-2026-46483
+    PkgID: vim@2:9.1.0967-1ubuntu6.5
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim@9.1.0967-1ubuntu6.5?arch=amd64&distro=ubuntu-25.10&epoch=2
+      UID: 2541eefb3c0876e6
+    InstalledVersion: 2:9.1.0967-1ubuntu6.5
+    Status: affected
+    Layer:
+      Digest: sha256:2f30d729d0cffb42001e622690eb7acb4f39579d9cf31d723afca4c817561dec
+      DiffID: sha256:ba3afff67b418de4ef9ecba9dd38bd52bd0af55348b1a78a39b4be2f6ef374c7
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-46483
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:66ce47ee46cc16f3e7920f1d6e71a657293a7ec0d3eac71f698fb8d0b2de1029
+    Title: 'vim: command injection when decompressing .tgz archives'
+    Description: |-
+      Vim is an open source, command line text editor. Prior to 9.2.0479, a command injection vulnerability exists in tar#Vimuntar() in
+      runtime/autoload/tar.vim when decompressing .tgz archives on Unix-like systems. The function builds :!gunzip and :!gzip -d commands using shellescape(tartail) without the {special} flag, allowing a crafted archive filename to trigger Vim cmdline-special expansion and execute shell commands in the user's context. This vulnerability is fixed in 9.2.0479.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-78
+    - CWE-88
+    VendorSeverity:
+      nvd: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-46483
+    - https://github.com/vim/vim/commit/3fb5e58fbc63d86a3e65f1a141b0d67af2aa38a1
+    - https://github.com/vim/vim/commit/3fb5e58fbc63d86a3e65f1a141b0d67af2aa38a1 (v9.2.0479)
+    - https://github.com/vim/vim/releases/tag/v9.2.0479
+    - https://github.com/vim/vim/security/advisories/GHSA-2fpv-9ff7-xg5w
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-46483
+    - https://www.cve.org/CVERecord?id=CVE-2026-46483
+    PublishedDate: '2026-05-15T15:16:54.237Z'
+    LastModifiedDate: '2026-05-19T12:27:28.72Z'
+  - VulnerabilityID: CVE-2026-43961
+    PkgID: vim-common@2:9.1.0967-1ubuntu6.5
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-common@9.1.0967-1ubuntu6.5?arch=all&distro=ubuntu-25.10&epoch=2
+      UID: 8a15c1b947cca3b8
+    InstalledVersion: 2:9.1.0967-1ubuntu6.5
+    Status: affected
+    Layer:
+      Digest: sha256:2f30d729d0cffb42001e622690eb7acb4f39579d9cf31d723afca4c817561dec
+      DiffID: sha256:ba3afff67b418de4ef9ecba9dd38bd52bd0af55348b1a78a39b4be2f6ef374c7
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-43961
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:6ee55ad8bc0795ae1918096b2f36bbb833659174388c04360086f0bc8c57987d
+    Description: '[Unknown description]'
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/vim/vim/security/advisories/GHSA-66hr-7p6x-x5j3
+    - https://www.cve.org/CVERecord?id=CVE-2026-43961
+    - https://www.openwall.com/lists/oss-security/2026/05/14/7
+  - VulnerabilityID: CVE-2026-46483
+    PkgID: vim-common@2:9.1.0967-1ubuntu6.5
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-common@9.1.0967-1ubuntu6.5?arch=all&distro=ubuntu-25.10&epoch=2
+      UID: 8a15c1b947cca3b8
+    InstalledVersion: 2:9.1.0967-1ubuntu6.5
+    Status: affected
+    Layer:
+      Digest: sha256:2f30d729d0cffb42001e622690eb7acb4f39579d9cf31d723afca4c817561dec
+      DiffID: sha256:ba3afff67b418de4ef9ecba9dd38bd52bd0af55348b1a78a39b4be2f6ef374c7
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-46483
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:aeb844d33bffca9653faedf1a76406343028a4bf748b9aa7f2e2479afaef747a
+    Title: 'vim: command injection when decompressing .tgz archives'
+    Description: |-
+      Vim is an open source, command line text editor. Prior to 9.2.0479, a command injection vulnerability exists in tar#Vimuntar() in
+      runtime/autoload/tar.vim when decompressing .tgz archives on Unix-like systems. The function builds :!gunzip and :!gzip -d commands using shellescape(tartail) without the {special} flag, allowing a crafted archive filename to trigger Vim cmdline-special expansion and execute shell commands in the user's context. This vulnerability is fixed in 9.2.0479.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-78
+    - CWE-88
+    VendorSeverity:
+      nvd: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-46483
+    - https://github.com/vim/vim/commit/3fb5e58fbc63d86a3e65f1a141b0d67af2aa38a1
+    - https://github.com/vim/vim/commit/3fb5e58fbc63d86a3e65f1a141b0d67af2aa38a1 (v9.2.0479)
+    - https://github.com/vim/vim/releases/tag/v9.2.0479
+    - https://github.com/vim/vim/security/advisories/GHSA-2fpv-9ff7-xg5w
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-46483
+    - https://www.cve.org/CVERecord?id=CVE-2026-46483
+    PublishedDate: '2026-05-15T15:16:54.237Z'
+    LastModifiedDate: '2026-05-19T12:27:28.72Z'
+  - VulnerabilityID: CVE-2026-43961
+    PkgID: vim-runtime@2:9.1.0967-1ubuntu6.5
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-runtime@9.1.0967-1ubuntu6.5?arch=all&distro=ubuntu-25.10&epoch=2
+      UID: a4708db604f82859
+    InstalledVersion: 2:9.1.0967-1ubuntu6.5
+    Status: affected
+    Layer:
+      Digest: sha256:2f30d729d0cffb42001e622690eb7acb4f39579d9cf31d723afca4c817561dec
+      DiffID: sha256:ba3afff67b418de4ef9ecba9dd38bd52bd0af55348b1a78a39b4be2f6ef374c7
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-43961
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:37988f5af02fd852d8df4cf8778d423e2677fd43a0834c9d59236b8f06ae1f59
+    Description: '[Unknown description]'
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/vim/vim/security/advisories/GHSA-66hr-7p6x-x5j3
+    - https://www.cve.org/CVERecord?id=CVE-2026-43961
+    - https://www.openwall.com/lists/oss-security/2026/05/14/7
+  - VulnerabilityID: CVE-2026-46483
+    PkgID: vim-runtime@2:9.1.0967-1ubuntu6.5
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-runtime@9.1.0967-1ubuntu6.5?arch=all&distro=ubuntu-25.10&epoch=2
+      UID: a4708db604f82859
+    InstalledVersion: 2:9.1.0967-1ubuntu6.5
+    Status: affected
+    Layer:
+      Digest: sha256:2f30d729d0cffb42001e622690eb7acb4f39579d9cf31d723afca4c817561dec
+      DiffID: sha256:ba3afff67b418de4ef9ecba9dd38bd52bd0af55348b1a78a39b4be2f6ef374c7
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-46483
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:c05be7cbfec5549954734c40205ee01ee4017f7d731aff3c88c5473f44bed0e5
+    Title: 'vim: command injection when decompressing .tgz archives'
+    Description: |-
+      Vim is an open source, command line text editor. Prior to 9.2.0479, a command injection vulnerability exists in tar#Vimuntar() in
+      runtime/autoload/tar.vim when decompressing .tgz archives on Unix-like systems. The function builds :!gunzip and :!gzip -d commands using shellescape(tartail) without the {special} flag, allowing a crafted archive filename to trigger Vim cmdline-special expansion and execute shell commands in the user's context. This vulnerability is fixed in 9.2.0479.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-78
+    - CWE-88
+    VendorSeverity:
+      nvd: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-46483
+    - https://github.com/vim/vim/commit/3fb5e58fbc63d86a3e65f1a141b0d67af2aa38a1
+    - https://github.com/vim/vim/commit/3fb5e58fbc63d86a3e65f1a141b0d67af2aa38a1 (v9.2.0479)
+    - https://github.com/vim/vim/releases/tag/v9.2.0479
+    - https://github.com/vim/vim/security/advisories/GHSA-2fpv-9ff7-xg5w
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-46483
+    - https://www.cve.org/CVERecord?id=CVE-2026-46483
+    PublishedDate: '2026-05-15T15:16:54.237Z'
+    LastModifiedDate: '2026-05-19T12:27:28.72Z'
   - VulnerabilityID: CVE-2021-31879
     PkgID: wget@1.25.0-2ubuntu3
     PkgName: wget
@@ -4060,6 +4279,79 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-31879
     PublishedDate: '2021-04-29T05:15:08.707Z'
     LastModifiedDate: '2024-11-21T06:06:25.02Z'
+  - VulnerabilityID: CVE-2026-43961
+    PkgID: xxd@2:9.1.0967-1ubuntu6.5
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/xxd@9.1.0967-1ubuntu6.5?arch=amd64&distro=ubuntu-25.10&epoch=2
+      UID: 526950e53908bbfb
+    InstalledVersion: 2:9.1.0967-1ubuntu6.5
+    Status: affected
+    Layer:
+      Digest: sha256:2f30d729d0cffb42001e622690eb7acb4f39579d9cf31d723afca4c817561dec
+      DiffID: sha256:ba3afff67b418de4ef9ecba9dd38bd52bd0af55348b1a78a39b4be2f6ef374c7
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-43961
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:f83fad06915a5fffa5328bb2927b59e32b841427048f69ec2e9e8b7283698a68
+    Description: '[Unknown description]'
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/vim/vim/security/advisories/GHSA-66hr-7p6x-x5j3
+    - https://www.cve.org/CVERecord?id=CVE-2026-43961
+    - https://www.openwall.com/lists/oss-security/2026/05/14/7
+  - VulnerabilityID: CVE-2026-46483
+    PkgID: xxd@2:9.1.0967-1ubuntu6.5
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/xxd@9.1.0967-1ubuntu6.5?arch=amd64&distro=ubuntu-25.10&epoch=2
+      UID: 526950e53908bbfb
+    InstalledVersion: 2:9.1.0967-1ubuntu6.5
+    Status: affected
+    Layer:
+      Digest: sha256:2f30d729d0cffb42001e622690eb7acb4f39579d9cf31d723afca4c817561dec
+      DiffID: sha256:ba3afff67b418de4ef9ecba9dd38bd52bd0af55348b1a78a39b4be2f6ef374c7
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-46483
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:420642d0528386a78bd4d62f4fcc485ed3634e671757dfdb8aed143ad6df402f
+    Title: 'vim: command injection when decompressing .tgz archives'
+    Description: |-
+      Vim is an open source, command line text editor. Prior to 9.2.0479, a command injection vulnerability exists in tar#Vimuntar() in
+      runtime/autoload/tar.vim when decompressing .tgz archives on Unix-like systems. The function builds :!gunzip and :!gzip -d commands using shellescape(tartail) without the {special} flag, allowing a crafted archive filename to trigger Vim cmdline-special expansion and execute shell commands in the user's context. This vulnerability is fixed in 9.2.0479.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-78
+    - CWE-88
+    VendorSeverity:
+      nvd: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-46483
+    - https://github.com/vim/vim/commit/3fb5e58fbc63d86a3e65f1a141b0d67af2aa38a1
+    - https://github.com/vim/vim/commit/3fb5e58fbc63d86a3e65f1a141b0d67af2aa38a1 (v9.2.0479)
+    - https://github.com/vim/vim/releases/tag/v9.2.0479
+    - https://github.com/vim/vim/security/advisories/GHSA-2fpv-9ff7-xg5w
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-46483
+    - https://www.cve.org/CVERecord?id=CVE-2026-46483
+    PublishedDate: '2026-05-15T15:16:54.237Z'
+    LastModifiedDate: '2026-05-19T12:27:28.72Z'
   - VulnerabilityID: CVE-2026-34743
     PkgID: xz-utils@5.8.1-1build2
     PkgName: xz-utils
@@ -4067,7 +4359,8 @@
       PURL: pkg:deb/ubuntu/xz-utils@5.8.1-1build2?arch=amd64&distro=ubuntu-25.10
       UID: b60b2d28dbfe3b61
     InstalledVersion: 5.8.1-1build2
-    Status: affected
+    FixedVersion: 5.8.1-1ubuntu0.1
+    Status: fixed
     Layer:
       Digest: sha256:2f30d729d0cffb42001e622690eb7acb4f39579d9cf31d723afca4c817561dec
       DiffID: sha256:ba3afff67b418de4ef9ecba9dd38bd52bd0af55348b1a78a39b4be2f6ef374c7
@@ -4104,6 +4397,7 @@
     - https://github.com/tukaani-project/xz/security/advisories/GHSA-x872-m794-cxhv
     - https://nvd.nist.gov/vuln/detail/CVE-2026-34743
     - https://tukaani.org/xz/index-append-overflow.html
+    - https://ubuntu.com/security/notices/USN-8362-1
     - https://www.cve.org/CVERecord?id=CVE-2026-34743
     PublishedDate: '2026-04-02T19:21:33.187Z'
     LastModifiedDate: '2026-04-15T17:33:17.68Z'

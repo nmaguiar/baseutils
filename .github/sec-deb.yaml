@@ -312,7 +312,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2026:20594
+    - https://access.redhat.com/errata/RHSA-2026:20587
     - https://access.redhat.com/security/cve/CVE-2026-4046
     - https://bugzilla.redhat.com/2453117
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449777
@@ -321,7 +321,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4046
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4437
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4438
-    - https://errata.almalinux.org/10/ALSA-2026-20594.html
+    - https://errata.almalinux.org/8/ALSA-2026-20587.html
     - https://errata.rockylinux.org/RLSA-2026:20597
     - https://inbox.sourceware.org/libc-announce/76814edf-cf7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u
     - https://linux.oracle.com/cve/CVE-2026-4046.html
@@ -566,7 +566,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2026:20594
+    - https://access.redhat.com/errata/RHSA-2026:20587
     - https://access.redhat.com/security/cve/CVE-2026-4046
     - https://bugzilla.redhat.com/2453117
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449777
@@ -575,7 +575,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4046
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4437
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4438
-    - https://errata.almalinux.org/10/ALSA-2026-20594.html
+    - https://errata.almalinux.org/8/ALSA-2026-20587.html
     - https://errata.rockylinux.org/RLSA-2026:20597
     - https://inbox.sourceware.org/libc-announce/76814edf-cf7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u
     - https://linux.oracle.com/cve/CVE-2026-4046.html
@@ -1080,7 +1080,7 @@
     - CWE-668
     VendorSeverity:
       alma: 3
-      amazon: 1
+      amazon: 2
       oracle-oval: 3
       redhat: 1
       rocky: 3
@@ -1091,7 +1091,7 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
-    - https://access.redhat.com/errata/RHSA-2026:19064
+    - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
     - https://bugzilla.redhat.com/2408891
@@ -1129,7 +1129,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/10/ALSA-2026-19064.html
+    - https://errata.almalinux.org/9/ALSA-2026-19177.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -1169,7 +1169,7 @@
     - CWE-668
     VendorSeverity:
       alma: 3
-      amazon: 1
+      amazon: 2
       oracle-oval: 3
       redhat: 1
       rocky: 3
@@ -1180,7 +1180,7 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
-    - https://access.redhat.com/errata/RHSA-2026:19064
+    - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
     - https://bugzilla.redhat.com/2408891
@@ -1218,7 +1218,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/10/ALSA-2026-19064.html
+    - https://errata.almalinux.org/9/ALSA-2026-19177.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -1258,7 +1258,7 @@
     - CWE-668
     VendorSeverity:
       alma: 3
-      amazon: 1
+      amazon: 2
       oracle-oval: 3
       redhat: 1
       rocky: 3
@@ -1269,7 +1269,7 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
-    - https://access.redhat.com/errata/RHSA-2026:19064
+    - https://access.redhat.com/errata/RHSA-2026:19177
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
     - https://bugzilla.redhat.com/2408891
@@ -1307,7 +1307,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/10/ALSA-2026-19064.html
+    - https://errata.almalinux.org/9/ALSA-2026-19177.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -1411,6 +1411,47 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
     LastModifiedDate: '2026-05-01T19:29:51.02Z'
+  - VulnerabilityID: CVE-2026-40226
+    PkgID: libsystemd0@257.9-0ubuntu2.4
+    PkgName: libsystemd0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libsystemd0@257.9-0ubuntu2.4?arch=amd64&distro=ubuntu-25.10
+      UID: b7d2a4bb150d8fb
+    InstalledVersion: 257.9-0ubuntu2.4
+    FixedVersion: 257.9-0ubuntu2.5
+    Status: fixed
+    Layer:
+      Digest: sha256:f4fc0298d5eed4260e6d92dc879ae32c7512a04750fe1b66d581b273a93f26dd
+      DiffID: sha256:0e8797579df3ce309d5303cc6ea9d5a433cd28fdc7b8e78ed55fdba5c7f3a301
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-40226
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:4f1aa3a0778a149306c6126ea06f500f264e2cd0a4667f6b5dffbd788eb3f8f3
+    Title: 'systemd: systemd nspawn: Escape-to-host action via crafted config file'
+    Description: In nspawn in systemd 233 through 259 before 260, an escape-to-host action can occur via a crafted optional config file.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-348
+    VendorSeverity:
+      azure: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 6.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-40226
+    - https://github.com/systemd/systemd/security/advisories/GHSA-9mj4-rrc3-gjcx
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-40226
+    - https://ubuntu.com/security/notices/USN-8402-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-40226
+    PublishedDate: '2026-04-10T16:16:33.447Z'
+    LastModifiedDate: '2026-04-17T22:02:15.393Z'
   - VulnerabilityID: CVE-2026-40228
     PkgID: libsystemd0@257.9-0ubuntu2.4
     PkgName: libsystemd0
@@ -1453,6 +1494,47 @@
     - https://www.openwall.com/lists/oss-security/2026/04/08/1
     PublishedDate: '2026-04-10T16:16:33.753Z'
     LastModifiedDate: '2026-05-05T02:16:04.82Z'
+  - VulnerabilityID: CVE-2026-40226
+    PkgID: libudev1@257.9-0ubuntu2.4
+    PkgName: libudev1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libudev1@257.9-0ubuntu2.4?arch=amd64&distro=ubuntu-25.10
+      UID: 2df6338002659505
+    InstalledVersion: 257.9-0ubuntu2.4
+    FixedVersion: 257.9-0ubuntu2.5
+    Status: fixed
+    Layer:
+      Digest: sha256:f4fc0298d5eed4260e6d92dc879ae32c7512a04750fe1b66d581b273a93f26dd
+      DiffID: sha256:0e8797579df3ce309d5303cc6ea9d5a433cd28fdc7b8e78ed55fdba5c7f3a301
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-40226
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:4709a8c11fe21d7d28fe8ed90be05633414f1b45f77331b9df1f37098f10bbcd
+    Title: 'systemd: systemd nspawn: Escape-to-host action via crafted config file'
+    Description: In nspawn in systemd 233 through 259 before 260, an escape-to-host action can occur via a crafted optional config file.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-348
+    VendorSeverity:
+      azure: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 6.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-40226
+    - https://github.com/systemd/systemd/security/advisories/GHSA-9mj4-rrc3-gjcx
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-40226
+    - https://ubuntu.com/security/notices/USN-8402-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-40226
+    PublishedDate: '2026-04-10T16:16:33.447Z'
+    LastModifiedDate: '2026-04-17T22:02:15.393Z'
   - VulnerabilityID: CVE-2026-40228
     PkgID: libudev1@257.9-0ubuntu2.4
     PkgName: libudev1
@@ -1666,7 +1748,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2026:20594
+    - https://access.redhat.com/errata/RHSA-2026:20587
     - https://access.redhat.com/security/cve/CVE-2026-4046
     - https://bugzilla.redhat.com/2453117
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449777
@@ -1675,7 +1757,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4046
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4437
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4438
-    - https://errata.almalinux.org/10/ALSA-2026-20594.html
+    - https://errata.almalinux.org/8/ALSA-2026-20587.html
     - https://errata.rockylinux.org/RLSA-2026:20597
     - https://inbox.sourceware.org/libc-announce/76814edf-cf7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u
     - https://linux.oracle.com/cve/CVE-2026-4046.html

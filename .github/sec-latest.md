@@ -1,10 +1,11 @@
 ```yaml
-╭ [0] ╭ Target  : nmaguiar/baseutils:latest (alpine 3.24.0) 
-│     ├ Class   : os-pkgs 
-│     ├ Type    : alpine 
-│     ╰ Packages 
-╰ [1] ╭ Target  : Java 
-      ├ Class   : lang-pkgs 
-      ├ Type    : jar 
-      ╰ Packages 
+╭ stdout   
+├ stderr  : docker: Error response from daemon: manifest for aquasec/trivy:undefined not found: manifest
+│           unknown: manifest unknown
+│           
+│           Run 'docker run --help' for more information
+│            
+├ exitcode: 125 
+╰ cmd     : docker run --pull always --rm -v trivy-db:/root/.cache/trivy aquasec/trivy:undefined -f json  image
+             nmaguiar/baseutils:latest 
 ```

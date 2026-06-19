@@ -396,7 +396,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:L 
 │                       │       │                           ╰ V3Score : 5.3 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:20594 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:20587 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-4046 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2453117 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2449777 
@@ -408,7 +408,7 @@
 │                       │       │                  │       026-4437 
 │                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-4438 
-│                       │       │                  ├ [9] : https://errata.almalinux.org/10/ALSA-2026-20594.html 
+│                       │       │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2026-20587.html 
 │                       │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:20597 
 │                       │       │                  ├ [11]: https://inbox.sourceware.org/libc-announce/76814edf-
 │                       │       │                  │       cf7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u 
@@ -686,7 +686,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:L 
 │                       │       │                           ╰ V3Score : 5.3 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:20594 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:20587 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-4046 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2453117 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2449777 
@@ -698,7 +698,7 @@
 │                       │       │                  │       026-4437 
 │                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-4438 
-│                       │       │                  ├ [9] : https://errata.almalinux.org/10/ALSA-2026-20594.html 
+│                       │       │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2026-20587.html 
 │                       │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:20597 
 │                       │       │                  ├ [11]: https://inbox.sourceware.org/libc-announce/76814edf-
 │                       │       │                  │       cf7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u 
@@ -1312,7 +1312,7 @@
 │                       │       │                           ╰ V3Score : 3.3 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/03/0
 │                       │       │                  │       5/6 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19064 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19177 
 │                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-2297 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/2408891 
@@ -1362,7 +1362,7 @@
 │                       │       │                  │       026-4786 
 │                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [39]: https://errata.almalinux.org/10/ALSA-2026-19064.html 
+│                       │       │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
 │                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:19177 
 │                       │       │                  ├ [41]: https://github.com/python/cpython/commit/482d6f8bdba
 │                       │       │                  │       9da3725d272e8bb4a2d25fb6a603e 
@@ -1421,7 +1421,7 @@
 │                       │       │                           ╰ V3Score : 3.3 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/03/0
 │                       │       │                  │       5/6 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19064 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19177 
 │                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-2297 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/2408891 
@@ -1471,7 +1471,7 @@
 │                       │       │                  │       026-4786 
 │                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [39]: https://errata.almalinux.org/10/ALSA-2026-19064.html 
+│                       │       │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
 │                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:19177 
 │                       │       │                  ├ [41]: https://github.com/python/cpython/commit/482d6f8bdba
 │                       │       │                  │       9da3725d272e8bb4a2d25fb6a603e 
@@ -1530,7 +1530,7 @@
 │                       │       │                           ╰ V3Score : 3.3 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/03/0
 │                       │       │                  │       5/6 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19064 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19177 
 │                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-2297 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/2408891 
@@ -1580,7 +1580,7 @@
 │                       │       │                  │       026-4786 
 │                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [39]: https://errata.almalinux.org/10/ALSA-2026-19064.html 
+│                       │       │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
 │                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:19177 
 │                       │       │                  ├ [41]: https://github.com/python/cpython/commit/482d6f8bdba
 │                       │       │                  │       9da3725d272e8bb4a2d25fb6a603e 
@@ -2011,7 +2011,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:L 
 │                       │       │                           ╰ V3Score : 5.3 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:20594 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:20587 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-4046 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2453117 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2449777 
@@ -2023,7 +2023,7 @@
 │                       │       │                  │       026-4437 
 │                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-4438 
-│                       │       │                  ├ [9] : https://errata.almalinux.org/10/ALSA-2026-20594.html 
+│                       │       │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2026-20587.html 
 │                       │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:20597 
 │                       │       │                  ├ [11]: https://inbox.sourceware.org/libc-announce/76814edf-
 │                       │       │                  │       cf7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u 
@@ -4870,7 +4870,8 @@
 │                       │       │                  │       stro=ubuntu-25.10&epoch=2 
 │                       │       │                  ╰ UID : aac336a743704fde 
 │                       │       ├ InstalledVersion: 2:9.1.0967-1ubuntu6.6 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2:9.1.0967-1ubuntu6.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:c7e8d5b31279a632a81e755636cdb8ed6b89cbab226
 │                       │       │                  │         05e7730d38e3c717e3928 
 │                       │       │                  ╰ DiffID: sha256:bef7eb8ecc7be0d36b58a4fba9535c49379af4587ea
@@ -4911,7 +4912,8 @@
 │                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-c
 │                       │       │                  │      rm5-rh6j-2c7c 
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-47162 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-47162 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8451-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-47162 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:44.16Z 
 │                       │       ╰ LastModifiedDate: 2026-06-13T01:04:09.357Z 
 │                       ├ [91]  ╭ VulnerabilityID : CVE-2026-47167 
@@ -4921,7 +4923,8 @@
 │                       │       │                  │       stro=ubuntu-25.10&epoch=2 
 │                       │       │                  ╰ UID : aac336a743704fde 
 │                       │       ├ InstalledVersion: 2:9.1.0967-1ubuntu6.6 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2:9.1.0967-1ubuntu6.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:c7e8d5b31279a632a81e755636cdb8ed6b89cbab226
 │                       │       │                  │         05e7730d38e3c717e3928 
 │                       │       │                  ╰ DiffID: sha256:bef7eb8ecc7be0d36b58a4fba9535c49379af4587ea
@@ -4961,7 +4964,8 @@
 │                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-4
 │                       │       │                  │      473-94jm-w5x9 
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-47167 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-47167 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8451-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-47167 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:44.56Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:32:14.61Z 
 │                       ├ [92]  ╭ VulnerabilityID : CVE-2026-52858 
@@ -4971,7 +4975,8 @@
 │                       │       │                  │       stro=ubuntu-25.10&epoch=2 
 │                       │       │                  ╰ UID : aac336a743704fde 
 │                       │       ├ InstalledVersion: 2:9.1.0967-1ubuntu6.6 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2:9.1.0967-1ubuntu6.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:c7e8d5b31279a632a81e755636cdb8ed6b89cbab226
 │                       │       │                  │         05e7730d38e3c717e3928 
 │                       │       │                  ╰ DiffID: sha256:bef7eb8ecc7be0d36b58a4fba9535c49379af4587ea
@@ -5011,7 +5016,8 @@
 │                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-5
 │                       │       │                  │      2mc-rq6p-rc7c 
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-52858 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-52858 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8451-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52858 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.487Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:32:35.193Z 
 │                       ├ [93]  ╭ VulnerabilityID : CVE-2026-52859 
@@ -5021,7 +5027,8 @@
 │                       │       │                  │       stro=ubuntu-25.10&epoch=2 
 │                       │       │                  ╰ UID : aac336a743704fde 
 │                       │       ├ InstalledVersion: 2:9.1.0967-1ubuntu6.6 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2:9.1.0967-1ubuntu6.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:c7e8d5b31279a632a81e755636cdb8ed6b89cbab226
 │                       │       │                  │         05e7730d38e3c717e3928 
 │                       │       │                  ╰ DiffID: sha256:bef7eb8ecc7be0d36b58a4fba9535c49379af4587ea
@@ -5070,7 +5077,8 @@
 │                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-4
 │                       │       │                  │      7gw-8gc3-mgcm 
 │                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-52859 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8451-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:12:47.37Z 
 │                       ├ [94]  ╭ VulnerabilityID : CVE-2026-52860 
@@ -5080,7 +5088,8 @@
 │                       │       │                  │       stro=ubuntu-25.10&epoch=2 
 │                       │       │                  ╰ UID : aac336a743704fde 
 │                       │       ├ InstalledVersion: 2:9.1.0967-1ubuntu6.6 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2:9.1.0967-1ubuntu6.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:c7e8d5b31279a632a81e755636cdb8ed6b89cbab226
 │                       │       │                  │         05e7730d38e3c717e3928 
 │                       │       │                  ╰ DiffID: sha256:bef7eb8ecc7be0d36b58a4fba9535c49379af4587ea
@@ -5092,8 +5101,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:3643db41346ca75128aee69a2d8d5cd5a6025350ac55a0b16be4
 │                       │       │                   08ac178a5fcb 
-│                       │       ├ Title           : Vim is an open source, command line text editor. Prior to
-│                       │       │                   version 9.2. ... 
+│                       │       ├ Title           : vim: Vim: Arbitrary code execution through Python
+│                       │       │                   omni-completion. 
 │                       │       ├ Description     : Vim is an open source, command line text editor. Prior to
 │                       │       │                   version 9.2.0597, Vim's Python omni-completion executes
 │                       │       │                   reconstructed function and class definitions from the
@@ -5111,18 +5120,25 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-94 
 │                       │       ├ VendorSeverity   ╭ azure : 3 
 │                       │       │                  ├ nvd   : 3 
+│                       │       │                  ├ redhat: 3 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H 
-│                       │       │                        ╰ V3Score : 7.8 
-│                       │       ├ References       ╭ [0]: https://github.com/vim/vim/commit/c8c63673bc425321282
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                  │        │           H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:
+│                       │       │                           │           H/A:H 
+│                       │       │                           ╰ V3Score : 8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-52860 
+│                       │       │                  ├ [1]: https://github.com/vim/vim/commit/c8c63673bc425321282
 │                       │       │                  │      0626aeeb75999d9a539d2 
-│                       │       │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0597 
-│                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-5
+│                       │       │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0597 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-5
 │                       │       │                  │      2mc-rq6p-rc7c 
-│                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-6
+│                       │       │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-6
 │                       │       │                  │      5p9-mwwx-7468 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-52860 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52860 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-52860 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8451-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-52860 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.773Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:24:42.873Z 
 │                       ├ [95]  ╭ VulnerabilityID : CVE-2026-47162 
@@ -5132,7 +5148,8 @@
 │                       │       │                  │       ll&distro=ubuntu-25.10&epoch=2 
 │                       │       │                  ╰ UID : b504bf38d068809f 
 │                       │       ├ InstalledVersion: 2:9.1.0967-1ubuntu6.6 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2:9.1.0967-1ubuntu6.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:c7e8d5b31279a632a81e755636cdb8ed6b89cbab226
 │                       │       │                  │         05e7730d38e3c717e3928 
 │                       │       │                  ╰ DiffID: sha256:bef7eb8ecc7be0d36b58a4fba9535c49379af4587ea
@@ -5173,7 +5190,8 @@
 │                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-c
 │                       │       │                  │      rm5-rh6j-2c7c 
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-47162 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-47162 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8451-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-47162 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:44.16Z 
 │                       │       ╰ LastModifiedDate: 2026-06-13T01:04:09.357Z 
 │                       ├ [96]  ╭ VulnerabilityID : CVE-2026-47167 
@@ -5183,7 +5201,8 @@
 │                       │       │                  │       ll&distro=ubuntu-25.10&epoch=2 
 │                       │       │                  ╰ UID : b504bf38d068809f 
 │                       │       ├ InstalledVersion: 2:9.1.0967-1ubuntu6.6 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2:9.1.0967-1ubuntu6.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:c7e8d5b31279a632a81e755636cdb8ed6b89cbab226
 │                       │       │                  │         05e7730d38e3c717e3928 
 │                       │       │                  ╰ DiffID: sha256:bef7eb8ecc7be0d36b58a4fba9535c49379af4587ea
@@ -5223,7 +5242,8 @@
 │                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-4
 │                       │       │                  │      473-94jm-w5x9 
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-47167 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-47167 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8451-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-47167 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:44.56Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:32:14.61Z 
 │                       ├ [97]  ╭ VulnerabilityID : CVE-2026-52858 
@@ -5233,7 +5253,8 @@
 │                       │       │                  │       ll&distro=ubuntu-25.10&epoch=2 
 │                       │       │                  ╰ UID : b504bf38d068809f 
 │                       │       ├ InstalledVersion: 2:9.1.0967-1ubuntu6.6 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2:9.1.0967-1ubuntu6.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:c7e8d5b31279a632a81e755636cdb8ed6b89cbab226
 │                       │       │                  │         05e7730d38e3c717e3928 
 │                       │       │                  ╰ DiffID: sha256:bef7eb8ecc7be0d36b58a4fba9535c49379af4587ea
@@ -5273,7 +5294,8 @@
 │                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-5
 │                       │       │                  │      2mc-rq6p-rc7c 
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-52858 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-52858 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8451-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52858 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.487Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:32:35.193Z 
 │                       ├ [98]  ╭ VulnerabilityID : CVE-2026-52859 
@@ -5283,7 +5305,8 @@
 │                       │       │                  │       ll&distro=ubuntu-25.10&epoch=2 
 │                       │       │                  ╰ UID : b504bf38d068809f 
 │                       │       ├ InstalledVersion: 2:9.1.0967-1ubuntu6.6 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2:9.1.0967-1ubuntu6.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:c7e8d5b31279a632a81e755636cdb8ed6b89cbab226
 │                       │       │                  │         05e7730d38e3c717e3928 
 │                       │       │                  ╰ DiffID: sha256:bef7eb8ecc7be0d36b58a4fba9535c49379af4587ea
@@ -5332,7 +5355,8 @@
 │                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-4
 │                       │       │                  │      7gw-8gc3-mgcm 
 │                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-52859 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8451-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:12:47.37Z 
 │                       ├ [99]  ╭ VulnerabilityID : CVE-2026-52860 
@@ -5342,7 +5366,8 @@
 │                       │       │                  │       ll&distro=ubuntu-25.10&epoch=2 
 │                       │       │                  ╰ UID : b504bf38d068809f 
 │                       │       ├ InstalledVersion: 2:9.1.0967-1ubuntu6.6 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2:9.1.0967-1ubuntu6.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:c7e8d5b31279a632a81e755636cdb8ed6b89cbab226
 │                       │       │                  │         05e7730d38e3c717e3928 
 │                       │       │                  ╰ DiffID: sha256:bef7eb8ecc7be0d36b58a4fba9535c49379af4587ea
@@ -5354,8 +5379,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:3abc7f6bff0f4ea2c91a685d00c1d4d6b32db23d9ba8d3609e01
 │                       │       │                   0a4604361e74 
-│                       │       ├ Title           : Vim is an open source, command line text editor. Prior to
-│                       │       │                   version 9.2. ... 
+│                       │       ├ Title           : vim: Vim: Arbitrary code execution through Python
+│                       │       │                   omni-completion. 
 │                       │       ├ Description     : Vim is an open source, command line text editor. Prior to
 │                       │       │                   version 9.2.0597, Vim's Python omni-completion executes
 │                       │       │                   reconstructed function and class definitions from the
@@ -5373,18 +5398,25 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-94 
 │                       │       ├ VendorSeverity   ╭ azure : 3 
 │                       │       │                  ├ nvd   : 3 
+│                       │       │                  ├ redhat: 3 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H 
-│                       │       │                        ╰ V3Score : 7.8 
-│                       │       ├ References       ╭ [0]: https://github.com/vim/vim/commit/c8c63673bc425321282
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                  │        │           H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:
+│                       │       │                           │           H/A:H 
+│                       │       │                           ╰ V3Score : 8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-52860 
+│                       │       │                  ├ [1]: https://github.com/vim/vim/commit/c8c63673bc425321282
 │                       │       │                  │      0626aeeb75999d9a539d2 
-│                       │       │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0597 
-│                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-5
+│                       │       │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0597 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-5
 │                       │       │                  │      2mc-rq6p-rc7c 
-│                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-6
+│                       │       │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-6
 │                       │       │                  │      5p9-mwwx-7468 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-52860 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52860 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-52860 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8451-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-52860 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.773Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:24:42.873Z 
 │                       ├ [100] ╭ VulnerabilityID : CVE-2026-47162 
@@ -5394,7 +5426,8 @@
 │                       │       │                  │       all&distro=ubuntu-25.10&epoch=2 
 │                       │       │                  ╰ UID : 216f10256a8c4355 
 │                       │       ├ InstalledVersion: 2:9.1.0967-1ubuntu6.6 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2:9.1.0967-1ubuntu6.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:c7e8d5b31279a632a81e755636cdb8ed6b89cbab226
 │                       │       │                  │         05e7730d38e3c717e3928 
 │                       │       │                  ╰ DiffID: sha256:bef7eb8ecc7be0d36b58a4fba9535c49379af4587ea
@@ -5435,7 +5468,8 @@
 │                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-c
 │                       │       │                  │      rm5-rh6j-2c7c 
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-47162 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-47162 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8451-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-47162 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:44.16Z 
 │                       │       ╰ LastModifiedDate: 2026-06-13T01:04:09.357Z 
 │                       ├ [101] ╭ VulnerabilityID : CVE-2026-47167 
@@ -5445,7 +5479,8 @@
 │                       │       │                  │       all&distro=ubuntu-25.10&epoch=2 
 │                       │       │                  ╰ UID : 216f10256a8c4355 
 │                       │       ├ InstalledVersion: 2:9.1.0967-1ubuntu6.6 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2:9.1.0967-1ubuntu6.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:c7e8d5b31279a632a81e755636cdb8ed6b89cbab226
 │                       │       │                  │         05e7730d38e3c717e3928 
 │                       │       │                  ╰ DiffID: sha256:bef7eb8ecc7be0d36b58a4fba9535c49379af4587ea
@@ -5485,7 +5520,8 @@
 │                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-4
 │                       │       │                  │      473-94jm-w5x9 
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-47167 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-47167 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8451-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-47167 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:44.56Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:32:14.61Z 
 │                       ├ [102] ╭ VulnerabilityID : CVE-2026-52858 
@@ -5495,7 +5531,8 @@
 │                       │       │                  │       all&distro=ubuntu-25.10&epoch=2 
 │                       │       │                  ╰ UID : 216f10256a8c4355 
 │                       │       ├ InstalledVersion: 2:9.1.0967-1ubuntu6.6 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2:9.1.0967-1ubuntu6.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:c7e8d5b31279a632a81e755636cdb8ed6b89cbab226
 │                       │       │                  │         05e7730d38e3c717e3928 
 │                       │       │                  ╰ DiffID: sha256:bef7eb8ecc7be0d36b58a4fba9535c49379af4587ea
@@ -5535,7 +5572,8 @@
 │                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-5
 │                       │       │                  │      2mc-rq6p-rc7c 
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-52858 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-52858 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8451-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52858 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.487Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:32:35.193Z 
 │                       ├ [103] ╭ VulnerabilityID : CVE-2026-52859 
@@ -5545,7 +5583,8 @@
 │                       │       │                  │       all&distro=ubuntu-25.10&epoch=2 
 │                       │       │                  ╰ UID : 216f10256a8c4355 
 │                       │       ├ InstalledVersion: 2:9.1.0967-1ubuntu6.6 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2:9.1.0967-1ubuntu6.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:c7e8d5b31279a632a81e755636cdb8ed6b89cbab226
 │                       │       │                  │         05e7730d38e3c717e3928 
 │                       │       │                  ╰ DiffID: sha256:bef7eb8ecc7be0d36b58a4fba9535c49379af4587ea
@@ -5594,7 +5633,8 @@
 │                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-4
 │                       │       │                  │      7gw-8gc3-mgcm 
 │                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-52859 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8451-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:12:47.37Z 
 │                       ├ [104] ╭ VulnerabilityID : CVE-2026-52860 
@@ -5604,7 +5644,8 @@
 │                       │       │                  │       all&distro=ubuntu-25.10&epoch=2 
 │                       │       │                  ╰ UID : 216f10256a8c4355 
 │                       │       ├ InstalledVersion: 2:9.1.0967-1ubuntu6.6 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2:9.1.0967-1ubuntu6.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:c7e8d5b31279a632a81e755636cdb8ed6b89cbab226
 │                       │       │                  │         05e7730d38e3c717e3928 
 │                       │       │                  ╰ DiffID: sha256:bef7eb8ecc7be0d36b58a4fba9535c49379af4587ea
@@ -5616,8 +5657,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:4d621d0480b9e9800d1f913f5cc0fe8e908ac73bd7da5973ba8e
 │                       │       │                   dfd4b01996ad 
-│                       │       ├ Title           : Vim is an open source, command line text editor. Prior to
-│                       │       │                   version 9.2. ... 
+│                       │       ├ Title           : vim: Vim: Arbitrary code execution through Python
+│                       │       │                   omni-completion. 
 │                       │       ├ Description     : Vim is an open source, command line text editor. Prior to
 │                       │       │                   version 9.2.0597, Vim's Python omni-completion executes
 │                       │       │                   reconstructed function and class definitions from the
@@ -5635,18 +5676,25 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-94 
 │                       │       ├ VendorSeverity   ╭ azure : 3 
 │                       │       │                  ├ nvd   : 3 
+│                       │       │                  ├ redhat: 3 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H 
-│                       │       │                        ╰ V3Score : 7.8 
-│                       │       ├ References       ╭ [0]: https://github.com/vim/vim/commit/c8c63673bc425321282
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                  │        │           H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:
+│                       │       │                           │           H/A:H 
+│                       │       │                           ╰ V3Score : 8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-52860 
+│                       │       │                  ├ [1]: https://github.com/vim/vim/commit/c8c63673bc425321282
 │                       │       │                  │      0626aeeb75999d9a539d2 
-│                       │       │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0597 
-│                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-5
+│                       │       │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0597 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-5
 │                       │       │                  │      2mc-rq6p-rc7c 
-│                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-6
+│                       │       │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-6
 │                       │       │                  │      5p9-mwwx-7468 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-52860 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52860 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-52860 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8451-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-52860 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.773Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:24:42.873Z 
 │                       ├ [105] ╭ VulnerabilityID : CVE-2021-31879 
@@ -5705,7 +5753,8 @@
 │                       │       │                  │       stro=ubuntu-25.10&epoch=2 
 │                       │       │                  ╰ UID : 75e722d8fba44e0c 
 │                       │       ├ InstalledVersion: 2:9.1.0967-1ubuntu6.6 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2:9.1.0967-1ubuntu6.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:c7e8d5b31279a632a81e755636cdb8ed6b89cbab226
 │                       │       │                  │         05e7730d38e3c717e3928 
 │                       │       │                  ╰ DiffID: sha256:bef7eb8ecc7be0d36b58a4fba9535c49379af4587ea
@@ -5746,7 +5795,8 @@
 │                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-c
 │                       │       │                  │      rm5-rh6j-2c7c 
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-47162 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-47162 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8451-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-47162 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:44.16Z 
 │                       │       ╰ LastModifiedDate: 2026-06-13T01:04:09.357Z 
 │                       ├ [107] ╭ VulnerabilityID : CVE-2026-47167 
@@ -5756,7 +5806,8 @@
 │                       │       │                  │       stro=ubuntu-25.10&epoch=2 
 │                       │       │                  ╰ UID : 75e722d8fba44e0c 
 │                       │       ├ InstalledVersion: 2:9.1.0967-1ubuntu6.6 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2:9.1.0967-1ubuntu6.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:c7e8d5b31279a632a81e755636cdb8ed6b89cbab226
 │                       │       │                  │         05e7730d38e3c717e3928 
 │                       │       │                  ╰ DiffID: sha256:bef7eb8ecc7be0d36b58a4fba9535c49379af4587ea
@@ -5796,7 +5847,8 @@
 │                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-4
 │                       │       │                  │      473-94jm-w5x9 
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-47167 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-47167 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8451-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-47167 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:44.56Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:32:14.61Z 
 │                       ├ [108] ╭ VulnerabilityID : CVE-2026-52858 
@@ -5806,7 +5858,8 @@
 │                       │       │                  │       stro=ubuntu-25.10&epoch=2 
 │                       │       │                  ╰ UID : 75e722d8fba44e0c 
 │                       │       ├ InstalledVersion: 2:9.1.0967-1ubuntu6.6 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2:9.1.0967-1ubuntu6.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:c7e8d5b31279a632a81e755636cdb8ed6b89cbab226
 │                       │       │                  │         05e7730d38e3c717e3928 
 │                       │       │                  ╰ DiffID: sha256:bef7eb8ecc7be0d36b58a4fba9535c49379af4587ea
@@ -5846,7 +5899,8 @@
 │                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-5
 │                       │       │                  │      2mc-rq6p-rc7c 
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-52858 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-52858 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8451-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52858 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.487Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:32:35.193Z 
 │                       ├ [109] ╭ VulnerabilityID : CVE-2026-52859 
@@ -5856,7 +5910,8 @@
 │                       │       │                  │       stro=ubuntu-25.10&epoch=2 
 │                       │       │                  ╰ UID : 75e722d8fba44e0c 
 │                       │       ├ InstalledVersion: 2:9.1.0967-1ubuntu6.6 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2:9.1.0967-1ubuntu6.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:c7e8d5b31279a632a81e755636cdb8ed6b89cbab226
 │                       │       │                  │         05e7730d38e3c717e3928 
 │                       │       │                  ╰ DiffID: sha256:bef7eb8ecc7be0d36b58a4fba9535c49379af4587ea
@@ -5905,7 +5960,8 @@
 │                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-4
 │                       │       │                  │      7gw-8gc3-mgcm 
 │                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-52859 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8451-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:12:47.37Z 
 │                       ╰ [110] ╭ VulnerabilityID : CVE-2026-52860 
@@ -5915,7 +5971,8 @@
 │                               │                  │       stro=ubuntu-25.10&epoch=2 
 │                               │                  ╰ UID : 75e722d8fba44e0c 
 │                               ├ InstalledVersion: 2:9.1.0967-1ubuntu6.6 
-│                               ├ Status          : affected 
+│                               ├ FixedVersion    : 2:9.1.0967-1ubuntu6.7 
+│                               ├ Status          : fixed 
 │                               ├ Layer            ╭ Digest: sha256:c7e8d5b31279a632a81e755636cdb8ed6b89cbab226
 │                               │                  │         05e7730d38e3c717e3928 
 │                               │                  ╰ DiffID: sha256:bef7eb8ecc7be0d36b58a4fba9535c49379af4587ea
@@ -5927,8 +5984,8 @@
 │                               │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                               ├ Fingerprint     : sha256:fe69d7c04eb309b5812b9a34bb7b58b13bfde72af5bd7051b420
 │                               │                   47b791910601 
-│                               ├ Title           : Vim is an open source, command line text editor. Prior to
-│                               │                   version 9.2. ... 
+│                               ├ Title           : vim: Vim: Arbitrary code execution through Python
+│                               │                   omni-completion. 
 │                               ├ Description     : Vim is an open source, command line text editor. Prior to
 │                               │                   version 9.2.0597, Vim's Python omni-completion executes
 │                               │                   reconstructed function and class definitions from the
@@ -5946,18 +6003,25 @@
 │                               ├ CweIDs           ─ [0]: CWE-94 
 │                               ├ VendorSeverity   ╭ azure : 3 
 │                               │                  ├ nvd   : 3 
+│                               │                  ├ redhat: 3 
 │                               │                  ╰ ubuntu: 2 
-│                               ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H 
-│                               │                        ╰ V3Score : 7.8 
-│                               ├ References       ╭ [0]: https://github.com/vim/vim/commit/c8c63673bc425321282
+│                               ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                               │                  │        │           H/A:H 
+│                               │                  │        ╰ V3Score : 7.8 
+│                               │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:
+│                               │                           │           H/A:H 
+│                               │                           ╰ V3Score : 8 
+│                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-52860 
+│                               │                  ├ [1]: https://github.com/vim/vim/commit/c8c63673bc425321282
 │                               │                  │      0626aeeb75999d9a539d2 
-│                               │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0597 
-│                               │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-5
+│                               │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0597 
+│                               │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-5
 │                               │                  │      2mc-rq6p-rc7c 
-│                               │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-6
+│                               │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-6
 │                               │                  │      5p9-mwwx-7468 
-│                               │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-52860 
-│                               │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52860 
+│                               │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-52860 
+│                               │                  ├ [6]: https://ubuntu.com/security/notices/USN-8451-1 
+│                               │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-52860 
 │                               ├ PublishedDate   : 2026-06-11T19:16:47.773Z 
 │                               ╰ LastModifiedDate: 2026-06-15T13:24:42.873Z 
 ╰ [1] ╭ Target  : Java 

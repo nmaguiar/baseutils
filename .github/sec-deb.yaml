@@ -183,6 +183,331 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
     LastModifiedDate: '2026-06-17T10:43:10.203Z'
+  - VulnerabilityID: CVE-2026-11856
+    PkgID: curl@8.14.1-2ubuntu1.3
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1.3?arch=amd64&distro=ubuntu-25.10
+      UID: 6bb869f5631f84e3
+    InstalledVersion: 8.14.1-2ubuntu1.3
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-11856
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:850fbe92a8689348374513765694b874c57405098ca16046e9a1f313ada0a6b9
+    Description: Successfully using libcurl to do a transfer to a specific HTTP origin (`hostA`) with **Digest** authentication and then changing the origin to a different one (`hostB`) for a second transfer, reusing the same handle, makes libcurl wrongly pass on the `Authorization:` header field meant for `hostA`, to `hostB`.
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://curl.se/L7HzKXisfJ/CVE-2026-11856.md
+    - https://www.cve.org/CVERecord?id=CVE-2026-11856
+  - VulnerabilityID: CVE-2026-8927
+    PkgID: curl@8.14.1-2ubuntu1.3
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1.3?arch=amd64&distro=ubuntu-25.10
+      UID: 6bb869f5631f84e3
+    InstalledVersion: 8.14.1-2ubuntu1.3
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-8927
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:4db77c5aad316105aaf7d0d3ee8a689ebf401eb1a138e53934642b32243b4d18
+    Description: When reusing a libcurl handle for sequential transfers driven by environment-variable proxy configuration, libcurl fails to clear the proxy authentication state between requests. Specifically, if the initial transfer authenticates against `proxyA` using Digest auth, a subsequent transfer routed through `proxyB` erroneously leaks the `Proxy-Authorization:` header intended solely for `proxyA`.
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://curl.se/L7HzKXisfJ/CVE-2026-8927.md
+    - https://www.cve.org/CVERecord?id=CVE-2026-8927
+  - VulnerabilityID: CVE-2026-9079
+    PkgID: curl@8.14.1-2ubuntu1.3
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1.3?arch=amd64&distro=ubuntu-25.10
+      UID: 6bb869f5631f84e3
+    InstalledVersion: 8.14.1-2ubuntu1.3
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-9079
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:03fb8a021b256130b4082c6c10c4828907a58d5d562413f32df1290fc9859b2b
+    Description: libcurl had a flaw that when instructed to clear proxy authentication credentials which made it not do so, leaving the old credentials around to get used for subsequent tranfers that should not know nor use them.
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://curl.se/L7HzKXisfJ/CVE-2026-9079.md
+    - https://www.cve.org/CVERecord?id=CVE-2026-9079
+  - VulnerabilityID: CVE-2026-10536
+    PkgID: curl@8.14.1-2ubuntu1.3
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1.3?arch=amd64&distro=ubuntu-25.10
+      UID: 6bb869f5631f84e3
+    InstalledVersion: 8.14.1-2ubuntu1.3
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-10536
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:b9a94666befcc3e9f96a535f7198d547ace6e6afbdc4bb3641deec5230c12ce8
+    Description: A use-after-free vulnerability exists in libcurl when an application configures an HTTP/2 stream-dependency tree via `CURLOPT_STREAM_DEPENDS` or `CURLOPT_STREAM_DEPENDS_E`, subsequently invokes `curl_easy_reset()`, and finally terminates the handle with `curl_easy_cleanup()`. During this final cleanup phase, libcurl attempts to access and modify an internal structure that was already deallocated during the reset operation.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/L7HzKXisfJ/CVE-2026-10536.md
+    - https://www.cve.org/CVERecord?id=CVE-2026-10536
+  - VulnerabilityID: CVE-2026-12064
+    PkgID: curl@8.14.1-2ubuntu1.3
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1.3?arch=amd64&distro=ubuntu-25.10
+      UID: 6bb869f5631f84e3
+    InstalledVersion: 8.14.1-2ubuntu1.3
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-12064
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:0c550a4eef171063950cfaf03ae51b5efe4b6fd5fafd35a3d57a643b7217f7ec
+    Description: When a user invokes curl using a schemeless URL combined with `--proto-default` sftp (or scp), a disconnect occurs between the tool layer and libcurl. The tool layer incorrectly infers the URL scheme, which erroneously bypasses the initialization of critical SSH security options like CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and CURLOPT_SSH_KNOWNHOSTS. Conversely, the libcurl runtime successfully honors CURLOPT_DEFAULT_PROTOCOL and establishes the connection via SFTP/SCP as specified. Because the tool layer skipped the security configuration, these SSH host verification options are silently omitted, causing curl to connect to an unverified SSH remote host without throwing an error.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/L7HzKXisfJ/CVE-2026-12064.md
+    - https://www.cve.org/CVERecord?id=CVE-2026-12064
+  - VulnerabilityID: CVE-2026-8286
+    PkgID: curl@8.14.1-2ubuntu1.3
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1.3?arch=amd64&distro=ubuntu-25.10
+      UID: 6bb869f5631f84e3
+    InstalledVersion: 8.14.1-2ubuntu1.3
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-8286
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:1fb877b152619d3567cd95e53852d3d75583cda89e8da53e9cbf66ef77957798
+    Description: A vulnerability exists where a new transfer that uses STARTTLS to upgrade the connection might reuse an existing live connection even though the TLS configuration mismatches so it should not.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/L7HzKXisfJ/CVE-2026-8286.md
+    - https://www.cve.org/CVERecord?id=CVE-2026-8286
+  - VulnerabilityID: CVE-2026-8458
+    PkgID: curl@8.14.1-2ubuntu1.3
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1.3?arch=amd64&distro=ubuntu-25.10
+      UID: 6bb869f5631f84e3
+    InstalledVersion: 8.14.1-2ubuntu1.3
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-8458
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:17f8600bce7194bf9c2945f2dbf2c148eb209138377264fdb451a9484cbbe252
+    Description: libcurl might in some circumstances reuse the wrong connection when asked to do Negotiate-authenticated ones, even when they are set to use different "services". libcurl features a pool of recent connections so that subsequent requests can reuse an existing connection to avoid overhead. When reusing a connection a range of criteria must be met. Due to a logical error in the code, a request that was issued by an application could wrongfully reuse an existing connection to the same server that was authenticated using different services.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/L7HzKXisfJ/CVE-2026-8458.md
+    - https://www.cve.org/CVERecord?id=CVE-2026-8458
+  - VulnerabilityID: CVE-2026-8924
+    PkgID: curl@8.14.1-2ubuntu1.3
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1.3?arch=amd64&distro=ubuntu-25.10
+      UID: 6bb869f5631f84e3
+    InstalledVersion: 8.14.1-2ubuntu1.3
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-8924
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:2b3d3dc9c6144dfeccafd3d30b32e8dda6e3200d91c0bb7dbc8e40c8885c3236
+    Description: A flaw in curl's cookie parsing logic allows a malicious HTTP server to set "super cookies" that bypass the Public Suffix List check. This enables an attacker-controlled origin to inject cookies that curl will subsequently scope and transmit to unrelated third-party domains.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/L7HzKXisfJ/CVE-2026-8924.md
+    - https://www.cve.org/CVERecord?id=CVE-2026-8924
+  - VulnerabilityID: CVE-2026-8926
+    PkgID: curl@8.14.1-2ubuntu1.3
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1.3?arch=amd64&distro=ubuntu-25.10
+      UID: 6bb869f5631f84e3
+    InstalledVersion: 8.14.1-2ubuntu1.3
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-8926
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:826572e356f5371812175b78b7e82750269d775a9dc8e16de08adb8484943d31
+    Description: When asking curl to use a `.netrc` file to find credentials and at the same time specifying a URL with a username (without a password), like `https://user@example.com/`, curl could wrongly get and use the password for *another* user set in the `.netrc` file for that host if such a one exists and there is no match for the specified user.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/L7HzKXisfJ/CVE-2026-8926.md
+    - https://www.cve.org/CVERecord?id=CVE-2026-8926
+  - VulnerabilityID: CVE-2026-8932
+    PkgID: curl@8.14.1-2ubuntu1.3
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1.3?arch=amd64&distro=ubuntu-25.10
+      UID: 6bb869f5631f84e3
+    InstalledVersion: 8.14.1-2ubuntu1.3
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-8932
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:b6dba61bd6a6c415f5c1a5bf54062dfdaa5e3df7d55dc35ebc33e504eb5e1054
+    Description: libcurl would reuse a previously created connection even when some mTLS config related option had been changed that should have prohibited reuse. libcurl keeps previously used connections in a connection pool for subsequent transfers to reuse if one of them matches the setup. However, some TLS settings related to client certificates were left out from the configuration match checks, making them match too easily. In particular options related to the private key.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/L7HzKXisfJ/CVE-2026-8932.md
+    - https://www.cve.org/CVERecord?id=CVE-2026-8932
+  - VulnerabilityID: CVE-2026-9080
+    PkgID: curl@8.14.1-2ubuntu1.3
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1.3?arch=amd64&distro=ubuntu-25.10
+      UID: 6bb869f5631f84e3
+    InstalledVersion: 8.14.1-2ubuntu1.3
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-9080
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:9973e4cad0ac79a78fba72242df9715d01faf5a8a80cec5f917540b752a654c3
+    Description: Calling `curl_easy_pause()` within the event-based `CURLMOPT_SOCKETFUNCTION` callback triggers a use-after-free vulnerability, where libcurl attempts to store a flag using a dangling struct pointer immediately after that pointer's memory has been freed.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/L7HzKXisfJ/CVE-2026-9080.md
+    - https://www.cve.org/CVERecord?id=CVE-2026-9080
+  - VulnerabilityID: CVE-2026-9545
+    PkgID: curl@8.14.1-2ubuntu1.3
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1.3?arch=amd64&distro=ubuntu-25.10
+      UID: 6bb869f5631f84e3
+    InstalledVersion: 8.14.1-2ubuntu1.3
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-9545
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:1ad77d351d88e46825714aa192b7de4e826efe15c69503bbd98e656a4c468bc1
+    Description: In this scenario, libcurl first uses a proper HTTP/3 server for the initial transfers, and when it makes a second transfer to the same site it has been replaced by the attacker's impostor machine - without a valid certificate. When libcurl returns to the hostname the second time with a cached SSL session (`CURLOPT_SSL_SESSIONID_CACHE` is not disabled) and early data enabled (the `CURLSSLOPT_EARLYDATA` bit is set in`CURLOPT_SSL_OPTIONS`), libcurl might send off the second request's bytes on that new connection *before* enforcing the certificate verification failure. Potentially leaking sensitive information.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/L7HzKXisfJ/CVE-2026-9545.md
+    - https://www.cve.org/CVERecord?id=CVE-2026-9545
+  - VulnerabilityID: CVE-2026-9547
+    PkgID: curl@8.14.1-2ubuntu1.3
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1.3?arch=amd64&distro=ubuntu-25.10
+      UID: 6bb869f5631f84e3
+    InstalledVersion: 8.14.1-2ubuntu1.3
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-9547
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:27d634ab6035a3505052e9728b83047ad9a9b3710ea99300f0413ded74ae7bb9
+    Description: When a libcurl-based application performs transfers via `SCP://` or `SFTP://` and utilizes the `CURLOPT_SSH_KEYFUNCTION` callback, it may silently accept an untrusted server. This vulnerability occurs when a server presents a host key type that does not match the specific key type already recorded for that host in the `known_hosts` file. Instead of rejecting the mismatch, the callback mechanism fails to properly enforce the restriction, allowing the connection to succeed without warning and risking a potential man-in-the-middle attack.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/L7HzKXisfJ/CVE-2026-9547.md
+    - https://www.cve.org/CVERecord?id=CVE-2026-9547
   - VulnerabilityID: CVE-2026-27456
     PkgID: libblkid1@2.41-4ubuntu4.2
     PkgName: libblkid1
@@ -781,6 +1106,331 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-6238
     PublishedDate: '2026-04-28T19:37:47.523Z'
     LastModifiedDate: '2026-06-19T21:17:02.62Z'
+  - VulnerabilityID: CVE-2026-11856
+    PkgID: libcurl4t64@8.14.1-2ubuntu1.3
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1.3?arch=amd64&distro=ubuntu-25.10
+      UID: 8ef767c5a03f17d2
+    InstalledVersion: 8.14.1-2ubuntu1.3
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-11856
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:0d5a9e660b7e19070a27ec57393b54915eaa4baea944e506ea7114c67d815d92
+    Description: Successfully using libcurl to do a transfer to a specific HTTP origin (`hostA`) with **Digest** authentication and then changing the origin to a different one (`hostB`) for a second transfer, reusing the same handle, makes libcurl wrongly pass on the `Authorization:` header field meant for `hostA`, to `hostB`.
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://curl.se/L7HzKXisfJ/CVE-2026-11856.md
+    - https://www.cve.org/CVERecord?id=CVE-2026-11856
+  - VulnerabilityID: CVE-2026-8927
+    PkgID: libcurl4t64@8.14.1-2ubuntu1.3
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1.3?arch=amd64&distro=ubuntu-25.10
+      UID: 8ef767c5a03f17d2
+    InstalledVersion: 8.14.1-2ubuntu1.3
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-8927
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:b0c400b705111ecc285a8f655d86596c99e29e12b55f458c87fc760079fa6ed8
+    Description: When reusing a libcurl handle for sequential transfers driven by environment-variable proxy configuration, libcurl fails to clear the proxy authentication state between requests. Specifically, if the initial transfer authenticates against `proxyA` using Digest auth, a subsequent transfer routed through `proxyB` erroneously leaks the `Proxy-Authorization:` header intended solely for `proxyA`.
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://curl.se/L7HzKXisfJ/CVE-2026-8927.md
+    - https://www.cve.org/CVERecord?id=CVE-2026-8927
+  - VulnerabilityID: CVE-2026-9079
+    PkgID: libcurl4t64@8.14.1-2ubuntu1.3
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1.3?arch=amd64&distro=ubuntu-25.10
+      UID: 8ef767c5a03f17d2
+    InstalledVersion: 8.14.1-2ubuntu1.3
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-9079
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:109dd449ac00ecf4c9038f2ffa50270b6ae1d10bf7730a64d625aebc8b551f64
+    Description: libcurl had a flaw that when instructed to clear proxy authentication credentials which made it not do so, leaving the old credentials around to get used for subsequent tranfers that should not know nor use them.
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://curl.se/L7HzKXisfJ/CVE-2026-9079.md
+    - https://www.cve.org/CVERecord?id=CVE-2026-9079
+  - VulnerabilityID: CVE-2026-10536
+    PkgID: libcurl4t64@8.14.1-2ubuntu1.3
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1.3?arch=amd64&distro=ubuntu-25.10
+      UID: 8ef767c5a03f17d2
+    InstalledVersion: 8.14.1-2ubuntu1.3
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-10536
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:9594dfc169fc294333707297282ca11cbfb664c1c9d9120f75a9716358227589
+    Description: A use-after-free vulnerability exists in libcurl when an application configures an HTTP/2 stream-dependency tree via `CURLOPT_STREAM_DEPENDS` or `CURLOPT_STREAM_DEPENDS_E`, subsequently invokes `curl_easy_reset()`, and finally terminates the handle with `curl_easy_cleanup()`. During this final cleanup phase, libcurl attempts to access and modify an internal structure that was already deallocated during the reset operation.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/L7HzKXisfJ/CVE-2026-10536.md
+    - https://www.cve.org/CVERecord?id=CVE-2026-10536
+  - VulnerabilityID: CVE-2026-12064
+    PkgID: libcurl4t64@8.14.1-2ubuntu1.3
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1.3?arch=amd64&distro=ubuntu-25.10
+      UID: 8ef767c5a03f17d2
+    InstalledVersion: 8.14.1-2ubuntu1.3
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-12064
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:2ee589bc6ce5337dc91833b2ea7daf4de878c84a258bf7680f1c55bb45520f7d
+    Description: When a user invokes curl using a schemeless URL combined with `--proto-default` sftp (or scp), a disconnect occurs between the tool layer and libcurl. The tool layer incorrectly infers the URL scheme, which erroneously bypasses the initialization of critical SSH security options like CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and CURLOPT_SSH_KNOWNHOSTS. Conversely, the libcurl runtime successfully honors CURLOPT_DEFAULT_PROTOCOL and establishes the connection via SFTP/SCP as specified. Because the tool layer skipped the security configuration, these SSH host verification options are silently omitted, causing curl to connect to an unverified SSH remote host without throwing an error.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/L7HzKXisfJ/CVE-2026-12064.md
+    - https://www.cve.org/CVERecord?id=CVE-2026-12064
+  - VulnerabilityID: CVE-2026-8286
+    PkgID: libcurl4t64@8.14.1-2ubuntu1.3
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1.3?arch=amd64&distro=ubuntu-25.10
+      UID: 8ef767c5a03f17d2
+    InstalledVersion: 8.14.1-2ubuntu1.3
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-8286
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:66aa71d7c6c0e70973e58cd775e5acd7fcc73ffadb0e6e61c4b4422911e47d87
+    Description: A vulnerability exists where a new transfer that uses STARTTLS to upgrade the connection might reuse an existing live connection even though the TLS configuration mismatches so it should not.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/L7HzKXisfJ/CVE-2026-8286.md
+    - https://www.cve.org/CVERecord?id=CVE-2026-8286
+  - VulnerabilityID: CVE-2026-8458
+    PkgID: libcurl4t64@8.14.1-2ubuntu1.3
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1.3?arch=amd64&distro=ubuntu-25.10
+      UID: 8ef767c5a03f17d2
+    InstalledVersion: 8.14.1-2ubuntu1.3
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-8458
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:c76dcbd10bf3d20950dc0018314519ff2750be7eb2160831dfa2c3f7109a15d5
+    Description: libcurl might in some circumstances reuse the wrong connection when asked to do Negotiate-authenticated ones, even when they are set to use different "services". libcurl features a pool of recent connections so that subsequent requests can reuse an existing connection to avoid overhead. When reusing a connection a range of criteria must be met. Due to a logical error in the code, a request that was issued by an application could wrongfully reuse an existing connection to the same server that was authenticated using different services.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/L7HzKXisfJ/CVE-2026-8458.md
+    - https://www.cve.org/CVERecord?id=CVE-2026-8458
+  - VulnerabilityID: CVE-2026-8924
+    PkgID: libcurl4t64@8.14.1-2ubuntu1.3
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1.3?arch=amd64&distro=ubuntu-25.10
+      UID: 8ef767c5a03f17d2
+    InstalledVersion: 8.14.1-2ubuntu1.3
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-8924
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:bae6b19132f397ff3cdc95f5a4e7c86d8b2554ca1821e8caf504a11a4745b1c4
+    Description: A flaw in curl's cookie parsing logic allows a malicious HTTP server to set "super cookies" that bypass the Public Suffix List check. This enables an attacker-controlled origin to inject cookies that curl will subsequently scope and transmit to unrelated third-party domains.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/L7HzKXisfJ/CVE-2026-8924.md
+    - https://www.cve.org/CVERecord?id=CVE-2026-8924
+  - VulnerabilityID: CVE-2026-8926
+    PkgID: libcurl4t64@8.14.1-2ubuntu1.3
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1.3?arch=amd64&distro=ubuntu-25.10
+      UID: 8ef767c5a03f17d2
+    InstalledVersion: 8.14.1-2ubuntu1.3
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-8926
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:baec47d301a243efe28393f177497f456fcf34a4d042b9b930290f7deed38cbe
+    Description: When asking curl to use a `.netrc` file to find credentials and at the same time specifying a URL with a username (without a password), like `https://user@example.com/`, curl could wrongly get and use the password for *another* user set in the `.netrc` file for that host if such a one exists and there is no match for the specified user.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/L7HzKXisfJ/CVE-2026-8926.md
+    - https://www.cve.org/CVERecord?id=CVE-2026-8926
+  - VulnerabilityID: CVE-2026-8932
+    PkgID: libcurl4t64@8.14.1-2ubuntu1.3
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1.3?arch=amd64&distro=ubuntu-25.10
+      UID: 8ef767c5a03f17d2
+    InstalledVersion: 8.14.1-2ubuntu1.3
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-8932
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:005fac7926d98c7f5cd3bd41a6521e80a4d397b0a3d40d71c89bfd648e9546a3
+    Description: libcurl would reuse a previously created connection even when some mTLS config related option had been changed that should have prohibited reuse. libcurl keeps previously used connections in a connection pool for subsequent transfers to reuse if one of them matches the setup. However, some TLS settings related to client certificates were left out from the configuration match checks, making them match too easily. In particular options related to the private key.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/L7HzKXisfJ/CVE-2026-8932.md
+    - https://www.cve.org/CVERecord?id=CVE-2026-8932
+  - VulnerabilityID: CVE-2026-9080
+    PkgID: libcurl4t64@8.14.1-2ubuntu1.3
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1.3?arch=amd64&distro=ubuntu-25.10
+      UID: 8ef767c5a03f17d2
+    InstalledVersion: 8.14.1-2ubuntu1.3
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-9080
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:fdef4c9f282241a8b46500f9d4fc60e7ec54fe0029f37e6da90b75dd7ad47b18
+    Description: Calling `curl_easy_pause()` within the event-based `CURLMOPT_SOCKETFUNCTION` callback triggers a use-after-free vulnerability, where libcurl attempts to store a flag using a dangling struct pointer immediately after that pointer's memory has been freed.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/L7HzKXisfJ/CVE-2026-9080.md
+    - https://www.cve.org/CVERecord?id=CVE-2026-9080
+  - VulnerabilityID: CVE-2026-9545
+    PkgID: libcurl4t64@8.14.1-2ubuntu1.3
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1.3?arch=amd64&distro=ubuntu-25.10
+      UID: 8ef767c5a03f17d2
+    InstalledVersion: 8.14.1-2ubuntu1.3
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-9545
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:fe5e60672e38465cab1a5d04571640c0cb5b22b97f2f9737e5165cee90b202a9
+    Description: In this scenario, libcurl first uses a proper HTTP/3 server for the initial transfers, and when it makes a second transfer to the same site it has been replaced by the attacker's impostor machine - without a valid certificate. When libcurl returns to the hostname the second time with a cached SSL session (`CURLOPT_SSL_SESSIONID_CACHE` is not disabled) and early data enabled (the `CURLSSLOPT_EARLYDATA` bit is set in`CURLOPT_SSL_OPTIONS`), libcurl might send off the second request's bytes on that new connection *before* enforcing the certificate verification failure. Potentially leaking sensitive information.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/L7HzKXisfJ/CVE-2026-9545.md
+    - https://www.cve.org/CVERecord?id=CVE-2026-9545
+  - VulnerabilityID: CVE-2026-9547
+    PkgID: libcurl4t64@8.14.1-2ubuntu1.3
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1.3?arch=amd64&distro=ubuntu-25.10
+      UID: 8ef767c5a03f17d2
+    InstalledVersion: 8.14.1-2ubuntu1.3
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-9547
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:97ac94c3ab01167d6e0ed1ceb8e09f2752cef561c0677d0d406e36a429f12f50
+    Description: When a libcurl-based application performs transfers via `SCP://` or `SFTP://` and utilizes the `CURLOPT_SSH_KEYFUNCTION` callback, it may silently accept an untrusted server. This vulnerability occurs when a server presents a host key type that does not match the specific key type already recorded for that host in the `known_hosts` file. Instead of rejecting the mismatch, the callback mechanism fails to properly enforce the restriction, allowing the connection to succeed without warning and risking a potential man-in-the-middle attack.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/L7HzKXisfJ/CVE-2026-9547.md
+    - https://www.cve.org/CVERecord?id=CVE-2026-9547
   - VulnerabilityID: CVE-2025-66382
     PkgID: libexpat1@2.7.1-2ubuntu0.2
     PkgName: libexpat1
@@ -1060,6 +1710,102 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
     LastModifiedDate: '2026-06-17T10:43:10.203Z'
+  - VulnerabilityID: CVE-2026-42496
+    PkgID: libperl5.40@5.40.1-6build1
+    PkgName: libperl5.40
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libperl5.40@5.40.1-6build1?arch=amd64&distro=ubuntu-25.10
+      UID: fcad69c24b9e2dff
+    InstalledVersion: 5.40.1-6build1
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-42496
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:21268dce85be634376da77125ac4050f32e54b62f216855b65537cf197767003
+    Title: 'perl-archive-tar: perl-archive-tar: Path traversal via crafted symlinks allows arbitrary file access'
+    Description: |-
+      Archive::Tar versions before 3.08 for Perl extract symlinks with attacker controlled targets outside the extraction directory.
+
+      _make_special_file() passes the tar header's linkname to symlink() without validating it against absolute paths or .. segments. The secure-extract mode check that guards regular file extraction does not cover the symlink target.
+
+      A subsequent open through the extracted name reads or writes the attacker chosen path.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-59
+    VendorSeverity:
+      amazon: 3
+      azure: 3
+      nvd: 4
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 9.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H
+        V3Score: 8.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-42496
+    - https://github.com/jib/archive-tar-new/commit/17c873492a05eddc0de18c1485e0b2cccd5a9158.patch
+    - https://lists.security.metacpan.org/cve-announce/msg/40396459/
+    - https://metacpan.org/release/BINGOS/Archive-Tar-3.08/changes
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-42496
+    - https://ubuntu.com/security/notices/USN-8467-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-42496
+    - https://www.cve.org/CVERecord?id=CVE-2026-42497
+    PublishedDate: '2026-05-26T02:16:40.13Z'
+    LastModifiedDate: '2026-06-17T10:47:55.753Z'
+  - VulnerabilityID: CVE-2026-8376
+    PkgID: libperl5.40@5.40.1-6build1
+    PkgName: libperl5.40
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libperl5.40@5.40.1-6build1?arch=amd64&distro=ubuntu-25.10
+      UID: fcad69c24b9e2dff
+    InstalledVersion: 5.40.1-6build1
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-8376
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:01abe5b6ad933a0a40d66d5accd3f9f6771b3cff76fac9a763256612c9dcf90e
+    Title: Perl versions through 5.43.10 have a heap buffer overflow when compili ...
+    Description: |-
+      Perl versions through 5.43.10 have a heap buffer overflow when compiling regular expressions with a repeated fixed string on 32-bit builds.
+
+      Perl_study_chunk in regcomp_study.c checked the size of the joined substring buffer in characters rather than bytes. For a quantified fixed substring with a large minimum count, the byte length mincount * l could overflow SSize_t, producing an undersized SvGROW allocation; the subsequent copy writes past the end of the buffer.
+
+      A caller that compiles an attacker-controlled regular expression on a 32-bit perl build triggers a heap buffer overflow at compile time.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-680
+    VendorSeverity:
+      amazon: 2
+      nvd: 4
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/05/26/1
+    - https://github.com/Perl/perl5/commit/5e7f119eb2bb1181be908701f22bf7068e722f1c.patch
+    - https://github.com/Perl/perl5/pull/24433
+    - https://ubuntu.com/security/notices/USN-8467-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-8376
+    PublishedDate: '2026-05-26T00:16:57.15Z'
+    LastModifiedDate: '2026-06-17T11:03:51.843Z'
   - VulnerabilityID: CVE-2026-2297
     PkgID: libpython3.13@3.13.7-1ubuntu0.4
     PkgName: libpython3.13
@@ -2219,6 +2965,294 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-56433
     PublishedDate: '2024-12-26T09:15:07.267Z'
     LastModifiedDate: '2026-06-17T08:12:10.903Z'
+  - VulnerabilityID: CVE-2026-42496
+    PkgID: perl@5.40.1-6build1
+    PkgName: perl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/perl@5.40.1-6build1?arch=amd64&distro=ubuntu-25.10
+      UID: 287c0ac4b68f3d3b
+    InstalledVersion: 5.40.1-6build1
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-42496
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:cc6d588c2f7f4dc4076949d9353d9988ea53b99bee52b86164a0ea07d07369be
+    Title: 'perl-archive-tar: perl-archive-tar: Path traversal via crafted symlinks allows arbitrary file access'
+    Description: |-
+      Archive::Tar versions before 3.08 for Perl extract symlinks with attacker controlled targets outside the extraction directory.
+
+      _make_special_file() passes the tar header's linkname to symlink() without validating it against absolute paths or .. segments. The secure-extract mode check that guards regular file extraction does not cover the symlink target.
+
+      A subsequent open through the extracted name reads or writes the attacker chosen path.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-59
+    VendorSeverity:
+      amazon: 3
+      azure: 3
+      nvd: 4
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 9.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H
+        V3Score: 8.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-42496
+    - https://github.com/jib/archive-tar-new/commit/17c873492a05eddc0de18c1485e0b2cccd5a9158.patch
+    - https://lists.security.metacpan.org/cve-announce/msg/40396459/
+    - https://metacpan.org/release/BINGOS/Archive-Tar-3.08/changes
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-42496
+    - https://ubuntu.com/security/notices/USN-8467-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-42496
+    - https://www.cve.org/CVERecord?id=CVE-2026-42497
+    PublishedDate: '2026-05-26T02:16:40.13Z'
+    LastModifiedDate: '2026-06-17T10:47:55.753Z'
+  - VulnerabilityID: CVE-2026-8376
+    PkgID: perl@5.40.1-6build1
+    PkgName: perl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/perl@5.40.1-6build1?arch=amd64&distro=ubuntu-25.10
+      UID: 287c0ac4b68f3d3b
+    InstalledVersion: 5.40.1-6build1
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-8376
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:5db771fffa92d776817e8aa00958998716a032431aaae52a58d64c76e0d42129
+    Title: Perl versions through 5.43.10 have a heap buffer overflow when compili ...
+    Description: |-
+      Perl versions through 5.43.10 have a heap buffer overflow when compiling regular expressions with a repeated fixed string on 32-bit builds.
+
+      Perl_study_chunk in regcomp_study.c checked the size of the joined substring buffer in characters rather than bytes. For a quantified fixed substring with a large minimum count, the byte length mincount * l could overflow SSize_t, producing an undersized SvGROW allocation; the subsequent copy writes past the end of the buffer.
+
+      A caller that compiles an attacker-controlled regular expression on a 32-bit perl build triggers a heap buffer overflow at compile time.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-680
+    VendorSeverity:
+      amazon: 2
+      nvd: 4
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/05/26/1
+    - https://github.com/Perl/perl5/commit/5e7f119eb2bb1181be908701f22bf7068e722f1c.patch
+    - https://github.com/Perl/perl5/pull/24433
+    - https://ubuntu.com/security/notices/USN-8467-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-8376
+    PublishedDate: '2026-05-26T00:16:57.15Z'
+    LastModifiedDate: '2026-06-17T11:03:51.843Z'
+  - VulnerabilityID: CVE-2026-42496
+    PkgID: perl-base@5.40.1-6build1
+    PkgName: perl-base
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/perl-base@5.40.1-6build1?arch=amd64&distro=ubuntu-25.10
+      UID: 44e80c5c00d2cfec
+    InstalledVersion: 5.40.1-6build1
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-42496
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:35aaa12fc2b82de7ad684eb6c54898a88328ac2d7ba5ae0deb967b68a643cb8f
+    Title: 'perl-archive-tar: perl-archive-tar: Path traversal via crafted symlinks allows arbitrary file access'
+    Description: |-
+      Archive::Tar versions before 3.08 for Perl extract symlinks with attacker controlled targets outside the extraction directory.
+
+      _make_special_file() passes the tar header's linkname to symlink() without validating it against absolute paths or .. segments. The secure-extract mode check that guards regular file extraction does not cover the symlink target.
+
+      A subsequent open through the extracted name reads or writes the attacker chosen path.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-59
+    VendorSeverity:
+      amazon: 3
+      azure: 3
+      nvd: 4
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 9.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H
+        V3Score: 8.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-42496
+    - https://github.com/jib/archive-tar-new/commit/17c873492a05eddc0de18c1485e0b2cccd5a9158.patch
+    - https://lists.security.metacpan.org/cve-announce/msg/40396459/
+    - https://metacpan.org/release/BINGOS/Archive-Tar-3.08/changes
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-42496
+    - https://ubuntu.com/security/notices/USN-8467-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-42496
+    - https://www.cve.org/CVERecord?id=CVE-2026-42497
+    PublishedDate: '2026-05-26T02:16:40.13Z'
+    LastModifiedDate: '2026-06-17T10:47:55.753Z'
+  - VulnerabilityID: CVE-2026-8376
+    PkgID: perl-base@5.40.1-6build1
+    PkgName: perl-base
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/perl-base@5.40.1-6build1?arch=amd64&distro=ubuntu-25.10
+      UID: 44e80c5c00d2cfec
+    InstalledVersion: 5.40.1-6build1
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-8376
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:68f106c89bf9c52aa8407924d0c6e1599e4f756eb48b5b133958f39c93e88f6a
+    Title: Perl versions through 5.43.10 have a heap buffer overflow when compili ...
+    Description: |-
+      Perl versions through 5.43.10 have a heap buffer overflow when compiling regular expressions with a repeated fixed string on 32-bit builds.
+
+      Perl_study_chunk in regcomp_study.c checked the size of the joined substring buffer in characters rather than bytes. For a quantified fixed substring with a large minimum count, the byte length mincount * l could overflow SSize_t, producing an undersized SvGROW allocation; the subsequent copy writes past the end of the buffer.
+
+      A caller that compiles an attacker-controlled regular expression on a 32-bit perl build triggers a heap buffer overflow at compile time.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-680
+    VendorSeverity:
+      amazon: 2
+      nvd: 4
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/05/26/1
+    - https://github.com/Perl/perl5/commit/5e7f119eb2bb1181be908701f22bf7068e722f1c.patch
+    - https://github.com/Perl/perl5/pull/24433
+    - https://ubuntu.com/security/notices/USN-8467-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-8376
+    PublishedDate: '2026-05-26T00:16:57.15Z'
+    LastModifiedDate: '2026-06-17T11:03:51.843Z'
+  - VulnerabilityID: CVE-2026-42496
+    PkgID: perl-modules-5.40@5.40.1-6build1
+    PkgName: perl-modules-5.40
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/perl-modules-5.40@5.40.1-6build1?arch=all&distro=ubuntu-25.10
+      UID: 66ddcd30a076a03
+    InstalledVersion: 5.40.1-6build1
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-42496
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:daa36ca01b40d41167dec177c6ec302ee810e8f1d52dea89cebec142b5a27a1e
+    Title: 'perl-archive-tar: perl-archive-tar: Path traversal via crafted symlinks allows arbitrary file access'
+    Description: |-
+      Archive::Tar versions before 3.08 for Perl extract symlinks with attacker controlled targets outside the extraction directory.
+
+      _make_special_file() passes the tar header's linkname to symlink() without validating it against absolute paths or .. segments. The secure-extract mode check that guards regular file extraction does not cover the symlink target.
+
+      A subsequent open through the extracted name reads or writes the attacker chosen path.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-59
+    VendorSeverity:
+      amazon: 3
+      azure: 3
+      nvd: 4
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 9.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H
+        V3Score: 8.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-42496
+    - https://github.com/jib/archive-tar-new/commit/17c873492a05eddc0de18c1485e0b2cccd5a9158.patch
+    - https://lists.security.metacpan.org/cve-announce/msg/40396459/
+    - https://metacpan.org/release/BINGOS/Archive-Tar-3.08/changes
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-42496
+    - https://ubuntu.com/security/notices/USN-8467-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-42496
+    - https://www.cve.org/CVERecord?id=CVE-2026-42497
+    PublishedDate: '2026-05-26T02:16:40.13Z'
+    LastModifiedDate: '2026-06-17T10:47:55.753Z'
+  - VulnerabilityID: CVE-2026-8376
+    PkgID: perl-modules-5.40@5.40.1-6build1
+    PkgName: perl-modules-5.40
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/perl-modules-5.40@5.40.1-6build1?arch=all&distro=ubuntu-25.10
+      UID: 66ddcd30a076a03
+    InstalledVersion: 5.40.1-6build1
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-8376
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:e5faec3fd25364c64849e769bc037eec4d4dd4856fd8290bbc965dc1cb773232
+    Title: Perl versions through 5.43.10 have a heap buffer overflow when compili ...
+    Description: |-
+      Perl versions through 5.43.10 have a heap buffer overflow when compiling regular expressions with a repeated fixed string on 32-bit builds.
+
+      Perl_study_chunk in regcomp_study.c checked the size of the joined substring buffer in characters rather than bytes. For a quantified fixed substring with a large minimum count, the byte length mincount * l could overflow SSize_t, producing an undersized SvGROW allocation; the subsequent copy writes past the end of the buffer.
+
+      A caller that compiles an attacker-controlled regular expression on a 32-bit perl build triggers a heap buffer overflow at compile time.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-680
+    VendorSeverity:
+      amazon: 2
+      nvd: 4
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/05/26/1
+    - https://github.com/Perl/perl5/commit/5e7f119eb2bb1181be908701f22bf7068e722f1c.patch
+    - https://github.com/Perl/perl5/pull/24433
+    - https://ubuntu.com/security/notices/USN-8467-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-8376
+    PublishedDate: '2026-05-26T00:16:57.15Z'
+    LastModifiedDate: '2026-06-17T11:03:51.843Z'
   - VulnerabilityID: CVE-2026-35338
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -4116,6 +5150,62 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-31879
     PublishedDate: '2021-04-29T05:15:08.707Z'
     LastModifiedDate: '2026-06-17T03:52:23.987Z'
+  - VulnerabilityID: CVE-2026-27171
+    PkgID: zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu2
+    PkgName: zlib1g
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/zlib1g@1.3.dfsg%2Breally1.3.1-1ubuntu2?arch=amd64&distro=ubuntu-25.10&epoch=1
+      UID: a2db0415a832ade
+    InstalledVersion: 1:1.3.dfsg+really1.3.1-1ubuntu2
+    Status: affected
+    Layer:
+      Digest: sha256:229d52ccbca3b10e8d42e9be25116611892ec3ad286daaa48bc3384712fcfad1
+      DiffID: sha256:abd32a897edf16eb45f57555e69ee2bc921a6030f786b3d9f0e27bac7a7bd357
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-27171
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:759f88edeca8dc265626d6a070e68bdccf6a14bf6851da373444afe6d588fee3
+    Title: 'zlib: zlib: Denial of Service via infinite loop in CRC32 combine functions'
+    Description: zlib before 1.3.2 allows CPU consumption via crc32_combine64 and crc32_combine_gen64 because x2nmodp can do right shifts within a loop that has no termination condition.
+    Severity: LOW
+    CweIDs:
+    - CWE-1284
+    VendorSeverity:
+      amazon: 1
+      azure: 1
+      cbl-mariner: 1
+      julia: 1
+      nvd: 2
+      photon: 2
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.9
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.3
+    References:
+    - https://7asecurity.com/blog/2026/02/zlib-7asecurity-audit
+    - https://7asecurity.com/blog/2026/02/zlib-7asecurity-audit/
+    - https://7asecurity.com/reports/pentest-report-zlib-RC1.1.pdf
+    - https://access.redhat.com/security/cve/CVE-2026-27171
+    - https://github.com/advisories/GHSA-h858-mf2m-8jf4
+    - https://github.com/madler/zlib/issues/904
+    - https://github.com/madler/zlib/releases/tag/v1.3.2
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-27171
+    - https://ostif.org/zlib-audit-complete
+    - https://ostif.org/zlib-audit-complete/
+    - https://www.cve.org/CVERecord?id=CVE-2026-27171
+    PublishedDate: '2026-02-18T04:16:01.263Z'
+    LastModifiedDate: '2026-06-17T10:26:47.357Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
@@ -4142,7 +5232,7 @@
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
     Fingerprint: sha256:4b799f70aba3096ccf7207a8825aab13aab846b367fc7b911e72d5de3eba1e5d
-    Title: jackson-databind has a PolymorphicTypeValidator bypass via generic type parameters that allows arbitrary class instantiation
+    Title: jackson-databind contains the general-purpose data-binding functionali ...
     Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.10.0 until 2.18.8, 2.21.4, and 3.1.4, jackson-databind's PolymorphicTypeValidator (PTV) is the primary safety mechanism guarding polymorphic deserialization. When polymorphic typing is enabled and a type identifier contains generic parameters (i.e. the type ID string contains <), DatabindContext._resolveAndValidateGeneric() validates only the raw container class name (the substring before <) against the configured PTV. If the container type is approved, the method parses the full canonical type string via TypeFactory.constructFromCanonical() and returns the fully parameterized type without ever validating the nested type arguments against the PTV. The nested type arguments are then resolved, instantiated, and populated as beans during deserialization. An attacker who controls the type ID can therefore place a denied class as a generic type parameter of an allowed container — for example java.util.ArrayList<com.evil.Gadget> when only java.util.ArrayList is allow-listed. The container passes the PTV check; com.evil.Gadget is loaded via Class.forName(name, true, loader), instantiated, and its properties are set from attacker-controlled JSON. This completely bypasses an explicitly configured PTV allow-list. This vulnerability is fixed in 2.18.8, 2.21.4, and 3.1.4.
     Severity: HIGH
     CweIDs:
@@ -4160,7 +5250,7 @@
     - https://github.com/FasterXML/jackson-databind/issues/5988
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-j3rv-43j4-c7qm
     PublishedDate: '2026-06-23T21:17:02.203Z'
-    LastModifiedDate: '2026-06-23T21:17:02.203Z'
+    LastModifiedDate: '2026-06-25T16:14:14.483Z'
   - VulnerabilityID: CVE-2026-54513
     VendorIDs:
     - GHSA-rmj7-2vxq-3g9f
@@ -4182,18 +5272,23 @@
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
     Fingerprint: sha256:be39731df95193b2d5bf5ee9c95ad2cd5f4b71fa1f6b1b245d6e04ef4e1a2bbc
-    Title: jackson-databind has an array subtype allowlist bypass in BasicPolymorphicTypeValidator (allowIfSubTypeIsArray)
+    Title: 'jackson-databind: Jackson-databind: Security bypass allows arbitrary code execution'
     Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.10.0 until 2.18.8, 2.21.4, and 3.1.4, BasicPolymorphicTypeValidator.Builder.allowIfSubTypeIsArray() allowlists any array type based only on clazz.isArray(), without validating the array's component (element) type against the configured allowlist. A PTV built with allowIfSubTypeIsArray() plus an explicit concrete-type allowlist therefore still permits EvilType[] even though EvilType is not allowlisted. When Jackson deserializes the elements and no per-element type IDs are present, it instantiates the component type directly with no further PTV check, bypassing the allowlist. This vulnerability is fixed in 2.18.8, 2.21.4, and 3.1.4.
     Severity: HIGH
     CweIDs:
     - CWE-184
     VendorSeverity:
       ghsa: 3
+      redhat: 3
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-54513
     - https://github.com/FasterXML/jackson-databind
     - https://github.com/FasterXML/jackson-databind/commit/01d1692c8d0ed03e51a0e3c4f8a9e6908e4931e5
     - https://github.com/FasterXML/jackson-databind/commit/24529da29fdf46ff94ca38de9ebf31cd188f5e8e
@@ -4201,8 +5296,10 @@
     - https://github.com/FasterXML/jackson-databind/issues/5983
     - https://github.com/FasterXML/jackson-databind/pull/5984
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-rmj7-2vxq-3g9f
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-54513
+    - https://www.cve.org/CVERecord?id=CVE-2026-54513
     PublishedDate: '2026-06-23T21:17:02.333Z'
-    LastModifiedDate: '2026-06-23T21:17:02.333Z'
+    LastModifiedDate: '2026-06-25T16:14:14.483Z'
   - VulnerabilityID: CVE-2026-54514
     VendorIDs:
     - GHSA-hgj6-7826-r7m5
@@ -4224,7 +5321,7 @@
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
     Fingerprint: sha256:4f118c03fb76ee4b6ce7f18934e29772df498bc229ef488d900d4e0d1714dd3e
-    Title: 'jackson-databind: InetSocketAddress deserialization triggers eager DNS resolution (SSRF)'
+    Title: jackson-databind contains the general-purpose data-binding functionali ...
     Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.0.0 until 2.18.8, 2.21.4, and 3.1.4, JDKFromStringDeserializer constructed InetSocketAddress with new InetSocketAddress(host, port), which performs eager DNS name resolution for hostname inputs at deserialization time. An application that binds untrusted JSON into a type containing an InetSocketAddress field issues an attacker-chosen DNS query during readValue, before any application-level validation or connect logic. The fix uses InetSocketAddress.createUnresolved(host, port), deferring DNS to an explicit connect. This vulnerability is fixed in 2.18.8, 2.21.4, and 3.1.4.
     Severity: MEDIUM
     CweIDs:
@@ -4241,7 +5338,7 @@
     - https://github.com/FasterXML/jackson-databind/pull/5951
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-hgj6-7826-r7m5
     PublishedDate: '2026-06-23T21:17:02.467Z'
-    LastModifiedDate: '2026-06-23T21:17:02.467Z'
+    LastModifiedDate: '2026-06-25T16:14:14.483Z'
   - VulnerabilityID: CVE-2026-54515
     VendorIDs:
     - GHSA-5jmj-h7xm-6q6v
@@ -4263,7 +5360,7 @@
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
     Fingerprint: sha256:b2494ce5971a41ea63e62c80a78746e5a070a12b9133564564b29f608e0305a8
-    Title: jackson-databind has case-insensitive deserialization bypasses per-property @JsonIgnoreProperties
+    Title: jackson-databind contains the general-purpose data-binding functionali ...
     Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.8.0 until 2.18.9, 2.21.5, and 3.1.4, in BeanDeserializerBase.createContextual(), per-property @JsonIgnoreProperties exclusions are applied by _handleByNameInclusion(), producing a contextual deserializer whose BeanPropertyMap has the ignored properties removed. The subsequent per-property case-insensitivity block (triggered by @JsonFormat(ACCEPT_CASE_INSENSITIVE_PROPERTIES)) rebuilds from this._beanProperties (the original, unfiltered map) instead of contextual._beanProperties, then overwrites the filtered map — restoring every property _handleByNameInclusion had just removed. The ignored property becomes writable again. This vulnerability is fixed in 2.18.9, 2.21.5, and 3.1.4.
     Severity: MEDIUM
     CweIDs:
@@ -4281,7 +5378,7 @@
     - https://github.com/FasterXML/jackson-databind/issues/5964
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-5jmj-h7xm-6q6v
     PublishedDate: '2026-06-23T21:17:02.597Z'
-    LastModifiedDate: '2026-06-23T21:17:02.597Z'
+    LastModifiedDate: '2026-06-25T16:14:14.483Z'
   - VulnerabilityID: CVE-2026-54516
     VendorIDs:
     - GHSA-9fxm-vc8v-hj55
@@ -4303,7 +5400,7 @@
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
     Fingerprint: sha256:d6d927fc92cc6027157bc0f9d389f4108065b3279fe8cee0ed727dd258984edb
-    Title: jackson-databind's renamed @JsonIgnore'd setters can deserialize via private fields
+    Title: jackson-databind contains the general-purpose data-binding functionali ...
     Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.21.0 until 2.21.4 and 3.1.4, POJOPropertiesCollector._renameProperties() allows a property with @JsonProperty("renamed") on the getter and @JsonIgnore on the setter to be renamed rather than dropped. With MapperFeature.INFER_PROPERTY_MUTATORS enabled (default), the private backing field is retained; during deserialization BeanDeserializerFactory.addBeanProps() sees hasField()==true, builds a FieldProperty, and makes the backing field writable. An attacker supplying the renamed JSON key writes the backing field directly, bypassing the @JsonIgnore on the setter. This vulnerability is fixed in 3.1.4.
     Severity: MEDIUM
     CweIDs:
@@ -4322,7 +5419,7 @@
     - https://github.com/FasterXML/jackson-databind/pull/5968
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-9fxm-vc8v-hj55
     PublishedDate: '2026-06-23T21:17:02.723Z'
-    LastModifiedDate: '2026-06-23T21:17:02.723Z'
+    LastModifiedDate: '2026-06-25T16:14:14.483Z'
   - VulnerabilityID: CVE-2026-54517
     VendorIDs:
     - GHSA-5hh8-q8hv-fr38
@@ -4344,7 +5441,7 @@
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
     Fingerprint: sha256:00d25b0034091969af3dd112f84dc1b95a6b5b330406c7133ea7a310b13dc03d
-    Title: jackson-databind has @JsonView bypass for setterless creator properties
+    Title: jackson-databind contains the general-purpose data-binding functionali ...
     Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.21.0 until 2.21.4 and 3.1.4, in BeanDeserializer._deserializeUsingPropertyBased, the active-view (@JsonView) filter was applied only to creator properties; the regular property-buffering branch performed no prop.visibleInView(activeView) check. A change making SetterlessProperty.isMerging() return true routed setterless Collection/Map properties through this unguarded path, so a setterless collection annotated with a restricted @JsonView is populated from attacker JSON even when the active view excludes it. This vulnerability is fixed in 2.21.4 and 3.1.4.
     Severity: MEDIUM
     CweIDs:
@@ -4363,7 +5460,7 @@
     - https://github.com/FasterXML/jackson-databind/pull/5970
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-5hh8-q8hv-fr38
     PublishedDate: '2026-06-23T21:17:02.853Z'
-    LastModifiedDate: '2026-06-23T21:17:02.853Z'
+    LastModifiedDate: '2026-06-25T16:14:14.483Z'
   - VulnerabilityID: CVE-2026-54518
     VendorIDs:
     - GHSA-rcqc-6cw3-h962
@@ -4385,7 +5482,7 @@
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
     Fingerprint: sha256:e4c05a21befa3ec96d2ae38a8cec41380e7c19df757f17f054a5dc9741938dfa
-    Title: jackson-databind has a @JsonView bypass for unwrapped creator parameters
+    Title: jackson-databind contains the general-purpose data-binding functionali ...
     Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.21.0 until 2.21.4 and 3.1.4, UnwrappedPropertyHandler.processUnwrappedCreatorProperties() replays buffered JSON into creator parameters but never consults prop.visibleInView(activeView). The normal property-based creator path gates creator properties on the active view, but this unwrapped-creator replay path bypasses that check, so a constructor parameter annotated with both @JsonView(AdminView.class) and @JsonUnwrapped is populated from attacker JSON even when a more restrictive view is active. This vulnerability is fixed in 2.21.4 and 3.1.4.
     Severity: MEDIUM
     CweIDs:
@@ -4404,4 +5501,4 @@
     - https://github.com/FasterXML/jackson-databind/pull/5973
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-rcqc-6cw3-h962
     PublishedDate: '2026-06-23T22:16:32.073Z'
-    LastModifiedDate: '2026-06-23T22:16:32.073Z'
+    LastModifiedDate: '2026-06-25T16:14:14.483Z'

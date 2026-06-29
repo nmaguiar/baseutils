@@ -2184,6 +2184,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-680 
 │                       │       ├ VendorSeverity   ╭ amazon: 2 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ nvd   : 4 
 │                       │       │                  ├ photon: 4 
 │                       │       │                  ╰ ubuntu: 2 
@@ -2193,8 +2194,9 @@
 │                       │       │                  ├ [1]: https://github.com/Perl/perl5/commit/5e7f119eb2bb1181
 │                       │       │                  │      be908701f22bf7068e722f1c.patch 
 │                       │       │                  ├ [2]: https://github.com/Perl/perl5/pull/24433 
-│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-8467-1 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-8376 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-8376 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8467-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8376 
 │                       │       ├ PublishedDate   : 2026-05-26T00:16:57.15Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T11:03:51.843Z 
 │                       ├ [50]  ╭ VulnerabilityID : CVE-2026-2297 
@@ -3600,6 +3602,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-680 
 │                       │       ├ VendorSeverity   ╭ amazon: 2 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ nvd   : 4 
 │                       │       │                  ├ photon: 4 
 │                       │       │                  ╰ ubuntu: 2 
@@ -3609,8 +3612,9 @@
 │                       │       │                  ├ [1]: https://github.com/Perl/perl5/commit/5e7f119eb2bb1181
 │                       │       │                  │      be908701f22bf7068e722f1c.patch 
 │                       │       │                  ├ [2]: https://github.com/Perl/perl5/pull/24433 
-│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-8467-1 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-8376 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-8376 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8467-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8376 
 │                       │       ├ PublishedDate   : 2026-05-26T00:16:57.15Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T11:03:51.843Z 
 │                       ├ [72]  ╭ VulnerabilityID : CVE-2026-42496 
@@ -3707,6 +3711,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-680 
 │                       │       ├ VendorSeverity   ╭ amazon: 2 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ nvd   : 4 
 │                       │       │                  ├ photon: 4 
 │                       │       │                  ╰ ubuntu: 2 
@@ -3716,8 +3721,9 @@
 │                       │       │                  ├ [1]: https://github.com/Perl/perl5/commit/5e7f119eb2bb1181
 │                       │       │                  │      be908701f22bf7068e722f1c.patch 
 │                       │       │                  ├ [2]: https://github.com/Perl/perl5/pull/24433 
-│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-8467-1 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-8376 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-8376 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8467-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8376 
 │                       │       ├ PublishedDate   : 2026-05-26T00:16:57.15Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T11:03:51.843Z 
 │                       ├ [74]  ╭ VulnerabilityID : CVE-2026-42496 
@@ -3814,6 +3820,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-680 
 │                       │       ├ VendorSeverity   ╭ amazon: 2 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ nvd   : 4 
 │                       │       │                  ├ photon: 4 
 │                       │       │                  ╰ ubuntu: 2 
@@ -3823,8 +3830,9 @@
 │                       │       │                  ├ [1]: https://github.com/Perl/perl5/commit/5e7f119eb2bb1181
 │                       │       │                  │      be908701f22bf7068e722f1c.patch 
 │                       │       │                  ├ [2]: https://github.com/Perl/perl5/pull/24433 
-│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-8467-1 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-8376 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-8376 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8467-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8376 
 │                       │       ├ PublishedDate   : 2026-05-26T00:16:57.15Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T11:03:51.843Z 
 │                       ├ [76]  ╭ VulnerabilityID : CVE-2026-35338 

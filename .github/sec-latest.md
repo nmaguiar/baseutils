@@ -236,7 +236,7 @@
                         │     │                  ╰ [4]: https://github.com/FasterXML/jackson-databind/security/
                         │     │                         advisories/GHSA-5jmj-h7xm-6q6v 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.597Z 
-                        │     ╰ LastModifiedDate: 2026-06-25T16:14:14.483Z 
+                        │     ╰ LastModifiedDate: 2026-06-29T13:38:59.057Z 
                         ├ [4] ╭ VulnerabilityID : CVE-2026-54516 
                         │     ├ VendorIDs        ─ [0]: GHSA-9fxm-vc8v-hj55 
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 

@@ -30,6 +30,7 @@
     - CWE-367
     VendorSeverity:
       azure: 2
+      bottlerocket: 2
       julia: 2
       redhat: 2
       ubuntu: 2
@@ -41,7 +42,9 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.7
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-27456
     - https://access.redhat.com/security/cve/CVE-2026-27456
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/14.5.0/BRSA-jgcxwcxt3sxd.toml
     - https://github.com/util-linux/util-linux/commit/5e390467b26a3cf3fecc04e1a0d482dff3162fc4
     - https://github.com/util-linux/util-linux/releases/tag/v2.41.4
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-qq4x-vfq4-9h9g
@@ -120,6 +123,7 @@
     - CWE-367
     VendorSeverity:
       azure: 2
+      bottlerocket: 2
       julia: 2
       redhat: 2
       ubuntu: 2
@@ -131,7 +135,9 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.7
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-27456
     - https://access.redhat.com/security/cve/CVE-2026-27456
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/14.5.0/BRSA-jgcxwcxt3sxd.toml
     - https://github.com/util-linux/util-linux/commit/5e390467b26a3cf3fecc04e1a0d482dff3162fc4
     - https://github.com/util-linux/util-linux/releases/tag/v2.41.4
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-qq4x-vfq4-9h9g
@@ -535,6 +541,7 @@
     - CWE-367
     VendorSeverity:
       azure: 2
+      bottlerocket: 2
       julia: 2
       redhat: 2
       ubuntu: 2
@@ -546,7 +553,9 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.7
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-27456
     - https://access.redhat.com/security/cve/CVE-2026-27456
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/14.5.0/BRSA-jgcxwcxt3sxd.toml
     - https://github.com/util-linux/util-linux/commit/5e390467b26a3cf3fecc04e1a0d482dff3162fc4
     - https://github.com/util-linux/util-linux/releases/tag/v2.41.4
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-qq4x-vfq4-9h9g
@@ -1569,6 +1578,7 @@
     - CWE-367
     VendorSeverity:
       azure: 2
+      bottlerocket: 2
       julia: 2
       redhat: 2
       ubuntu: 2
@@ -1580,7 +1590,9 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.7
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-27456
     - https://access.redhat.com/security/cve/CVE-2026-27456
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/14.5.0/BRSA-jgcxwcxt3sxd.toml
     - https://github.com/util-linux/util-linux/commit/5e390467b26a3cf3fecc04e1a0d482dff3162fc4
     - https://github.com/util-linux/util-linux/releases/tag/v2.41.4
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-qq4x-vfq4-9h9g
@@ -1659,6 +1671,7 @@
     - CWE-367
     VendorSeverity:
       azure: 2
+      bottlerocket: 2
       julia: 2
       redhat: 2
       ubuntu: 2
@@ -1670,7 +1683,9 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.7
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-27456
     - https://access.redhat.com/security/cve/CVE-2026-27456
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/14.5.0/BRSA-jgcxwcxt3sxd.toml
     - https://github.com/util-linux/util-linux/commit/5e390467b26a3cf3fecc04e1a0d482dff3162fc4
     - https://github.com/util-linux/util-linux/releases/tag/v2.41.4
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-qq4x-vfq4-9h9g
@@ -1751,6 +1766,7 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
+      alma: 3
       amazon: 3
       azure: 3
       nvd: 4
@@ -1764,7 +1780,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H
         V3Score: 8.2
     References:
+    - https://access.redhat.com/errata/RHSA-2026:30852
     - https://access.redhat.com/security/cve/CVE-2026-42496
+    - https://bugzilla.redhat.com/2481314
+    - https://errata.almalinux.org/8/ALSA-2026-30852.html
     - https://github.com/jib/archive-tar-new/commit/17c873492a05eddc0de18c1485e0b2cccd5a9158.patch
     - https://lists.security.metacpan.org/cve-announce/msg/40396459/
     - https://metacpan.org/release/BINGOS/Archive-Tar-3.08/changes
@@ -1858,7 +1877,7 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
-    - https://access.redhat.com/errata/RHSA-2026:19177
+    - https://access.redhat.com/errata/RHSA-2026:10950
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
     - https://bugzilla.redhat.com/2408891
@@ -1868,7 +1887,6 @@
     - https://bugzilla.redhat.com/2444691
     - https://bugzilla.redhat.com/2448168
     - https://bugzilla.redhat.com/2448181
-    - https://bugzilla.redhat.com/2449649
     - https://bugzilla.redhat.com/2457409
     - https://bugzilla.redhat.com/2457932
     - https://bugzilla.redhat.com/2458049
@@ -1896,7 +1914,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/8/ALSA-2026-10950.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -1948,7 +1966,7 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
-    - https://access.redhat.com/errata/RHSA-2026:19177
+    - https://access.redhat.com/errata/RHSA-2026:10950
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
     - https://bugzilla.redhat.com/2408891
@@ -1958,7 +1976,6 @@
     - https://bugzilla.redhat.com/2444691
     - https://bugzilla.redhat.com/2448168
     - https://bugzilla.redhat.com/2448181
-    - https://bugzilla.redhat.com/2449649
     - https://bugzilla.redhat.com/2457409
     - https://bugzilla.redhat.com/2457932
     - https://bugzilla.redhat.com/2458049
@@ -1986,7 +2003,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/8/ALSA-2026-10950.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -2038,7 +2055,7 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
-    - https://access.redhat.com/errata/RHSA-2026:19177
+    - https://access.redhat.com/errata/RHSA-2026:10950
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
     - https://bugzilla.redhat.com/2408891
@@ -2048,7 +2065,6 @@
     - https://bugzilla.redhat.com/2444691
     - https://bugzilla.redhat.com/2448168
     - https://bugzilla.redhat.com/2448181
-    - https://bugzilla.redhat.com/2449649
     - https://bugzilla.redhat.com/2457409
     - https://bugzilla.redhat.com/2457932
     - https://bugzilla.redhat.com/2458049
@@ -2076,7 +2092,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/8/ALSA-2026-10950.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -2118,6 +2134,7 @@
     - CWE-367
     VendorSeverity:
       azure: 2
+      bottlerocket: 2
       julia: 2
       redhat: 2
       ubuntu: 2
@@ -2129,7 +2146,9 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.7
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-27456
     - https://access.redhat.com/security/cve/CVE-2026-27456
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/14.5.0/BRSA-jgcxwcxt3sxd.toml
     - https://github.com/util-linux/util-linux/commit/5e390467b26a3cf3fecc04e1a0d482dff3162fc4
     - https://github.com/util-linux/util-linux/releases/tag/v2.41.4
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-qq4x-vfq4-9h9g
@@ -2181,6 +2200,92 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
     LastModifiedDate: '2026-06-17T10:43:10.203Z'
+  - VulnerabilityID: CVE-2026-11822
+    PkgID: libsqlite3-0@3.46.1-8
+    PkgName: libsqlite3-0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libsqlite3-0@3.46.1-8?arch=amd64&distro=ubuntu-25.10
+      UID: 7522901a39cfac59
+    InstalledVersion: 3.46.1-8
+    FixedVersion: 3.46.1-8ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:1ad31677c9a4fb95a24c7fe677753f787279c25817788dbb3a8ba81c54fa4d46
+      DiffID: sha256:3bc849b05d522c5f28e063c55b9e67c7829930191eb06259639c712960695c95
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-11822
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:8eee996da59cfb55cf415e546afead2e9019c47603b74535aea3e3311ee56c38
+    Title: SQLite before 3.53.2 contains memory corruption vulnerabilities in the ...
+    Description: SQLite before 3.53.2 contains memory corruption vulnerabilities in the FTS5 full-text search extension that allow attackers to cause process crashes, memory exhaustion, or arbitrary code execution by supplying a crafted database with malformed FTS5 page data. Attackers can trigger an out-of-bounds read in fts5LeafSeek() via an attacker-controlled loop bound and a heap buffer overflow write in fts5ChunkIterate() through a crafted continuation page causing an integer underflow, exploitable when an FTS5 MATCH query is executed against the malicious database.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      azure: 3
+      bitnami: 3
+      photon: 3
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N
+        V40Score: 8.5
+    References:
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-11822
+    - https://sqlite.org/releaselog/3_53_2.html
+    - https://sqlite.org/src/info/061febcf41ca
+    - https://sqlite.org/src/info/4a5ad516ea93
+    - https://ubuntu.com/security/notices/USN-8480-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-11822
+    - https://www.vulncheck.com/advisories/sqlite-before-memory-corruption-in-fts5-extension
+    PublishedDate: '2026-06-09T20:16:32.15Z'
+    LastModifiedDate: '2026-06-17T10:14:29.127Z'
+  - VulnerabilityID: CVE-2026-11824
+    PkgID: libsqlite3-0@3.46.1-8
+    PkgName: libsqlite3-0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libsqlite3-0@3.46.1-8?arch=amd64&distro=ubuntu-25.10
+      UID: 7522901a39cfac59
+    InstalledVersion: 3.46.1-8
+    FixedVersion: 3.46.1-8ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:1ad31677c9a4fb95a24c7fe677753f787279c25817788dbb3a8ba81c54fa4d46
+      DiffID: sha256:3bc849b05d522c5f28e063c55b9e67c7829930191eb06259639c712960695c95
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-11824
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:096c84406e415b6f91c78dc02a9b6f98aba696948b7171907a3fbf81255b7d24
+    Title: SQLite before 3.53.2 contains a heap-based buffer overflow vulnerabili ...
+    Description: SQLite before 3.53.2 contains a heap-based buffer overflow vulnerability in the FTS5 full-text search extension that allows attackers to cause a crash or execute arbitrary code by supplying a crafted database with malicious continuation page metadata specifying a szLeaf value smaller than 4. Attackers can trigger an integer underflow in fts5ChunkIterate() causing an inflated remaining byte count during FTS5 MATCH query processing, leading to a heap buffer overflow of attacker-controlled data in applications compiled with SQLITE_ENABLE_FTS5.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      azure: 3
+      bitnami: 3
+      photon: 3
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N
+        V40Score: 8.5
+    References:
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-11824
+    - https://sqlite.org/releaselog/3_53_2.html
+    - https://sqlite.org/src/info/061febcf41ca
+    - https://sqlite.org/src/info/4a5ad516ea93
+    - https://ubuntu.com/security/notices/USN-8480-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-11824
+    - https://www.vulncheck.com/advisories/sqlite-before-heap-buffer-overflow-via-fts5-fts5chunkiterate
+    PublishedDate: '2026-06-09T20:16:32.3Z'
+    LastModifiedDate: '2026-06-17T10:14:29.253Z'
   - VulnerabilityID: CVE-2026-40228
     PkgID: libsystemd0@257.9-0ubuntu2.5
     PkgName: libsystemd0
@@ -2292,6 +2397,7 @@
     - CWE-367
     VendorSeverity:
       azure: 2
+      bottlerocket: 2
       julia: 2
       redhat: 2
       ubuntu: 2
@@ -2303,7 +2409,9 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.7
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-27456
     - https://access.redhat.com/security/cve/CVE-2026-27456
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/14.5.0/BRSA-jgcxwcxt3sxd.toml
     - https://github.com/util-linux/util-linux/commit/5e390467b26a3cf3fecc04e1a0d482dff3162fc4
     - https://github.com/util-linux/util-linux/releases/tag/v2.41.4
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-qq4x-vfq4-9h9g
@@ -2642,6 +2750,7 @@
     - CWE-367
     VendorSeverity:
       azure: 2
+      bottlerocket: 2
       julia: 2
       redhat: 2
       ubuntu: 2
@@ -2653,7 +2762,9 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.7
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-27456
     - https://access.redhat.com/security/cve/CVE-2026-27456
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/14.5.0/BRSA-jgcxwcxt3sxd.toml
     - https://github.com/util-linux/util-linux/commit/5e390467b26a3cf3fecc04e1a0d482dff3162fc4
     - https://github.com/util-linux/util-linux/releases/tag/v2.41.4
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-qq4x-vfq4-9h9g
@@ -2783,6 +2894,7 @@
     - CWE-367
     VendorSeverity:
       azure: 2
+      bottlerocket: 2
       julia: 2
       redhat: 2
       ubuntu: 2
@@ -2794,7 +2906,9 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.7
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-27456
     - https://access.redhat.com/security/cve/CVE-2026-27456
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/14.5.0/BRSA-jgcxwcxt3sxd.toml
     - https://github.com/util-linux/util-linux/commit/5e390467b26a3cf3fecc04e1a0d482dff3162fc4
     - https://github.com/util-linux/util-linux/releases/tag/v2.41.4
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-qq4x-vfq4-9h9g
@@ -2926,6 +3040,7 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
+      alma: 3
       amazon: 3
       azure: 3
       nvd: 4
@@ -2939,7 +3054,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H
         V3Score: 8.2
     References:
+    - https://access.redhat.com/errata/RHSA-2026:30852
     - https://access.redhat.com/security/cve/CVE-2026-42496
+    - https://bugzilla.redhat.com/2481314
+    - https://errata.almalinux.org/8/ALSA-2026-30852.html
     - https://github.com/jib/archive-tar-new/commit/17c873492a05eddc0de18c1485e0b2cccd5a9158.patch
     - https://lists.security.metacpan.org/cve-announce/msg/40396459/
     - https://metacpan.org/release/BINGOS/Archive-Tar-3.08/changes
@@ -3025,6 +3143,7 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
+      alma: 3
       amazon: 3
       azure: 3
       nvd: 4
@@ -3038,7 +3157,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H
         V3Score: 8.2
     References:
+    - https://access.redhat.com/errata/RHSA-2026:30852
     - https://access.redhat.com/security/cve/CVE-2026-42496
+    - https://bugzilla.redhat.com/2481314
+    - https://errata.almalinux.org/8/ALSA-2026-30852.html
     - https://github.com/jib/archive-tar-new/commit/17c873492a05eddc0de18c1485e0b2cccd5a9158.patch
     - https://lists.security.metacpan.org/cve-announce/msg/40396459/
     - https://metacpan.org/release/BINGOS/Archive-Tar-3.08/changes
@@ -3124,6 +3246,7 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
+      alma: 3
       amazon: 3
       azure: 3
       nvd: 4
@@ -3137,7 +3260,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H
         V3Score: 8.2
     References:
+    - https://access.redhat.com/errata/RHSA-2026:30852
     - https://access.redhat.com/security/cve/CVE-2026-42496
+    - https://bugzilla.redhat.com/2481314
+    - https://errata.almalinux.org/8/ALSA-2026-30852.html
     - https://github.com/jib/archive-tar-new/commit/17c873492a05eddc0de18c1485e0b2cccd5a9158.patch
     - https://lists.security.metacpan.org/cve-announce/msg/40396459/
     - https://metacpan.org/release/BINGOS/Archive-Tar-3.08/changes
@@ -4980,6 +5106,7 @@
     - CWE-367
     VendorSeverity:
       azure: 2
+      bottlerocket: 2
       julia: 2
       redhat: 2
       ubuntu: 2
@@ -4991,7 +5118,9 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.7
     References:
+    - http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-27456
     - https://access.redhat.com/security/cve/CVE-2026-27456
+    - https://github.com/bottlerocket-os/bottlerocket-core-kit/blob/develop/advisories/14.5.0/BRSA-jgcxwcxt3sxd.toml
     - https://github.com/util-linux/util-linux/commit/5e390467b26a3cf3fecc04e1a0d482dff3162fc4
     - https://github.com/util-linux/util-linux/releases/tag/v2.41.4
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-qq4x-vfq4-9h9g
@@ -5319,7 +5448,7 @@
     - https://github.com/FasterXML/jackson-databind/issues/5964
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-5jmj-h7xm-6q6v
     PublishedDate: '2026-06-23T21:17:02.597Z'
-    LastModifiedDate: '2026-06-25T16:14:14.483Z'
+    LastModifiedDate: '2026-06-29T13:38:59.057Z'
   - VulnerabilityID: CVE-2026-54516
     VendorIDs:
     - GHSA-9fxm-vc8v-hj55

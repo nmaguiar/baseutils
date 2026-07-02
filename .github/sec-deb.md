@@ -2162,7 +2162,7 @@
 │                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-13757 
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-13757 
 │                       │       ├ PublishedDate   : 2026-06-29T19:16:40.907Z 
-│                       │       ╰ LastModifiedDate: 2026-06-29T20:17:33.013Z 
+│                       │       ╰ LastModifiedDate: 2026-07-01T15:16:30.19Z 
 │                       ├ [49]  ╭ VulnerabilityID : CVE-2026-42496 
 │                       │       ├ PkgID           : libperl5.40@5.40.1-6build1 
 │                       │       ├ PkgName         : libperl5.40 
@@ -2170,7 +2170,8 @@
 │                       │       │                  │       &distro=ubuntu-25.10 
 │                       │       │                  ╰ UID : fcad69c24b9e2dff 
 │                       │       ├ InstalledVersion: 5.40.1-6build1 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 5.40.1-6ubuntu0.1 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:1ad31677c9a4fb95a24c7fe677753f787279c258177
 │                       │       │                  │         88dbb3a8ba81c54fa4d46 
 │                       │       │                  ╰ DiffID: sha256:3bc849b05d522c5f28e063c55b9e67c7829930191eb
@@ -2241,7 +2242,8 @@
 │                       │       │                  │       &distro=ubuntu-25.10 
 │                       │       │                  ╰ UID : fcad69c24b9e2dff 
 │                       │       ├ InstalledVersion: 5.40.1-6build1 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 5.40.1-6ubuntu0.1 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:1ad31677c9a4fb95a24c7fe677753f787279c258177
 │                       │       │                  │         88dbb3a8ba81c54fa4d46 
 │                       │       │                  ╰ DiffID: sha256:3bc849b05d522c5f28e063c55b9e67c7829930191eb
@@ -2982,7 +2984,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-680 
 │                       │       ├ VendorSeverity   ╭ azure : 3 
 │                       │       │                  ├ nvd   : 3 
-│                       │       │                  ├ photon: 4 
+│                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
@@ -3899,7 +3901,8 @@
 │                       │       │                  │       =ubuntu-25.10 
 │                       │       │                  ╰ UID : 287c0ac4b68f3d3b 
 │                       │       ├ InstalledVersion: 5.40.1-6build1 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 5.40.1-6ubuntu0.1 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:1ad31677c9a4fb95a24c7fe677753f787279c258177
 │                       │       │                  │         88dbb3a8ba81c54fa4d46 
 │                       │       │                  ╰ DiffID: sha256:3bc849b05d522c5f28e063c55b9e67c7829930191eb
@@ -3970,7 +3973,8 @@
 │                       │       │                  │       =ubuntu-25.10 
 │                       │       │                  ╰ UID : 287c0ac4b68f3d3b 
 │                       │       ├ InstalledVersion: 5.40.1-6build1 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 5.40.1-6ubuntu0.1 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:1ad31677c9a4fb95a24c7fe677753f787279c258177
 │                       │       │                  │         88dbb3a8ba81c54fa4d46 
 │                       │       │                  ╰ DiffID: sha256:3bc849b05d522c5f28e063c55b9e67c7829930191eb
@@ -4022,7 +4026,8 @@
 │                       │       │                  │       istro=ubuntu-25.10 
 │                       │       │                  ╰ UID : 44e80c5c00d2cfec 
 │                       │       ├ InstalledVersion: 5.40.1-6build1 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 5.40.1-6ubuntu0.1 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:1ad31677c9a4fb95a24c7fe677753f787279c258177
 │                       │       │                  │         88dbb3a8ba81c54fa4d46 
 │                       │       │                  ╰ DiffID: sha256:3bc849b05d522c5f28e063c55b9e67c7829930191eb
@@ -4093,7 +4098,8 @@
 │                       │       │                  │       istro=ubuntu-25.10 
 │                       │       │                  ╰ UID : 44e80c5c00d2cfec 
 │                       │       ├ InstalledVersion: 5.40.1-6build1 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 5.40.1-6ubuntu0.1 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:1ad31677c9a4fb95a24c7fe677753f787279c258177
 │                       │       │                  │         88dbb3a8ba81c54fa4d46 
 │                       │       │                  ╰ DiffID: sha256:3bc849b05d522c5f28e063c55b9e67c7829930191eb
@@ -4145,7 +4151,8 @@
 │                       │       │                  │       =all&distro=ubuntu-25.10 
 │                       │       │                  ╰ UID : 66ddcd30a076a03 
 │                       │       ├ InstalledVersion: 5.40.1-6build1 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 5.40.1-6ubuntu0.1 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:1ad31677c9a4fb95a24c7fe677753f787279c258177
 │                       │       │                  │         88dbb3a8ba81c54fa4d46 
 │                       │       │                  ╰ DiffID: sha256:3bc849b05d522c5f28e063c55b9e67c7829930191eb
@@ -4216,7 +4223,8 @@
 │                       │       │                  │       =all&distro=ubuntu-25.10 
 │                       │       │                  ╰ UID : 66ddcd30a076a03 
 │                       │       ├ InstalledVersion: 5.40.1-6build1 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 5.40.1-6ubuntu0.1 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:1ad31677c9a4fb95a24c7fe677753f787279c258177
 │                       │       │                  │         88dbb3a8ba81c54fa4d46 
 │                       │       │                  ╰ DiffID: sha256:3bc849b05d522c5f28e063c55b9e67c7829930191eb

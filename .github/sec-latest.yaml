@@ -52,6 +52,7 @@
       ubuntu: 2
     References:
     - https://curl.se/L7HzKXisfJ/CVE-2026-8925.md
+    - https://ubuntu.com/security/notices/USN-8487-1
     - https://www.cve.org/CVERecord?id=CVE-2026-8925
   - VulnerabilityID: CVE-2026-8927
     PkgID: curl@8.20.0-r1
@@ -77,6 +78,7 @@
       ubuntu: 2
     References:
     - https://curl.se/L7HzKXisfJ/CVE-2026-8927.md
+    - https://ubuntu.com/security/notices/USN-8487-1
     - https://www.cve.org/CVERecord?id=CVE-2026-8927
   - VulnerabilityID: CVE-2026-9079
     PkgID: curl@8.20.0-r1
@@ -102,6 +104,7 @@
       ubuntu: 2
     References:
     - https://curl.se/L7HzKXisfJ/CVE-2026-9079.md
+    - https://ubuntu.com/security/notices/USN-8487-1
     - https://www.cve.org/CVERecord?id=CVE-2026-9079
   - VulnerabilityID: CVE-2026-10536
     PkgID: curl@8.20.0-r1
@@ -252,6 +255,7 @@
       ubuntu: 1
     References:
     - https://curl.se/L7HzKXisfJ/CVE-2026-8286.md
+    - https://ubuntu.com/security/notices/USN-8487-1
     - https://www.cve.org/CVERecord?id=CVE-2026-8286
   - VulnerabilityID: CVE-2026-8458
     PkgID: curl@8.20.0-r1
@@ -277,6 +281,7 @@
       ubuntu: 1
     References:
     - https://curl.se/L7HzKXisfJ/CVE-2026-8458.md
+    - https://ubuntu.com/security/notices/USN-8487-1
     - https://www.cve.org/CVERecord?id=CVE-2026-8458
   - VulnerabilityID: CVE-2026-8924
     PkgID: curl@8.20.0-r1
@@ -302,6 +307,7 @@
       ubuntu: 1
     References:
     - https://curl.se/L7HzKXisfJ/CVE-2026-8924.md
+    - https://ubuntu.com/security/notices/USN-8487-1
     - https://www.cve.org/CVERecord?id=CVE-2026-8924
   - VulnerabilityID: CVE-2026-8926
     PkgID: curl@8.20.0-r1
@@ -327,6 +333,7 @@
       ubuntu: 1
     References:
     - https://curl.se/L7HzKXisfJ/CVE-2026-8926.md
+    - https://ubuntu.com/security/notices/USN-8487-1
     - https://www.cve.org/CVERecord?id=CVE-2026-8926
   - VulnerabilityID: CVE-2026-9080
     PkgID: curl@8.20.0-r1
@@ -352,6 +359,7 @@
       ubuntu: 1
     References:
     - https://curl.se/L7HzKXisfJ/CVE-2026-9080.md
+    - https://ubuntu.com/security/notices/USN-8487-1
     - https://www.cve.org/CVERecord?id=CVE-2026-9080
   - VulnerabilityID: CVE-2026-9545
     PkgID: curl@8.20.0-r1
@@ -377,6 +385,7 @@
       ubuntu: 1
     References:
     - https://curl.se/L7HzKXisfJ/CVE-2026-9545.md
+    - https://ubuntu.com/security/notices/USN-8487-1
     - https://www.cve.org/CVERecord?id=CVE-2026-9545
   - VulnerabilityID: CVE-2026-9547
     PkgID: curl@8.20.0-r1
@@ -402,6 +411,7 @@
       ubuntu: 1
     References:
     - https://curl.se/L7HzKXisfJ/CVE-2026-9547.md
+    - https://ubuntu.com/security/notices/USN-8487-1
     - https://www.cve.org/CVERecord?id=CVE-2026-9547
   - VulnerabilityID: CVE-2026-8932
     PkgID: curl@8.20.0-r1
@@ -490,6 +500,7 @@
       ubuntu: 2
     References:
     - https://curl.se/L7HzKXisfJ/CVE-2026-8925.md
+    - https://ubuntu.com/security/notices/USN-8487-1
     - https://www.cve.org/CVERecord?id=CVE-2026-8925
   - VulnerabilityID: CVE-2026-8927
     PkgID: libcurl@8.20.0-r1
@@ -515,6 +526,7 @@
       ubuntu: 2
     References:
     - https://curl.se/L7HzKXisfJ/CVE-2026-8927.md
+    - https://ubuntu.com/security/notices/USN-8487-1
     - https://www.cve.org/CVERecord?id=CVE-2026-8927
   - VulnerabilityID: CVE-2026-9079
     PkgID: libcurl@8.20.0-r1
@@ -540,6 +552,7 @@
       ubuntu: 2
     References:
     - https://curl.se/L7HzKXisfJ/CVE-2026-9079.md
+    - https://ubuntu.com/security/notices/USN-8487-1
     - https://www.cve.org/CVERecord?id=CVE-2026-9079
   - VulnerabilityID: CVE-2026-10536
     PkgID: libcurl@8.20.0-r1
@@ -690,6 +703,7 @@
       ubuntu: 1
     References:
     - https://curl.se/L7HzKXisfJ/CVE-2026-8286.md
+    - https://ubuntu.com/security/notices/USN-8487-1
     - https://www.cve.org/CVERecord?id=CVE-2026-8286
   - VulnerabilityID: CVE-2026-8458
     PkgID: libcurl@8.20.0-r1
@@ -715,6 +729,7 @@
       ubuntu: 1
     References:
     - https://curl.se/L7HzKXisfJ/CVE-2026-8458.md
+    - https://ubuntu.com/security/notices/USN-8487-1
     - https://www.cve.org/CVERecord?id=CVE-2026-8458
   - VulnerabilityID: CVE-2026-8924
     PkgID: libcurl@8.20.0-r1
@@ -740,6 +755,7 @@
       ubuntu: 1
     References:
     - https://curl.se/L7HzKXisfJ/CVE-2026-8924.md
+    - https://ubuntu.com/security/notices/USN-8487-1
     - https://www.cve.org/CVERecord?id=CVE-2026-8924
   - VulnerabilityID: CVE-2026-8926
     PkgID: libcurl@8.20.0-r1
@@ -765,6 +781,7 @@
       ubuntu: 1
     References:
     - https://curl.se/L7HzKXisfJ/CVE-2026-8926.md
+    - https://ubuntu.com/security/notices/USN-8487-1
     - https://www.cve.org/CVERecord?id=CVE-2026-8926
   - VulnerabilityID: CVE-2026-9080
     PkgID: libcurl@8.20.0-r1
@@ -790,6 +807,7 @@
       ubuntu: 1
     References:
     - https://curl.se/L7HzKXisfJ/CVE-2026-9080.md
+    - https://ubuntu.com/security/notices/USN-8487-1
     - https://www.cve.org/CVERecord?id=CVE-2026-9080
   - VulnerabilityID: CVE-2026-9545
     PkgID: libcurl@8.20.0-r1
@@ -815,6 +833,7 @@
       ubuntu: 1
     References:
     - https://curl.se/L7HzKXisfJ/CVE-2026-9545.md
+    - https://ubuntu.com/security/notices/USN-8487-1
     - https://www.cve.org/CVERecord?id=CVE-2026-9545
   - VulnerabilityID: CVE-2026-9547
     PkgID: libcurl@8.20.0-r1
@@ -840,6 +859,7 @@
       ubuntu: 1
     References:
     - https://curl.se/L7HzKXisfJ/CVE-2026-9547.md
+    - https://ubuntu.com/security/notices/USN-8487-1
     - https://www.cve.org/CVERecord?id=CVE-2026-9547
   - VulnerabilityID: CVE-2026-8932
     PkgID: libcurl@8.20.0-r1
@@ -981,7 +1001,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-54513.json
     - https://www.cve.org/CVERecord?id=CVE-2026-54513
     PublishedDate: '2026-06-23T21:17:02.333Z'
-    LastModifiedDate: '2026-06-30T03:21:03.13Z'
+    LastModifiedDate: '2026-07-02T12:17:34.017Z'
   - VulnerabilityID: CVE-2026-54514
     VendorIDs:
     - GHSA-hgj6-7826-r7m5

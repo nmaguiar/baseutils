@@ -224,7 +224,7 @@
     - https://hackerone.com/reports/3793260
     - https://www.cve.org/CVERecord?id=CVE-2026-11856
     PublishedDate: '2026-07-03T07:16:23.973Z'
-    LastModifiedDate: '2026-07-03T07:16:23.973Z'
+    LastModifiedDate: '2026-07-06T19:16:54.983Z'
   - VulnerabilityID: CVE-2026-10536
     PkgID: curl@8.14.1-2ubuntu1.4
     PkgName: curl
@@ -261,7 +261,7 @@
     - https://hackerone.com/reports/3751697
     - https://www.cve.org/CVERecord?id=CVE-2026-10536
     PublishedDate: '2026-07-03T07:16:23.563Z'
-    LastModifiedDate: '2026-07-03T07:16:23.563Z'
+    LastModifiedDate: '2026-07-06T19:16:54.473Z'
   - VulnerabilityID: CVE-2026-12064
     PkgID: curl@8.14.1-2ubuntu1.4
     PkgName: curl
@@ -302,7 +302,7 @@
     - https://hackerone.com/reports/3797526
     - https://www.cve.org/CVERecord?id=CVE-2026-12064
     PublishedDate: '2026-07-03T07:16:24.217Z'
-    LastModifiedDate: '2026-07-03T07:16:24.217Z'
+    LastModifiedDate: '2026-07-06T19:16:55.27Z'
   - VulnerabilityID: CVE-2026-27456
     PkgID: libblkid1@2.41-4ubuntu4.2
     PkgName: libblkid1
@@ -438,10 +438,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2026:20597
+    - https://access.redhat.com/errata/RHSA-2026:20594
     - https://access.redhat.com/security/cve/CVE-2026-4046
-    - https://bugzilla.redhat.com/2449777
-    - https://bugzilla.redhat.com/2449783
     - https://bugzilla.redhat.com/2453117
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449777
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449783
@@ -449,7 +447,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4046
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4437
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4438
-    - https://errata.almalinux.org/9/ALSA-2026-20597.html
+    - https://errata.almalinux.org/10/ALSA-2026-20594.html
     - https://errata.rockylinux.org/RLSA-2026:20597
     - https://inbox.sourceware.org/libc-announce/76814edf-cf7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u
     - https://linux.oracle.com/cve/CVE-2026-4046.html
@@ -498,18 +496,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:20597
+    - https://access.redhat.com/errata/RHSA-2026:19061
     - https://access.redhat.com/security/cve/CVE-2026-4437
     - https://bugzilla.redhat.com/2449777
     - https://bugzilla.redhat.com/2449783
-    - https://bugzilla.redhat.com/2453117
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449777
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449783
     - https://bugzilla.redhat.com/show_bug.cgi?id=2453117
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4046
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4437
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4438
-    - https://errata.almalinux.org/9/ALSA-2026-20597.html
+    - https://errata.almalinux.org/10/ALSA-2026-19061.html
     - https://errata.rockylinux.org/RLSA-2026:20597
     - https://linux.oracle.com/cve/CVE-2026-4437.html
     - https://linux.oracle.com/errata/ELSA-2026-20597.html
@@ -556,18 +553,17 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:20597
+    - https://access.redhat.com/errata/RHSA-2026:19061
     - https://access.redhat.com/security/cve/CVE-2026-4438
     - https://bugzilla.redhat.com/2449777
     - https://bugzilla.redhat.com/2449783
-    - https://bugzilla.redhat.com/2453117
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449777
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449783
     - https://bugzilla.redhat.com/show_bug.cgi?id=2453117
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4046
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4437
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4438
-    - https://errata.almalinux.org/9/ALSA-2026-20597.html
+    - https://errata.almalinux.org/10/ALSA-2026-19061.html
     - https://errata.rockylinux.org/RLSA-2026:20597
     - https://linux.oracle.com/cve/CVE-2026-4438.html
     - https://linux.oracle.com/errata/ELSA-2026-20597.html
@@ -702,10 +698,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2026:20597
+    - https://access.redhat.com/errata/RHSA-2026:20594
     - https://access.redhat.com/security/cve/CVE-2026-4046
-    - https://bugzilla.redhat.com/2449777
-    - https://bugzilla.redhat.com/2449783
     - https://bugzilla.redhat.com/2453117
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449777
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449783
@@ -713,7 +707,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4046
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4437
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4438
-    - https://errata.almalinux.org/9/ALSA-2026-20597.html
+    - https://errata.almalinux.org/10/ALSA-2026-20594.html
     - https://errata.rockylinux.org/RLSA-2026:20597
     - https://inbox.sourceware.org/libc-announce/76814edf-cf7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u
     - https://linux.oracle.com/cve/CVE-2026-4046.html
@@ -762,18 +756,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:20597
+    - https://access.redhat.com/errata/RHSA-2026:19061
     - https://access.redhat.com/security/cve/CVE-2026-4437
     - https://bugzilla.redhat.com/2449777
     - https://bugzilla.redhat.com/2449783
-    - https://bugzilla.redhat.com/2453117
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449777
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449783
     - https://bugzilla.redhat.com/show_bug.cgi?id=2453117
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4046
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4437
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4438
-    - https://errata.almalinux.org/9/ALSA-2026-20597.html
+    - https://errata.almalinux.org/10/ALSA-2026-19061.html
     - https://errata.rockylinux.org/RLSA-2026:20597
     - https://linux.oracle.com/cve/CVE-2026-4437.html
     - https://linux.oracle.com/errata/ELSA-2026-20597.html
@@ -820,18 +813,17 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:20597
+    - https://access.redhat.com/errata/RHSA-2026:19061
     - https://access.redhat.com/security/cve/CVE-2026-4438
     - https://bugzilla.redhat.com/2449777
     - https://bugzilla.redhat.com/2449783
-    - https://bugzilla.redhat.com/2453117
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449777
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449783
     - https://bugzilla.redhat.com/show_bug.cgi?id=2453117
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4046
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4437
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4438
-    - https://errata.almalinux.org/9/ALSA-2026-20597.html
+    - https://errata.almalinux.org/10/ALSA-2026-19061.html
     - https://errata.rockylinux.org/RLSA-2026:20597
     - https://linux.oracle.com/cve/CVE-2026-4438.html
     - https://linux.oracle.com/errata/ELSA-2026-20597.html
@@ -959,7 +951,7 @@
     - https://hackerone.com/reports/3793260
     - https://www.cve.org/CVERecord?id=CVE-2026-11856
     PublishedDate: '2026-07-03T07:16:23.973Z'
-    LastModifiedDate: '2026-07-03T07:16:23.973Z'
+    LastModifiedDate: '2026-07-06T19:16:54.983Z'
   - VulnerabilityID: CVE-2026-10536
     PkgID: libcurl4t64@8.14.1-2ubuntu1.4
     PkgName: libcurl4t64
@@ -996,7 +988,7 @@
     - https://hackerone.com/reports/3751697
     - https://www.cve.org/CVERecord?id=CVE-2026-10536
     PublishedDate: '2026-07-03T07:16:23.563Z'
-    LastModifiedDate: '2026-07-03T07:16:23.563Z'
+    LastModifiedDate: '2026-07-06T19:16:54.473Z'
   - VulnerabilityID: CVE-2026-12064
     PkgID: libcurl4t64@8.14.1-2ubuntu1.4
     PkgName: libcurl4t64
@@ -1037,7 +1029,7 @@
     - https://hackerone.com/reports/3797526
     - https://www.cve.org/CVERecord?id=CVE-2026-12064
     PublishedDate: '2026-07-03T07:16:24.217Z'
-    LastModifiedDate: '2026-07-03T07:16:24.217Z'
+    LastModifiedDate: '2026-07-06T19:16:55.27Z'
   - VulnerabilityID: CVE-2025-66382
     PkgID: libexpat1@2.7.1-2ubuntu0.2
     PkgName: libexpat1
@@ -1397,7 +1389,7 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
-    - https://access.redhat.com/errata/RHSA-2026:19177
+    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
     - https://bugzilla.redhat.com/2408891
@@ -1435,7 +1427,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/10/ALSA-2026-19064.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -1447,6 +1439,7 @@
     - https://linux.oracle.com/cve/CVE-2026-2297.html
     - https://linux.oracle.com/errata/ELSA-2026-19177.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-2297
+    - https://ubuntu.com/security/notices/USN-8509-1
     - https://www.cve.org/CVERecord?id=CVE-2026-2297
     PublishedDate: '2026-03-04T23:16:10.757Z'
     LastModifiedDate: '2026-06-17T10:30:44.59Z'
@@ -1487,7 +1480,7 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
-    - https://access.redhat.com/errata/RHSA-2026:19177
+    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
     - https://bugzilla.redhat.com/2408891
@@ -1525,7 +1518,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/10/ALSA-2026-19064.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -1537,6 +1530,7 @@
     - https://linux.oracle.com/cve/CVE-2026-2297.html
     - https://linux.oracle.com/errata/ELSA-2026-19177.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-2297
+    - https://ubuntu.com/security/notices/USN-8509-1
     - https://www.cve.org/CVERecord?id=CVE-2026-2297
     PublishedDate: '2026-03-04T23:16:10.757Z'
     LastModifiedDate: '2026-06-17T10:30:44.59Z'
@@ -1577,7 +1571,7 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
-    - https://access.redhat.com/errata/RHSA-2026:19177
+    - https://access.redhat.com/errata/RHSA-2026:19064
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
     - https://bugzilla.redhat.com/2408891
@@ -1615,7 +1609,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/10/ALSA-2026-19064.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -1627,6 +1621,7 @@
     - https://linux.oracle.com/cve/CVE-2026-2297.html
     - https://linux.oracle.com/errata/ELSA-2026-19177.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-2297
+    - https://ubuntu.com/security/notices/USN-8509-1
     - https://www.cve.org/CVERecord?id=CVE-2026-2297
     PublishedDate: '2026-03-04T23:16:10.757Z'
     LastModifiedDate: '2026-06-17T10:30:44.59Z'
@@ -1942,10 +1937,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2026:20597
+    - https://access.redhat.com/errata/RHSA-2026:20594
     - https://access.redhat.com/security/cve/CVE-2026-4046
-    - https://bugzilla.redhat.com/2449777
-    - https://bugzilla.redhat.com/2449783
     - https://bugzilla.redhat.com/2453117
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449777
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449783
@@ -1953,7 +1946,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4046
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4437
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4438
-    - https://errata.almalinux.org/9/ALSA-2026-20597.html
+    - https://errata.almalinux.org/10/ALSA-2026-20594.html
     - https://errata.rockylinux.org/RLSA-2026:20597
     - https://inbox.sourceware.org/libc-announce/76814edf-cf7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u
     - https://linux.oracle.com/cve/CVE-2026-4046.html
@@ -2002,18 +1995,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:20597
+    - https://access.redhat.com/errata/RHSA-2026:19061
     - https://access.redhat.com/security/cve/CVE-2026-4437
     - https://bugzilla.redhat.com/2449777
     - https://bugzilla.redhat.com/2449783
-    - https://bugzilla.redhat.com/2453117
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449777
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449783
     - https://bugzilla.redhat.com/show_bug.cgi?id=2453117
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4046
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4437
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4438
-    - https://errata.almalinux.org/9/ALSA-2026-20597.html
+    - https://errata.almalinux.org/10/ALSA-2026-19061.html
     - https://errata.rockylinux.org/RLSA-2026:20597
     - https://linux.oracle.com/cve/CVE-2026-4437.html
     - https://linux.oracle.com/errata/ELSA-2026-20597.html
@@ -2060,18 +2052,17 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:20597
+    - https://access.redhat.com/errata/RHSA-2026:19061
     - https://access.redhat.com/security/cve/CVE-2026-4438
     - https://bugzilla.redhat.com/2449777
     - https://bugzilla.redhat.com/2449783
-    - https://bugzilla.redhat.com/2453117
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449777
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449783
     - https://bugzilla.redhat.com/show_bug.cgi?id=2453117
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4046
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4437
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4438
-    - https://errata.almalinux.org/9/ALSA-2026-20597.html
+    - https://errata.almalinux.org/10/ALSA-2026-19061.html
     - https://errata.rockylinux.org/RLSA-2026:20597
     - https://linux.oracle.com/cve/CVE-2026-4438.html
     - https://linux.oracle.com/errata/ELSA-2026-20597.html
@@ -2487,6 +2478,7 @@
     - https://github.com/uutils/coreutils/commit/413055b378fa6fe2299c5e5f538c8e6e841ab810
     - https://github.com/uutils/coreutils/pull/10033
     - https://github.com/uutils/coreutils/releases/tag/0.6.0
+    - https://github.com/uutils/coreutils/security/advisories/GHSA-4c7q-4928-8445
     - https://nvd.nist.gov/vuln/detail/CVE-2026-35338
     - https://www.cve.org/CVERecord?id=CVE-2026-35338
     PublishedDate: '2026-04-22T17:16:35.583Z'
@@ -2526,6 +2518,7 @@
     - https://github.com/uutils/coreutils/commit/abd581f62e97d0b147306ac40eac13af71c6fbba
     - https://github.com/uutils/coreutils/pull/9793
     - https://github.com/uutils/coreutils/releases/tag/0.6.0
+    - https://github.com/uutils/coreutils/security/advisories/GHSA-4x34-chg5-mwjj
     - https://nvd.nist.gov/vuln/detail/CVE-2026-35339
     - https://www.cve.org/CVERecord?id=CVE-2026-35339
     PublishedDate: '2026-04-22T17:16:35.767Z'
@@ -2554,18 +2547,10 @@
     CweIDs:
     - CWE-253
     VendorSeverity:
-      ghsa: 2
       ubuntu: 2
-    CVSS:
-      ghsa:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
-        V3Score: 5.5
     References:
-    - https://github.com/uutils/coreutils
-    - https://github.com/uutils/coreutils/commit/ebc08af9c34138f474b32ea0ef34bed3b086a3ed
     - https://github.com/uutils/coreutils/pull/10035
     - https://github.com/uutils/coreutils/releases/tag/0.6.0
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-35340
     - https://www.cve.org/CVERecord?id=CVE-2026-35340
     PublishedDate: '2026-04-22T17:16:35.923Z'
     LastModifiedDate: '2026-06-17T10:40:25.393Z'
@@ -2602,6 +2587,8 @@
     References:
     - https://github.com/uutils/coreutils
     - https://github.com/uutils/coreutils/issues/10020
+    - https://github.com/uutils/coreutils/pull/10376
+    - https://github.com/uutils/coreutils/security/advisories/GHSA-pmf6-rcx4-v53v
     - https://nvd.nist.gov/vuln/detail/CVE-2026-35341
     - https://www.cve.org/CVERecord?id=CVE-2026-35341
     PublishedDate: '2026-04-22T17:16:36.06Z'
@@ -2641,6 +2628,7 @@
     - https://github.com/uutils/coreutils/commit/eb25ec328b226d8fbbaa4058bf9187165bf06d51
     - https://github.com/uutils/coreutils/pull/10566
     - https://github.com/uutils/coreutils/releases/tag/0.6.0
+    - https://github.com/uutils/coreutils/security/advisories/GHSA-2w8r-9xj7-69j5
     - https://nvd.nist.gov/vuln/detail/CVE-2026-35342
     - https://www.cve.org/CVERecord?id=CVE-2026-35342
     PublishedDate: '2026-04-22T17:16:36.217Z'
@@ -2680,6 +2668,7 @@
     - https://github.com/uutils/coreutils/commit/9bbb58b746c41802278b0cba738eebbf21517cf7
     - https://github.com/uutils/coreutils/pull/11143
     - https://github.com/uutils/coreutils/releases/tag/0.7.0
+    - https://github.com/uutils/coreutils/security/advisories/GHSA-wv33-5pxh-r7j7
     - https://nvd.nist.gov/vuln/detail/CVE-2026-35343
     - https://www.cve.org/CVERecord?id=CVE-2026-35343
     PublishedDate: '2026-04-22T17:16:36.357Z'
@@ -2795,6 +2784,7 @@
     - https://github.com/uutils/coreutils/issues/10192
     - https://github.com/uutils/coreutils/pull/10206
     - https://github.com/uutils/coreutils/releases/tag/0.6.0
+    - https://github.com/uutils/coreutils/security/advisories/GHSA-6gcw-w7cp-94g9
     - https://nvd.nist.gov/vuln/detail/CVE-2026-35346
     - https://www.cve.org/CVERecord?id=CVE-2026-35346
     PublishedDate: '2026-04-22T17:16:36.76Z'
@@ -2834,6 +2824,7 @@
     - https://github.com/uutils/coreutils/commit/75f45e87e52ed95840494963ab9a28651165d56e
     - https://github.com/uutils/coreutils/pull/9545
     - https://github.com/uutils/coreutils/releases/tag/0.6.0
+    - https://github.com/uutils/coreutils/security/advisories/GHSA-3wfc-mgpm-9rq6
     - https://nvd.nist.gov/vuln/detail/CVE-2026-35347
     - https://www.cve.org/CVERecord?id=CVE-2026-35347
     PublishedDate: '2026-04-22T17:16:36.903Z'
@@ -2914,6 +2905,7 @@
     - https://github.com/uutils/coreutils/commit/5e5968cdbc6618acd6c2402a8a98b503f278835e
     - https://github.com/uutils/coreutils/pull/9706
     - https://github.com/uutils/coreutils/releases/tag/0.7.0
+    - https://github.com/uutils/coreutils/security/advisories/GHSA-7cr3-h577-g38j
     - https://nvd.nist.gov/vuln/detail/CVE-2026-35349
     - https://www.cve.org/CVERecord?id=CVE-2026-35349
     PublishedDate: '2026-04-22T17:16:37.19Z'
@@ -3068,6 +3060,7 @@
     - https://github.com/uutils/coreutils/commit/037b9583bc03d814e8516df54ebcda6f681fe1f8
     - https://github.com/uutils/coreutils/pull/10036
     - https://github.com/uutils/coreutils/releases/tag/0.6.0
+    - https://github.com/uutils/coreutils/security/advisories/GHSA-mj6p-44ch-cq69
     - https://nvd.nist.gov/vuln/detail/CVE-2026-35353
     - https://www.cve.org/CVERecord?id=CVE-2026-35353
     PublishedDate: '2026-04-22T17:16:37.723Z'
@@ -3144,6 +3137,7 @@
     - https://github.com/uutils/coreutils/commit/b5bbabc18a1121908848d836f869a4e98eb63886
     - https://github.com/uutils/coreutils/pull/10067
     - https://github.com/uutils/coreutils/releases/tag/0.6.0
+    - https://github.com/uutils/coreutils/security/advisories/GHSA-239g-2685-54x3
     - https://nvd.nist.gov/vuln/detail/CVE-2026-35355
     - https://www.cve.org/CVERecord?id=CVE-2026-35355
     PublishedDate: '2026-04-22T17:16:37.993Z'
@@ -3183,6 +3177,7 @@
     - https://github.com/uutils/coreutils/commit/0c41299975f3c1e21cf5ca968d42cad55ceb42a1
     - https://github.com/uutils/coreutils/pull/10140
     - https://github.com/uutils/coreutils/releases/tag/0.7.0
+    - https://github.com/uutils/coreutils/security/advisories/GHSA-gwm6-q8ch-hcfr
     - https://nvd.nist.gov/vuln/detail/CVE-2026-35356
     - https://www.cve.org/CVERecord?id=CVE-2026-35356
     PublishedDate: '2026-04-22T17:16:38.13Z'
@@ -3264,6 +3259,7 @@
     - https://github.com/uutils/coreutils/issues/9746
     - https://github.com/uutils/coreutils/pull/11163
     - https://github.com/uutils/coreutils/releases/tag/0.7.0
+    - https://github.com/uutils/coreutils/security/advisories/GHSA-8vrf-r662-2w2v
     - https://nvd.nist.gov/vuln/detail/CVE-2026-35358
     - https://www.cve.org/CVERecord?id=CVE-2026-35358
     PublishedDate: '2026-04-22T17:16:38.393Z'
@@ -3383,6 +3379,7 @@
     - https://github.com/uutils/coreutils/commit/42b2ad83cdcf6e959ecb378c5040c60d9c64becf
     - https://github.com/uutils/coreutils/pull/10582
     - https://github.com/uutils/coreutils/releases/tag/0.6.0
+    - https://github.com/uutils/coreutils/security/advisories/GHSA-r9hw-mj3w-phcq
     - https://nvd.nist.gov/vuln/detail/CVE-2026-35361
     - https://www.cve.org/CVERecord?id=CVE-2026-35361
     PublishedDate: '2026-04-22T17:16:38.827Z'
@@ -3422,6 +3419,7 @@
     - https://github.com/uutils/coreutils/commit/30239e69a328e76d2377f2a0bc02fbde61c34280
     - https://github.com/uutils/coreutils/pull/9792
     - https://github.com/uutils/coreutils/releases/tag/0.6.0
+    - https://github.com/uutils/coreutils/security/advisories/GHSA-w6xc-g9qj-vp32
     - https://nvd.nist.gov/vuln/detail/CVE-2026-35362
     - https://www.cve.org/CVERecord?id=CVE-2026-35362
     PublishedDate: '2026-04-22T17:16:38.96Z'
@@ -3459,6 +3457,7 @@
     References:
     - https://github.com/uutils/coreutils
     - https://github.com/uutils/coreutils/issues/9749
+    - https://github.com/uutils/coreutils/security/advisories/GHSA-89p7-7cq3-hhr2
     - https://nvd.nist.gov/vuln/detail/CVE-2026-35363
     - https://www.cve.org/CVERecord?id=CVE-2026-35363
     PublishedDate: '2026-04-22T17:16:39.12Z'
@@ -3535,6 +3534,7 @@
     - https://github.com/uutils/coreutils/commit/9654e4abaf24449ef2279e9a16963edb5c8b8fef
     - https://github.com/uutils/coreutils/pull/10546
     - https://github.com/uutils/coreutils/releases/tag/0.7.0
+    - https://github.com/uutils/coreutils/security/advisories/GHSA-h444-6j9x-p8vh
     - https://nvd.nist.gov/vuln/detail/CVE-2026-35365
     - https://www.cve.org/CVERecord?id=CVE-2026-35365
     PublishedDate: '2026-04-22T17:16:39.9Z'
@@ -3575,6 +3575,7 @@
     - https://github.com/uutils/coreutils/issues/9701
     - https://github.com/uutils/coreutils/pull/9728
     - https://github.com/uutils/coreutils/releases/tag/0.6.0
+    - https://github.com/uutils/coreutils/security/advisories/GHSA-p7h3-7q52-72w8
     - https://nvd.nist.gov/vuln/detail/CVE-2026-35366
     - https://www.cve.org/CVERecord?id=CVE-2026-35366
     PublishedDate: '2026-04-22T17:16:40.167Z'
@@ -3688,6 +3689,7 @@
     - https://github.com/uutils/coreutils/commit/2d3aebce6712841bc08b9b94e9078be50a25fc10
     - https://github.com/uutils/coreutils/pull/9700
     - https://github.com/uutils/coreutils/releases/tag/0.6.0
+    - https://github.com/uutils/coreutils/security/advisories/GHSA-p6rv-2qpm-fwvg
     - https://nvd.nist.gov/vuln/detail/CVE-2026-35369
     - https://www.cve.org/CVERecord?id=CVE-2026-35369
     PublishedDate: '2026-04-22T17:16:40.687Z'
@@ -3725,6 +3727,7 @@
     References:
     - https://github.com/uutils/coreutils
     - https://github.com/uutils/coreutils/issues/10006
+    - https://github.com/uutils/coreutils/security/advisories/GHSA-47c7-qrm7-mqw7
     - https://nvd.nist.gov/vuln/detail/CVE-2026-35370
     - https://www.cve.org/CVERecord?id=CVE-2026-35370
     PublishedDate: '2026-04-22T17:16:40.833Z'
@@ -3762,6 +3765,7 @@
     References:
     - https://github.com/uutils/coreutils
     - https://github.com/uutils/coreutils/issues/10006
+    - https://github.com/uutils/coreutils/security/advisories/GHSA-xv5w-cw7x-72gj
     - https://nvd.nist.gov/vuln/detail/CVE-2026-35371
     - https://www.cve.org/CVERecord?id=CVE-2026-35371
     PublishedDate: '2026-04-22T17:16:40.987Z'
@@ -3842,6 +3846,7 @@
     References:
     - https://github.com/uutils/coreutils
     - https://github.com/uutils/coreutils/pull/11403
+    - https://github.com/uutils/coreutils/security/advisories/GHSA-jcjr-rh8q-7xqf
     - https://nvd.nist.gov/vuln/detail/CVE-2026-35373
     - https://www.cve.org/CVERecord?id=CVE-2026-35373
     PublishedDate: '2026-04-22T17:16:41.997Z'
@@ -4153,6 +4158,7 @@
     - https://github.com/uutils/coreutils/commit/483f13e91830c468262aa1e010e753d6ae99c898
     - https://github.com/uutils/coreutils/pull/11394
     - https://github.com/uutils/coreutils/releases/tag/0.8.0
+    - https://github.com/uutils/coreutils/security/advisories/GHSA-pmfc-4wjj-gmhx
     - https://nvd.nist.gov/vuln/detail/CVE-2026-35381
     - https://www.cve.org/CVERecord?id=CVE-2026-35381
     PublishedDate: '2026-04-22T17:16:43.2Z'
@@ -4204,6 +4210,7 @@
     - https://linux.oracle.com/errata/ELSA-2026-0067.html
     - https://lists.gnu.org/archive/html/bug-tar/2025-08/msg00012.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-45582
+    - https://ubuntu.com/security/notices/USN-8510-1
     - https://www.cve.org/CVERecord?id=CVE-2025-45582
     - https://www.gnu.org/software/tar/
     - https://www.gnu.org/software/tar/manual/html_node/Integrity.html

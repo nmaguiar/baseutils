@@ -1,8 +1,28 @@
 ```yaml
-╭ [0] ╭ Target  : nmaguiar/baseutils:latest (alpine 3.24.0) 
-│     ├ Class   : os-pkgs 
-│     ├ Type    : alpine 
-│     ╰ Packages 
+╭ [0] ╭ Target         : nmaguiar/baseutils:latest (alpine 3.24.0) 
+│     ├ Class          : os-pkgs 
+│     ├ Type           : alpine 
+│     ├ Packages        
+│     ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2026-33630 
+│                             ├ PkgID           : c-ares@1.34.6-r0 
+│                             ├ PkgName         : c-ares 
+│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/c-ares@1.34.6-r0?arch=x86_64&distro=3.2
+│                             │                  │       4.0 
+│                             │                  ╰ UID : 36d6f4812e7741f6 
+│                             ├ InstalledVersion: 1.34.6-r0 
+│                             ├ FixedVersion    : 1.34.8-r0 
+│                             ├ Status          : fixed 
+│                             ├ Layer            ╭ Digest: sha256:46e1315cac30675d99c9a18bf23066d3fbed9d5b85f45
+│                             │                  │         0951f9fa885155eca62 
+│                             │                  ╰ DiffID: sha256:1c7d2621e0ca03a0fb814d75fe8e3cdc00500152bc72c
+│                             │                            09bf2fb32b0423c1d9e 
+│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33630 
+│                             ├ DataSource       ╭ ID  : alpine 
+│                             │                  ├ Name: Alpine Secdb 
+│                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                             ├ Fingerprint     : sha256:930c6ab21d9a17132ea7969775f73868ea4bd0136f3bb5424912d0
+│                             │                   68e383a2e7 
+│                             ╰ Severity        : UNKNOWN 
 ╰ [1] ╭ Target         : Java 
       ├ Class          : lang-pkgs 
       ├ Type           : jar 

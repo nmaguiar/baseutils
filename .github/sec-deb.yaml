@@ -189,44 +189,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
     LastModifiedDate: '2026-06-17T10:43:10.203Z'
-  - VulnerabilityID: CVE-2026-11856
-    PkgID: curl@8.14.1-2ubuntu1.4
-    PkgName: curl
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1.4?arch=amd64&distro=ubuntu-25.10
-      UID: 27d0b7e1b0440923
-    InstalledVersion: 8.14.1-2ubuntu1.4
-    Status: affected
-    Layer:
-      Digest: sha256:5d05ebcf9e9e9e48321ca6b8c16b0f51d80f24b59e4bc0d01e33784d64a22814
-      DiffID: sha256:3abc0486e46222cc5aba63f411fe5b104c2f3d1ea49f937fe30eccf2ed4508f9
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-11856
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Fingerprint: sha256:aeb3e011e96eb72b93255c47f168ce242da1c4e89803bce84f0855638e60f936
-    Title: Successfully using libcurl to do a transfer to a specific HTTP origin  ...
-    Description: |-
-      Successfully using libcurl to do a transfer to a specific HTTP origin
-      (`hostA`) with **Digest** authentication and then changing the origin to a
-      different one (`hostB`) for a second transfer, reusing the same handle, makes
-      libcurl wrongly pass on the  `Authorization:` header field meant for `hostA`,
-      to `hostB`.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-294
-    VendorSeverity:
-      ubuntu: 2
-    References:
-    - https://curl.se/L7HzKXisfJ/CVE-2026-11856.md
-    - https://curl.se/docs/CVE-2026-11856.html
-    - https://curl.se/docs/CVE-2026-11856.json
-    - https://hackerone.com/reports/3793260
-    - https://www.cve.org/CVERecord?id=CVE-2026-11856
-    PublishedDate: '2026-07-03T07:16:23.973Z'
-    LastModifiedDate: '2026-07-07T19:43:55.6Z'
   - VulnerabilityID: CVE-2026-10536
     PkgID: curl@8.14.1-2ubuntu1.4
     PkgName: curl
@@ -245,7 +207,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:ec09a242048e7d9e4bf10559fe4a03ab575d0c82aad77dbdd273065bc8527e9d
-    Title: A use-after-free vulnerability exists in libcurl when an application c ...
+    Title: 'libcurl: libcurl: Use-after-free vulnerability leading to Denial of Service'
     Description: |-
       A use-after-free vulnerability exists in libcurl when an application
       configures an HTTP/2 stream-dependency tree via `CURLOPT_STREAM_DEPENDS` or
@@ -257,12 +219,19 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      redhat: 2
       ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-10536
     - https://curl.se/L7HzKXisfJ/CVE-2026-10536.md
     - https://curl.se/docs/CVE-2026-10536.html
     - https://curl.se/docs/CVE-2026-10536.json
     - https://hackerone.com/reports/3751697
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-10536
     - https://www.cve.org/CVERecord?id=CVE-2026-10536
     PublishedDate: '2026-07-03T07:16:23.563Z'
     LastModifiedDate: '2026-07-07T18:02:03.89Z'
@@ -921,44 +890,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-6238
     PublishedDate: '2026-04-28T19:37:47.523Z'
     LastModifiedDate: '2026-06-19T21:17:02.62Z'
-  - VulnerabilityID: CVE-2026-11856
-    PkgID: libcurl4t64@8.14.1-2ubuntu1.4
-    PkgName: libcurl4t64
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1.4?arch=amd64&distro=ubuntu-25.10
-      UID: 6ab805c4470c83a5
-    InstalledVersion: 8.14.1-2ubuntu1.4
-    Status: affected
-    Layer:
-      Digest: sha256:5d05ebcf9e9e9e48321ca6b8c16b0f51d80f24b59e4bc0d01e33784d64a22814
-      DiffID: sha256:3abc0486e46222cc5aba63f411fe5b104c2f3d1ea49f937fe30eccf2ed4508f9
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-11856
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Fingerprint: sha256:796cfb4362e2340394781faf668cff4e7aba7f80d7a1e18ffcfde5733375025a
-    Title: Successfully using libcurl to do a transfer to a specific HTTP origin  ...
-    Description: |-
-      Successfully using libcurl to do a transfer to a specific HTTP origin
-      (`hostA`) with **Digest** authentication and then changing the origin to a
-      different one (`hostB`) for a second transfer, reusing the same handle, makes
-      libcurl wrongly pass on the  `Authorization:` header field meant for `hostA`,
-      to `hostB`.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-294
-    VendorSeverity:
-      ubuntu: 2
-    References:
-    - https://curl.se/L7HzKXisfJ/CVE-2026-11856.md
-    - https://curl.se/docs/CVE-2026-11856.html
-    - https://curl.se/docs/CVE-2026-11856.json
-    - https://hackerone.com/reports/3793260
-    - https://www.cve.org/CVERecord?id=CVE-2026-11856
-    PublishedDate: '2026-07-03T07:16:23.973Z'
-    LastModifiedDate: '2026-07-07T19:43:55.6Z'
   - VulnerabilityID: CVE-2026-10536
     PkgID: libcurl4t64@8.14.1-2ubuntu1.4
     PkgName: libcurl4t64
@@ -977,7 +908,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:8152da2e8e036c0b88f4a42e0456c91730f6df96eb79838207b828de2b0ee1ae
-    Title: A use-after-free vulnerability exists in libcurl when an application c ...
+    Title: 'libcurl: libcurl: Use-after-free vulnerability leading to Denial of Service'
     Description: |-
       A use-after-free vulnerability exists in libcurl when an application
       configures an HTTP/2 stream-dependency tree via `CURLOPT_STREAM_DEPENDS` or
@@ -989,12 +920,19 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      redhat: 2
       ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-10536
     - https://curl.se/L7HzKXisfJ/CVE-2026-10536.md
     - https://curl.se/docs/CVE-2026-10536.html
     - https://curl.se/docs/CVE-2026-10536.json
     - https://hackerone.com/reports/3751697
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-10536
     - https://www.cve.org/CVERecord?id=CVE-2026-10536
     PublishedDate: '2026-07-03T07:16:23.563Z'
     LastModifiedDate: '2026-07-07T18:02:03.89Z'
@@ -1369,7 +1307,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-13757
     - https://www.cve.org/CVERecord?id=CVE-2026-13757
     PublishedDate: '2026-06-29T19:16:40.907Z'
-    LastModifiedDate: '2026-07-01T15:16:30.19Z'
+    LastModifiedDate: '2026-07-08T03:34:36.15Z'
   - VulnerabilityID: CVE-2026-2297
     PkgID: libpython3.13@3.13.7-1ubuntu0.4
     PkgName: libpython3.13
@@ -2313,6 +2251,37 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-56433
     PublishedDate: '2024-12-26T09:15:07.267Z'
     LastModifiedDate: '2026-06-17T08:12:10.903Z'
+  - VulnerabilityID: CVE-2026-10037
+    PkgID: mailcap@3.74ubuntu1
+    PkgName: mailcap
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/mailcap@3.74ubuntu1?arch=all&distro=ubuntu-25.10
+      UID: 2ccd10cbf4e0f3ac
+    InstalledVersion: 3.74ubuntu1
+    FixedVersion: 3.74ubuntu1.1
+    Status: fixed
+    Layer:
+      Digest: sha256:5d05ebcf9e9e9e48321ca6b8c16b0f51d80f24b59e4bc0d01e33784d64a22814
+      DiffID: sha256:3abc0486e46222cc5aba63f411fe5b104c2f3d1ea49f937fe30eccf2ed4508f9
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-10037
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:d044e9aedb2a751f57efd23562f9a4f85062c4de0d91171fcfbfd2423c68197d
+    Description: A sandbox escape vulnerability exists in the OpenJDK packages provided in Ubuntu. The .jar MIME handlers installed by these packages execute files marked as executable when the mailcap package is installed. A compromised or malicious sandboxed application with access to the OpenURI portal via xdg-desktop-portal-gtk can write a malicious .jar file to the host file system, set its executable bit, and trigger the handler to execute arbitrary code outside of the sandbox environment.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-20
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://bugs.launchpad.net/ubuntu/+source/openjdk-25/+bug/2153100
+    - https://ubuntu.com/security/notices/USN-8518-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-10037
+    PublishedDate: '2026-07-08T22:17:12.5Z'
+    LastModifiedDate: '2026-07-08T22:17:12.5Z'
   - VulnerabilityID: CVE-2026-27456
     PkgID: mount@2.41-4ubuntu4.2
     PkgName: mount

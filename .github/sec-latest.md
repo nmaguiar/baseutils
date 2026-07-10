@@ -22,7 +22,31 @@
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                             ├ Fingerprint     : sha256:930c6ab21d9a17132ea7969775f73868ea4bd0136f3bb5424912d0
 │                             │                   68e383a2e7 
-│                             ╰ Severity        : UNKNOWN 
+│                             ├ Title           : c-ares: c-ares: Use-after-free / double-free in
+│                             │                   query-completion handling 
+│                             ├ Description     : A flaw was found in c-ares. A use-after-free / double-free
+│                             │                   vulnerability exists in the query-completion handling path,
+│                             │                   where a query callback is invoked while the query is still
+│                             │                   linked in internal lookup structures. A remote attacker can
+│                             │                   exploit this via ares_getaddrinfo() over TCP by sending
+│                             │                   crafted DNS responses that force an EDNS-downgrade retry
+│                             │                   followed by a connection reset, causing the internal
+│                             │                   completion handler to access freed memory. This leads to
+│                             │                   memory corruption and a crash (denial of service), with
+│                             │                   potential for further impact depending on the allocator and
+│                             │                   build configuration. 
+│                             ├ Severity        : HIGH 
+│                             ├ VendorSeverity   ─ redhat: 3 
+│                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
+│                             │                           │           A:H 
+│                             │                           ╰ V3Score : 7.5 
+│                             ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-33630 
+│                                                ├ [1]: https://github.com/c-ares/c-ares/commit/1fa3b86a0b8d18f
+│                                                │      e7b60f3228a01d770feb026bc 
+│                                                ├ [2]: https://github.com/c-ares/c-ares/commit/d823199b688052d
+│                                                │      cdc1646f2ab4cb8c16b1c644a 
+│                                                ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-33630 
+│                                                ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-33630 
 ╰ [1] ╭ Target         : Java 
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
@@ -146,26 +170,27 @@
                         │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/
                         │     │                           │           A:H 
                         │     │                           ╰ V3Score : 8.1 
-                        │     ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-54513 
-                        │     │                  ├ [1] : https://bugzilla.redhat.com/show_bug.cgi?id=2492010 
-                        │     │                  ├ [2] : https://github.com/FasterXML/jackson-databind 
-                        │     │                  ├ [3] : https://github.com/FasterXML/jackson-databind/commit/0
+                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:36839 
+                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-54513 
+                        │     │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2492010 
+                        │     │                  ├ [3] : https://github.com/FasterXML/jackson-databind 
+                        │     │                  ├ [4] : https://github.com/FasterXML/jackson-databind/commit/0
                         │     │                  │       1d1692c8d0ed03e51a0e3c4f8a9e6908e4931e5 
-                        │     │                  ├ [4] : https://github.com/FasterXML/jackson-databind/commit/2
+                        │     │                  ├ [5] : https://github.com/FasterXML/jackson-databind/commit/2
                         │     │                  │       4529da29fdf46ff94ca38de9ebf31cd188f5e8e 
-                        │     │                  ├ [5] : https://github.com/FasterXML/jackson-databind/issues/5
-                        │     │                  │       981 
                         │     │                  ├ [6] : https://github.com/FasterXML/jackson-databind/issues/5
+                        │     │                  │       981 
+                        │     │                  ├ [7] : https://github.com/FasterXML/jackson-databind/issues/5
                         │     │                  │       983 
-                        │     │                  ├ [7] : https://github.com/FasterXML/jackson-databind/pull/5984 
-                        │     │                  ├ [8] : https://github.com/FasterXML/jackson-databind/security
+                        │     │                  ├ [8] : https://github.com/FasterXML/jackson-databind/pull/5984 
+                        │     │                  ├ [9] : https://github.com/FasterXML/jackson-databind/security
                         │     │                  │       /advisories/GHSA-rmj7-2vxq-3g9f 
-                        │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2026-54513 
-                        │     │                  ├ [10]: https://security.access.redhat.com/data/csaf/v2/vex/20
+                        │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-54513 
+                        │     │                  ├ [11]: https://security.access.redhat.com/data/csaf/v2/vex/20
                         │     │                  │       26/cve-2026-54513.json 
-                        │     │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2026-54513 
+                        │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-54513 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.333Z 
-                        │     ╰ LastModifiedDate: 2026-07-03T13:17:29.627Z 
+                        │     ╰ LastModifiedDate: 2026-07-09T13:17:29.703Z 
                         ├ [2] ╭ VulnerabilityID : CVE-2026-54514 
                         │     ├ VendorIDs        ─ [0]: GHSA-hgj6-7826-r7m5 
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 

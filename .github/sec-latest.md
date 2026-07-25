@@ -15,18 +15,18 @@
                         │     ├ InstalledVersion: 2.22.0 
                         │     ├ FixedVersion    : 2.18.8, 2.21.4, 2.22.1 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:d08e8ea9a4956db61d85610999e5d907295335e483a4b
-                        │     │                  │         2fffa29442ec055d4ed 
-                        │     │                  ╰ DiffID: sha256:7830619263c2f3aa53ebd87c884892a1f0e1ef8976666
-                        │     │                            25aac9d837321a9affd 
+                        │     ├ Layer            ╭ Digest: sha256:db6a02dfe9ee3149c49479be3d59e5be4955773cc0fa1
+                        │     │                  │         5889ee18f0d146c2df0 
+                        │     │                  ╰ DiffID: sha256:3c15632f50699f79b4046a784c1b1bc6287fd48b06bee
+                        │     │                            bebce9d06c5410dc38d 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://github.com/advisories/GHSA-r7wm-3cxj-wff9 
                         │     ├ DataSource       ╭ ID  : ghsa 
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:44a682518938cf1a29a86e669d7af7b1d3a5d0a5bfcbc0c0c30bae
-                        │     │                   f9f0371ae5 
+                        │     ├ Fingerprint     : sha256:7c1c14c4b274900dfa5aef2800b3af16a955332868b240e971ea19
+                        │     │                   5f2b41e4a6 
                         │     ├ Title           : jackson-core: Async parser maxNumberLength bypass via chunked
                         │     │                    digit accumulation (incomplete fix for
                         │     │                   GHSA-72hv-8253-57qq) 
@@ -399,18 +399,18 @@
                         │     ├ InstalledVersion: 2.22.0 
                         │     ├ FixedVersion    : 3.1.4, 2.18.9, 2.21.5, 2.22.1 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:d08e8ea9a4956db61d85610999e5d907295335e483a4b
-                        │     │                  │         2fffa29442ec055d4ed 
-                        │     │                  ╰ DiffID: sha256:7830619263c2f3aa53ebd87c884892a1f0e1ef8976666
-                        │     │                            25aac9d837321a9affd 
+                        │     ├ Layer            ╭ Digest: sha256:db6a02dfe9ee3149c49479be3d59e5be4955773cc0fa1
+                        │     │                  │         5889ee18f0d146c2df0 
+                        │     │                  ╰ DiffID: sha256:3c15632f50699f79b4046a784c1b1bc6287fd48b06bee
+                        │     │                            bebce9d06c5410dc38d 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54515 
                         │     ├ DataSource       ╭ ID  : ghsa 
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:b638074306efdbbd9d490db0e594544363380cfb1950b36993c1fa
-                        │     │                   28e7793589 
+                        │     ├ Fingerprint     : sha256:2ec5b8f34104d38a8005737fc59f4a43f2eaf24aa11b58c9d3c8fa
+                        │     │                   3380dd4dee 
                         │     ├ Title           : jackson-databind: jackson-databind: Ignored properties can be
                         │     │                    unexpectedly modified 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
@@ -462,18 +462,18 @@
                               ├ InstalledVersion: 2.22.0 
                               ├ FixedVersion    : 2.21.5, 2.18.9, 2.22.1 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:d08e8ea9a4956db61d85610999e5d907295335e483a4b
-                              │                  │         2fffa29442ec055d4ed 
-                              │                  ╰ DiffID: sha256:7830619263c2f3aa53ebd87c884892a1f0e1ef8976666
-                              │                            25aac9d837321a9affd 
+                              ├ Layer            ╭ Digest: sha256:db6a02dfe9ee3149c49479be3d59e5be4955773cc0fa1
+                              │                  │         5889ee18f0d146c2df0 
+                              │                  ╰ DiffID: sha256:3c15632f50699f79b4046a784c1b1bc6287fd48b06bee
+                              │                            bebce9d06c5410dc38d 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-59889 
                               ├ DataSource       ╭ ID  : ghsa 
                               │                  ├ Name: GitHub Security Advisory Maven 
                               │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                               │                          osystem%3Amaven 
-                              ├ Fingerprint     : sha256:2fc6246d0aa741ed612b135f34420cccab3b9e491a453e8b2ac591
-                              │                   60338dfd15 
+                              ├ Fingerprint     : sha256:8eb27ede7260d639347438868485abb04495d1425903977d1c6347
+                              │                   1de0cc4c0d 
                               ├ Title           : jackson-databind: @JsonView ypassed for @JsonUnwrapped
                               │                   container properties on deserialization 
                               ├ Description     : jackson-databind contains the general-purpose data-binding

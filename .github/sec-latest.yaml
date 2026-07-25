@@ -17,15 +17,15 @@
     FixedVersion: 2.18.8, 2.21.4, 2.22.1
     Status: fixed
     Layer:
-      Digest: sha256:d08e8ea9a4956db61d85610999e5d907295335e483a4b2fffa29442ec055d4ed
-      DiffID: sha256:7830619263c2f3aa53ebd87c884892a1f0e1ef897666625aac9d837321a9affd
+      Digest: sha256:db6a02dfe9ee3149c49479be3d59e5be4955773cc0fa15889ee18f0d146c2df0
+      DiffID: sha256:3c15632f50699f79b4046a784c1b1bc6287fd48b06beebebce9d06c5410dc38d
     SeveritySource: ghsa
     PrimaryURL: https://github.com/advisories/GHSA-r7wm-3cxj-wff9
     DataSource:
       ID: ghsa
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
-    Fingerprint: sha256:44a682518938cf1a29a86e669d7af7b1d3a5d0a5bfcbc0c0c30baef9f0371ae5
+    Fingerprint: sha256:7c1c14c4b274900dfa5aef2800b3af16a955332868b240e971ea195f2b41e4a6
     Title: 'jackson-core: Async parser maxNumberLength bypass via chunked digit accumulation (incomplete fix for GHSA-72hv-8253-57qq)'
     Description: |-
       ## Summary
@@ -347,15 +347,15 @@
     FixedVersion: 3.1.4, 2.18.9, 2.21.5, 2.22.1
     Status: fixed
     Layer:
-      Digest: sha256:d08e8ea9a4956db61d85610999e5d907295335e483a4b2fffa29442ec055d4ed
-      DiffID: sha256:7830619263c2f3aa53ebd87c884892a1f0e1ef897666625aac9d837321a9affd
+      Digest: sha256:db6a02dfe9ee3149c49479be3d59e5be4955773cc0fa15889ee18f0d146c2df0
+      DiffID: sha256:3c15632f50699f79b4046a784c1b1bc6287fd48b06beebebce9d06c5410dc38d
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54515
     DataSource:
       ID: ghsa
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
-    Fingerprint: sha256:b638074306efdbbd9d490db0e594544363380cfb1950b36993c1fa28e7793589
+    Fingerprint: sha256:2ec5b8f34104d38a8005737fc59f4a43f2eaf24aa11b58c9d3c8fa3380dd4dee
     Title: 'jackson-databind: jackson-databind: Ignored properties can be unexpectedly modified'
     Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.8.0 until 2.18.9, 2.21.5, and 3.1.4, in BeanDeserializerBase.createContextual(), per-property @JsonIgnoreProperties exclusions are applied by _handleByNameInclusion(), producing a contextual deserializer whose BeanPropertyMap has the ignored properties removed. The subsequent per-property case-insensitivity block (triggered by @JsonFormat(ACCEPT_CASE_INSENSITIVE_PROPERTIES)) rebuilds from this._beanProperties (the original, unfiltered map) instead of contextual._beanProperties, then overwrites the filtered map — restoring every property _handleByNameInclusion had just removed. The ignored property becomes writable again. This vulnerability is fixed in 2.18.9, 2.21.5, and 3.1.4.
     Severity: MEDIUM
@@ -395,15 +395,15 @@
     FixedVersion: 2.21.5, 2.18.9, 2.22.1
     Status: fixed
     Layer:
-      Digest: sha256:d08e8ea9a4956db61d85610999e5d907295335e483a4b2fffa29442ec055d4ed
-      DiffID: sha256:7830619263c2f3aa53ebd87c884892a1f0e1ef897666625aac9d837321a9affd
+      Digest: sha256:db6a02dfe9ee3149c49479be3d59e5be4955773cc0fa15889ee18f0d146c2df0
+      DiffID: sha256:3c15632f50699f79b4046a784c1b1bc6287fd48b06beebebce9d06c5410dc38d
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-59889
     DataSource:
       ID: ghsa
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
-    Fingerprint: sha256:2fc6246d0aa741ed612b135f34420cccab3b9e491a453e8b2ac59160338dfd15
+    Fingerprint: sha256:8eb27ede7260d639347438868485abb04495d1425903977d1c63471de0cc4c0d
     Title: 'jackson-databind: @JsonView ypassed for @JsonUnwrapped container properties on deserialization'
     Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.18.0 until 2.18.9, 2.21.5, 2.22.1, 3.1.5, and 3.2.1, UnwrappedPropertyHandler.processUnwrapped() replays buffered JSON for a @JsonUnwrapped property and calls prop.deserializeAndSet() without a prop.visibleInView(ctxt.getActiveView()) guard, allowing a property annotated with both @JsonView and @JsonUnwrapped to be written from attacker JSON under a less-privileged active view. This issue is fixed in versions 2.18.9, 2.21.5, 2.22.1, 3.1.5, and 3.2.1.
     Severity: MEDIUM

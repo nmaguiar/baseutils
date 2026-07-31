@@ -469,7 +469,7 @@
                         │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
                         │      │                  │       26-54513 
                         │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-40895.html 
-                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:43400 
+                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:40895 
                         │      │                  ├ [10]: https://github.com/FasterXML/jackson-databind 
                         │      │                  ├ [11]: https://github.com/FasterXML/jackson-databind/commit/
                         │      │                  │       434d6c511de7fdd9872f29157aafb6162d12d8d5 
@@ -547,37 +547,39 @@
                         │      │                  ├ [9] : https://access.redhat.com/errata/RHSA-2026:44065 
                         │      │                  ├ [10]: https://access.redhat.com/errata/RHSA-2026:44066 
                         │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2026:44271 
-                        │      │                  ├ [12]: https://access.redhat.com/security/cve/CVE-2026-54513 
-                        │      │                  ├ [13]: https://bugzilla.redhat.com/2492010 
-                        │      │                  ├ [14]: https://bugzilla.redhat.com/2492015 
-                        │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2492010 
-                        │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2492015 
-                        │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+                        │      │                  ├ [12]: https://access.redhat.com/errata/RHSA-2026:48095 
+                        │      │                  ├ [13]: https://access.redhat.com/errata/RHSA-2026:48151 
+                        │      │                  ├ [14]: https://access.redhat.com/security/cve/CVE-2026-54513 
+                        │      │                  ├ [15]: https://bugzilla.redhat.com/2492010 
+                        │      │                  ├ [16]: https://bugzilla.redhat.com/2492015 
+                        │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2492010 
+                        │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2492015 
+                        │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
                         │      │                  │       26-54512 
-                        │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+                        │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
                         │      │                  │       26-54513 
-                        │      │                  ├ [19]: https://errata.almalinux.org/9/ALSA-2026-40895.html 
-                        │      │                  ├ [20]: https://errata.rockylinux.org/RLSA-2026:43400 
-                        │      │                  ├ [21]: https://github.com/FasterXML/jackson-databind 
-                        │      │                  ├ [22]: https://github.com/FasterXML/jackson-databind/commit/
+                        │      │                  ├ [21]: https://errata.almalinux.org/9/ALSA-2026-40895.html 
+                        │      │                  ├ [22]: https://errata.rockylinux.org/RLSA-2026:40895 
+                        │      │                  ├ [23]: https://github.com/FasterXML/jackson-databind 
+                        │      │                  ├ [24]: https://github.com/FasterXML/jackson-databind/commit/
                         │      │                  │       01d1692c8d0ed03e51a0e3c4f8a9e6908e4931e5 
-                        │      │                  ├ [23]: https://github.com/FasterXML/jackson-databind/commit/
+                        │      │                  ├ [25]: https://github.com/FasterXML/jackson-databind/commit/
                         │      │                  │       24529da29fdf46ff94ca38de9ebf31cd188f5e8e 
-                        │      │                  ├ [24]: https://github.com/FasterXML/jackson-databind/issues/
+                        │      │                  ├ [26]: https://github.com/FasterXML/jackson-databind/issues/
                         │      │                  │       5981 
-                        │      │                  ├ [25]: https://github.com/FasterXML/jackson-databind/issues/
+                        │      │                  ├ [27]: https://github.com/FasterXML/jackson-databind/issues/
                         │      │                  │       5983 
-                        │      │                  ├ [26]: https://github.com/FasterXML/jackson-databind/pull/5984 
-                        │      │                  ├ [27]: https://github.com/FasterXML/jackson-databind/securit
+                        │      │                  ├ [28]: https://github.com/FasterXML/jackson-databind/pull/5984 
+                        │      │                  ├ [29]: https://github.com/FasterXML/jackson-databind/securit
                         │      │                  │       y/advisories/GHSA-rmj7-2vxq-3g9f 
-                        │      │                  ├ [28]: https://linux.oracle.com/cve/CVE-2026-54513.html 
-                        │      │                  ├ [29]: https://linux.oracle.com/errata/ELSA-2026-43400.html 
-                        │      │                  ├ [30]: https://nvd.nist.gov/vuln/detail/CVE-2026-54513 
-                        │      │                  ├ [31]: https://security.access.redhat.com/data/csaf/v2/vex/2
+                        │      │                  ├ [30]: https://linux.oracle.com/cve/CVE-2026-54513.html 
+                        │      │                  ├ [31]: https://linux.oracle.com/errata/ELSA-2026-43400.html 
+                        │      │                  ├ [32]: https://nvd.nist.gov/vuln/detail/CVE-2026-54513 
+                        │      │                  ├ [33]: https://security.access.redhat.com/data/csaf/v2/vex/2
                         │      │                  │       026/cve-2026-54513.json 
-                        │      │                  ╰ [32]: https://www.cve.org/CVERecord?id=CVE-2026-54513 
+                        │      │                  ╰ [34]: https://www.cve.org/CVERecord?id=CVE-2026-54513 
                         │      ├ PublishedDate   : 2026-06-23T21:17:02.333Z 
-                        │      ╰ LastModifiedDate: 2026-07-23T12:18:26.847Z 
+                        │      ╰ LastModifiedDate: 2026-07-30T12:19:02.307Z 
                         ├ [3]  ╭ VulnerabilityID : CVE-2026-54514 
                         │      ├ VendorIDs        ─ [0]: GHSA-hgj6-7826-r7m5 
                         │      ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 

@@ -643,20 +643,25 @@
 │                       │      │                   dependent services. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-674 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ oracle-oval: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 6.2 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:37469 
-│                       │      │                  ├ [1]: https://access.redhat.com/errata/RHSA-2026:38342 
-│                       │      │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2026-13757 
-│                       │      │                  ├ [3]: https://bugzilla.redhat.com/show_bug.cgi?id=2494556 
-│                       │      │                  ├ [4]: https://github.com/advisories/GHSA-p2wm-69qx-x25w 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-13757 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-13757 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:37469 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:38342 
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:49667 
+│                       │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:49668 
+│                       │      │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2026-13757 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2494556 
+│                       │      │                  ├ [6] : https://github.com/advisories/GHSA-p2wm-69qx-x25w 
+│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2026-13757.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2026-49668.html 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2026-13757 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2026-13757 
 │                       │      ├ PublishedDate   : 2026-06-29T19:16:40.907Z 
-│                       │      ╰ LastModifiedDate: 2026-07-13T06:16:24.863Z 
+│                       │      ╰ LastModifiedDate: 2026-08-03T22:16:48.113Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2026-27456 
 │                       │      ├ PkgID           : libsmartcols1@2.41.3-3ubuntu2 
 │                       │      ├ PkgName         : libsmartcols1 
@@ -2876,7 +2881,7 @@
                         │      │                  ├ [103]: https://ubuntu.com/security/notices/USN-8416-1 
                         │      │                  ╰ [104]: https://www.cve.org/CVERecord?id=CVE-2026-39821 
                         │      ├ PublishedDate   : 2026-05-22T16:16:20.41Z 
-                        │      ╰ LastModifiedDate: 2026-07-31T13:18:09.37Z 
+                        │      ╰ LastModifiedDate: 2026-08-03T13:18:10.843Z 
                         ├ [4]  ╭ VulnerabilityID : CVE-2025-47911 
                         │      ├ VendorIDs        ─ [0]: GO-2026-4440 
                         │      ├ PkgID           : golang.org/x/net@v0.40.0 

@@ -655,20 +655,21 @@
 │                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:38342 
 │                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:49667 
 │                       │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:49668 
-│                       │      │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2026-13757 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2494556 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2494556 
-│                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2026:53371 
+│                       │      │                  ├ [5] : https://access.redhat.com/security/cve/CVE-2026-13757 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2494556 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2494556 
+│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-13757 
-│                       │      │                  ├ [8] : https://errata.almalinux.org/10/ALSA-2026-49668.html 
-│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:49667 
-│                       │      │                  ├ [10]: https://github.com/advisories/GHSA-p2wm-69qx-x25w 
-│                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2026-13757.html 
-│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2026-49668.html 
-│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2026-13757 
-│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2026-13757 
+│                       │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2026-49667.html 
+│                       │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:49667 
+│                       │      │                  ├ [11]: https://github.com/advisories/GHSA-p2wm-69qx-x25w 
+│                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2026-13757.html 
+│                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2026-49668.html 
+│                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2026-13757 
+│                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2026-13757 
 │                       │      ├ PublishedDate   : 2026-06-29T19:16:40.907Z 
-│                       │      ╰ LastModifiedDate: 2026-08-03T22:16:48.113Z 
+│                       │      ╰ LastModifiedDate: 2026-08-11T10:17:11.68Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2026-27456 
 │                       │      ├ PkgID           : libsmartcols1@2.41.3-3ubuntu2 
 │                       │      ├ PkgName         : libsmartcols1 
@@ -2603,7 +2604,241 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
 │                       │      ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
 │                       │      ╰ LastModifiedDate: 2026-07-21T19:10:00.107Z 
-│                       ├ [51] ╭ VulnerabilityID : CVE-2021-31879 
+│                       ├ [51] ╭ VulnerabilityID : CVE-2026-51400 
+│                       │      ├ PkgID           : vim@2:9.1.2141-1ubuntu4.7 
+│                       │      ├ PkgName         : vim 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.7?arch=amd64&dis
+│                       │      │                  │       tro=ubuntu-26.04&epoch=2 
+│                       │      │                  ╰ UID : 81174070196e01a7 
+│                       │      ├ InstalledVersion: 2:9.1.2141-1ubuntu4.7 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:944565cd442ad5f7b393fe914cfa56b8dc12f93cae1c
+│                       │      │                  │         4724a45c03fe2abddba1 
+│                       │      │                  ╰ DiffID: sha256:f17a4797abfce19f194fa71560706d6600db54ac9610
+│                       │      │                            28c664cc70b025656e08 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-51400 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:1e5c76979d0aea17b670e1c5464e03530bc2aa717776363a7f2a7
+│                       │      │                   5f37e23be78 
+│                       │      ├ Title           : vim: Vim: Arbitrary code execution via vms_fixfilename()
+│                       │      │                   function 
+│                       │      ├ Description     : An issue in Vim Project v9.2.0389 and earlier allows a local
+│                       │      │                    attacker to execute arbitrary code via the
+│                       │      │                   vms_fixfilename() function within file vim/src/os_vms.c 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-401 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-51400 
+│                       │      │                  ├ [1]: https://gist.github.com/jiejiaodedengdai/ff5d34a523167
+│                       │      │                  │      e09b7d8330cc9f5d4e5#file-vim-os_vms-cves-md 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-51400 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-51400 
+│                       │      ├ PublishedDate   : 2026-08-04T21:16:36.433Z 
+│                       │      ╰ LastModifiedDate: 2026-08-05T18:17:11.477Z 
+│                       ├ [52] ╭ VulnerabilityID : CVE-2026-51401 
+│                       │      ├ PkgID           : vim@2:9.1.2141-1ubuntu4.7 
+│                       │      ├ PkgName         : vim 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.7?arch=amd64&dis
+│                       │      │                  │       tro=ubuntu-26.04&epoch=2 
+│                       │      │                  ╰ UID : 81174070196e01a7 
+│                       │      ├ InstalledVersion: 2:9.1.2141-1ubuntu4.7 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:944565cd442ad5f7b393fe914cfa56b8dc12f93cae1c
+│                       │      │                  │         4724a45c03fe2abddba1 
+│                       │      │                  ╰ DiffID: sha256:f17a4797abfce19f194fa71560706d6600db54ac9610
+│                       │      │                            28c664cc70b025656e08 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-51401 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:bbe80f7bbca920eed491f38f4c6d46ac2d991b1cd7e8c7c7f3fa3
+│                       │      │                   a19a9bafdd2 
+│                       │      ├ Title           : vim: Vim: Arbitrary code execution via vms_fixfilename()
+│                       │      │                   function 
+│                       │      ├ Description     : An issue in Vim Project v9.2.0389 and earlier allows a local
+│                       │      │                    attacker to execute arbitrary code via the
+│                       │      │                   vms_fixfilename() function within file vim/src/os_vms.c 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-94 
+│                       │      ├ VendorSeverity   ╭ redhat: 3 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.8 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-51401 
+│                       │      │                  ├ [1]: https://gist.github.com/jiejiaodedengdai/ff5d34a523167
+│                       │      │                  │      e09b7d8330cc9f5d4e5#file-vim-os_vms-cves-md 
+│                       │      │                  ├ [2]: https://github.com/vim/vim 
+│                       │      │                  ├ [3]: https://github.com/vim/vim/blob/master/src/os_vms.c 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-51401 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-51401 
+│                       │      ├ PublishedDate   : 2026-08-04T21:16:36.567Z 
+│                       │      ╰ LastModifiedDate: 2026-08-05T20:17:09.31Z 
+│                       ├ [53] ╭ VulnerabilityID : CVE-2026-51400 
+│                       │      ├ PkgID           : vim-common@2:9.1.2141-1ubuntu4.7 
+│                       │      ├ PkgName         : vim-common 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.7?arch=al
+│                       │      │                  │       l&distro=ubuntu-26.04&epoch=2 
+│                       │      │                  ╰ UID : e4335c61f6d20a99 
+│                       │      ├ InstalledVersion: 2:9.1.2141-1ubuntu4.7 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:944565cd442ad5f7b393fe914cfa56b8dc12f93cae1c
+│                       │      │                  │         4724a45c03fe2abddba1 
+│                       │      │                  ╰ DiffID: sha256:f17a4797abfce19f194fa71560706d6600db54ac9610
+│                       │      │                            28c664cc70b025656e08 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-51400 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:ad50ab87671ca29efe858c9e49ccdcdfbf54b878241c314598dca
+│                       │      │                   ab386b1831d 
+│                       │      ├ Title           : vim: Vim: Arbitrary code execution via vms_fixfilename()
+│                       │      │                   function 
+│                       │      ├ Description     : An issue in Vim Project v9.2.0389 and earlier allows a local
+│                       │      │                    attacker to execute arbitrary code via the
+│                       │      │                   vms_fixfilename() function within file vim/src/os_vms.c 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-401 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-51400 
+│                       │      │                  ├ [1]: https://gist.github.com/jiejiaodedengdai/ff5d34a523167
+│                       │      │                  │      e09b7d8330cc9f5d4e5#file-vim-os_vms-cves-md 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-51400 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-51400 
+│                       │      ├ PublishedDate   : 2026-08-04T21:16:36.433Z 
+│                       │      ╰ LastModifiedDate: 2026-08-05T18:17:11.477Z 
+│                       ├ [54] ╭ VulnerabilityID : CVE-2026-51401 
+│                       │      ├ PkgID           : vim-common@2:9.1.2141-1ubuntu4.7 
+│                       │      ├ PkgName         : vim-common 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.7?arch=al
+│                       │      │                  │       l&distro=ubuntu-26.04&epoch=2 
+│                       │      │                  ╰ UID : e4335c61f6d20a99 
+│                       │      ├ InstalledVersion: 2:9.1.2141-1ubuntu4.7 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:944565cd442ad5f7b393fe914cfa56b8dc12f93cae1c
+│                       │      │                  │         4724a45c03fe2abddba1 
+│                       │      │                  ╰ DiffID: sha256:f17a4797abfce19f194fa71560706d6600db54ac9610
+│                       │      │                            28c664cc70b025656e08 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-51401 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:9b8cee699391587fbecd24fb0e905ffd3f15e24caa062648d8297
+│                       │      │                   c6d530e3010 
+│                       │      ├ Title           : vim: Vim: Arbitrary code execution via vms_fixfilename()
+│                       │      │                   function 
+│                       │      ├ Description     : An issue in Vim Project v9.2.0389 and earlier allows a local
+│                       │      │                    attacker to execute arbitrary code via the
+│                       │      │                   vms_fixfilename() function within file vim/src/os_vms.c 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-94 
+│                       │      ├ VendorSeverity   ╭ redhat: 3 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.8 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-51401 
+│                       │      │                  ├ [1]: https://gist.github.com/jiejiaodedengdai/ff5d34a523167
+│                       │      │                  │      e09b7d8330cc9f5d4e5#file-vim-os_vms-cves-md 
+│                       │      │                  ├ [2]: https://github.com/vim/vim 
+│                       │      │                  ├ [3]: https://github.com/vim/vim/blob/master/src/os_vms.c 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-51401 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-51401 
+│                       │      ├ PublishedDate   : 2026-08-04T21:16:36.567Z 
+│                       │      ╰ LastModifiedDate: 2026-08-05T20:17:09.31Z 
+│                       ├ [55] ╭ VulnerabilityID : CVE-2026-51400 
+│                       │      ├ PkgID           : vim-runtime@2:9.1.2141-1ubuntu4.7 
+│                       │      ├ PkgName         : vim-runtime 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.7?arch=a
+│                       │      │                  │       ll&distro=ubuntu-26.04&epoch=2 
+│                       │      │                  ╰ UID : b876d7ab71a834bc 
+│                       │      ├ InstalledVersion: 2:9.1.2141-1ubuntu4.7 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:944565cd442ad5f7b393fe914cfa56b8dc12f93cae1c
+│                       │      │                  │         4724a45c03fe2abddba1 
+│                       │      │                  ╰ DiffID: sha256:f17a4797abfce19f194fa71560706d6600db54ac9610
+│                       │      │                            28c664cc70b025656e08 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-51400 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:6763824bdf0307b6b14a9ed792e5439c4057b3ab6916de85b5c67
+│                       │      │                   928b68c242d 
+│                       │      ├ Title           : vim: Vim: Arbitrary code execution via vms_fixfilename()
+│                       │      │                   function 
+│                       │      ├ Description     : An issue in Vim Project v9.2.0389 and earlier allows a local
+│                       │      │                    attacker to execute arbitrary code via the
+│                       │      │                   vms_fixfilename() function within file vim/src/os_vms.c 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-401 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-51400 
+│                       │      │                  ├ [1]: https://gist.github.com/jiejiaodedengdai/ff5d34a523167
+│                       │      │                  │      e09b7d8330cc9f5d4e5#file-vim-os_vms-cves-md 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-51400 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-51400 
+│                       │      ├ PublishedDate   : 2026-08-04T21:16:36.433Z 
+│                       │      ╰ LastModifiedDate: 2026-08-05T18:17:11.477Z 
+│                       ├ [56] ╭ VulnerabilityID : CVE-2026-51401 
+│                       │      ├ PkgID           : vim-runtime@2:9.1.2141-1ubuntu4.7 
+│                       │      ├ PkgName         : vim-runtime 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.7?arch=a
+│                       │      │                  │       ll&distro=ubuntu-26.04&epoch=2 
+│                       │      │                  ╰ UID : b876d7ab71a834bc 
+│                       │      ├ InstalledVersion: 2:9.1.2141-1ubuntu4.7 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:944565cd442ad5f7b393fe914cfa56b8dc12f93cae1c
+│                       │      │                  │         4724a45c03fe2abddba1 
+│                       │      │                  ╰ DiffID: sha256:f17a4797abfce19f194fa71560706d6600db54ac9610
+│                       │      │                            28c664cc70b025656e08 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-51401 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:86854707e16004ea77f0c6b7f2fad1c0ffc0b897f683d703ddbe3
+│                       │      │                   8048af2cd62 
+│                       │      ├ Title           : vim: Vim: Arbitrary code execution via vms_fixfilename()
+│                       │      │                   function 
+│                       │      ├ Description     : An issue in Vim Project v9.2.0389 and earlier allows a local
+│                       │      │                    attacker to execute arbitrary code via the
+│                       │      │                   vms_fixfilename() function within file vim/src/os_vms.c 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-94 
+│                       │      ├ VendorSeverity   ╭ redhat: 3 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.8 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-51401 
+│                       │      │                  ├ [1]: https://gist.github.com/jiejiaodedengdai/ff5d34a523167
+│                       │      │                  │      e09b7d8330cc9f5d4e5#file-vim-os_vms-cves-md 
+│                       │      │                  ├ [2]: https://github.com/vim/vim 
+│                       │      │                  ├ [3]: https://github.com/vim/vim/blob/master/src/os_vms.c 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-51401 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-51401 
+│                       │      ├ PublishedDate   : 2026-08-04T21:16:36.567Z 
+│                       │      ╰ LastModifiedDate: 2026-08-05T20:17:09.31Z 
+│                       ├ [57] ╭ VulnerabilityID : CVE-2021-31879 
 │                       │      ├ PkgID           : wget@1.25.0-2ubuntu4.3 
 │                       │      ├ PkgName         : wget 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.25.0-2ubuntu4.3?arch=amd64&dist
@@ -2655,7 +2890,85 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                       │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T03:52:23.987Z 
-│                       ╰ [52] ╭ VulnerabilityID : CVE-2026-27171 
+│                       ├ [58] ╭ VulnerabilityID : CVE-2026-51400 
+│                       │      ├ PkgID           : xxd@2:9.1.2141-1ubuntu4.7 
+│                       │      ├ PkgName         : xxd 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.7?arch=amd64&dis
+│                       │      │                  │       tro=ubuntu-26.04&epoch=2 
+│                       │      │                  ╰ UID : 2c613ff4ce2c8406 
+│                       │      ├ InstalledVersion: 2:9.1.2141-1ubuntu4.7 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:944565cd442ad5f7b393fe914cfa56b8dc12f93cae1c
+│                       │      │                  │         4724a45c03fe2abddba1 
+│                       │      │                  ╰ DiffID: sha256:f17a4797abfce19f194fa71560706d6600db54ac9610
+│                       │      │                            28c664cc70b025656e08 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-51400 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:ef510a2d8f70dcad2834c0e17b39982fe14d7855f2508cc97063c
+│                       │      │                   b213819c930 
+│                       │      ├ Title           : vim: Vim: Arbitrary code execution via vms_fixfilename()
+│                       │      │                   function 
+│                       │      ├ Description     : An issue in Vim Project v9.2.0389 and earlier allows a local
+│                       │      │                    attacker to execute arbitrary code via the
+│                       │      │                   vms_fixfilename() function within file vim/src/os_vms.c 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-401 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-51400 
+│                       │      │                  ├ [1]: https://gist.github.com/jiejiaodedengdai/ff5d34a523167
+│                       │      │                  │      e09b7d8330cc9f5d4e5#file-vim-os_vms-cves-md 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-51400 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-51400 
+│                       │      ├ PublishedDate   : 2026-08-04T21:16:36.433Z 
+│                       │      ╰ LastModifiedDate: 2026-08-05T18:17:11.477Z 
+│                       ├ [59] ╭ VulnerabilityID : CVE-2026-51401 
+│                       │      ├ PkgID           : xxd@2:9.1.2141-1ubuntu4.7 
+│                       │      ├ PkgName         : xxd 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.7?arch=amd64&dis
+│                       │      │                  │       tro=ubuntu-26.04&epoch=2 
+│                       │      │                  ╰ UID : 2c613ff4ce2c8406 
+│                       │      ├ InstalledVersion: 2:9.1.2141-1ubuntu4.7 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:944565cd442ad5f7b393fe914cfa56b8dc12f93cae1c
+│                       │      │                  │         4724a45c03fe2abddba1 
+│                       │      │                  ╰ DiffID: sha256:f17a4797abfce19f194fa71560706d6600db54ac9610
+│                       │      │                            28c664cc70b025656e08 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-51401 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:326fd24ef59bdf11ab7786cde3be50b33c9e09aeb77676b74ca8c
+│                       │      │                   3d42a5a87b3 
+│                       │      ├ Title           : vim: Vim: Arbitrary code execution via vms_fixfilename()
+│                       │      │                   function 
+│                       │      ├ Description     : An issue in Vim Project v9.2.0389 and earlier allows a local
+│                       │      │                    attacker to execute arbitrary code via the
+│                       │      │                   vms_fixfilename() function within file vim/src/os_vms.c 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-94 
+│                       │      ├ VendorSeverity   ╭ redhat: 3 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.8 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-51401 
+│                       │      │                  ├ [1]: https://gist.github.com/jiejiaodedengdai/ff5d34a523167
+│                       │      │                  │      e09b7d8330cc9f5d4e5#file-vim-os_vms-cves-md 
+│                       │      │                  ├ [2]: https://github.com/vim/vim 
+│                       │      │                  ├ [3]: https://github.com/vim/vim/blob/master/src/os_vms.c 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-51401 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-51401 
+│                       │      ├ PublishedDate   : 2026-08-04T21:16:36.567Z 
+│                       │      ╰ LastModifiedDate: 2026-08-05T20:17:09.31Z 
+│                       ╰ [60] ╭ VulnerabilityID : CVE-2026-27171 
 │                              ├ PkgID           : zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu3 
 │                              ├ PkgName         : zlib1g 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/zlib1g@1.3.dfsg%2Breally1.3.1-1ubuntu3
@@ -2758,46 +3071,47 @@
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H
                         │      │                           │           /A:N 
                         │      │                           ╰ V3Score : 8.1 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:34357 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:37123 
                         │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-25681 
-                        │      │                  ├ [2] : https://bugzilla.redhat.com/2466505 
-                        │      │                  ├ [3] : https://bugzilla.redhat.com/2466507 
-                        │      │                  ├ [4] : https://bugzilla.redhat.com/2467822 
-                        │      │                  ├ [5] : https://bugzilla.redhat.com/2480756 
-                        │      │                  ├ [6] : https://bugzilla.redhat.com/2480761 
-                        │      │                  ├ [7] : https://bugzilla.redhat.com/2484207 
-                        │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2480680 
-                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2480681 
-                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2480685 
-                        │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2480688 
-                        │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2480757 
-                        │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2480761 
-                        │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2493620 
-                        │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-                        │      │                  │       26-25681 
+                        │      │                  ├ [2] : https://bugzilla.redhat.com/2480680 
+                        │      │                  ├ [3] : https://bugzilla.redhat.com/2480681 
+                        │      │                  ├ [4] : https://bugzilla.redhat.com/2480685 
+                        │      │                  ├ [5] : https://bugzilla.redhat.com/2480688 
+                        │      │                  ├ [6] : https://bugzilla.redhat.com/2480757 
+                        │      │                  ├ [7] : https://bugzilla.redhat.com/2480761 
+                        │      │                  ├ [8] : https://bugzilla.redhat.com/2493620 
+                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2480680 
+                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2480681 
+                        │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2480685 
+                        │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2480688 
+                        │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2480757 
+                        │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2480761 
+                        │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2493620 
                         │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-                        │      │                  │       26-27136 
+                        │      │                  │       26-25681 
                         │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-                        │      │                  │       26-39829 
+                        │      │                  │       26-27136 
                         │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-                        │      │                  │       26-39832 
+                        │      │                  │       26-39829 
                         │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-                        │      │                  │       26-39835 
+                        │      │                  │       26-39832 
                         │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-                        │      │                  │       26-42508 
+                        │      │                  │       26-39835 
                         │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+                        │      │                  │       26-42508 
+                        │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
                         │      │                  │       26-57231 
-                        │      │                  ├ [22]: https://errata.almalinux.org/10/ALSA-2026-34357.html 
-                        │      │                  ├ [23]: https://errata.rockylinux.org/RLSA-2026:37123 
-                        │      │                  ├ [24]: https://go.dev/cl/781703 
-                        │      │                  ├ [25]: https://go.dev/issue/79574 
-                        │      │                  ├ [26]: https://groups.google.com/g/golang-announce/c/iI-mYSI
+                        │      │                  ├ [23]: https://errata.almalinux.org/9/ALSA-2026-37123.html 
+                        │      │                  ├ [24]: https://errata.rockylinux.org/RLSA-2026:37123 
+                        │      │                  ├ [25]: https://go.dev/cl/781703 
+                        │      │                  ├ [26]: https://go.dev/issue/79574 
+                        │      │                  ├ [27]: https://groups.google.com/g/golang-announce/c/iI-mYSI
                         │      │                  │       0lu8 
-                        │      │                  ├ [27]: https://linux.oracle.com/cve/CVE-2026-25681.html 
-                        │      │                  ├ [28]: https://linux.oracle.com/errata/ELSA-2026-37123.html 
-                        │      │                  ├ [29]: https://nvd.nist.gov/vuln/detail/CVE-2026-25681 
-                        │      │                  ├ [30]: https://pkg.go.dev/vuln/GO-2026-5029 
-                        │      │                  ╰ [31]: https://www.cve.org/CVERecord?id=CVE-2026-25681 
+                        │      │                  ├ [28]: https://linux.oracle.com/cve/CVE-2026-25681.html 
+                        │      │                  ├ [29]: https://linux.oracle.com/errata/ELSA-2026-37123.html 
+                        │      │                  ├ [30]: https://nvd.nist.gov/vuln/detail/CVE-2026-25681 
+                        │      │                  ├ [31]: https://pkg.go.dev/vuln/GO-2026-5029 
+                        │      │                  ╰ [32]: https://www.cve.org/CVERecord?id=CVE-2026-25681 
                         │      ├ PublishedDate   : 2026-05-22T16:16:19.863Z 
                         │      ╰ LastModifiedDate: 2026-07-23T16:10:00.137Z 
                         ├ [1]  ╭ VulnerabilityID : CVE-2026-27136 
@@ -2958,7 +3272,7 @@
                         │      │                  ├ [28]: https://ubuntu.com/security/notices/USN-8473-1 
                         │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2026-33814 
                         │      ├ PublishedDate   : 2026-05-07T20:16:42.88Z 
-                        │      ╰ LastModifiedDate: 2026-08-10T13:18:58.827Z 
+                        │      ╰ LastModifiedDate: 2026-08-11T13:18:26.35Z 
                         ├ [3]  ╭ VulnerabilityID : CVE-2026-39821 
                         │      ├ VendorIDs        ─ [0]: GO-2026-5026 
                         │      ├ PkgID           : golang.org/x/net@v0.40.0 
@@ -3097,32 +3411,33 @@
                         │      │                  ├ [90] : https://access.redhat.com/errata/RHSA-2026:51187 
                         │      │                  ├ [91] : https://access.redhat.com/errata/RHSA-2026:51194 
                         │      │                  ├ [92] : https://access.redhat.com/errata/RHSA-2026:51341 
-                        │      │                  ├ [93] : https://access.redhat.com/security/cve/CVE-2026-39821 
-                        │      │                  ├ [94] : https://bugzilla.redhat.com/2480756 
-                        │      │                  ├ [95] : https://bugzilla.redhat.com/2484207 
-                        │      │                  ├ [96] : https://bugzilla.redhat.com/show_bug.cgi?id=2480756 
-                        │      │                  ├ [97] : https://bugzilla.redhat.com/show_bug.cgi?id=2498152 
-                        │      │                  ├ [98] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-                        │      │                  │        026-39821 
+                        │      │                  ├ [93] : https://access.redhat.com/errata/RHSA-2026:52826 
+                        │      │                  ├ [94] : https://access.redhat.com/errata/RHSA-2026:53374 
+                        │      │                  ├ [95] : https://access.redhat.com/security/cve/CVE-2026-39821 
+                        │      │                  ├ [96] : https://bugzilla.redhat.com/2480756 
+                        │      │                  ├ [97] : https://bugzilla.redhat.com/show_bug.cgi?id=2480756 
+                        │      │                  ├ [98] : https://bugzilla.redhat.com/show_bug.cgi?id=2498152 
                         │      │                  ├ [99] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+                        │      │                  │        026-39821 
+                        │      │                  ├ [100]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
                         │      │                  │        026-39822 
-                        │      │                  ├ [100]: https://errata.almalinux.org/10/ALSA-2026-46395.html 
-                        │      │                  ├ [101]: https://errata.rockylinux.org/RLSA-2026:37435 
-                        │      │                  ├ [102]: https://github.com/golang/go/issues/78760 
-                        │      │                  ├ [103]: https://go.dev/cl/767220 
-                        │      │                  ├ [104]: https://go.dev/issue/78760 
-                        │      │                  ├ [105]: https://groups.google.com/g/golang-announce/c/iI-mYS
+                        │      │                  ├ [101]: https://errata.almalinux.org/9/ALSA-2026-37435.html 
+                        │      │                  ├ [102]: https://errata.rockylinux.org/RLSA-2026:37435 
+                        │      │                  ├ [103]: https://github.com/golang/go/issues/78760 
+                        │      │                  ├ [104]: https://go.dev/cl/767220 
+                        │      │                  ├ [105]: https://go.dev/issue/78760 
+                        │      │                  ├ [106]: https://groups.google.com/g/golang-announce/c/iI-mYS
                         │      │                  │        I0lu8 
-                        │      │                  ├ [106]: https://linux.oracle.com/cve/CVE-2026-39821.html 
-                        │      │                  ├ [107]: https://linux.oracle.com/errata/ELSA-2026-46395.html 
-                        │      │                  ├ [108]: https://nvd.nist.gov/vuln/detail/CVE-2026-39821 
-                        │      │                  ├ [109]: https://pkg.go.dev/vuln/GO-2026-5026 
-                        │      │                  ├ [110]: https://security.access.redhat.com/data/csaf/v2/vex/
+                        │      │                  ├ [107]: https://linux.oracle.com/cve/CVE-2026-39821.html 
+                        │      │                  ├ [108]: https://linux.oracle.com/errata/ELSA-2026-46395.html 
+                        │      │                  ├ [109]: https://nvd.nist.gov/vuln/detail/CVE-2026-39821 
+                        │      │                  ├ [110]: https://pkg.go.dev/vuln/GO-2026-5026 
+                        │      │                  ├ [111]: https://security.access.redhat.com/data/csaf/v2/vex/
                         │      │                  │        2026/cve-2026-39821.json 
-                        │      │                  ├ [111]: https://ubuntu.com/security/notices/USN-8416-1 
-                        │      │                  ╰ [112]: https://www.cve.org/CVERecord?id=CVE-2026-39821 
+                        │      │                  ├ [112]: https://ubuntu.com/security/notices/USN-8416-1 
+                        │      │                  ╰ [113]: https://www.cve.org/CVERecord?id=CVE-2026-39821 
                         │      ├ PublishedDate   : 2026-05-22T16:16:20.41Z 
-                        │      ╰ LastModifiedDate: 2026-08-10T13:19:09.96Z 
+                        │      ╰ LastModifiedDate: 2026-08-11T13:18:37.553Z 
                         ├ [4]  ╭ VulnerabilityID : CVE-2025-47911 
                         │      ├ VendorIDs        ─ [0]: GO-2026-4440 
                         │      ├ PkgID           : golang.org/x/net@v0.40.0 
@@ -3464,13 +3779,13 @@
                         │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:
                         │      │                            │           H/A:H 
                         │      │                            ╰ V3Score : 7.8 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:38495 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:38878 
                         │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-39822 
                         │      │                  ├ [2] : https://bugzilla.redhat.com/2498152 
                         │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2498152 
                         │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
                         │      │                  │       26-39822 
-                        │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2026-38495.html 
+                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2026-38878.html 
                         │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2026:38878 
                         │      │                  ├ [7] : https://go.dev/cl/797880 
                         │      │                  ├ [8] : https://go.dev/issue/79005 
@@ -3521,10 +3836,10 @@
                                │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
                                │                            │           N/A:N 
                                │                            ╰ V3Score : 5.3 
-                               ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:37436 
+                               ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:37435 
                                │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-42505 
                                │                  ├ [2]: https://bugzilla.redhat.com/2480756 
-                               │                  ├ [3]: https://errata.almalinux.org/10/ALSA-2026-37436.html 
+                               │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2026-37435.html 
                                │                  ├ [4]: https://go.dev/cl/775960 
                                │                  ├ [5]: https://go.dev/issue/79282 
                                │                  ├ [6]: https://groups.google.com/g/golang-announce/c/OrmQE_Yp

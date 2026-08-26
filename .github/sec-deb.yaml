@@ -189,6 +189,59 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
     LastModifiedDate: '2026-08-21T13:17:47.457Z'
+  - VulnerabilityID: CVE-2026-56391
+    PkgID: gnu-coreutils@9.7-3ubuntu2
+    PkgName: gnu-coreutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gnu-coreutils@9.7-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: f915ad76db6a5ff7
+    InstalledVersion: 9.7-3ubuntu2
+    Status: affected
+    Layer:
+      Digest: sha256:0c6fac0e5db25eaca1f92ecdafaf9f55b3b4601ba0720ab73f4470a7711604ef
+      DiffID: sha256:9bde762e6e2aa53e63404391f902c66de147727bda7545060966b168cf25be3c
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56391
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:cc08e08c7120e44701ba6a3050d1f9d224fffaa4d868f302608c2ffcd537add6
+    Title: 'coreutils: GNU coreutils uniq: Denial of Service and information disclosure via out-of-bounds read with multibyte input'
+    Description: |-
+      GNU coreutils uniq is vulnerable to an out‑of‑bounds read due to incorrect handling of multibyte input when the -w (--check-chars) option is used. The find_field() function miscalculates the byte length of characters by repeatedly processing a fixed pointer instead of advancing through the input, resulting in an inflated length value. 
+      This incorrect length is later used in a memcmp operation, causing reads beyond the allocated buffer when processing crafted multibyte input.
+
+      When running GNU coreutils uniq with attacker-provided arguments, this behavior leads to a crash and potential adjacent heap memory exposure.
+
+
+      This issue has been fixed in the commit d64e35a8a4c0e4608321433e0d84d917e4e36371.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      julia: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      julia:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:A/VC:L/VI:N/VA:L/SC:N/SI:N/SA:N
+        V40Score: 4.6
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
+        V3Score: 6.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-56391
+    - https://cert.pl/en/posts/2026/07/CVE-2026-56391
+    - https://git.savannah.gnu.org/cgit/coreutils.git
+    - https://git.savannah.gnu.org/cgit/coreutils.git/
+    - https://git.savannah.gnu.org/cgit/coreutils.git/commit/?id=d64e35a8a4c0e4608321433e0d84d917e4e36371
+    - https://github.com/advisories/GHSA-7xvj-m9x7-qgxq
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-56391
+    - https://www.cve.org/CVERecord?id=CVE-2026-56391
+    - https://www.openwall.com/lists/oss-security/2026/07/25/2
+    PublishedDate: '2026-07-24T09:16:25.003Z'
+    LastModifiedDate: '2026-07-30T16:28:33.633Z'
   - VulnerabilityID: CVE-2026-54371
     PkgID: libattr1@1:2.5.2-4
     PkgName: libattr1
@@ -577,12 +630,13 @@
     - https://access.redhat.com/errata/RHSA-2026:53371
     - https://access.redhat.com/errata/RHSA-2026:54387
     - https://access.redhat.com/errata/RHSA-2026:54760
+    - https://access.redhat.com/errata/RHSA-2026:58981
     - https://access.redhat.com/security/cve/CVE-2026-13757
     - https://bugzilla.redhat.com/2494556
     - https://bugzilla.redhat.com/show_bug.cgi?id=2494556
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-13757
-    - https://errata.almalinux.org/9/ALSA-2026-49667.html
+    - https://errata.almalinux.org/10/ALSA-2026-49668.html
     - https://errata.rockylinux.org/RLSA-2026:49667
     - https://github.com/advisories/GHSA-p2wm-69qx-x25w
     - https://linux.oracle.com/cve/CVE-2026-13757.html
@@ -590,7 +644,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-13757
     - https://www.cve.org/CVERecord?id=CVE-2026-13757
     PublishedDate: '2026-06-29T19:16:40.907Z'
-    LastModifiedDate: '2026-08-21T13:16:51.2Z'
+    LastModifiedDate: '2026-08-25T10:18:03.38Z'
   - VulnerabilityID: CVE-2026-27456
     PkgID: libsmartcols1@2.41.3-3ubuntu2
     PkgName: libsmartcols1
@@ -1907,6 +1961,86 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-35377
     PublishedDate: '2026-04-22T17:16:42.577Z'
     LastModifiedDate: '2026-06-17T10:40:29.357Z'
+  - VulnerabilityID: CVE-2026-18477
+    PkgID: tar@1.35+dfsg-4ubuntu0.4
+    PkgName: tar
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-4ubuntu0.4?arch=amd64&distro=ubuntu-26.04
+      UID: 5867f93e7d45b368
+    InstalledVersion: 1.35+dfsg-4ubuntu0.4
+    Status: affected
+    Layer:
+      Digest: sha256:0c6fac0e5db25eaca1f92ecdafaf9f55b3b4601ba0720ab73f4470a7711604ef
+      DiffID: sha256:9bde762e6e2aa53e63404391f902c66de147727bda7545060966b168cf25be3c
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-18477
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:34933045c4a1aced451904bc58c2872ecebc3d4e2ff37aeb6ea0ace6d11d2682
+    Title: 'tar: tar: TOCTOU in incremental dumpdir ''X'' rename handling allows restore path escape'
+    Description: A TOCTOU (Time-of-Check Time-of-Use) vulnerability in GNU tar's incremental dumpdir 'X' rename handling allows a local attacker with write access to a directory being backed up to influence the restore process if the attacker has access to the system where the restore is being performed. During restoration, files or directories may be created, renamed or overwritten outside the intended extraction directory. This could lead to unauthorized file modification or, in some cases, privilege escalation. Exploitation does not require the attacker to modify or craft the archive, and standard backup and restore workflows—including extracting into a newly created directory without using the -P option do not mitigate the issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-367
+    VendorSeverity:
+      julia: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N
+        V3Score: 4.4
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N
+        V3Score: 4.4
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:49361
+    - https://access.redhat.com/security/cve/CVE-2026-18477
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2509735
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-18477
+    - https://www.cve.org/CVERecord?id=CVE-2026-18477
+    PublishedDate: '2026-08-03T17:16:33.897Z'
+    LastModifiedDate: '2026-08-21T13:16:55.253Z'
+  - VulnerabilityID: CVE-2026-18508
+    PkgID: tar@1.35+dfsg-4ubuntu0.4
+    PkgName: tar
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-4ubuntu0.4?arch=amd64&distro=ubuntu-26.04
+      UID: 5867f93e7d45b368
+    InstalledVersion: 1.35+dfsg-4ubuntu0.4
+    Status: affected
+    Layer:
+      Digest: sha256:0c6fac0e5db25eaca1f92ecdafaf9f55b3b4601ba0720ab73f4470a7711604ef
+      DiffID: sha256:9bde762e6e2aa53e63404391f902c66de147727bda7545060966b168cf25be3c
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-18508
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:16d277601539ee98b78c89855bfb86d06e62bdfaea8c3ce627f39508e5e49e8a
+    Title: 'tar: tar: --one-top-level hardlink targets not confined to top-level directory enabling arbitrary file overwrite'
+    Description: A flaw was found in GNU tar. When extracting an archive with the --one-top-level option, hardlink targets are not confined to the designated top-level directory and may resolve relative to the extraction working directory. A crafted archive can create hardlinks that escape the intended boundary and, when combined with a preexisting symbolic link under the working directory, may allow writing outside that boundary during a single extraction.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-59
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
+        V3Score: 4.4
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:50807
+    - https://access.redhat.com/security/cve/CVE-2026-18508
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2509843
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-18508
+    - https://www.cve.org/CVERecord?id=CVE-2026-18508
+    PublishedDate: '2026-08-03T16:16:28.387Z'
+    LastModifiedDate: '2026-08-21T13:16:55.433Z'
   - VulnerabilityID: CVE-2026-27456
     PkgID: util-linux@2.41.3-3ubuntu2
     PkgName: util-linux
@@ -2076,6 +2210,39 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-51401
     PublishedDate: '2026-08-04T21:16:36.567Z'
     LastModifiedDate: '2026-08-05T20:17:09.31Z'
+  - VulnerabilityID: CVE-2026-73073
+    PkgID: vim@2:9.1.2141-1ubuntu4.8
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.8?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: 47b72d7abaef8509
+    InstalledVersion: 2:9.1.2141-1ubuntu4.8
+    Status: affected
+    Layer:
+      Digest: sha256:0c6fac0e5db25eaca1f92ecdafaf9f55b3b4601ba0720ab73f4470a7711604ef
+      DiffID: sha256:9bde762e6e2aa53e63404391f902c66de147727bda7545060966b168cf25be3c
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73073
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:f90d86d0341031ec67a658605df0c8648fe2710b65a6de8172f6b63eb83e6a1e
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0845, St ...
+    Description: 'Vim is an open source, command line text editor. Prior to 9.2.0845, StructMembers() in runtime/autoload/ccomplete.vim constructs and executes a vimgrep command using an insufficiently escaped typeref: or typename: value from a tags file, allowing an unterminated collection followed by a command separator to execute arbitrary Ex and operating-system commands when a user invokes C omni-completion with CTRL-X CTRL-O on a member access whose type is resolved from that tags file. This issue is fixed in version 9.2.0845.'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-94
+    - CWE-829
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/vim/vim/commit/2f628d8104958fa7421664f792ca6d4f7a39a10f
+    - https://github.com/vim/vim/releases/tag/v9.2.0845
+    - https://github.com/vim/vim/security/advisories/GHSA-cx73-phcg-3j5g
+    - https://www.cve.org/CVERecord?id=CVE-2026-73073
+    PublishedDate: '2026-08-18T16:18:16.73Z'
+    LastModifiedDate: '2026-08-18T16:18:16.73Z'
   - VulnerabilityID: CVE-2026-51400
     PkgID: vim-common@2:9.1.2141-1ubuntu4.8
     PkgName: vim-common
@@ -2152,6 +2319,39 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-51401
     PublishedDate: '2026-08-04T21:16:36.567Z'
     LastModifiedDate: '2026-08-05T20:17:09.31Z'
+  - VulnerabilityID: CVE-2026-73073
+    PkgID: vim-common@2:9.1.2141-1ubuntu4.8
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.8?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: edbe6cf0c6a8f23f
+    InstalledVersion: 2:9.1.2141-1ubuntu4.8
+    Status: affected
+    Layer:
+      Digest: sha256:0c6fac0e5db25eaca1f92ecdafaf9f55b3b4601ba0720ab73f4470a7711604ef
+      DiffID: sha256:9bde762e6e2aa53e63404391f902c66de147727bda7545060966b168cf25be3c
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73073
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:ba2efb04592912a2b4e5001fbcba28036ce5106c43c86b1c08bbd3ea2ca4723a
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0845, St ...
+    Description: 'Vim is an open source, command line text editor. Prior to 9.2.0845, StructMembers() in runtime/autoload/ccomplete.vim constructs and executes a vimgrep command using an insufficiently escaped typeref: or typename: value from a tags file, allowing an unterminated collection followed by a command separator to execute arbitrary Ex and operating-system commands when a user invokes C omni-completion with CTRL-X CTRL-O on a member access whose type is resolved from that tags file. This issue is fixed in version 9.2.0845.'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-94
+    - CWE-829
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/vim/vim/commit/2f628d8104958fa7421664f792ca6d4f7a39a10f
+    - https://github.com/vim/vim/releases/tag/v9.2.0845
+    - https://github.com/vim/vim/security/advisories/GHSA-cx73-phcg-3j5g
+    - https://www.cve.org/CVERecord?id=CVE-2026-73073
+    PublishedDate: '2026-08-18T16:18:16.73Z'
+    LastModifiedDate: '2026-08-18T16:18:16.73Z'
   - VulnerabilityID: CVE-2026-51400
     PkgID: vim-runtime@2:9.1.2141-1ubuntu4.8
     PkgName: vim-runtime
@@ -2228,6 +2428,39 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-51401
     PublishedDate: '2026-08-04T21:16:36.567Z'
     LastModifiedDate: '2026-08-05T20:17:09.31Z'
+  - VulnerabilityID: CVE-2026-73073
+    PkgID: vim-runtime@2:9.1.2141-1ubuntu4.8
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.8?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: 231e5eadd5741abf
+    InstalledVersion: 2:9.1.2141-1ubuntu4.8
+    Status: affected
+    Layer:
+      Digest: sha256:0c6fac0e5db25eaca1f92ecdafaf9f55b3b4601ba0720ab73f4470a7711604ef
+      DiffID: sha256:9bde762e6e2aa53e63404391f902c66de147727bda7545060966b168cf25be3c
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73073
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:0f7b7bb9fd9fc4257128265fa639f9f2c3e3a589fb3a51c538ed8aca66f06ea4
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0845, St ...
+    Description: 'Vim is an open source, command line text editor. Prior to 9.2.0845, StructMembers() in runtime/autoload/ccomplete.vim constructs and executes a vimgrep command using an insufficiently escaped typeref: or typename: value from a tags file, allowing an unterminated collection followed by a command separator to execute arbitrary Ex and operating-system commands when a user invokes C omni-completion with CTRL-X CTRL-O on a member access whose type is resolved from that tags file. This issue is fixed in version 9.2.0845.'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-94
+    - CWE-829
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/vim/vim/commit/2f628d8104958fa7421664f792ca6d4f7a39a10f
+    - https://github.com/vim/vim/releases/tag/v9.2.0845
+    - https://github.com/vim/vim/security/advisories/GHSA-cx73-phcg-3j5g
+    - https://www.cve.org/CVERecord?id=CVE-2026-73073
+    PublishedDate: '2026-08-18T16:18:16.73Z'
+    LastModifiedDate: '2026-08-18T16:18:16.73Z'
   - VulnerabilityID: CVE-2021-31879
     PkgID: wget@1.25.0-2ubuntu4.4
     PkgName: wget
@@ -2356,6 +2589,39 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-51401
     PublishedDate: '2026-08-04T21:16:36.567Z'
     LastModifiedDate: '2026-08-05T20:17:09.31Z'
+  - VulnerabilityID: CVE-2026-73073
+    PkgID: xxd@2:9.1.2141-1ubuntu4.8
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.8?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: a77d3b0372139b8e
+    InstalledVersion: 2:9.1.2141-1ubuntu4.8
+    Status: affected
+    Layer:
+      Digest: sha256:0c6fac0e5db25eaca1f92ecdafaf9f55b3b4601ba0720ab73f4470a7711604ef
+      DiffID: sha256:9bde762e6e2aa53e63404391f902c66de147727bda7545060966b168cf25be3c
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73073
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:c625082249f39b9d9f2246dbfef96e8f43cfa2d57f663843ecb37d51a11cbe3d
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0845, St ...
+    Description: 'Vim is an open source, command line text editor. Prior to 9.2.0845, StructMembers() in runtime/autoload/ccomplete.vim constructs and executes a vimgrep command using an insufficiently escaped typeref: or typename: value from a tags file, allowing an unterminated collection followed by a command separator to execute arbitrary Ex and operating-system commands when a user invokes C omni-completion with CTRL-X CTRL-O on a member access whose type is resolved from that tags file. This issue is fixed in version 9.2.0845.'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-94
+    - CWE-829
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/vim/vim/commit/2f628d8104958fa7421664f792ca6d4f7a39a10f
+    - https://github.com/vim/vim/releases/tag/v9.2.0845
+    - https://github.com/vim/vim/security/advisories/GHSA-cx73-phcg-3j5g
+    - https://www.cve.org/CVERecord?id=CVE-2026-73073
+    PublishedDate: '2026-08-18T16:18:16.73Z'
+    LastModifiedDate: '2026-08-18T16:18:16.73Z'
   - VulnerabilityID: CVE-2026-27171
     PkgID: zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu3
     PkgName: zlib1g
@@ -2498,15 +2764,15 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
         V3Score: 8.1
     References:
+    - https://access.redhat.com/errata/RHSA-2026:34357
     - https://access.redhat.com/errata/RHSA-2026:37123
     - https://access.redhat.com/security/cve/CVE-2026-25681
-    - https://bugzilla.redhat.com/2480680
-    - https://bugzilla.redhat.com/2480681
-    - https://bugzilla.redhat.com/2480685
-    - https://bugzilla.redhat.com/2480688
-    - https://bugzilla.redhat.com/2480757
+    - https://bugzilla.redhat.com/2466505
+    - https://bugzilla.redhat.com/2466507
+    - https://bugzilla.redhat.com/2467822
+    - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/2480761
-    - https://bugzilla.redhat.com/2493620
+    - https://bugzilla.redhat.com/2484207
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480680
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480681
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480685
@@ -2522,7 +2788,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39835
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-42508
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-57231
-    - https://errata.almalinux.org/9/ALSA-2026-37123.html
+    - https://errata.almalinux.org/10/ALSA-2026-34357.html
     - https://errata.rockylinux.org/RLSA-2026:37123
     - https://go.dev/cl/781703
     - https://go.dev/issue/79574
@@ -2693,7 +2959,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-24T13:18:13.207Z'
+    LastModifiedDate: '2026-08-25T13:18:33.86Z'
   - VulnerabilityID: CVE-2026-39821
     VendorIDs:
     - GO-2026-5026
@@ -2853,12 +3119,13 @@
     - https://access.redhat.com/errata/RHSA-2026:57541
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
+    - https://bugzilla.redhat.com/2484207
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498152
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39821
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39822
-    - https://errata.almalinux.org/9/ALSA-2026-37435.html
+    - https://errata.almalinux.org/10/ALSA-2026-46395.html
     - https://errata.rockylinux.org/RLSA-2026:37435
     - https://github.com/golang/go/issues/78760
     - https://go.dev/cl/767220
@@ -2873,7 +3140,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-24T13:18:22.547Z'
+    LastModifiedDate: '2026-08-25T13:18:46.24Z'
   - VulnerabilityID: CVE-2026-46600
     VendorIDs:
     - GO-2026-5942
@@ -3391,12 +3658,13 @@
     - https://access.redhat.com/errata/RHSA-2026:57541
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
+    - https://bugzilla.redhat.com/2484207
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498152
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39821
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39822
-    - https://errata.almalinux.org/9/ALSA-2026-37435.html
+    - https://errata.almalinux.org/10/ALSA-2026-46395.html
     - https://errata.rockylinux.org/RLSA-2026:37435
     - https://github.com/golang/go/issues/78760
     - https://go.dev/cl/767220
@@ -3411,7 +3679,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-24T13:18:22.547Z'
+    LastModifiedDate: '2026-08-25T13:18:46.24Z'
   - VulnerabilityID: CVE-2026-39822
     VendorIDs:
     - GO-2026-4970
@@ -3454,13 +3722,14 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - https://access.redhat.com/errata/RHSA-2026:38495
     - https://access.redhat.com/errata/RHSA-2026:38878
     - https://access.redhat.com/security/cve/CVE-2026-39822
     - https://bugzilla.redhat.com/2498152
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498152
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39822
-    - https://errata.almalinux.org/9/ALSA-2026-38878.html
+    - https://errata.almalinux.org/10/ALSA-2026-38495.html
     - https://errata.rockylinux.org/RLSA-2026:38878
     - https://go.dev/cl/797880
     - https://go.dev/issue/79005
@@ -3783,10 +4052,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2026:37435
+    - https://access.redhat.com/errata/RHSA-2026:37436
     - https://access.redhat.com/security/cve/CVE-2026-42505
     - https://bugzilla.redhat.com/2480756
-    - https://errata.almalinux.org/9/ALSA-2026-37435.html
+    - https://errata.almalinux.org/10/ALSA-2026-37436.html
     - https://go.dev/cl/775960
     - https://go.dev/issue/79282
     - https://groups.google.com/g/golang-announce/c/OrmQE_Yp5Sc

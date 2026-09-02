@@ -48,11 +48,14 @@
 │                             │                  ───────
 │                             │                  CWE-126
 │                             │                  
-│                             ├ VendorSeverity   ╭ azure : 2 
-│                             │                  ├ julia : 2 
-│                             │                  ├ nvd   : 3 
-│                             │                  ├ redhat: 1 
-│                             │                  ╰ ubuntu: 2 
+│                             ├ VendorSeverity   ╭ alma       : 2 
+│                             │                  ├ azure      : 2 
+│                             │                  ├ julia      : 2 
+│                             │                  ├ nvd        : 3 
+│                             │                  ├ oracle-oval: 2 
+│                             │                  ├ photon     : 3 
+│                             │                  ├ redhat     : 1 
+│                             │                  ╰ ubuntu     : 2 
 │                             ├ CVSS             ╭ julia  ╭ V3Vector : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N
 │                             │                  │        │            /A:N 
 │                             │                  │        ├ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:H/V
@@ -70,14 +73,22 @@
 │                             │                  http://www.openwall.com/lists/oss-security/2026/08/23/1       
 │                             │                  http://www.openwall.com/lists/oss-security/2026/08/25/1       
 │                             │                  http://www.openwall.com/lists/oss-security/2026/08/27/2       
+│                             │                  https://access.redhat.com/errata/RHSA-2026:61623              
 │                             │                  https://access.redhat.com/security/cve/CVE-2026-41992         
+│                             │                  https://bugzilla.redhat.com/2494158                           
 │                             │                  https://cert.pl/en/posts/2026/04/CVE-2026-41991               
 │                             │                  https://cert.pl/en/posts/2026/04/CVE-2026-41991/              
 │                             │                  https://cgit.git.savannah.gnu.org/cgit/gzip.git/commit/?id=63d
 │                             │                  bf6b3b9e6e781df1a6a64e609b10e23969681                         
 │                             │                  https://cgit.git.savannah.gnu.org/cgit/gzip.git/commit/?id=e73
 │                             │                  78c2d421be6a286922374425680bbe9ad8b7d                         
+│                             │                  https://errata.almalinux.org/9/ALSA-2026-61623.html           
+│                             │                                                                                
 │                             │                  https://github.com/advisories/GHSA-qxh4-rprf-2mmj             
+│                             │                                                                                
+│                             │                  https://linux.oracle.com/cve/CVE-2026-41992.html              
+│                             │                                                                                
+│                             │                  https://linux.oracle.com/errata/ELSA-2026-61623-0.html        
 │                             │                                                                                
 │                             │                  https://nvd.nist.gov/vuln/detail/CVE-2026-41992               
 │                             │                                                                                

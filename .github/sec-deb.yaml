@@ -1138,6 +1138,7 @@
       azure: 1
       julia: 2
       nvd: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1151,12 +1152,14 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
         V3Score: 4.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:64809
+    - https://access.redhat.com/errata/RHSA-2026:64812
     - https://access.redhat.com/security/cve/CVE-2026-50219
     - https://bugzilla.redhat.com/2484620
     - https://bugzilla.redhat.com/2490669
-    - https://errata.almalinux.org/8/ALSA-2026-64809.html
+    - https://errata.almalinux.org/9/ALSA-2026-64812.html
     - https://github.com/libexpat/libexpat/pull/1246
+    - https://linux.oracle.com/cve/CVE-2026-50219.html
+    - https://linux.oracle.com/errata/ELSA-2026-64812-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-50219
     - https://www.cve.org/CVERecord?id=CVE-2026-50219
     PublishedDate: '2026-06-04T06:16:25.05Z'
@@ -1233,6 +1236,7 @@
       azure: 2
       julia: 2
       nvd: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1246,12 +1250,14 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
         V3Score: 6.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:64809
+    - https://access.redhat.com/errata/RHSA-2026:64812
     - https://access.redhat.com/security/cve/CVE-2026-56132
     - https://bugzilla.redhat.com/2484620
     - https://bugzilla.redhat.com/2490669
-    - https://errata.almalinux.org/8/ALSA-2026-64809.html
+    - https://errata.almalinux.org/9/ALSA-2026-64812.html
     - https://github.com/libexpat/libexpat/pull/1272
+    - https://linux.oracle.com/cve/CVE-2026-56132.html
+    - https://linux.oracle.com/errata/ELSA-2026-64812-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56132
     - https://www.cve.org/CVERecord?id=CVE-2026-56132
     PublishedDate: '2026-06-19T06:17:10.253Z'
@@ -1889,6 +1895,14 @@
     - https://access.redhat.com/errata/RHSA-2026:63135
     - https://access.redhat.com/errata/RHSA-2026:63138
     - https://access.redhat.com/errata/RHSA-2026:63140
+    - https://access.redhat.com/errata/RHSA-2026:65762
+    - https://access.redhat.com/errata/RHSA-2026:65763
+    - https://access.redhat.com/errata/RHSA-2026:65767
+    - https://access.redhat.com/errata/RHSA-2026:65768
+    - https://access.redhat.com/errata/RHSA-2026:65769
+    - https://access.redhat.com/errata/RHSA-2026:65770
+    - https://access.redhat.com/errata/RHSA-2026:65771
+    - https://access.redhat.com/errata/RHSA-2026:65773
     - https://access.redhat.com/security/cve/CVE-2026-15588
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -1922,7 +1936,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-15588
     - https://www.cve.org/CVERecord?id=CVE-2026-15588
     PublishedDate: '2026-07-20T12:17:55.22Z'
-    LastModifiedDate: '2026-09-08T23:17:22.22Z'
+    LastModifiedDate: '2026-09-09T08:17:19.57Z'
   - VulnerabilityID: CVE-2026-16118
     PkgID: libglib2.0-0t64@2.88.0-1
     PkgName: libglib2.0-0t64
@@ -1947,7 +1961,9 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      alma: 2
       amazon: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1958,9 +1974,13 @@
     - https://access.redhat.com/errata/RHSA-2026:64799
     - https://access.redhat.com/errata/RHSA-2026:64800
     - https://access.redhat.com/security/cve/CVE-2026-16118
+    - https://bugzilla.redhat.com/2501732
     - https://bugzilla.redhat.com/show_bug.cgi?id=2501732
+    - https://errata.almalinux.org/9/ALSA-2026-64800.html
     - https://gitlab.freedesktop.org/xdg/xdgmime/-/work_items/41
     - https://gitlab.gnome.org/GNOME/glib/-/work_items/3992
+    - https://linux.oracle.com/cve/CVE-2026-16118.html
+    - https://linux.oracle.com/errata/ELSA-2026-64800-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-16118
     - https://www.cve.org/CVERecord?id=CVE-2026-16118
     PublishedDate: '2026-07-17T20:17:16.167Z'
@@ -2019,6 +2039,14 @@
     - https://access.redhat.com/errata/RHSA-2026:63135
     - https://access.redhat.com/errata/RHSA-2026:63138
     - https://access.redhat.com/errata/RHSA-2026:63140
+    - https://access.redhat.com/errata/RHSA-2026:65762
+    - https://access.redhat.com/errata/RHSA-2026:65763
+    - https://access.redhat.com/errata/RHSA-2026:65767
+    - https://access.redhat.com/errata/RHSA-2026:65768
+    - https://access.redhat.com/errata/RHSA-2026:65769
+    - https://access.redhat.com/errata/RHSA-2026:65770
+    - https://access.redhat.com/errata/RHSA-2026:65771
+    - https://access.redhat.com/errata/RHSA-2026:65773
     - https://access.redhat.com/security/cve/CVE-2026-58010
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -2051,7 +2079,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-58010
     - https://www.cve.org/CVERecord?id=CVE-2026-58010
     PublishedDate: '2026-06-30T13:19:17.067Z'
-    LastModifiedDate: '2026-09-08T23:17:25.737Z'
+    LastModifiedDate: '2026-09-09T08:17:20.417Z'
   - VulnerabilityID: CVE-2026-58011
     PkgID: libglib2.0-0t64@2.88.0-1
     PkgName: libglib2.0-0t64
@@ -2106,6 +2134,14 @@
     - https://access.redhat.com/errata/RHSA-2026:63135
     - https://access.redhat.com/errata/RHSA-2026:63138
     - https://access.redhat.com/errata/RHSA-2026:63140
+    - https://access.redhat.com/errata/RHSA-2026:65762
+    - https://access.redhat.com/errata/RHSA-2026:65763
+    - https://access.redhat.com/errata/RHSA-2026:65767
+    - https://access.redhat.com/errata/RHSA-2026:65768
+    - https://access.redhat.com/errata/RHSA-2026:65769
+    - https://access.redhat.com/errata/RHSA-2026:65770
+    - https://access.redhat.com/errata/RHSA-2026:65771
+    - https://access.redhat.com/errata/RHSA-2026:65773
     - https://access.redhat.com/security/cve/CVE-2026-58011
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -2139,7 +2175,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-58011
     - https://www.cve.org/CVERecord?id=CVE-2026-58011
     PublishedDate: '2026-06-30T13:19:17.2Z'
-    LastModifiedDate: '2026-09-08T23:17:26.287Z'
+    LastModifiedDate: '2026-09-09T08:17:20.713Z'
   - VulnerabilityID: CVE-2026-58012
     PkgID: libglib2.0-0t64@2.88.0-1
     PkgName: libglib2.0-0t64
@@ -2194,6 +2230,14 @@
     - https://access.redhat.com/errata/RHSA-2026:63135
     - https://access.redhat.com/errata/RHSA-2026:63138
     - https://access.redhat.com/errata/RHSA-2026:63140
+    - https://access.redhat.com/errata/RHSA-2026:65762
+    - https://access.redhat.com/errata/RHSA-2026:65763
+    - https://access.redhat.com/errata/RHSA-2026:65767
+    - https://access.redhat.com/errata/RHSA-2026:65768
+    - https://access.redhat.com/errata/RHSA-2026:65769
+    - https://access.redhat.com/errata/RHSA-2026:65770
+    - https://access.redhat.com/errata/RHSA-2026:65771
+    - https://access.redhat.com/errata/RHSA-2026:65773
     - https://access.redhat.com/security/cve/CVE-2026-58012
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -2226,7 +2270,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-58012
     - https://www.cve.org/CVERecord?id=CVE-2026-58012
     PublishedDate: '2026-06-30T13:19:17.33Z'
-    LastModifiedDate: '2026-09-08T23:17:26.88Z'
+    LastModifiedDate: '2026-09-09T08:17:20.973Z'
   - VulnerabilityID: CVE-2026-58013
     PkgID: libglib2.0-0t64@2.88.0-1
     PkgName: libglib2.0-0t64
@@ -2281,6 +2325,14 @@
     - https://access.redhat.com/errata/RHSA-2026:63135
     - https://access.redhat.com/errata/RHSA-2026:63138
     - https://access.redhat.com/errata/RHSA-2026:63140
+    - https://access.redhat.com/errata/RHSA-2026:65762
+    - https://access.redhat.com/errata/RHSA-2026:65763
+    - https://access.redhat.com/errata/RHSA-2026:65767
+    - https://access.redhat.com/errata/RHSA-2026:65768
+    - https://access.redhat.com/errata/RHSA-2026:65769
+    - https://access.redhat.com/errata/RHSA-2026:65770
+    - https://access.redhat.com/errata/RHSA-2026:65771
+    - https://access.redhat.com/errata/RHSA-2026:65773
     - https://access.redhat.com/security/cve/CVE-2026-58013
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -2313,7 +2365,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-58013
     - https://www.cve.org/CVERecord?id=CVE-2026-58013
     PublishedDate: '2026-06-30T13:19:17.457Z'
-    LastModifiedDate: '2026-09-08T23:17:27.523Z'
+    LastModifiedDate: '2026-09-09T08:17:21.223Z'
   - VulnerabilityID: CVE-2026-58014
     PkgID: libglib2.0-0t64@2.88.0-1
     PkgName: libglib2.0-0t64
@@ -2367,6 +2419,14 @@
     - https://access.redhat.com/errata/RHSA-2026:63135
     - https://access.redhat.com/errata/RHSA-2026:63138
     - https://access.redhat.com/errata/RHSA-2026:63140
+    - https://access.redhat.com/errata/RHSA-2026:65762
+    - https://access.redhat.com/errata/RHSA-2026:65763
+    - https://access.redhat.com/errata/RHSA-2026:65767
+    - https://access.redhat.com/errata/RHSA-2026:65768
+    - https://access.redhat.com/errata/RHSA-2026:65769
+    - https://access.redhat.com/errata/RHSA-2026:65770
+    - https://access.redhat.com/errata/RHSA-2026:65771
+    - https://access.redhat.com/errata/RHSA-2026:65773
     - https://access.redhat.com/security/cve/CVE-2026-58014
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -2399,7 +2459,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-58014
     - https://www.cve.org/CVERecord?id=CVE-2026-58014
     PublishedDate: '2026-06-30T13:19:17.58Z'
-    LastModifiedDate: '2026-09-08T23:17:28.057Z'
+    LastModifiedDate: '2026-09-09T08:17:21.477Z'
   - VulnerabilityID: CVE-2026-58015
     PkgID: libglib2.0-0t64@2.88.0-1
     PkgName: libglib2.0-0t64
@@ -2454,6 +2514,14 @@
     - https://access.redhat.com/errata/RHSA-2026:63135
     - https://access.redhat.com/errata/RHSA-2026:63138
     - https://access.redhat.com/errata/RHSA-2026:63140
+    - https://access.redhat.com/errata/RHSA-2026:65762
+    - https://access.redhat.com/errata/RHSA-2026:65763
+    - https://access.redhat.com/errata/RHSA-2026:65767
+    - https://access.redhat.com/errata/RHSA-2026:65768
+    - https://access.redhat.com/errata/RHSA-2026:65769
+    - https://access.redhat.com/errata/RHSA-2026:65770
+    - https://access.redhat.com/errata/RHSA-2026:65771
+    - https://access.redhat.com/errata/RHSA-2026:65773
     - https://access.redhat.com/security/cve/CVE-2026-58015
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -2486,7 +2554,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-58015
     - https://www.cve.org/CVERecord?id=CVE-2026-58015
     PublishedDate: '2026-06-30T13:19:17.707Z'
-    LastModifiedDate: '2026-09-08T23:17:28.61Z'
+    LastModifiedDate: '2026-09-09T08:17:21.727Z'
   - VulnerabilityID: CVE-2026-58016
     PkgID: libglib2.0-0t64@2.88.0-1
     PkgName: libglib2.0-0t64
@@ -2610,6 +2678,14 @@
     - https://access.redhat.com/errata/RHSA-2026:63135
     - https://access.redhat.com/errata/RHSA-2026:63138
     - https://access.redhat.com/errata/RHSA-2026:63140
+    - https://access.redhat.com/errata/RHSA-2026:65762
+    - https://access.redhat.com/errata/RHSA-2026:65763
+    - https://access.redhat.com/errata/RHSA-2026:65767
+    - https://access.redhat.com/errata/RHSA-2026:65768
+    - https://access.redhat.com/errata/RHSA-2026:65769
+    - https://access.redhat.com/errata/RHSA-2026:65770
+    - https://access.redhat.com/errata/RHSA-2026:65771
+    - https://access.redhat.com/errata/RHSA-2026:65773
     - https://access.redhat.com/security/cve/CVE-2026-15588
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -2643,7 +2719,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-15588
     - https://www.cve.org/CVERecord?id=CVE-2026-15588
     PublishedDate: '2026-07-20T12:17:55.22Z'
-    LastModifiedDate: '2026-09-08T23:17:22.22Z'
+    LastModifiedDate: '2026-09-09T08:17:19.57Z'
   - VulnerabilityID: CVE-2026-16118
     PkgID: libglib2.0-data@2.88.0-1
     PkgName: libglib2.0-data
@@ -2668,7 +2744,9 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      alma: 2
       amazon: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2679,9 +2757,13 @@
     - https://access.redhat.com/errata/RHSA-2026:64799
     - https://access.redhat.com/errata/RHSA-2026:64800
     - https://access.redhat.com/security/cve/CVE-2026-16118
+    - https://bugzilla.redhat.com/2501732
     - https://bugzilla.redhat.com/show_bug.cgi?id=2501732
+    - https://errata.almalinux.org/9/ALSA-2026-64800.html
     - https://gitlab.freedesktop.org/xdg/xdgmime/-/work_items/41
     - https://gitlab.gnome.org/GNOME/glib/-/work_items/3992
+    - https://linux.oracle.com/cve/CVE-2026-16118.html
+    - https://linux.oracle.com/errata/ELSA-2026-64800-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-16118
     - https://www.cve.org/CVERecord?id=CVE-2026-16118
     PublishedDate: '2026-07-17T20:17:16.167Z'
@@ -2740,6 +2822,14 @@
     - https://access.redhat.com/errata/RHSA-2026:63135
     - https://access.redhat.com/errata/RHSA-2026:63138
     - https://access.redhat.com/errata/RHSA-2026:63140
+    - https://access.redhat.com/errata/RHSA-2026:65762
+    - https://access.redhat.com/errata/RHSA-2026:65763
+    - https://access.redhat.com/errata/RHSA-2026:65767
+    - https://access.redhat.com/errata/RHSA-2026:65768
+    - https://access.redhat.com/errata/RHSA-2026:65769
+    - https://access.redhat.com/errata/RHSA-2026:65770
+    - https://access.redhat.com/errata/RHSA-2026:65771
+    - https://access.redhat.com/errata/RHSA-2026:65773
     - https://access.redhat.com/security/cve/CVE-2026-58010
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -2772,7 +2862,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-58010
     - https://www.cve.org/CVERecord?id=CVE-2026-58010
     PublishedDate: '2026-06-30T13:19:17.067Z'
-    LastModifiedDate: '2026-09-08T23:17:25.737Z'
+    LastModifiedDate: '2026-09-09T08:17:20.417Z'
   - VulnerabilityID: CVE-2026-58011
     PkgID: libglib2.0-data@2.88.0-1
     PkgName: libglib2.0-data
@@ -2827,6 +2917,14 @@
     - https://access.redhat.com/errata/RHSA-2026:63135
     - https://access.redhat.com/errata/RHSA-2026:63138
     - https://access.redhat.com/errata/RHSA-2026:63140
+    - https://access.redhat.com/errata/RHSA-2026:65762
+    - https://access.redhat.com/errata/RHSA-2026:65763
+    - https://access.redhat.com/errata/RHSA-2026:65767
+    - https://access.redhat.com/errata/RHSA-2026:65768
+    - https://access.redhat.com/errata/RHSA-2026:65769
+    - https://access.redhat.com/errata/RHSA-2026:65770
+    - https://access.redhat.com/errata/RHSA-2026:65771
+    - https://access.redhat.com/errata/RHSA-2026:65773
     - https://access.redhat.com/security/cve/CVE-2026-58011
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -2860,7 +2958,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-58011
     - https://www.cve.org/CVERecord?id=CVE-2026-58011
     PublishedDate: '2026-06-30T13:19:17.2Z'
-    LastModifiedDate: '2026-09-08T23:17:26.287Z'
+    LastModifiedDate: '2026-09-09T08:17:20.713Z'
   - VulnerabilityID: CVE-2026-58012
     PkgID: libglib2.0-data@2.88.0-1
     PkgName: libglib2.0-data
@@ -2915,6 +3013,14 @@
     - https://access.redhat.com/errata/RHSA-2026:63135
     - https://access.redhat.com/errata/RHSA-2026:63138
     - https://access.redhat.com/errata/RHSA-2026:63140
+    - https://access.redhat.com/errata/RHSA-2026:65762
+    - https://access.redhat.com/errata/RHSA-2026:65763
+    - https://access.redhat.com/errata/RHSA-2026:65767
+    - https://access.redhat.com/errata/RHSA-2026:65768
+    - https://access.redhat.com/errata/RHSA-2026:65769
+    - https://access.redhat.com/errata/RHSA-2026:65770
+    - https://access.redhat.com/errata/RHSA-2026:65771
+    - https://access.redhat.com/errata/RHSA-2026:65773
     - https://access.redhat.com/security/cve/CVE-2026-58012
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -2947,7 +3053,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-58012
     - https://www.cve.org/CVERecord?id=CVE-2026-58012
     PublishedDate: '2026-06-30T13:19:17.33Z'
-    LastModifiedDate: '2026-09-08T23:17:26.88Z'
+    LastModifiedDate: '2026-09-09T08:17:20.973Z'
   - VulnerabilityID: CVE-2026-58013
     PkgID: libglib2.0-data@2.88.0-1
     PkgName: libglib2.0-data
@@ -3002,6 +3108,14 @@
     - https://access.redhat.com/errata/RHSA-2026:63135
     - https://access.redhat.com/errata/RHSA-2026:63138
     - https://access.redhat.com/errata/RHSA-2026:63140
+    - https://access.redhat.com/errata/RHSA-2026:65762
+    - https://access.redhat.com/errata/RHSA-2026:65763
+    - https://access.redhat.com/errata/RHSA-2026:65767
+    - https://access.redhat.com/errata/RHSA-2026:65768
+    - https://access.redhat.com/errata/RHSA-2026:65769
+    - https://access.redhat.com/errata/RHSA-2026:65770
+    - https://access.redhat.com/errata/RHSA-2026:65771
+    - https://access.redhat.com/errata/RHSA-2026:65773
     - https://access.redhat.com/security/cve/CVE-2026-58013
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -3034,7 +3148,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-58013
     - https://www.cve.org/CVERecord?id=CVE-2026-58013
     PublishedDate: '2026-06-30T13:19:17.457Z'
-    LastModifiedDate: '2026-09-08T23:17:27.523Z'
+    LastModifiedDate: '2026-09-09T08:17:21.223Z'
   - VulnerabilityID: CVE-2026-58014
     PkgID: libglib2.0-data@2.88.0-1
     PkgName: libglib2.0-data
@@ -3088,6 +3202,14 @@
     - https://access.redhat.com/errata/RHSA-2026:63135
     - https://access.redhat.com/errata/RHSA-2026:63138
     - https://access.redhat.com/errata/RHSA-2026:63140
+    - https://access.redhat.com/errata/RHSA-2026:65762
+    - https://access.redhat.com/errata/RHSA-2026:65763
+    - https://access.redhat.com/errata/RHSA-2026:65767
+    - https://access.redhat.com/errata/RHSA-2026:65768
+    - https://access.redhat.com/errata/RHSA-2026:65769
+    - https://access.redhat.com/errata/RHSA-2026:65770
+    - https://access.redhat.com/errata/RHSA-2026:65771
+    - https://access.redhat.com/errata/RHSA-2026:65773
     - https://access.redhat.com/security/cve/CVE-2026-58014
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -3120,7 +3242,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-58014
     - https://www.cve.org/CVERecord?id=CVE-2026-58014
     PublishedDate: '2026-06-30T13:19:17.58Z'
-    LastModifiedDate: '2026-09-08T23:17:28.057Z'
+    LastModifiedDate: '2026-09-09T08:17:21.477Z'
   - VulnerabilityID: CVE-2026-58015
     PkgID: libglib2.0-data@2.88.0-1
     PkgName: libglib2.0-data
@@ -3175,6 +3297,14 @@
     - https://access.redhat.com/errata/RHSA-2026:63135
     - https://access.redhat.com/errata/RHSA-2026:63138
     - https://access.redhat.com/errata/RHSA-2026:63140
+    - https://access.redhat.com/errata/RHSA-2026:65762
+    - https://access.redhat.com/errata/RHSA-2026:65763
+    - https://access.redhat.com/errata/RHSA-2026:65767
+    - https://access.redhat.com/errata/RHSA-2026:65768
+    - https://access.redhat.com/errata/RHSA-2026:65769
+    - https://access.redhat.com/errata/RHSA-2026:65770
+    - https://access.redhat.com/errata/RHSA-2026:65771
+    - https://access.redhat.com/errata/RHSA-2026:65773
     - https://access.redhat.com/security/cve/CVE-2026-58015
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -3207,7 +3337,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-58015
     - https://www.cve.org/CVERecord?id=CVE-2026-58015
     PublishedDate: '2026-06-30T13:19:17.707Z'
-    LastModifiedDate: '2026-09-08T23:17:28.61Z'
+    LastModifiedDate: '2026-09-09T08:17:21.727Z'
   - VulnerabilityID: CVE-2026-58016
     PkgID: libglib2.0-data@2.88.0-1
     PkgName: libglib2.0-data
@@ -3680,7 +3810,7 @@
     - https://www.sqlite.org/
     - https://www.sqlite.org/sqlar.html
     PublishedDate: '2026-08-25T21:17:00.08Z'
-    LastModifiedDate: '2026-08-31T16:17:59.35Z'
+    LastModifiedDate: '2026-09-09T16:04:24.933Z'
   - VulnerabilityID: CVE-2026-40228
     PkgID: libsystemd0@259.5-0ubuntu3.4
     PkgName: libsystemd0
@@ -6701,6 +6831,18 @@
     - https://access.redhat.com/errata/RHSA-2026:60520
     - https://access.redhat.com/errata/RHSA-2026:60668
     - https://access.redhat.com/errata/RHSA-2026:61253
+    - https://access.redhat.com/errata/RHSA-2026:63046
+    - https://access.redhat.com/errata/RHSA-2026:63047
+    - https://access.redhat.com/errata/RHSA-2026:63048
+    - https://access.redhat.com/errata/RHSA-2026:63091
+    - https://access.redhat.com/errata/RHSA-2026:63096
+    - https://access.redhat.com/errata/RHSA-2026:63097
+    - https://access.redhat.com/errata/RHSA-2026:63103
+    - https://access.redhat.com/errata/RHSA-2026:63104
+    - https://access.redhat.com/errata/RHSA-2026:63636
+    - https://access.redhat.com/errata/RHSA-2026:63637
+    - https://access.redhat.com/errata/RHSA-2026:63639
+    - https://access.redhat.com/errata/RHSA-2026:65126
     - https://access.redhat.com/security/cve/CVE-2026-33814
     - https://bugzilla.redhat.com/show_bug.cgi?id=2467809
     - https://bugzilla.redhat.com/show_bug.cgi?id=2467810
@@ -6744,7 +6886,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-09-07T13:19:00.857Z'
+    LastModifiedDate: '2026-09-09T13:19:27.987Z'
   - VulnerabilityID: CVE-2026-39821
     VendorIDs:
     - GO-2026-5026
@@ -6916,6 +7058,11 @@
     - https://access.redhat.com/errata/RHSA-2026:61245
     - https://access.redhat.com/errata/RHSA-2026:61253
     - https://access.redhat.com/errata/RHSA-2026:63134
+    - https://access.redhat.com/errata/RHSA-2026:65126
+    - https://access.redhat.com/errata/RHSA-2026:65153
+    - https://access.redhat.com/errata/RHSA-2026:65359
+    - https://access.redhat.com/errata/RHSA-2026:65534
+    - https://access.redhat.com/errata/RHSA-2026:65886
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -6938,7 +7085,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-09-07T13:19:13.533Z'
+    LastModifiedDate: '2026-09-09T13:19:41.85Z'
   - VulnerabilityID: CVE-2026-46600
     VendorIDs:
     - GO-2026-5942
@@ -7313,7 +7460,7 @@
     - https://go.dev/issue/80405
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
     - https://linux.oracle.com/cve/CVE-2026-33818.html
-    - https://linux.oracle.com/errata/ELSA-2026-63332-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-64818-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33818
     - https://pkg.go.dev/vuln/GO-2026-5972
     - https://www.cve.org/CVERecord?id=CVE-2026-33818
@@ -7490,6 +7637,11 @@
     - https://access.redhat.com/errata/RHSA-2026:61245
     - https://access.redhat.com/errata/RHSA-2026:61253
     - https://access.redhat.com/errata/RHSA-2026:63134
+    - https://access.redhat.com/errata/RHSA-2026:65126
+    - https://access.redhat.com/errata/RHSA-2026:65153
+    - https://access.redhat.com/errata/RHSA-2026:65359
+    - https://access.redhat.com/errata/RHSA-2026:65534
+    - https://access.redhat.com/errata/RHSA-2026:65886
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -7512,7 +7664,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-09-07T13:19:13.533Z'
+    LastModifiedDate: '2026-09-09T13:19:41.85Z'
   - VulnerabilityID: CVE-2026-39822
     VendorIDs:
     - GO-2026-4970
@@ -7692,7 +7844,7 @@
     - https://go.dev/issue/80205
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
     - https://linux.oracle.com/cve/CVE-2026-56853.html
-    - https://linux.oracle.com/errata/ELSA-2026-63332-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-64818-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56853
     - https://pkg.go.dev/vuln/GO-2026-6089
     - https://www.cve.org/CVERecord?id=CVE-2026-56853
@@ -7759,7 +7911,7 @@
     - https://go.dev/issue/80435
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
     - https://linux.oracle.com/cve/CVE-2026-56858.html
-    - https://linux.oracle.com/errata/ELSA-2026-63332-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-64818-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56858
     - https://pkg.go.dev/vuln/GO-2026-6091
     - https://www.cve.org/CVERecord?id=CVE-2026-56858
@@ -7905,7 +8057,7 @@
     - https://go.dev/issue/80494
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
     - https://linux.oracle.com/cve/CVE-2026-56860.html
-    - https://linux.oracle.com/errata/ELSA-2026-63332-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-64818-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56860
     - https://pkg.go.dev/vuln/GO-2026-6218
     - https://www.cve.org/CVERecord?id=CVE-2026-56860
@@ -7972,7 +8124,7 @@
     - https://go.dev/issue/80528
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
     - https://linux.oracle.com/cve/CVE-2026-56862.html
-    - https://linux.oracle.com/errata/ELSA-2026-63332-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-64818-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56862
     - https://pkg.go.dev/vuln/GO-2026-6090
     - https://www.cve.org/CVERecord?id=CVE-2026-56862

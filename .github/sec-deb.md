@@ -1488,7 +1488,7 @@
 │                       │      │                  http://www.openwall.com/lists/oss-security/2026/05/04/5
 │                       │      │                  http://www.openwall.com/lists/oss-security/2026/05/04/6
 │                       │      │                  https://github.com/uutils/coreutils                    
-│                       │      │                  https://github.com/uutils/coreutils/issues/10020       
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2456333    
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-35352        
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-35352        
 │                       │      │                  
@@ -1822,9 +1822,9 @@
 │                       │      │                   coreutils, which creates nohup.out with owner-only (0600)
 │                       │      │                   permissions. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs                       
-│                       │      │                  ────────────
-│                       │      │                  GO-2026-4970
+│                       │      ├ CweIDs                  
+│                       │      │                  ───────
+│                       │      │                  CWE-732
 │                       │      │                  
 │                       │      ├ VendorSeverity   ╭ ghsa  : 1 
 │                       │      │                  ╰ ubuntu: 2 

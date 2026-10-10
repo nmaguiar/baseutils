@@ -2,40 +2,6 @@
   Class: os-pkgs
   Type: alpine
   Packages: []
-  Vulnerabilities:
-  - VulnerabilityID: CVE-2026-85091
-    PkgID: zlib@1.3.2-r0
-    PkgName: zlib
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/zlib@1.3.2-r0?arch=x86_64&distro=3.25.0_alpha20260805
-      UID: daa5976344ad0b9e
-    InstalledVersion: 1.3.2-r0
-    FixedVersion: 1.3.2-r1
-    Status: fixed
-    Layer:
-      Digest: sha256:bacceb492c310c5f3754223444eec54fd41772cc9890777f65fe1dfd5d5ef498
-      DiffID: sha256:59fd410690ffc734ef9e757bb95438fa0132621554b7ca977ef418427f8f526e
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-85091
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:0582c4dd7840b47e5e8c968bce36eec53814cfb30f201dcaabfb61899a530d0a
-    Title: zlib versions 1.3.1.2 through 1.3.2 contain a heap buffer overflow vul ...
-    Description: zlib versions 1.3.1.2 through 1.3.2 contain a heap buffer overflow vulnerability in the gz_vacate() function when processing non-blocking gzwrite() operations with stale external buffer pointers. Attackers can trigger the overflow by calling gzprintf() or gzvprintf() after a write stall, causing an unchecked memmove() to write beyond the internal input buffer boundary.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-787
-    VendorSeverity:
-      ubuntu: 2
-    References:
-    - https://gist.github.com/thesmartshadow/e0b9481792afb7c31e86fee1ff084490
-    - https://github.com/madler/zlib
-    - https://github.com/madler/zlib/blob/v1.3.2/gzwrite.c#L393
-    - https://www.cve.org/CVERecord?id=CVE-2026-85091
-    - https://www.vulncheck.com/advisories/zlib-1.3.1.2-through-1.3.2-heap-buffer-overflow-via-gz-vacate
-    PublishedDate: '2026-09-03T13:06:20.573Z'
-    LastModifiedDate: '2026-09-09T20:41:07.123Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar

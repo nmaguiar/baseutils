@@ -236,7 +236,7 @@
 │                       │      │                  LIBC-SA-2026-0015                                            
 │                       │      │                  https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=adviso
 │                       │      │                  ries/GLIBC-SA-2026-0015                                      
-│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-18374              
+│                       │      │                  https://go.dev/cl/781685                                     
 │                       │      │                                                                               
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-08-27T20:17:03.553Z 
@@ -700,7 +700,7 @@
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:49668             
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:53371             
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:54387             
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:54760             
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:66016             
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:58981             
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:72394             
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:72395             
@@ -1728,7 +1728,7 @@
 │                       │      │                  https://github.com/uutils/coreutils             
 │                       │      │                  https://github.com/uutils/coreutils/issues/10017
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-35359 
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:42051
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-35359 
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-04-22T17:16:38.537Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:40:27.437Z 
@@ -3257,7 +3257,8 @@
 │                       │     │                  CWE-400
 │                       │     │                  
 │                       │     ├ VendorSeverity   ╭ ghsa  : 3 
-│                       │     │                  ╰ redhat: 3 
+│                       │     │                  ├ redhat: 3 
+│                       │     │                  ╰ ubuntu: 2 
 │                       │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
 │                       │     │                  │        │           A:H 
 │                       │     │                  │        ╰ V3Score : 7.5 
@@ -3272,6 +3273,8 @@
 │                       │     │                  https://github.com/FasterXML/jackson-databind/commit/2870d1d6d
 │                       │     │                  c1b7e1c07ee11dd5b04ab71cddbb577                               
 │                       │     │                  https://github.com/FasterXML/jackson-databind/issues/6203     
+│                       │     │                                                                                
+│                       │     │                  https://github.com/FasterXML/jackson-databind/pull/6203       
 │                       │     │                                                                                
 │                       │     │                  https://github.com/FasterXML/jackson-databind/releases/tag/jac
 │                       │     │                  kson-databind-2.18.11                                         
@@ -5471,7 +5474,7 @@
                         │      │                  ├ amazon     : 3 
                         │      │                  ├ bitnami    : 2 
                         │      │                  ├ oracle-oval: 3 
-                        │      │                  ├ photon     : 4 
+                        │      │                  ├ photon     : 2 
                         │      │                  ├ redhat     : 3 
                         │      │                  ╰ rocky      : 3 
                         │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:
@@ -5645,7 +5648,7 @@
                         │      │                  ├ amazon     : 3 
                         │      │                  ├ bitnami    : 2 
                         │      │                  ├ oracle-oval: 3 
-                        │      │                  ├ photon     : 3 
+                        │      │                  ├ photon     : 2 
                         │      │                  ├ redhat     : 3 
                         │      │                  ╰ rocky      : 3 
                         │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:

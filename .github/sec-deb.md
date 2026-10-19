@@ -1932,7 +1932,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
-│                       │      │                  CWE-79 
+│                       │      │                  CWE-669
 │                       │      ├ VendorSeverity   ╭ nvd   : 1 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
@@ -2487,7 +2487,7 @@
 │                       │      │                         ╰ V3Score : 6.6 
 │                       │      ├ References                                                      
 │                       │      │                  ───────────────────────────────────────────────
-│                       │      │                  https://github.com/uutils/coreutils            
+│                       │      │                  https://go.dev/issue/81821                     
 │                       │      │                  https://github.com/uutils/coreutils/issues/9750
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-35350
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-35350
@@ -4764,7 +4764,7 @@
                         │      │                  https://access.redhat.com/errata/RHSA-2026:22121             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:23262             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:23264             
-                        │      │                  https://access.redhat.com/errata/RHSA-2026:33120             
+                        │      │                  https://access.redhat.com/security/cve/CVE-2026-68497        
                         │      │                  https://access.redhat.com/errata/RHSA-2026:33123             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:33142             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:33150             
@@ -5577,7 +5577,7 @@
                         │      │                  ─────────────────────────────────────────────────────────
                         │      │                  https://github.com/golang/go/issues/81857                
                         │      │                  https://go.dev/cl/847185                                 
-                        │      │                  https://go.dev/cl/847314                                 
+                        │      │                  https://errata.rockylinux.org/RLSA-2026:81532            
                         │      │                  https://go.dev/issue/81857                               
                         │      │                  https://groups.google.com/g/golang-announce/c/U2fTuyDJznI
                         │      │                  https://groups.google.com/g/golang-announce/c/ZPwCyRUuGBs
@@ -5678,7 +5678,8 @@
                         │      ├ CweIDs                  
                         │      │                  ───────
                         │      │                  CWE-675
-                        │      ├ VendorSeverity   ╭ bitnami: 4 
+                        │      ├ VendorSeverity   ╭ azure  : 3 
+                        │      │                  ├ bitnami: 4 
                         │      │                  ├ redhat : 2 
                         │      │                  ╰ ubuntu : 2 
                         │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
@@ -6862,7 +6863,7 @@
                         │      │                  ───────
                         │      │                  CWE-201
                         │      ├ VendorSeverity   ╭ alma   : 3 
-                        │      │                  ├ amazon : 2 
+                        │      │                  ├ amazon : 4 
                         │      │                  ├ azure  : 2 
                         │      │                  ├ bitnami: 2 
                         │      │                  ├ photon : 2 
@@ -7103,7 +7104,8 @@
                         │      ├ CweIDs                  
                         │      │                  ───────
                         │      │                  CWE-675
-                        │      ├ VendorSeverity   ╭ bitnami: 4 
+                        │      ├ VendorSeverity   ╭ azure  : 3 
+                        │      │                  ├ bitnami: 4 
                         │      │                  ├ redhat : 2 
                         │      │                  ╰ ubuntu : 2 
                         │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:

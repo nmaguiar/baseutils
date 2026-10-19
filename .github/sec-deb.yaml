@@ -4470,6 +4470,7 @@
     CweIDs:
     - CWE-675
     VendorSeverity:
+      azure: 3
       bitnami: 4
       redhat: 2
       ubuntu: 2
@@ -5550,7 +5551,7 @@
     - CWE-201
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 4
       azure: 2
       bitnami: 2
       photon: 2
@@ -5742,6 +5743,7 @@
     CweIDs:
     - CWE-675
     VendorSeverity:
+      azure: 3
       bitnami: 4
       redhat: 2
       ubuntu: 2
